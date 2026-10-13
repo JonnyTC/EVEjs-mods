@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1791835247161,
+  "generatedAt": 1791858040849,
   "modId": "evejs-automining",
   "reviews": [
     {
@@ -53,6 +53,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "jIqJ1VN1iY86/eZjWN/BB+BqftGH1j/01x3+voGZpNnLGtjnhv1WmjdzrqKfdtPwqEZcwlbQT50ouXJNbx0nDQ=="
+    "sig": "Ysb91Q6kSr0JT+d8mbJ5O1kj7lRPFwpHtzhLNunpaGhLaBzfTbaI8iwZzp8RL4aKocRf9BsZZZThtG3RHzNYBw=="
   }
 }
