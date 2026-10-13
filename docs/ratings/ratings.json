@@ -1,8 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1791913838567,
+  "generatedAt": 1791928842882,
   "mods": {
     "evejs-autolockfire": {
+      "stars": 1,
+      "comments": 1,
       "average": 5,
       "count": 1,
       "withText": 1,
@@ -15,6 +17,8 @@
       ]
     },
     "evejs-automining": {
+      "stars": 3,
+      "comments": 3,
       "average": 5,
       "count": 3,
       "withText": 2,
@@ -27,6 +31,8 @@
       ]
     },
     "evejs-faction-sim": {
+      "stars": 2,
+      "comments": 2,
       "average": 5,
       "count": 2,
       "withText": 2,
@@ -39,18 +45,22 @@
       ]
     },
     "evejs-npc": {
-      "average": 1,
+      "stars": 1,
+      "comments": 1,
+      "average": 5,
       "count": 1,
       "withText": 1,
       "histogram": [
-        1,
         0,
         0,
         0,
-        0
+        0,
+        1
       ]
     },
     "evejs-npc-fleet": {
+      "stars": 1,
+      "comments": 1,
       "average": 5,
       "count": 1,
       "withText": 0,
@@ -63,21 +73,23 @@
       ]
     },
     "evejs-sleeper-drifters": {
-      "average": 4,
+      "stars": 2,
+      "comments": 2,
+      "average": 5,
       "count": 2,
       "withText": 1,
       "histogram": [
         0,
         0,
-        1,
         0,
-        1
+        0,
+        2
       ]
     }
   },
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "3dncBzb0gcKaJSfENsOGwzd6mG45lkhjBEl8jWtY0dE3dXTB3OxdjOT77TGjKy6BmW0kvwmwggbQw/wx/zbdCA=="
+    "sig": "WoMJ6FSgS9D636CiKAy0Ut0Eux/6C9CZvNoWjb0o8N1CXMM/NX+ces7aKfBjGMshlOFT/HTs90SOoIE9BoXsAg=="
   }
 }
