@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": 1791885665392,
+  "modId": "evejs-npc",
+  "reviews": [
+    {
+      "id": "rv-1791863633577-45052",
+      "keyId": "e3a1bfa26b9d",
+      "author": "",
+      "corp": "",
+      "country": "HK",
+      "stars": 1,
+      "version": "1.0.2",
+      "date": "2026-10-13",
+      "body": "是没做完么？好像用不了呢",
+      "edited": false
+    }
+  ],
+  "signature": {
+    "alg": "ed25519",
+    "keyId": "evejs-ratings-2026-10-01",
+    "sig": "CodU+wb7U0kT2oE4CzT30S3Yv1DCWoZc3uPyYwthXihajTfJaGiGHlQ7+AnYHo9gpQNW6k26qcI+WvXdHiGfAg=="
+  }
+}
