@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-14T05:01:23.869Z",
+  "publishedAt": "2026-10-14T10:23:25.611Z",
   "mods": [
     {
       "author": {
@@ -11,7 +11,7 @@
       "category": "玩法",
       "changelog": "实现基本功能。",
       "conflicts": [],
-      "delisted": false,
+      "delisted": true,
       "description": "把客户端的时间显示对齐北京时间(UTC+8)：左下角时钟、时钟悬浮提示、聊天窗口的消息时间戳、日历/月球采矿排程/钱包流水等读本地化时间差的界面。做法是把客户端 tq/code.ccp 里 4 个 .pyj 条目的 'optic' 常量换成 'ccp'（不重新编译、不改字节码、不动 start.ini、不动服务端文件）。启动服务端时自动打一次，打之前会先备份 code.ccp 并逐条自校验；客户端正在运行时会跳过。",
       "displayName": "Beijing-time",
       "downloadUrls": [
@@ -42,8 +42,14 @@
       "tags": [],
       "version": "1.1.0",
       "source": "rzwm/evejs-mod-evejs-beijing-time",
-      "downloads": 82,
-      "cdnHits": 0
+      "downloads": 87,
+      "cdnHits": 0,
+      "delistReason": {
+        "zh": "MOD包内没有任何内容",
+        "en": "MOD包内没有任何内容"
+      },
+      "moderatedAt": "2026-10-14T10:22:32.596Z",
+      "moderatedBy": "diguo520"
     },
     {
       "author": {
@@ -86,7 +92,7 @@
       "tags": [],
       "version": "1.1.0",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 504,
+      "downloads": 507,
       "cdnHits": 51
     },
     {
@@ -144,7 +150,7 @@
       "tags": [],
       "version": "1.0.14",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 460,
+      "downloads": 478,
       "cdnHits": 10
     },
     {
@@ -188,7 +194,7 @@
       "tags": [],
       "version": "1.0.3",
       "source": "guihaitianyi-cmd/evejs-mod-evejs-evejs-hacking-suite-1-0-3",
-      "downloads": 144,
+      "downloads": 150,
       "cdnHits": 0
     },
     {
@@ -247,7 +253,7 @@
       "tags": [],
       "version": "0.3.2",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 703,
+      "downloads": 720,
       "cdnHits": 0
     },
     {
@@ -287,7 +293,7 @@
       "tags": [],
       "version": "0.6.0",
       "source": "Jasper377/evejs-mod-evejs-npc-console",
-      "downloads": 90,
+      "downloads": 94,
       "cdnHits": 0
     },
     {
@@ -339,7 +345,7 @@
       "tags": [],
       "version": "0.2.0",
       "source": "xuenaimiao/evejs-mod-evejs-npc-fleet",
-      "downloads": 221,
+      "downloads": 223,
       "cdnHits": 0
     },
     {
@@ -351,7 +357,7 @@
       "category": "玩法",
       "changelog": "召集NPC舰队 1.0.2 首发上架（模组 id：npc-fleet）\n\n· 在舰队窗口新增「召集NPC舰队」入口：召集四大帝国 NPC 舰队并听令于玩家 —— 跟随 / 集结 / 舰队跃迁 / 集火 / 自由开火 / 待机，无指令时完全待机\n· 四大帝国 × 9 档吨位，含航空母舰 / 超级航母 / 泰坦三档旗舰（泰坦带末日武器），上限 50 艘\n· 9 套预设编成（含旗舰 / 超旗 / 最终攻势），可存「我的编成」一键召集\n· 召集消耗联盟首都星城燃料块（按吨位计价），解散或下线按存活全额返还\n· 跃迁 / 集结 / 过门只带存活舰船并满血重生，阵亡的船不会复活；跃迁落点按船体半径排布\n· 舰队只打海盗 NPC：玩家 / 蛋 / 无人机 / 建筑永不被锁定，手动打击玩家默认拒绝（/nf 打击玩家 on 可放开）\n· 纯运行期 loader 补丁：不改服务端任何文件，也不改客户端；含 7 条只读诊断命令\n· 兼容 EveJS 0.12.9",
       "conflicts": [],
-      "delisted": false,
+      "delisted": true,
       "description": "召唤npc舰队，支持除遥修以外所有舰队指令。可帮助玩家南征北战",
       "displayName": "NPC舰队",
       "downloadUrls": [
@@ -385,8 +391,14 @@
       "tags": [],
       "version": "1.0.2",
       "source": "exiell/evejs-mod-evejs-npc",
-      "downloads": 51,
-      "cdnHits": 0
+      "downloads": 56,
+      "cdnHits": 0,
+      "delistReason": {
+        "zh": "MOD包内没有任何内容",
+        "en": "MOD包内没有任何内容"
+      },
+      "moderatedAt": "2026-10-14T10:22:49.649Z",
+      "moderatedBy": "diguo520"
     },
     {
       "author": {
@@ -425,7 +437,7 @@
       "tags": [],
       "version": "1.5.2",
       "source": "JUZIMandarin/evejs-mod-evejs-sleeper-drifters",
-      "downloads": 396,
+      "downloads": 400,
       "cdnHits": 3
     },
     {
@@ -472,7 +484,7 @@
       "tags": [],
       "version": "1.0.5",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 449,
+      "downloads": 454,
       "cdnHits": 55
     },
     {
@@ -513,7 +525,7 @@
       "tags": [],
       "version": "0.2.2",
       "source": "xuenaimiao/evejs-mod-evejs-perf-fix",
-      "downloads": 300,
+      "downloads": 304,
       "cdnHits": 0
     },
     {
@@ -566,7 +578,7 @@
       "tags": [],
       "version": "3.2.0",
       "source": "Jasper377/evejs-mod-evejs-racks16",
-      "downloads": 184,
+      "downloads": 189,
       "cdnHits": 0
     },
     {
@@ -606,7 +618,7 @@
       "tags": [],
       "version": "1.6.0",
       "source": "Jasper377/evejs-mod-evejs-acspecialbattleship",
-      "downloads": 241,
+      "downloads": 248,
       "cdnHits": 0
     },
     {
@@ -656,14 +668,40 @@
       "tags": [],
       "version": "1.0.0",
       "source": "rzwm/evejs-mod-evejs-autopilot-jump-stargate-0km",
-      "downloads": 73,
+      "downloads": 78,
       "cdnHits": 0
     }
   ],
+  "moderation": {
+    "evejs-beijing-time": {
+      "id": "evejs-beijing-time",
+      "source": "rzwm/evejs-mod-evejs-beijing-time",
+      "authorId": "au-mv2j36e77ld7",
+      "action": "delist",
+      "reason": {
+        "zh": "MOD包内没有任何内容",
+        "en": "MOD包内没有任何内容"
+      },
+      "at": "2026-10-14T10:22:32.596Z",
+      "by": "diguo520"
+    },
+    "evejs-npc": {
+      "id": "evejs-npc",
+      "source": "exiell/evejs-mod-evejs-npc",
+      "authorId": "au-mugiwdpeuaty",
+      "action": "delist",
+      "reason": {
+        "zh": "MOD包内没有任何内容",
+        "en": "MOD包内没有任何内容"
+      },
+      "at": "2026-10-14T10:22:49.649Z",
+      "by": "diguo520"
+    }
+  },
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "nVB6Fu38YhTgFK3VEzERWD8fNABKGQrwft2zWGy5fd3DWh6URin555xjBiAemtrzS+FnNjqk/uIgYE5OkomeAQ==",
-    "signedAt": "2026-10-14T05:01:23.871Z"
+    "sig": "/MrAnF4Reof2hhWxB6Ex0j3iAJvE4kSVa20bM5jq2OmgCOE9UNtLJxBrw28W3fjtQk+O/HP5lpO8SWD4RCTbAQ==",
+    "signedAt": "2026-10-14T10:23:25.614Z"
   }
 }
