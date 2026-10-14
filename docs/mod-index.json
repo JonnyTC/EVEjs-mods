@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-14T10:24:10.756Z",
+  "publishedAt": "2026-10-14T10:48:45.766Z",
   "mods": [
     {
       "author": {
@@ -150,7 +150,7 @@
       "tags": [],
       "version": "1.0.14",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 478,
+      "downloads": 479,
       "cdnHits": 10
     },
     {
@@ -484,7 +484,7 @@
       "tags": [],
       "version": "1.0.5",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 454,
+      "downloads": 455,
       "cdnHits": 55
     },
     {
@@ -578,7 +578,7 @@
       "tags": [],
       "version": "3.2.0",
       "source": "Jasper377/evejs-mod-evejs-racks16",
-      "downloads": 189,
+      "downloads": 190,
       "cdnHits": 0
     },
     {
@@ -618,7 +618,7 @@
       "tags": [],
       "version": "1.6.0",
       "source": "Jasper377/evejs-mod-evejs-acspecialbattleship",
-      "downloads": 248,
+      "downloads": 250,
       "cdnHits": 0
     },
     {
@@ -668,7 +668,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "rzwm/evejs-mod-evejs-autopilot-jump-stargate-0km",
-      "downloads": 78,
+      "downloads": 79,
       "cdnHits": 0
     }
   ],
@@ -701,7 +701,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "zfGLvjjoWofUs6USLJYvhHtMDyp/lMuStljJGqnr7uLPv5Y2b18/Ugc4qeklNx+Ig+wjscBI0WzMro8P+WpKDg==",
-    "signedAt": "2026-10-14T10:24:10.759Z"
+    "sig": "qCQ1Dmgq2i6kOyScGA+6LzYQGSb6Y8MIPo00nSv6J4dN8t/HZR2S85K5uuM5FfZJXKaXli4ZOaJbb/28X3LMCQ==",
+    "signedAt": "2026-10-14T10:48:45.769Z"
   }
 }
