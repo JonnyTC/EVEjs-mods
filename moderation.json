@@ -1,5 +1,28 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-09T17:35:01.239Z",
-  "entries": []
+  "updatedAt": "2026-10-14T05:00:49.930Z",
+  "entries": [
+    {
+      "target": "Jasper377/evejs-mod-evejs-sim-guard",
+      "kind": "source",
+      "action": "delist",
+      "reason": {
+        "zh": "仓库已失联，清理该条申请",
+        "en": "仓库已失联，清理该条申请"
+      },
+      "at": "2026-10-14T05:00:47.901Z",
+      "by": "diguo520"
+    },
+    {
+      "target": "Jasper377/evejs-mod-evejs-worldark",
+      "kind": "source",
+      "action": "delist",
+      "reason": {
+        "zh": "仓库已失联，清理该条申请",
+        "en": "仓库已失联，清理该条申请"
+      },
+      "at": "2026-10-14T05:00:49.930Z",
+      "by": "diguo520"
+    }
+  ]
 }
