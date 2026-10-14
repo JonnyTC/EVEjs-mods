@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-14T05:00:49.930Z",
+  "updatedAt": "2026-10-14T10:22:32.596Z",
   "entries": [
     {
       "target": "Jasper377/evejs-mod-evejs-sim-guard",
@@ -22,6 +22,17 @@
         "en": "仓库已失联，清理该条申请"
       },
       "at": "2026-10-14T05:00:49.930Z",
+      "by": "diguo520"
+    },
+    {
+      "target": "rzwm/evejs-mod-evejs-beijing-time",
+      "kind": "source",
+      "action": "delist",
+      "reason": {
+        "zh": "MOD包内没有任何内容",
+        "en": "MOD包内没有任何内容"
+      },
+      "at": "2026-10-14T10:22:32.596Z",
       "by": "diguo520"
     }
   ]
