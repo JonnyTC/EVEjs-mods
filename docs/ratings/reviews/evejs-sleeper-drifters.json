@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1791928842882,
+  "generatedAt": 1791956459891,
   "modId": "evejs-sleeper-drifters",
   "reviews": [
     {
@@ -19,30 +19,19 @@
         "body": "下载后点击启用，重启服务器即可",
         "edited": false
       }
-    },
-    {
-      "id": "rv-1790919378903-7192",
-      "keyId": "bad8165273ee",
-      "author": "",
-      "corp": "",
-      "country": "CN",
-      "stars": 5,
-      "version": "1.5.2",
-      "date": "2026-10-02",
-      "body": "",
-      "edited": false
     }
   ],
   "stars": {
-    "count": 2,
+    "count": 3,
     "keys": [
       "1382094598d9",
-      "bad8165273ee"
+      "bad8165273ee",
+      "bc816da2a7bc"
     ]
   },
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "QHL0icJwaQgAZ/ahpLs/WT5wMZbeT3rtdTEbfOlQ6k6LaOUsYeZHlFF08sEPNODigCxhl7Lh5OeGH7lygniYCw=="
+    "sig": "Dfni0FtjQorAY+gDQuSawx9LoiCio7xfqpdX/haRb4NVFnMqkz8KvWOzFMAbSZAwBj3p9gzKNS9Zs5X5F+0zAA=="
   }
 }
