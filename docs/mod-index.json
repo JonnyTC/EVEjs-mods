@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-14T02:34:43.216Z",
+  "publishedAt": "2026-10-14T05:01:23.869Z",
   "mods": [
     {
       "author": {
@@ -42,7 +42,7 @@
       "tags": [],
       "version": "1.1.0",
       "source": "rzwm/evejs-mod-evejs-beijing-time",
-      "downloads": 81,
+      "downloads": 82,
       "cdnHits": 0
     },
     {
@@ -86,7 +86,7 @@
       "tags": [],
       "version": "1.1.0",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 503,
+      "downloads": 504,
       "cdnHits": 51
     },
     {
@@ -144,7 +144,7 @@
       "tags": [],
       "version": "1.0.14",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 455,
+      "downloads": 460,
       "cdnHits": 10
     },
     {
@@ -247,7 +247,7 @@
       "tags": [],
       "version": "0.3.2",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 701,
+      "downloads": 703,
       "cdnHits": 0
     },
     {
@@ -287,7 +287,7 @@
       "tags": [],
       "version": "0.6.0",
       "source": "Jasper377/evejs-mod-evejs-npc-console",
-      "downloads": 88,
+      "downloads": 90,
       "cdnHits": 0
     },
     {
@@ -425,7 +425,7 @@
       "tags": [],
       "version": "1.5.2",
       "source": "JUZIMandarin/evejs-mod-evejs-sleeper-drifters",
-      "downloads": 395,
+      "downloads": 396,
       "cdnHits": 3
     },
     {
@@ -566,7 +566,7 @@
       "tags": [],
       "version": "3.2.0",
       "source": "Jasper377/evejs-mod-evejs-racks16",
-      "downloads": 182,
+      "downloads": 184,
       "cdnHits": 0
     },
     {
@@ -606,7 +606,7 @@
       "tags": [],
       "version": "1.6.0",
       "source": "Jasper377/evejs-mod-evejs-acspecialbattleship",
-      "downloads": 240,
+      "downloads": 241,
       "cdnHits": 0
     },
     {
@@ -656,14 +656,14 @@
       "tags": [],
       "version": "1.0.0",
       "source": "rzwm/evejs-mod-evejs-autopilot-jump-stargate-0km",
-      "downloads": 72,
+      "downloads": 73,
       "cdnHits": 0
     }
   ],
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "bp/0mCcdR/17q2U4n1RDOTqnKwra31HEImcdW+15DhchTZcwcz1CkXO+7gToS06R7i/rVAhX9APGxbQWswf5Ag==",
-    "signedAt": "2026-10-14T02:34:43.219Z"
+    "sig": "nVB6Fu38YhTgFK3VEzERWD8fNABKGQrwft2zWGy5fd3DWh6URin555xjBiAemtrzS+FnNjqk/uIgYE5OkomeAQ==",
+    "signedAt": "2026-10-14T05:01:23.871Z"
   }
 }
