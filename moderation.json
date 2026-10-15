@@ -1,18 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-15T10:59:39.139Z",
+  "updatedAt": "2026-10-15T11:00:04.843Z",
   "entries": [
-    {
-      "target": "Jasper377/evejs-mod-evejs-worldark",
-      "kind": "source",
-      "action": "delist",
-      "reason": {
-        "zh": "仓库已失联，清理该条申请",
-        "en": "仓库已失联，清理该条申请"
-      },
-      "at": "2026-10-14T05:00:49.930Z",
-      "by": "diguo520"
-    },
     {
       "target": "rzwm/evejs-mod-evejs-beijing-time",
       "kind": "source",
