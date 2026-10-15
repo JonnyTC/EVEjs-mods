@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-15T10:31:45.115Z",
+  "publishedAt": "2026-10-15T11:00:29.519Z",
   "mods": [
     {
       "author": {
@@ -253,7 +253,7 @@
       "tags": [],
       "version": "0.3.2",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 762,
+      "downloads": 764,
       "cdnHits": 0
     },
     {
@@ -293,7 +293,7 @@
       "tags": [],
       "version": "0.6.0",
       "source": "Jasper377/evejs-mod-evejs-npc-console",
-      "downloads": 108,
+      "downloads": 110,
       "cdnHits": 0
     },
     {
@@ -437,7 +437,7 @@
       "tags": [],
       "version": "1.5.2",
       "source": "JUZIMandarin/evejs-mod-evejs-sleeper-drifters",
-      "downloads": 415,
+      "downloads": 416,
       "cdnHits": 3
     },
     {
@@ -484,7 +484,7 @@
       "tags": [],
       "version": "1.0.5",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 466,
+      "downloads": 467,
       "cdnHits": 55
     },
     {
@@ -525,7 +525,7 @@
       "tags": [],
       "version": "0.2.2",
       "source": "xuenaimiao/evejs-mod-evejs-perf-fix",
-      "downloads": 318,
+      "downloads": 319,
       "cdnHits": 0
     },
     {
@@ -578,7 +578,7 @@
       "tags": [],
       "version": "3.2.0",
       "source": "Jasper377/evejs-mod-evejs-racks16",
-      "downloads": 205,
+      "downloads": 206,
       "cdnHits": 0
     },
     {
@@ -668,7 +668,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "rzwm/evejs-mod-evejs-autopilot-jump-stargate-0km",
-      "downloads": 91,
+      "downloads": 92,
       "cdnHits": 0
     }
   ],
@@ -701,7 +701,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "PYCnol3DOyjJguy1NSs68SI2YSjq4meyeb0oZG9QDJhlRy23S64R32qRZ4VpVmEhptiGtCoRWkgckw/Ka6YTBw==",
-    "signedAt": "2026-10-15T10:31:45.118Z"
+    "sig": "7Ye0bo7BHqdeEflDhRZDgfjih8eho1PIUGmzKveyydOURBbyo8GEN45mMASgy/FkAzVwvV+TFbnDhC3aXTytAw==",
+    "signedAt": "2026-10-15T11:00:29.522Z"
   }
 }
