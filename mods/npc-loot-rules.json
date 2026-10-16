@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-muxt6kcyxsf4",
+    "keyId": "54c1f8afabfe",
+    "name": "Materal"
+  },
+  "displayName": "NPC掉落规则",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/MateralCMX/evejs-mod-npc-loot-rules/releases/download/v0.1.1/npc-loot-rules-0.1.1.zip"
+    }
+  ],
+  "id": "npc-loot-rules",
+  "publishedAt": "2026-10-16",
+  "schemaVersion": 1,
+  "sha256": "0e298cd24e48a690e70d6e32e86297286267036e0c152760a22bd7a9f734bd2c",
+  "sizeBytes": 73460,
+  "source": "MateralCMX/evejs-mod-npc-loot-rules",
+  "submittedAt": "2026-10-16T14:45:02.224Z",
+  "version": "0.1.1"
+}
