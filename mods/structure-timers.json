@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-muxt6kcyxsf4",
+    "keyId": "54c1f8afabfe",
+    "name": "Materal"
+  },
+  "displayName": "建筑计时",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/MateralCMX/evejs-mod-structure-timers/releases/download/v0.1.0/structure-timers-0.1.0.zip"
+    }
+  ],
+  "id": "structure-timers",
+  "publishedAt": "2026-10-16",
+  "schemaVersion": 1,
+  "sha256": "55f1a94455522960a5beda96ac3311503df2e4453107dc77d3d7e48b523bb451",
+  "sizeBytes": 8683,
+  "source": "MateralCMX/evejs-mod-structure-timers",
+  "submittedAt": "2026-10-16T15:11:48.847Z",
+  "version": "0.1.0"
+}
