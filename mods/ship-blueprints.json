@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-muxt6kcyxsf4",
+    "keyId": "54c1f8afabfe",
+    "name": "Materal"
+  },
+  "displayName": "GM命令扩充",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/MateralCMX/evejs-mod-ship-blueprints/releases/download/v0.2.1/ship-blueprints-0.2.1.zip"
+    }
+  ],
+  "id": "ship-blueprints",
+  "publishedAt": "2026-10-16",
+  "schemaVersion": 1,
+  "sha256": "1f99673fc9f28560115ed1a7c20a617c1cfa8be2e6e7173df036617e11957060",
+  "sizeBytes": 17095,
+  "source": "MateralCMX/evejs-mod-ship-blueprints",
+  "submittedAt": "2026-10-16T14:50:58.074Z",
+  "version": "0.2.1"
+}
