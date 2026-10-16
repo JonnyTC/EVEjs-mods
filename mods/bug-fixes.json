@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-muxt6kcyxsf4",
+    "keyId": "54c1f8afabfe",
+    "name": "Materal"
+  },
+  "displayName": "Bug修复",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/MateralCMX/evejs-mod-bug-fixes/releases/download/v0.16.0/bug-fixes-0.16.0.zip"
+    }
+  ],
+  "id": "bug-fixes",
+  "publishedAt": "2026-10-16",
+  "schemaVersion": 1,
+  "sha256": "82b7caef04190ea3facba6cee04701ede73a1808f2729148de82a7839ee740bb",
+  "sizeBytes": 886629,
+  "source": "MateralCMX/evejs-mod-bug-fixes",
+  "submittedAt": "2026-10-16T14:42:54.723Z",
+  "version": "0.16.0"
+}
