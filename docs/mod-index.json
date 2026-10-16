@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-16T03:17:40.189Z",
+  "publishedAt": "2026-10-16T03:19:15.450Z",
   "mods": [
     {
       "author": {
@@ -614,6 +614,46 @@
         "name": "HRSKNK"
       },
       "category": "玩法",
+      "changelog": "战斗激烈时按名字查物品会扫描整个物品库，卡顿。修复后更快，结果不变。",
+      "conflicts": [],
+      "delisted": false,
+      "description": "战斗激烈时按名字查物品会扫描整个物品库，卡顿。修复后更快，结果不变。",
+      "displayName": "大规模战斗卡顿修复（物品名查找）",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-combat-item-name-scan/releases/download/v1.0.0/evejs-combat-item-name-scan-1.0.0.zip"
+        }
+      ],
+      "evejsVersions": [
+        "0.12.9"
+      ],
+      "featured": false,
+      "highlights": [],
+      "history": [],
+      "id": "evejs-combat-item-name-scan",
+      "publishedAt": "2026-10-16",
+      "readme": [
+        "战斗热路径里按名字查物品会退化成对整个物品目录做模糊扫描，大规模战斗时明显卡顿。补丁改为优先精确命中，跳过模糊扫描，行为不变但快很多。"
+      ],
+      "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-combat-item-name-scan",
+      "requiresRestart": true,
+      "sha256": "ec3e30006043eb8b0985bd13f8d7744791262abafb72873601f62862bcabb016",
+      "sizeBytes": 7301,
+      "tags": [],
+      "version": "1.0.0",
+      "source": "zhang-xzh/evejs-mod-evejs-combat-item-name-scan",
+      "downloads": 0,
+      "cdnHits": 0
+    },
+    {
+      "author": {
+        "id": "au-mva40uiw90kt",
+        "keyId": "01ed0fb1c32c",
+        "name": "HRSKNK"
+      },
+      "category": "玩法",
       "changelog": "战斗时频繁整份复制角色数据，人一多就卡。修复后不再多余复制。",
       "conflicts": [],
       "delisted": false,
@@ -982,7 +1022,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "kWrL7Ra839CU4sLiyNDoqvvgVsjzwD8tBP8dW+6f8pI0AjLV/F5UotxZ8lU+r0KRTrm4SDwG1oxLB/05p4bzBg==",
-    "signedAt": "2026-10-16T03:17:40.192Z"
+    "sig": "sqR/MQFRf5MOnzHPuVc5dZCFbtanIyG8JSaEtHyv1f/2BFJSGKUlNhzjvVSedK820soGLGgPtUYxElOSthVqCQ==",
+    "signedAt": "2026-10-16T03:19:15.454Z"
   }
 }
