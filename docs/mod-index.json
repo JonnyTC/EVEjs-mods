@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-16T15:50:27.713Z",
+  "publishedAt": "2026-10-16T15:54:10.033Z",
   "mods": [
     {
       "author": {
@@ -89,7 +89,7 @@
       "tags": [],
       "version": "0.16.0",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 4,
+      "downloads": 7,
       "cdnHits": 0
     },
     {
@@ -569,6 +569,56 @@
       "changelog": "",
       "conflicts": [],
       "delisted": false,
+      "description": "精确NPC身份的定义注册、装配与技能接入，以及合成舰体武器、属性、效果支持；不含具体NPC和玩法地点。",
+      "displayName": "NPC扩展基础",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/MateralCMX/evejs-mod-npc-extension-core/releases/download/v0.2.1/npc-extension-core-0.2.1.zip"
+        }
+      ],
+      "evejsVersions": [
+        "0.12.9"
+      ],
+      "featured": false,
+      "highlights": [],
+      "history": [],
+      "id": "npc-extension-core",
+      "publishedAt": "2026-10-16",
+      "readme": [
+        "版本 0.2.1，API 1；目标 EveJS 0.12.9 / native / 启动器注入总线 API 1。",
+        "本模组只提供定义注册、稳定合并和精确身份的定向接入。没有具体 NPC、Boss、玩法地点、刷新、撤离或奖励政策；单独启用不新增 NPC。异常空间通过消费者登记60个监察官，具体定义仍归异常模组。",
+        "消费者入口：`lib/api.js`。先阅读 [接口与验收](../../../docs/NPC扩展基础/接口与验收.md)；设计依据见 [设计](../../../docs/NPC扩展基础/设计.md)。",
+        "消费者清单声明 `\"requires\": [\"npc-extension-core\"]`，在世界进程 loader 内同步登记，首次 NPC 数据读取后禁止改动。依赖其他奖励表时，消费者自行声明掉落模组依赖；基础本身不依赖掉落或打捞模组。",
+        "共 10 个服务端目标，通过 slot 40 追加代码，校验原始前缀；不修改磁盘上的 server 源码。定义合并后才进入 slot 50 奖励覆盖，最终引用校验包含奖励层。slot 70 打捞修复不受基础干预。原始前缀变化或引用错误明确失败，不支持绕过校验强行启用。",
+        "离线验证，在 `F:\\EVE` 执行：",
+        "```powershell\nnode --test EveJS/mods/npc-extension-core/tests/*.test.cjs\n```",
+        "`examples/` 仅为显式调用的消费者接入示例，未由 loader 自动安装；`tests/fixture.cjs` 的身份是测试壳，不是已迁移 PVP 内容。`consumer-salvage-guard.cjs` 展示消费者如何维护精确残骸禁打捞政策，不属于基础的运行规则。",
+        "启停需服务端重启，并完整退出、重开客户端以安装/撤销信息面板伴随模块；本次未重启。已生成实体及残骸的退场、存档迁移由消费者负责；关闭基础前需同时停用消费者并处理其存量状态。不得把离线通过当作游戏验收。",
+        "0.2.0新增能力见[合成舰体能力](../../../docs/NPC扩展基础/合成舰体能力.md)，用于具名NPC的完整舰体属性、合成武器、自修和武器缓存隔离。API 1保持兼容。",
+        "0.2.1 新增实例信息只读接口及登录内存伴随模块：信息面板按精确 NPC 身份读取当前战斗抗性、伤害属性和赏金，不改全局船型数据或客户端文件。详见[修复设计与验证边界](../../../docs/NPC扩展基础/实例信息与掉落兼容修复.md)。客户端诊断日志：`%TEMP%/npc-extension-info.log`；正常应显示两项 installed、failed=0。"
+      ],
+      "repo": "https://github.com/MateralCMX/evejs-mod-npc-extension-core",
+      "requiresRestart": true,
+      "sha256": "c669ea5716074ef4ea172a190b722de1cbd8caa69a8230d200330f010bc20d80",
+      "sizeBytes": 43460,
+      "tags": [],
+      "version": "0.2.1",
+      "source": "MateralCMX/evejs-mod-npc-extension-core",
+      "downloads": 0,
+      "cdnHits": 0
+    },
+    {
+      "author": {
+        "id": "au-muxt6kcyxsf4",
+        "keyId": "54c1f8afabfe",
+        "name": "Materal"
+      },
+      "category": "玩法",
+      "changelog": "",
+      "conflicts": [],
+      "delisted": false,
       "description": "普通怪、指挥官、监察官、官员与旗舰掉落规则，装备限制和 NET 共振器。",
       "displayName": "NPC掉落规则",
       "downloadUrls": [
@@ -603,7 +653,7 @@
       "tags": [],
       "version": "0.1.1",
       "source": "MateralCMX/evejs-mod-npc-loot-rules",
-      "downloads": 2,
+      "downloads": 5,
       "cdnHits": 0
     },
     {
@@ -649,7 +699,7 @@
       "tags": [],
       "version": "1.0.2",
       "source": "exiell/evejs-mod-evejs-npc",
-      "downloads": 65,
+      "downloads": 67,
       "cdnHits": 0
     },
     {
@@ -736,7 +786,7 @@
       "tags": [],
       "version": "1.0.5",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 486,
+      "downloads": 487,
       "cdnHits": 55
     },
     {
@@ -827,7 +877,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-clone-convenience",
-      "downloads": 1,
+      "downloads": 3,
       "cdnHits": 0
     },
     {
@@ -867,7 +917,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-crate-opening",
-      "downloads": 13,
+      "downloads": 15,
       "cdnHits": 0
     },
     {
@@ -1667,7 +1717,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "toxVuX08Q7sKPDM/PkIMsJUZv83wpmXujNega3JEN6NPQVIFlx7p4EZ4Jmeb904TCXliej2joJQBHw4G+YAhCA==",
-    "signedAt": "2026-10-16T15:50:27.717Z"
+    "sig": "GUdN/AOwq9xGEy3zWF3Yp6XQ7iGx9xYt2f++LyiQyMY8R2PcL4phJGNNEBW4FH4f5zSSuhgrXr3XL+TyiEgPCw==",
+    "signedAt": "2026-10-16T15:54:10.038Z"
   }
 }
