@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-16T03:21:23.559Z",
+  "publishedAt": "2026-10-16T03:24:14.161Z",
   "mods": [
     {
       "author": {
@@ -694,6 +694,46 @@
         "name": "HRSKNK"
       },
       "category": "玩法",
+      "changelog": "船上装了弹药/矿晶/脚本后，换船或重新上线时工业槽位偶尔显示成 0/1，行星面板还会误提示需要 Omega。修复后恢复正常。",
+      "conflicts": [],
+      "delisted": false,
+      "description": "船上装了弹药/矿晶/脚本后，换船或重新上线时工业槽位偶尔显示成 0/1，行星面板还会误提示需要 Omega。修复后恢复正常。",
+      "displayName": "工业槽位偶发显示 0/1 修复",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-charge-sublocation-row/releases/download/v1.0.0/evejs-charge-sublocation-row-1.0.0.zip"
+        }
+      ],
+      "evejsVersions": [
+        "0.12.9"
+      ],
+      "featured": false,
+      "highlights": [],
+      "history": [],
+      "id": "evejs-charge-sublocation-row",
+      "publishedAt": "2026-10-16",
+      "readme": [
+        "装填到子位（sub-location）的弹药行不是 blue.DBRow，导致舰船激活时的大脑属性没有被套用。补丁让子位弹药行按 DBRow 返回，激活后属性正确生效。"
+      ],
+      "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-charge-sublocation-row",
+      "requiresRestart": true,
+      "sha256": "2c32d6b22a366353445e2f177d7dcb049daf75a0308f90e5bfe4022643bb6073",
+      "sizeBytes": 6204,
+      "tags": [],
+      "version": "1.0.0",
+      "source": "zhang-xzh/evejs-mod-evejs-charge-sublocation-row",
+      "downloads": 0,
+      "cdnHits": 0
+    },
+    {
+      "author": {
+        "id": "au-mva40uiw90kt",
+        "keyId": "01ed0fb1c32c",
+        "name": "HRSKNK"
+      },
+      "category": "玩法",
       "changelog": "物品堆叠数量被限制在 32 位整数内，超过会截断或异常。补丁把物品堆叠读写的上限放宽到 64 位安全整数，海量堆叠正常。",
       "conflicts": [],
       "delisted": false,
@@ -1062,7 +1102,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "E6/mk1T8chouGfxPekl8sPpT41nJT7GzXt9RBbY1lHVyljavYmlNmB1AT6igBoczmmyWpR/eKsaod1P92GL5Bg==",
-    "signedAt": "2026-10-16T03:21:23.563Z"
+    "sig": "hFkW9MTpjwQ26i/FzklW9gY1U+7eXJoFtekXqUovwD71J/FTzYo3T4XU7Ma6y231sebgEfDvDsQPe76NVd3sAQ==",
+    "signedAt": "2026-10-16T03:24:14.164Z"
   }
 }
