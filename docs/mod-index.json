@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-16T14:52:11.132Z",
+  "publishedAt": "2026-10-16T15:10:57.483Z",
   "mods": [
     {
       "author": {
@@ -89,7 +89,7 @@
       "tags": [],
       "version": "0.16.0",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 0,
+      "downloads": 1,
       "cdnHits": 0
     },
     {
@@ -133,7 +133,7 @@
       "tags": [],
       "version": "1.1.1",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 578,
+      "downloads": 580,
       "cdnHits": 51
     },
     {
@@ -276,7 +276,7 @@
       "tags": [],
       "version": "0.2.1",
       "source": "MateralCMX/evejs-mod-ship-blueprints",
-      "downloads": 0,
+      "downloads": 1,
       "cdnHits": 0
     },
     {
@@ -325,7 +325,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 0,
+      "downloads": 2,
       "cdnHits": 0
     },
     {
@@ -464,7 +464,7 @@
       "tags": [],
       "version": "0.3.2",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 796,
+      "downloads": 797,
       "cdnHits": 0
     },
     {
@@ -856,7 +856,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-combat-native-store-rows",
-      "downloads": 27,
+      "downloads": 28,
       "cdnHits": 0
     },
     {
@@ -1062,6 +1062,46 @@
     },
     {
       "author": {
+        "id": "au-muxt6kcyxsf4",
+        "keyId": "54c1f8afabfe",
+        "name": "Materal"
+      },
+      "category": "玩法",
+      "changelog": "",
+      "conflicts": [],
+      "delisted": false,
+      "description": "修复材料混抽，普通T1、指挥官/监察官/官员T2、冬眠者T3。",
+      "displayName": "打捞修复",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/MateralCMX/evejs-mod-salvage-repair/releases/download/v0.1.0/salvage-repair-0.1.0.zip"
+        }
+      ],
+      "evejsVersions": [
+        "0.12.9"
+      ],
+      "featured": false,
+      "highlights": [],
+      "history": [],
+      "id": "salvage-repair",
+      "publishedAt": "2026-10-16",
+      "readme": [
+        "模组 ID：`salvage-repair`。对应总体清单 P10；独立于 P08/P09 牵引装置增强。目标 EveJS 0.12.9、启动器总线 API 1。迁移 `F:\\EVE_0.1.29` 最终材料池规则。"
+      ],
+      "repo": "https://github.com/MateralCMX/evejs-mod-salvage-repair",
+      "requiresRestart": true,
+      "sha256": "65c58986100cce75c35b83b1954763195a0160c86fb418cb373d76918b8747c8",
+      "sizeBytes": 14184,
+      "tags": [],
+      "version": "0.1.0",
+      "source": "MateralCMX/evejs-mod-salvage-repair",
+      "downloads": 0,
+      "cdnHits": 0
+    },
+    {
+      "author": {
         "id": "au-muwt2r89fjz0",
         "keyId": "62c4ee92863e",
         "name": "正在北极拔草"
@@ -1190,7 +1230,7 @@
       "tags": [],
       "version": "1.3.0",
       "source": "zhang-xzh/evejs-mod-evejs-sleeper-salvage",
-      "downloads": 20,
+      "downloads": 21,
       "cdnHits": 0
     },
     {
@@ -1361,7 +1401,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "rzwm/evejs-mod-evejs-autopilot-jump-stargate-0km",
-      "downloads": 115,
+      "downloads": 116,
       "cdnHits": 0
     },
     {
@@ -1448,7 +1488,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "iK3j/sb7W4j7v2Rg8AnHqJ8sLvDjAMPkOiMU8fxzHi7D5/2dk7yFT889XQnSXRSW1HKtpdzFlhMt/noOC+sQBA==",
-    "signedAt": "2026-10-16T14:52:11.136Z"
+    "sig": "JjsgEKRZVWSvgWUAyXgBFCp/VtPl3KF9kfcqEfjmdxqxxW7sHDjj8uwBnOODZbTrdYZCvMJwc3tT65XhvFuJAQ==",
+    "signedAt": "2026-10-16T15:10:57.487Z"
   }
 }
