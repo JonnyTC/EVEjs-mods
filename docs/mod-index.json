@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-16T10:18:58.245Z",
+  "publishedAt": "2026-10-16T12:01:10.465Z",
   "mods": [
     {
       "author": {
@@ -150,7 +150,7 @@
       "tags": [],
       "version": "1.0.14",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 512,
+      "downloads": 513,
       "cdnHits": 132
     },
     {
@@ -234,7 +234,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-lp-balance-overflow",
-      "downloads": 6,
+      "downloads": 9,
       "cdnHits": 0
     },
     {
@@ -274,7 +274,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-npc-corp-info",
-      "downloads": 6,
+      "downloads": 9,
       "cdnHits": 0
     },
     {
@@ -333,7 +333,7 @@
       "tags": [],
       "version": "0.3.2",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 782,
+      "downloads": 784,
       "cdnHits": 0
     },
     {
@@ -437,7 +437,7 @@
       "category": "玩法",
       "changelog": "召集NPC舰队 1.0.2 首发上架（模组 id：npc-fleet）\n\n· 在舰队窗口新增「召集NPC舰队」入口：召集四大帝国 NPC 舰队并听令于玩家 —— 跟随 / 集结 / 舰队跃迁 / 集火 / 自由开火 / 待机，无指令时完全待机\n· 四大帝国 × 9 档吨位，含航空母舰 / 超级航母 / 泰坦三档旗舰（泰坦带末日武器），上限 50 艘\n· 9 套预设编成（含旗舰 / 超旗 / 最终攻势），可存「我的编成」一键召集\n· 召集消耗联盟首都星城燃料块（按吨位计价），解散或下线按存活全额返还\n· 跃迁 / 集结 / 过门只带存活舰船并满血重生，阵亡的船不会复活；跃迁落点按船体半径排布\n· 舰队只打海盗 NPC：玩家 / 蛋 / 无人机 / 建筑永不被锁定，手动打击玩家默认拒绝（/nf 打击玩家 on 可放开）\n· 纯运行期 loader 补丁：不改服务端任何文件，也不改客户端；含 7 条只读诊断命令\n· 兼容 EveJS 0.12.9",
       "conflicts": [],
-      "delisted": true,
+      "delisted": false,
       "description": "召唤npc舰队，支持除遥修以外所有舰队指令。可帮助玩家南征北战",
       "displayName": "NPC舰队",
       "downloadUrls": [
@@ -472,13 +472,7 @@
       "version": "1.0.2",
       "source": "exiell/evejs-mod-evejs-npc",
       "downloads": 57,
-      "cdnHits": 0,
-      "delistReason": {
-        "zh": "MOD包内没有任何内容",
-        "en": "MOD包内没有任何内容"
-      },
-      "moderatedAt": "2026-10-14T10:22:49.649Z",
-      "moderatedBy": "diguo520"
+      "cdnHits": 0
     },
     {
       "author": {
@@ -517,7 +511,7 @@
       "tags": [],
       "version": "1.5.2",
       "source": "JUZIMandarin/evejs-mod-evejs-sleeper-drifters",
-      "downloads": 424,
+      "downloads": 426,
       "cdnHits": 3
     },
     {
@@ -604,7 +598,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-crate-opening",
-      "downloads": 5,
+      "downloads": 7,
       "cdnHits": 0
     },
     {
@@ -644,7 +638,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-npc-kill-lp",
-      "downloads": 3,
+      "downloads": 6,
       "cdnHits": 0
     },
     {
@@ -684,7 +678,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-combat-native-store-rows",
-      "downloads": 10,
+      "downloads": 14,
       "cdnHits": 0
     },
     {
@@ -724,7 +718,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-combat-item-name-scan",
-      "downloads": 10,
+      "downloads": 13,
       "cdnHits": 0
     },
     {
@@ -764,7 +758,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-combat-char-record-ref",
-      "downloads": 13,
+      "downloads": 16,
       "cdnHits": 0
     },
     {
@@ -804,7 +798,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-charge-sublocation-row",
-      "downloads": 5,
+      "downloads": 8,
       "cdnHits": 0
     },
     {
@@ -844,7 +838,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-inventory-stack-limit",
-      "downloads": 9,
+      "downloads": 12,
       "cdnHits": 0
     },
     {
@@ -938,7 +932,7 @@
       "tags": [],
       "version": "3.2.0",
       "source": "Jasper377/evejs-mod-evejs-racks16",
-      "downloads": 223,
+      "downloads": 227,
       "cdnHits": 0
     },
     {
@@ -978,7 +972,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-wreck-naming",
-      "downloads": 7,
+      "downloads": 9,
       "cdnHits": 0
     },
     {
@@ -1018,7 +1012,7 @@
       "tags": [],
       "version": "1.3.0",
       "source": "zhang-xzh/evejs-mod-evejs-sleeper-salvage",
-      "downloads": 7,
+      "downloads": 13,
       "cdnHits": 0
     },
     {
@@ -1059,7 +1053,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-character-slots",
-      "downloads": 4,
+      "downloads": 6,
       "cdnHits": 0
     },
     {
@@ -1099,7 +1093,7 @@
       "tags": [],
       "version": "1.6.0",
       "source": "Jasper377/evejs-mod-evejs-acspecialbattleship",
-      "downloads": 287,
+      "downloads": 288,
       "cdnHits": 0
     },
     {
@@ -1189,7 +1183,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-blueprint-list-memo",
-      "downloads": 4,
+      "downloads": 6,
       "cdnHits": 0
     },
     {
@@ -1229,7 +1223,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-jumpbridge-fuel",
-      "downloads": 6,
+      "downloads": 9,
       "cdnHits": 0
     }
   ],
@@ -1245,24 +1239,12 @@
       },
       "at": "2026-10-14T10:22:32.596Z",
       "by": "diguo520"
-    },
-    "evejs-npc": {
-      "id": "evejs-npc",
-      "source": "exiell/evejs-mod-evejs-npc",
-      "authorId": "au-mugiwdpeuaty",
-      "action": "delist",
-      "reason": {
-        "zh": "MOD包内没有任何内容",
-        "en": "MOD包内没有任何内容"
-      },
-      "at": "2026-10-14T10:22:49.649Z",
-      "by": "diguo520"
     }
   },
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "wk9f4i/UPLMDn5te96TUhvQn0/tUOgx8fwuk7N/avJVylAQ+SKPGxRv34E6Ra8dk5e6Su3eQ0NQ8cV4cz/o6Ag==",
-    "signedAt": "2026-10-16T10:18:58.249Z"
+    "sig": "FWXvBG3As8z1nkwtIKSE9DM7OixIGZ5pf4v2fTQRatZXOUdAow3Ua9gDYDIHQ5j/ZGU+WyxEPRoeU8tXtnrvAg==",
+    "signedAt": "2026-10-16T12:01:10.467Z"
   }
 }
