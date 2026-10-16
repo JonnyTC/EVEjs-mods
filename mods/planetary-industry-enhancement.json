@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-muxt6kcyxsf4",
+    "keyId": "54c1f8afabfe",
+    "name": "Materal"
+  },
+  "displayName": "行星工业增强",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/MateralCMX/evejs-mod-planetary-industry-enhancement/releases/download/v0.1.0/planetary-industry-enhancement-0.1.0.zip"
+    }
+  ],
+  "id": "planetary-industry-enhancement",
+  "publishedAt": "2026-10-16",
+  "schemaVersion": 1,
+  "sha256": "a442e4158d9a7d67936ee749fe5b9663fab27ebc19921ad63a99f583fb1dcc47",
+  "sizeBytes": 123100,
+  "source": "MateralCMX/evejs-mod-planetary-industry-enhancement",
+  "submittedAt": "2026-10-16T15:13:40.802Z",
+  "version": "0.1.0"
+}
