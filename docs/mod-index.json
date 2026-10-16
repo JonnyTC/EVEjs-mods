@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-16T03:04:13.115Z",
+  "publishedAt": "2026-10-16T03:14:11.930Z",
   "mods": [
     {
       "author": {
@@ -743,6 +743,47 @@
     },
     {
       "author": {
+        "id": "au-mva40uiw90kt",
+        "keyId": "01ed0fb1c32c",
+        "name": "HRSKNK"
+      },
+      "category": "玩法",
+      "changelog": "角色选择默认只有 3 个槽。修复后每个账号能用更多角色（默认 10 个），不用改客户端。",
+      "conflicts": [],
+      "delisted": false,
+      "description": "角色选择默认只有 3 个槽。修复后每个账号能用更多角色（默认 10 个），不用改客户端。",
+      "displayName": "每账号角色槽增加（默认 10 个）",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-character-slots/releases/download/v1.0.0/evejs-character-slots-1.0.0.zip"
+        }
+      ],
+      "evejsVersions": [
+        "0.12.9"
+      ],
+      "featured": false,
+      "highlights": [],
+      "history": [],
+      "id": "evejs-character-slots",
+      "publishedAt": "2026-10-16",
+      "readme": [
+        "角色选择界面默认只显示 3 个角色槽。原因是服务端登录响应把\n`characterSlots` 与 `maxCharacterSlots` 写死为 `3`；客户端按\n`min(characterSlots + 1, maxCharacterSlots)` 动态生成槽位，所以只要改这两个字段，\n界面就会出现更多槽位，**不需要改客户端**。",
+        "本 MOD 在内存中把这两个字段改为可配置值（默认 **10**）。"
+      ],
+      "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-character-slots",
+      "requiresRestart": true,
+      "sha256": "91b5094d3ddf985a21a16fd82199b44c59312b444982066aae5c396421a7dfdf",
+      "sizeBytes": 5863,
+      "tags": [],
+      "version": "1.0.0",
+      "source": "zhang-xzh/evejs-mod-evejs-character-slots",
+      "downloads": 0,
+      "cdnHits": 0
+    },
+    {
+      "author": {
         "id": "au-muwt2r89fjz0",
         "keyId": "62c4ee92863e",
         "name": "正在北极拔草"
@@ -861,7 +902,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "A9LrVcPoWPwJ+rqxAyJLvg/ve9Dg4CzvQ8HSSjNTOJqlsN87yMroSDlmLdEK5ogBpsKVfLDVeeHaNIZDisdUCQ==",
-    "signedAt": "2026-10-16T03:04:13.118Z"
+    "sig": "VrxaGGe+EFL1ytUtFZe9vcWkodWIV7Pl1+8oxWFqzWVVpThuknlDiNYbD2eQ3VsUoyn0pbjz0FMnibDQ6vlhAA==",
+    "signedAt": "2026-10-16T03:14:11.933Z"
   }
 }
