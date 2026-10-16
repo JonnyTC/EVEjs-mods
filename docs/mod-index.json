@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-16T15:54:10.033Z",
+  "publishedAt": "2026-10-16T20:13:38.207Z",
   "mods": [
     {
       "author": {
@@ -42,7 +42,7 @@
       "tags": [],
       "version": "1.1.0",
       "source": "rzwm/evejs-mod-evejs-beijing-time",
-      "downloads": 99,
+      "downloads": 104,
       "cdnHits": 0
     },
     {
@@ -55,7 +55,7 @@
       "changelog": "",
       "conflicts": [],
       "delisted": false,
-      "description": "修复装配中文重命名存储异常及反应式装甲增强器四抗变化未同步客户端。应用装配补查当前停靠站个人集装箱内物品。修复无人机控制状态漏发，并提供面板刷新按钮。 禁止跃迁途中开启加力和微曲。 提供两端空间坐标轮转诊断日志。 补齐运动目标消失后的停止同步。 修复超过32个敌人后赏金重复累计。 修复NPC首次发布运动参数顺序。 修复一键卸载后弹药与脚本图标残留。 补齐太空重登角色脑、铁骑接战、克隆植入体刷新、库存服务发现、跃迁落地参数；取消额外炮台命中加成。 修复太空重登时客户端角色脑初始化竞态。 修复全局中文搜索及中文名称索引。 补齐炮扰、制导干扰及远程索敌的武器属性同步。",
+      "description": "修复装配、无人机、中文搜索、战斗属性显示和太空状态同步等常见问题，改善日常操作体验。",
       "displayName": "Bug修复",
       "downloadUrls": [
         {
@@ -69,18 +69,23 @@
       ],
       "featured": false,
       "highlights": [
-        "修复装配名称/描述的 Unicode 包装对象被保存为 [object Object]（b7ace60）。",
-        "补齐反应式装甲增强器四抗变化通知（533c762）。",
-        "应用装配补查当前停靠站个人集装箱及嵌套箱，保留权限、锁定与容量检查（533c762）。",
-        "无人机获取时补发完整七字段控制状态，修复延迟可见性导致总览有实体、面板缺项的问题（8069139）。",
-        "无人机面板顶部增加“刷新无人机”按钮，直接重发本船当前已可见受控无人机状态；不模拟受击，不改血量、目标、命令或库存。两秒冷却，失败可重试。",
-        "修复面板刷新队列遗漏，并监听无人机状态事件（参考 441e649）。"
+        "修复装配中文名称保存异常、重复导入及卸载后弹药或脚本图标残留。",
+        "应用装配时支持查找当前空间站个人集装箱内的装备。",
+        "修复无人机面板缺项，并提供“刷新无人机”按钮。",
+        "修复中文搜索，支持物品、地点与 NPC 的中文名称。",
+        "改善反应式装甲增强器、炮扰、制导干扰和远程索敌的属性显示同步。",
+        "修复太空重新登录后的装备效果初始化、锁定状态残留及部分运动状态同步问题。",
+        "修复大量敌人击毁后赏金重复累计的问题。",
+        "补齐铁骑接战、克隆植入体刷新和库存访问相关修复。",
+        "禁止实际跃迁途中开启加力燃烧器和微型跃迁推进器，并取消额外炮台命中加成。"
       ],
       "history": [],
       "id": "bug-fixes",
       "publishedAt": "2026-10-16",
       "readme": [
-        "版本 0.16.0，适配当前 EveJS 0.12.9。"
+        "修复装配、无人机、中文搜索、战斗属性显示和太空状态同步等常见问题，改善日常操作体验。",
+        "启用后重启游戏服务端，并完全退出、重新启动客户端。已损坏的历史装配名称需手动重新命名；历史重复装配与赏金不会自动清理或回退。",
+        "模组还提供空间状态诊断记录，可在 diagnostics.json 中将 spatialTrace 设为 false 后重启两端关闭。"
       ],
       "repo": "https://github.com/MateralCMX/evejs-mod-bug-fixes",
       "requiresRestart": true,
@@ -89,7 +94,7 @@
       "tags": [],
       "version": "0.16.0",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 7,
+      "downloads": 17,
       "cdnHits": 0
     },
     {
@@ -133,7 +138,7 @@
       "tags": [],
       "version": "1.1.1",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 583,
+      "downloads": 606,
       "cdnHits": 51
     },
     {
@@ -191,7 +196,7 @@
       "tags": [],
       "version": "1.0.14",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 524,
+      "downloads": 541,
       "cdnHits": 132
     },
     {
@@ -235,7 +240,7 @@
       "tags": [],
       "version": "1.0.3",
       "source": "guihaitianyi-cmd/evejs-mod-evejs-evejs-hacking-suite-1-0-3",
-      "downloads": 169,
+      "downloads": 173,
       "cdnHits": 0
     },
     {
@@ -248,7 +253,7 @@
       "changelog": "",
       "conflicts": [],
       "delisted": false,
-      "description": "新增获取 M10 T20（材料效率 ME 10 / 时间效率 TE 20）蓝图原本的 GM 命令：/allshipbp 批量领取舰船蓝图，/givebp <蓝图ID> 领取指定蓝图。",
+      "description": "新增获取 M10 T20 蓝图原本的 GM 命令，支持批量领取舰船蓝图或按蓝图 ID 领取指定蓝图。",
       "displayName": "GM命令扩充",
       "downloadUrls": [
         {
@@ -261,13 +266,18 @@
         "0.12.9"
       ],
       "featured": false,
-      "highlights": [],
+      "highlights": [
+        "/allshipbp：批量领取符合条件的舰船蓝图原本，每种 1 张，排除旧涂装舰蓝图",
+        "/givebp <蓝图ID>：领取指定蓝图原本 1 张，支持舰船及其他具有工业配方的蓝图"
+      ],
       "history": [],
       "id": "ship-blueprints",
       "publishedAt": "2026-10-16",
       "readme": [
-        "版本 0.2.1，EveJS 0.12.9，启动器注入总线 API 1。",
-        "新增获取 M10 T20（材料效率 ME 10 / 时间效率 TE 20）蓝图原本的 GM 命令，支持批量领取舰船蓝图及按蓝图 ID 领取指定蓝图。"
+        "新增获取 M10 T20 蓝图原本的 GM 命令，支持批量领取舰船蓝图或按蓝图 ID 领取指定蓝图。",
+        "领取材料效率 ME 10、时间效率 TE 20 的蓝图原本，可无限次使用。",
+        "启用后重启游戏服务端。使用 GM 角色停靠，在聊天框输入命令，蓝图会放入当前停靠位置的个人物品机库。",
+        "指定领取需填写蓝图类型 ID，不是制造产物 ID 或已有物品 ID。命令不附送制造材料，也不修改已有蓝图；再次执行会再次发放。"
       ],
       "repo": "https://github.com/MateralCMX/evejs-mod-ship-blueprints",
       "requiresRestart": true,
@@ -276,7 +286,7 @@
       "tags": [],
       "version": "0.2.1",
       "source": "MateralCMX/evejs-mod-ship-blueprints",
-      "downloads": 2,
+      "downloads": 9,
       "cdnHits": 0
     },
     {
@@ -289,7 +299,7 @@
       "changelog": "",
       "conflicts": [],
       "delisted": false,
-      "description": "游戏内右键 GM / WM 菜单与 Insider 工具栏菜单汉化，保留权限和原始命令。",
+      "description": "汉化 GM／WM 扩展菜单、物品 GM 命令和 Insider 工具栏，并提供获取 M10 T20 蓝图的右键入口。",
       "displayName": "GM菜单汉化",
       "downloadUrls": [
         {
@@ -302,21 +312,18 @@
         "0.12.9"
       ],
       "featured": false,
-      "highlights": [],
+      "highlights": [
+        "汉化右键 GM／WM 扩展菜单及物品 GM 命令。",
+        "汉化 Insider 工具栏入口和菜单，支持展开后的子菜单。",
+        "为蓝图增加“获取 M10 T20 蓝图”右键入口。"
+      ],
       "history": [],
       "id": "gm-menu-localization",
       "publishedAt": "2026-10-16",
       "readme": [
-        "版本 0.1.0；独立模组 `gm-menu-localization`；EveJS 0.12.9，启动器注入总线 API 1。",
-        "汉化游戏内右键 GM / WM 扩展菜单、物品 GM 命令，以及 Insider 工具栏九个入口和菜单。覆盖普通条目、新式菜单控件、静态及延迟展开子菜单。命令、参数、权限和操作功能保持原样；ID、物品/玩家名称及未知文字保留原文。Insider 打开的独立工具窗口内部不在本次范围内。",
-        "蓝图右键 → GM / WM 扩展 → **获取 M10 T20 蓝图**：调用 `/givebp <当前蓝图typeID>`，领取 1 张 ME 10 / TE 20 蓝图原本，放入停靠位置的个人机库。需要同时启用“舰船满级蓝图原本”模组；权限、停靠及蓝图定义检查由该命令执行。不会修改现有蓝图，蓝图原本和拷贝的右键入口均按其类型领取新的原本。",
-        "在启动器启用“GM菜单汉化”，主服务器重启后，用全新客户端登录生效。通过登录握手下发 Python 2.7 内存补丁，不改客户端 `code.ccp`，不修改服务器核心文件。支持与其他追加式登录补丁组合。源码基线不符时拒绝注册，客户端翻译失败时回退原菜单。",
-        "停用模组，重启主服务器并重新启动客户端即可回滚。仅断开重连不会移除已在客户端内存中安装的补丁。不会主动执行 GM 操作或修复服务器未支持的 GM 命令。",
-        "词典：`client/translations.tsv`（UTF-8，英文标签与中文译文用制表符分隔）。客户端安装状态：Python 内建模块的 `_evejs_gm_menu_localization_v1`；日志前缀 `[gm-menu-localization]`。",
-        "验证命令（仓库根目录）：",
-        "```powershell\nnode --test EveJS/mods/gm-menu-localization/tests/mod.test.cjs\npython -B EveJS/mods/gm-menu-localization/tests/test_client.py\nnode EveJS/mods/gm-menu-localization/tools/check_bus.cjs EveJS/_launcher/mods/mod-host.js\n```",
-        "组合验证可在最后一条命令后追加其他模组的 `loader.js` 路径。本次已通过 Node 3 项、Python 菜单行为 14 项、客户端 Python 2.7 编译，以及与舰船满级蓝图原本、舰船作业助手和 Bug修复的总线组合检查。当前词典包含 322 条精确标签；动态 ID、前缀和状态文字另外处理。",
-        "详细设计与验收见 `docs/GM菜单汉化/设计与验收.md`。离线检查不代表游戏内验收；启用后仍需核对中文显示宽度和实际点击行为。"
+        "汉化 GM／WM 扩展菜单、物品 GM 命令和 Insider 工具栏，并提供获取 M10 T20 蓝图的右键入口。",
+        "启用后重启游戏服务端，并完全退出、重新启动客户端。汉化不会改变 GM 权限要求；Insider 打开的独立工具窗口内部不在汉化范围内。",
+        "蓝图领取入口需同时启用“GM命令扩充”。使用 GM 角色停靠后，右键蓝图，选择 GM／WM 扩展中的“获取 M10 T20 蓝图”，即可领取同类型的满研究蓝图原本；原有蓝图不会被修改。"
       ],
       "repo": "https://github.com/MateralCMX/evejs-mod-gm-menu-localization",
       "requiresRestart": true,
@@ -325,7 +332,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 10,
+      "downloads": 29,
       "cdnHits": 0
     },
     {
@@ -365,7 +372,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-lp-balance-overflow",
-      "downloads": 18,
+      "downloads": 26,
       "cdnHits": 0
     },
     {
@@ -405,7 +412,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-npc-corp-info",
-      "downloads": 18,
+      "downloads": 25,
       "cdnHits": 0
     },
     {
@@ -464,7 +471,7 @@
       "tags": [],
       "version": "0.3.2",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 799,
+      "downloads": 809,
       "cdnHits": 0
     },
     {
@@ -504,7 +511,7 @@
       "tags": [],
       "version": "0.6.0",
       "source": "Jasper377/evejs-mod-evejs-npc-console",
-      "downloads": 125,
+      "downloads": 129,
       "cdnHits": 0
     },
     {
@@ -556,7 +563,7 @@
       "tags": [],
       "version": "0.2.0",
       "source": "xuenaimiao/evejs-mod-evejs-npc-fleet",
-      "downloads": 247,
+      "downloads": 250,
       "cdnHits": 0
     },
     {
@@ -569,7 +576,7 @@
       "changelog": "",
       "conflicts": [],
       "delisted": false,
-      "description": "精确NPC身份的定义注册、装配与技能接入，以及合成舰体武器、属性、效果支持；不含具体NPC和玩法地点。",
+      "description": "为自定义 NPC 模组提供基础支持，扩展舰体、武器与维修能力，并展示对应 NPC 的战斗属性和赏金。",
       "displayName": "NPC扩展基础",
       "downloadUrls": [
         {
@@ -582,22 +589,18 @@
         "0.12.9"
       ],
       "featured": false,
-      "highlights": [],
+      "highlights": [
+        "为其他模组加入自定义 NPC 提供基础支持。",
+        "支持自定义舰体属性、武器与自我维修能力。",
+        "NPC 信息面板可显示对应目标的抗性、伤害属性和赏金。"
+      ],
       "history": [],
       "id": "npc-extension-core",
       "publishedAt": "2026-10-16",
       "readme": [
-        "版本 0.2.1，API 1；目标 EveJS 0.12.9 / native / 启动器注入总线 API 1。",
-        "本模组只提供定义注册、稳定合并和精确身份的定向接入。没有具体 NPC、Boss、玩法地点、刷新、撤离或奖励政策；单独启用不新增 NPC。异常空间通过消费者登记60个监察官，具体定义仍归异常模组。",
-        "消费者入口：`lib/api.js`。先阅读 [接口与验收](../../../docs/NPC扩展基础/接口与验收.md)；设计依据见 [设计](../../../docs/NPC扩展基础/设计.md)。",
-        "消费者清单声明 `\"requires\": [\"npc-extension-core\"]`，在世界进程 loader 内同步登记，首次 NPC 数据读取后禁止改动。依赖其他奖励表时，消费者自行声明掉落模组依赖；基础本身不依赖掉落或打捞模组。",
-        "共 10 个服务端目标，通过 slot 40 追加代码，校验原始前缀；不修改磁盘上的 server 源码。定义合并后才进入 slot 50 奖励覆盖，最终引用校验包含奖励层。slot 70 打捞修复不受基础干预。原始前缀变化或引用错误明确失败，不支持绕过校验强行启用。",
-        "离线验证，在 `F:\\EVE` 执行：",
-        "```powershell\nnode --test EveJS/mods/npc-extension-core/tests/*.test.cjs\n```",
-        "`examples/` 仅为显式调用的消费者接入示例，未由 loader 自动安装；`tests/fixture.cjs` 的身份是测试壳，不是已迁移 PVP 内容。`consumer-salvage-guard.cjs` 展示消费者如何维护精确残骸禁打捞政策，不属于基础的运行规则。",
-        "启停需服务端重启，并完整退出、重开客户端以安装/撤销信息面板伴随模块；本次未重启。已生成实体及残骸的退场、存档迁移由消费者负责；关闭基础前需同时停用消费者并处理其存量状态。不得把离线通过当作游戏验收。",
-        "0.2.0新增能力见[合成舰体能力](../../../docs/NPC扩展基础/合成舰体能力.md)，用于具名NPC的完整舰体属性、合成武器、自修和武器缓存隔离。API 1保持兼容。",
-        "0.2.1 新增实例信息只读接口及登录内存伴随模块：信息面板按精确 NPC 身份读取当前战斗抗性、伤害属性和赏金，不改全局船型数据或客户端文件。详见[修复设计与验证边界](../../../docs/NPC扩展基础/实例信息与掉落兼容修复.md)。客户端诊断日志：`%TEMP%/npc-extension-info.log`；正常应显示两项 installed、failed=0。"
+        "为自定义 NPC 模组提供基础支持，扩展舰体、武器与维修能力，并展示对应 NPC 的战斗属性和赏金。",
+        "本模组单独启用不会新增敌人、异常地点或奖励，需搭配“异常空间”等内容模组使用。启用后重启游戏服务端与客户端。",
+        "停用前请先处理相关自定义 NPC 场景，并同时停用依赖本模组的内容模组。"
       ],
       "repo": "https://github.com/MateralCMX/evejs-mod-npc-extension-core",
       "requiresRestart": true,
@@ -606,7 +609,7 @@
       "tags": [],
       "version": "0.2.1",
       "source": "MateralCMX/evejs-mod-npc-extension-core",
-      "downloads": 0,
+      "downloads": 6,
       "cdnHits": 0
     },
     {
@@ -619,7 +622,7 @@
       "changelog": "",
       "conflicts": [],
       "delisted": false,
-      "description": "普通怪、指挥官、监察官、官员与旗舰掉落规则，装备限制和 NET 共振器。",
+      "description": "调整普通敌人、指挥官、监察官、官员与旗舰的掉落，按势力和舰船尺寸分配装备，并加入 NET 共振器。",
       "displayName": "NPC掉落规则",
       "downloadUrls": [
         {
@@ -632,19 +635,20 @@
         "0.12.9"
       ],
       "featured": false,
-      "highlights": [],
+      "highlights": [
+        "按敌人类别、势力和舰船尺寸分配装备掉落。",
+        "为官员设置专属掉落池，为旗舰提供对应势力装备。",
+        "调整无人机敌人的掉落范围，并加入 NET 共振器掉落。",
+        "支持自定义监察官的奖励规则。"
+      ],
       "history": [],
       "id": "npc-loot-rules",
       "publishedAt": "2026-10-16",
       "readme": [
-        "版本 0.1.1，适配 EveJS 0.12.9 与启动器注入总线 API 1。",
-        "恢复普通怪、指挥官、监察官、官员、旗舰的自定义掉落及 NET 共振器。包含装备尺寸和势力筛选、普通 Meta≤4、船插/特殊模块排除、官员专属池、无人机白名单及旗舰势力装备。",
-        "模组采用内存规则和数据覆盖，不写发行表或 GameStore。60 个自定义监察官只包含奖励身份兼容资料，没有战斗属性，也不创建 NPC；对应 NPC 与异常仍需后续模组。",
-        "首次交付为停用状态；提交前核对入口已为 `loader.js`（磁盘启用）。由用户安排主服务重启并检查加载日志，当前运行进程是否已加载尚未确认。停用后再次重启恢复原规则；已掉落物品保留。启动日志应出现 `[npc-loot-rules] Registered 4 reward patches`，四个注入目标应全部成功；不支持的源码基线或已加载目标会报错。",
-        "运行离线检查：在 EveJS 目录执行 `node --test --test-concurrency=1 mods/npc-loot-rules/tests/*.test.cjs`。测试读取当前本地类型/Dogma快照，不启动 GameStore。此检查不证明启动器加载或游戏内掉落已验收。",
-        "游戏验收：分别击杀普通护卫/巡洋/战巡/战列、指挥官、监察官、官员、旗舰；核对势力/尺寸、禁止物品、弹药数量、共振器和残骸权限。指挥官共振器为概率掉落，单次没有掉落不能判定失败。",
-        "源代码沿用 EveJS 的 AGPL-3.0-only 授权；来源和数量见 provenance.json。升级后应重新核对源码与基线，不直接替换哈希跳过检查。",
-        "0.1.1 修复与 evejs-perf-fix 的 npcwreck 寿命补丁兼容：额外接受已审阅的变换后前缀哈希，保留原始和未知基线保护。重启后应检查 `nativeNpcWreckService.js` 为 applied；只看到 Registered 4 不足以确认掉落已接通。既有残骸不补发，验证应击毁新 NPC。"
+        "调整普通敌人、指挥官、监察官、官员与旗舰的掉落，按势力和舰船尺寸分配装备，并加入 NET 共振器。",
+        "启用后重启游戏服务端，通过击毁新生成的 NPC 获取对应掉落。稀有掉落按概率出现，不保证每次击毁都获得。",
+        "本模组不新增 NPC 或异常地点，也不会向已有残骸补发物品；停用后已获得的物品保留。",
+        "源代码沿用 AGPL-3.0-only 授权，数据来源见 provenance.json。"
       ],
       "repo": "https://github.com/MateralCMX/evejs-mod-npc-loot-rules",
       "requiresRestart": true,
@@ -653,7 +657,7 @@
       "tags": [],
       "version": "0.1.1",
       "source": "MateralCMX/evejs-mod-npc-loot-rules",
-      "downloads": 5,
+      "downloads": 14,
       "cdnHits": 0
     },
     {
@@ -699,7 +703,7 @@
       "tags": [],
       "version": "1.0.2",
       "source": "exiell/evejs-mod-evejs-npc",
-      "downloads": 67,
+      "downloads": 72,
       "cdnHits": 0
     },
     {
@@ -739,7 +743,7 @@
       "tags": [],
       "version": "1.5.2",
       "source": "JUZIMandarin/evejs-mod-evejs-sleeper-drifters",
-      "downloads": 433,
+      "downloads": 437,
       "cdnHits": 3
     },
     {
@@ -786,7 +790,7 @@
       "tags": [],
       "version": "1.0.5",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 487,
+      "downloads": 493,
       "cdnHits": 55
     },
     {
@@ -801,7 +805,7 @@
         "evejs-mission-data-pack"
       ],
       "delisted": false,
-      "description": "任务池与系列、敌对势力、DED门、外部任务编成差量；七波兜底待NPC依赖核验后另行启用。",
+      "description": "扩充并修复代理人战斗任务、系列任务衔接与部分 DED 加速门，改善任务接取和推进体验。",
       "displayName": "任务修复",
       "downloadUrls": [
         {
@@ -814,12 +818,21 @@
         "0.12.9"
       ],
       "featured": false,
-      "highlights": [],
+      "highlights": [
+        "扩充安全代理人任务选择，并改善敌对势力筛选。",
+        "支持系列任务按顺序衔接。",
+        "补充任务战斗内容及代理人任务绑定。",
+        "修复部分 DED 加速门连接，过滤无效目的地与空循环。",
+        "暂时移出部分内容不完整的任务，避免继续分发。"
+      ],
       "history": [],
       "id": "mission-repair",
       "publishedAt": "2026-10-16",
       "readme": [
-        "适用 EveJS 0.12.9 / native / 启动器注入总线 API 1。代码仅追加到内存，不覆盖服务端源码或静态表。七个目标的原始源码前缀须全部匹配 `baselines.json`；升级后重新审核，不绕过校验。"
+        "扩充并修复代理人战斗任务、系列任务衔接与部分 DED 加速门，改善任务接取和推进体验。",
+        "启用后重启游戏服务端。不能与 evejs-mission-data-pack 同时启用。",
+        "当前不提供七波通用战斗补全功能。已接取的任务保留原有进度；停用前请先完成或妥善处理进行中的任务并备份存档，停用不会撤回物品和奖励。",
+        "任务数据来源说明保留在 data/provenance.json。"
       ],
       "repo": "https://github.com/MateralCMX/evejs-mod-mission-repair",
       "requiresRestart": true,
@@ -828,7 +841,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-mission-repair",
-      "downloads": 0,
+      "downloads": 14,
       "cdnHits": 0
     },
     {
@@ -841,7 +854,7 @@
       "changelog": "",
       "conflicts": [],
       "delisted": false,
-      "description": "远距离克隆无冷却、普通空间站多个克隆；保留费用、技能总上限和建筑限制。",
+      "description": "取消克隆跳跃冷却，允许在普通空间站存放多个克隆，方便切换植入体配置与活动地点。",
       "displayName": "克隆便利功能",
       "downloadUrls": [
         {
@@ -855,20 +868,17 @@
       ],
       "featured": false,
       "highlights": [
-        "克隆跳跃无冷却，角色属性与克隆列表倒计时同步清零，真实跳跃历史保留。",
-        "普通空间站可存放多个克隆，同站切换及跨站跳跃不会销毁其他停放克隆。",
-        "仍受技能总上限、安装/激活费用约束；玩家建筑限制及舰船/建筑确认保持原版。"
+        "克隆跳跃无需等待冷却。",
+        "普通空间站可以存放多个克隆。",
+        "同站切换或跨站跳跃时，保留其他停放的克隆。"
       ],
       "history": [],
       "id": "clone-convenience",
       "publishedAt": "2026-10-16",
       "readme": [
-        "版本 0.1.0，EveJS 0.12.9，启动器注入总线 API 1。",
-        "在启动器模组页启用后，重启服务端并重新登录客户端。文件已放入模组目录不代表正在运行的服务已加载。源码版本不匹配会明确拒绝加载。",
-        "停用后重启恢复原版；已有同站多个克隆不自动删除。原版随后跳跃可能覆盖原站克隆，停用前请整理并保护植入体。中文名称与植入体刷新基础修复不包含在本模组中。",
-        "离线验证（仓库根目录）：",
-        "```powershell\nnode --test EveJS/mods/clone-convenience/tests/*.test.cjs\nnode EveJS/mods/clone-convenience/tools/check_bus.cjs EveJS/_launcher/mods/mod-host.js\n```",
-        "测试使用隔离依赖，不读取或写入实际角色存档。游戏内验收另行执行。"
+        "取消克隆跳跃冷却，允许在普通空间站存放多个克隆，方便切换植入体配置与活动地点。",
+        "启用后重启游戏服务端并重新登录。克隆总数仍受技能限制，安装与激活费用、玩家建筑限制保持原有规则。",
+        "停用前请整理同一空间站内的多个克隆并保护植入体，避免恢复原有跳跃规则后覆盖已有克隆。"
       ],
       "repo": "https://github.com/MateralCMX/evejs-mod-clone-convenience",
       "requiresRestart": true,
@@ -877,7 +887,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-clone-convenience",
-      "downloads": 3,
+      "downloads": 8,
       "cdnHits": 0
     },
     {
@@ -917,7 +927,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-crate-opening",
-      "downloads": 15,
+      "downloads": 22,
       "cdnHits": 0
     },
     {
@@ -957,7 +967,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-npc-kill-lp",
-      "downloads": 14,
+      "downloads": 19,
       "cdnHits": 0
     },
     {
@@ -997,7 +1007,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-combat-native-store-rows",
-      "downloads": 29,
+      "downloads": 39,
       "cdnHits": 0
     },
     {
@@ -1037,7 +1047,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-combat-item-name-scan",
-      "downloads": 25,
+      "downloads": 35,
       "cdnHits": 0
     },
     {
@@ -1077,7 +1087,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-combat-char-record-ref",
-      "downloads": 30,
+      "downloads": 40,
       "cdnHits": 0
     },
     {
@@ -1117,7 +1127,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-charge-sublocation-row",
-      "downloads": 13,
+      "downloads": 20,
       "cdnHits": 0
     },
     {
@@ -1157,7 +1167,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-inventory-stack-limit",
-      "downloads": 17,
+      "downloads": 26,
       "cdnHits": 0
     },
     {
@@ -1170,7 +1180,7 @@
       "changelog": "",
       "conflicts": [],
       "delisted": false,
-      "description": "锚定180秒、初始与上线易损各60秒，取消FLEX部署和服务上线自动快进。",
+      "description": "缩短建筑锚定与上线易损时间：锚定 180 秒，初始和上线易损各 60 秒。",
       "displayName": "建筑计时",
       "downloadUrls": [
         {
@@ -1184,19 +1194,17 @@
       ],
       "featured": false,
       "highlights": [
-        "锚定 180 秒，初始与上线易损各 60 秒。",
-        "FLEX 部署及服务上线不自动快进，保留手动快进能力。",
-        "其他计时、量子芯、燃料与服务规则沿用官方实现。",
-        "实际计时仍受服务端倍率、单建筑倍率和 tick 调度影响。",
-        "不重写存档；启用或停用均不会恢复已保存的截止时间。"
+        "建筑锚定基础时间调整为 180 秒。",
+        "初始易损和上线易损基础时间各调整为 60 秒。",
+        "FLEX 部署与服务上线按计时进行，不再自动快进，仍可手动快进。"
       ],
       "history": [],
       "id": "structure-timers",
       "publishedAt": "2026-10-16",
       "readme": [
-        "版本 0.1.0，适配当前 EveJS 0.12.9 和启动器注入总线 API 1。",
-        "目录放在 EveJS/mods/structure-timers。通过启动器启用，下次启动服务端生效；停用将 loader.js 改名为 loader.js.disabled 后重启。不要在运行中手工 require。\n本地版未签名、未发布。源码基线变化会明确拒绝注入，需重新适配。\n不自行挂接编译器、不直接加载服务端大模块、不改官方文件。",
-        "离线测试：在仓库根目录执行 node --test EveJS/mods/structure-timers/tests/*.test.cjs。\n离线测试不代表游戏内验收；需重启后验证实际部署及界面计时。"
+        "缩短建筑锚定与上线易损时间：锚定 180 秒，初始和上线易损各 60 秒。",
+        "启用后重启游戏服务端。实际时间仍受服务器和单建筑倍率影响；量子芯、燃料及其他服务规则保持不变。",
+        "已有建筑保存的截止时间不会因启用或停用模组而自动重置。"
       ],
       "repo": "https://github.com/MateralCMX/evejs-mod-structure-timers",
       "requiresRestart": true,
@@ -1205,7 +1213,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-structure-timers",
-      "downloads": 1,
+      "downloads": 14,
       "cdnHits": 0
     },
     {
@@ -1246,7 +1254,7 @@
       "tags": [],
       "version": "0.2.2",
       "source": "xuenaimiao/evejs-mod-evejs-perf-fix",
-      "downloads": 344,
+      "downloads": 349,
       "cdnHits": 0
     },
     {
@@ -1259,7 +1267,7 @@
       "changelog": "",
       "conflicts": [],
       "delisted": false,
-      "description": "修复材料混抽，普通T1、指挥官/监察官/官员T2、冬眠者T3。",
+      "description": "按残骸类别区分打捞材料：普通残骸产出 T1，指挥官、监察官和官员产出 T2，冬眠者产出 T3。",
       "displayName": "打捞修复",
       "downloadUrls": [
         {
@@ -1272,12 +1280,18 @@
         "0.12.9"
       ],
       "featured": false,
-      "highlights": [],
+      "highlights": [
+        "普通敌人：T1 材料",
+        "指挥官、监察官、官员：T2 材料",
+        "冬眠者：T3 远古打捞材料"
+      ],
       "history": [],
       "id": "salvage-repair",
       "publishedAt": "2026-10-16",
       "readme": [
-        "模组 ID：`salvage-repair`。对应总体清单 P10；独立于 P08/P09 牵引装置增强。目标 EveJS 0.12.9、启动器总线 API 1。迁移 `F:\\EVE_0.1.29` 最终材料池规则。"
+        "按残骸类别区分打捞材料：普通残骸产出 T1，指挥官、监察官和官员产出 T2，冬眠者产出 T3。",
+        "修复不同等级材料混合抽取的问题。打捞器、打捞无人机，以及搭配“牵引装置增强”后的财团装置自动打捞，共用相同的材料分类规则。",
+        "启用后重启游戏服务端，按通常方式打捞即可。本模组可独立使用，不改变普通打捞设备的周期或成功率，也不会让每次打捞都必定获得材料。"
       ],
       "repo": "https://github.com/MateralCMX/evejs-mod-salvage-repair",
       "requiresRestart": true,
@@ -1286,7 +1300,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-salvage-repair",
-      "downloads": 1,
+      "downloads": 10,
       "cdnHits": 0
     },
     {
@@ -1339,7 +1353,7 @@
       "tags": [],
       "version": "3.2.0",
       "source": "Jasper377/evejs-mod-evejs-racks16",
-      "downloads": 233,
+      "downloads": 242,
       "cdnHits": 0
     },
     {
@@ -1379,7 +1393,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-wreck-naming",
-      "downloads": 18,
+      "downloads": 26,
       "cdnHits": 0
     },
     {
@@ -1419,7 +1433,7 @@
       "tags": [],
       "version": "1.3.0",
       "source": "zhang-xzh/evejs-mod-evejs-sleeper-salvage",
-      "downloads": 22,
+      "downloads": 27,
       "cdnHits": 0
     },
     {
@@ -1460,7 +1474,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-character-slots",
-      "downloads": 9,
+      "downloads": 13,
       "cdnHits": 0
     },
     {
@@ -1473,7 +1487,7 @@
       "changelog": "",
       "conflicts": [],
       "delisted": false,
-      "description": "为财团目标牵引装置(81951)添加多目标牵引、自动打捞功能。",
+      "description": "支持移动牵引装置同时牵引多个目标，强化财团装置的牵引速度，并在拾取后自动打捞残骸。",
       "displayName": "牵引装置增强",
       "downloadUrls": [
         {
@@ -1486,12 +1500,20 @@
         "0.12.9"
       ],
       "featured": false,
-      "highlights": [],
+      "highlights": [
+        "移动牵引装置可按自身目标槽位同时牵引多个目标，优先选择附近目标。",
+        "财团装置支持 12 个目标，牵引速度为 5000 米／秒。",
+        "财团装置牵引范围为 200 公里，容量为 27000 立方米。",
+        "财团装置收取普通掉落后自动打捞残骸；成功打捞仍可能没有材料。",
+        "可搭配“打捞修复”，按残骸类别产出 T1、T2 或 T3 材料。"
+      ],
       "history": [],
       "id": "mobile-tractor-enhancement",
       "publishedAt": "2026-10-16",
       "readme": [
-        "模组 ID：`mobile-tractor-enhancement`。对应总体清单 P08、P09；与 P10 打捞修复分开启停。目标 EveJS 0.12.9、启动器总线 API 1，来源为 `F:\\EVE_0.1.29` 最终牵引实现。"
+        "支持移动牵引装置同时牵引多个目标，强化财团装置的牵引速度，并在拾取后自动打捞残骸。",
+        "启用后重启游戏服务端，再按通常方式部署牵引装置。自动打捞仅适用于财团型号；物品权限和货仓容量限制仍然有效。客户端属性面板可能仍显示原有数值。",
+        "停用前请先回收正在工作的牵引装置，再重启游戏服务端。"
       ],
       "repo": "https://github.com/MateralCMX/evejs-mod-mobile-tractor-enhancement",
       "requiresRestart": true,
@@ -1500,7 +1522,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-mobile-tractor-enhancement",
-      "downloads": 4,
+      "downloads": 11,
       "cdnHits": 0
     },
     {
@@ -1540,7 +1562,7 @@
       "tags": [],
       "version": "1.6.0",
       "source": "Jasper377/evejs-mod-evejs-acspecialbattleship",
-      "downloads": 297,
+      "downloads": 305,
       "cdnHits": 0
     },
     {
@@ -1590,7 +1612,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "rzwm/evejs-mod-evejs-autopilot-jump-stargate-0km",
-      "downloads": 118,
+      "downloads": 123,
       "cdnHits": 0
     },
     {
@@ -1630,7 +1652,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-blueprint-list-memo",
-      "downloads": 13,
+      "downloads": 22,
       "cdnHits": 0
     },
     {
@@ -1643,7 +1665,7 @@
       "changelog": "",
       "conflicts": [],
       "delisted": false,
-      "description": "行星重建、批量启动、路线规划、十五分钟生产与容量增强。",
+      "description": "提供行星设施批量启动、采集器重建与运输路线规划，并提升行星生产效率、供能和发射平台容量。",
       "displayName": "行星工业增强",
       "downloadUrls": [
         {
@@ -1656,12 +1678,21 @@
         "0.12.9"
       ],
       "featured": false,
-      "highlights": [],
+      "highlights": [
+        "批量启动设施，按需求重建采集器，并规划工厂运输路线。",
+        "检查产量缺口，支持预览后应用调整。",
+        "指挥中心 CPU 与能量栅格提升至 100 倍。",
+        "提升资源丰度与生产能力，工厂和采集器采用 15 分钟生产批次。",
+        "发射平台容量提升至 1 亿立方米。",
+        "改善行星界面刷新、库存通知和多角色切换体验。"
+      ],
       "history": [],
       "id": "planetary-industry-enhancement",
       "publishedAt": "2026-10-16",
       "readme": [
-        "模组 ID：`planetary-industry-enhancement`，版本 `0.1.0`。迁移来源为 `F:\\EVE_0.1.29` 的最终行星工业实现；支持已核验的 EveJS 0.12.9 与启动器注入总线 API 1。"
+        "提供行星设施批量启动、采集器重建与运输路线规划，并提升行星生产效率、供能和发射平台容量。",
+        "启用后重启游戏服务端，并完全退出、重新启动客户端。首次使用前请备份存档；设施建造、升级费用及相关技能要求仍然有效。",
+        "停用不会自动还原已经转换的生产周期和运输路线。需要恢复原玩法时，应先停服并恢复配套备份，或完成相应的数据转换。"
       ],
       "repo": "https://github.com/MateralCMX/evejs-mod-planetary-industry-enhancement",
       "requiresRestart": true,
@@ -1670,7 +1701,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-planetary-industry-enhancement",
-      "downloads": 1,
+      "downloads": 10,
       "cdnHits": 0
     },
     {
@@ -1710,14 +1741,14 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-jumpbridge-fuel",
-      "downloads": 15,
+      "downloads": 24,
       "cdnHits": 0
     }
   ],
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "GUdN/AOwq9xGEy3zWF3Yp6XQ7iGx9xYt2f++LyiQyMY8R2PcL4phJGNNEBW4FH4f5zSSuhgrXr3XL+TyiEgPCw==",
-    "signedAt": "2026-10-16T15:54:10.038Z"
+    "sig": "DWXofeTGOScVlDPYhZFrhhlpuDf6p9bxl/IhpHaEWyOhlDU7axdzuXFTdmPPoFEM1kbXJSpjfl3PeJUp6ow1Bw==",
+    "signedAt": "2026-10-16T20:13:38.211Z"
   }
 }
