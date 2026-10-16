@@ -64,5 +64,11 @@
     "publicKey": "",
     "repo": "exiell/evejs-mod-evejs-npc",
     "firstSeen": "2026-10-12"
+  },
+  "au-mva40uiw90kt": {
+    "keyId": "01ed0fb1c32c",
+    "publicKey": "",
+    "repo": "zhang-xzh/evejs-mod-evejs-lp-balance-overflow",
+    "firstSeen": "2026-10-16"
   }
 }
