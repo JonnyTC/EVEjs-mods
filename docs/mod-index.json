@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-16T03:14:11.930Z",
+  "publishedAt": "2026-10-16T03:15:45.076Z",
   "mods": [
     {
       "author": {
@@ -574,6 +574,46 @@
         "name": "HRSKNK"
       },
       "category": "玩法",
+      "changelog": "列举 NPC 装备/货舱时会复制整份数据，人一多就卡。修复后只取该 NPC 自己的数据。",
+      "conflicts": [],
+      "delisted": false,
+      "description": "列举 NPC 装备/货舱时会复制整份数据，人一多就卡。修复后只取该 NPC 自己的数据。",
+      "displayName": "大规模战斗卡顿修复（NPC 数据重复复制）",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-combat-native-store-rows/releases/download/v1.0.0/evejs-combat-native-store-rows-1.0.0.zip"
+        }
+      ],
+      "evejsVersions": [
+        "0.12.9"
+      ],
+      "featured": false,
+      "highlights": [],
+      "history": [],
+      "id": "evejs-combat-native-store-rows",
+      "publishedAt": "2026-10-16",
+      "readme": [
+        "列举 native NPC 的模块/货舱时会把整个集合克隆一遍，大规模战斗时卡顿。补丁只拷贝目标实体的行，行为不变。"
+      ],
+      "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-combat-native-store-rows",
+      "requiresRestart": true,
+      "sha256": "76c050c234303b18a83434e751114e6ee1dde9457aff6ceb30d946982a18370a",
+      "sizeBytes": 5320,
+      "tags": [],
+      "version": "1.0.0",
+      "source": "zhang-xzh/evejs-mod-evejs-combat-native-store-rows",
+      "downloads": 0,
+      "cdnHits": 0
+    },
+    {
+      "author": {
+        "id": "au-mva40uiw90kt",
+        "keyId": "01ed0fb1c32c",
+        "name": "HRSKNK"
+      },
+      "category": "玩法",
       "changelog": "物品堆叠数量被限制在 32 位整数内，超过会截断或异常。补丁把物品堆叠读写的上限放宽到 64 位安全整数，海量堆叠正常。",
       "conflicts": [],
       "delisted": false,
@@ -902,7 +942,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "VrxaGGe+EFL1ytUtFZe9vcWkodWIV7Pl1+8oxWFqzWVVpThuknlDiNYbD2eQ3VsUoyn0pbjz0FMnibDQ6vlhAA==",
-    "signedAt": "2026-10-16T03:14:11.933Z"
+    "sig": "li1sWPMqme59Ev3TENtbYZ/GzL1hM5Qn98hegWz/XZ0jbHd6XtoNxKl7xT8nSAFUovIgjc2ftSRgX1v/r0wDCw==",
+    "signedAt": "2026-10-16T03:15:45.078Z"
   }
 }
