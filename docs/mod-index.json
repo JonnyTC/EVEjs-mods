@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-16T03:26:13.736Z",
+  "publishedAt": "2026-10-16T03:30:19.981Z",
   "mods": [
     {
       "author": {
@@ -234,7 +234,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-lp-balance-overflow",
-      "downloads": 0,
+      "downloads": 2,
       "cdnHits": 0
     },
     {
@@ -274,7 +274,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-npc-corp-info",
-      "downloads": 0,
+      "downloads": 1,
       "cdnHits": 0
     },
     {
@@ -574,6 +574,46 @@
         "name": "HRSKNK"
       },
       "category": "玩法",
+      "changelog": "军团所属箱子和 Trinary 数据宝箱点了打不开。修复后能正常开启取物。",
+      "conflicts": [],
+      "delisted": false,
+      "description": "军团所属箱子和 Trinary 数据宝箱点了打不开。修复后能正常开启取物。",
+      "displayName": "军团箱 / Trinary 数据宝箱打不开修复",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-crate-opening/releases/download/v1.0.0/evejs-crate-opening-1.0.0.zip"
+        }
+      ],
+      "evejsVersions": [
+        "0.12.9"
+      ],
+      "featured": false,
+      "highlights": [],
+      "history": [],
+      "id": "evejs-crate-opening",
+      "publishedAt": "2026-10-16",
+      "readme": [
+        "军团所属的箱子与 Trinary Data Vault 无法开启。补丁放开这两类箱子的开启校验，使其可以正常打开并取出内容。"
+      ],
+      "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-crate-opening",
+      "requiresRestart": true,
+      "sha256": "20a5853fda3fcadcb5795f740998be18e5ce36809cd873da7d5348385a750fe7",
+      "sizeBytes": 8080,
+      "tags": [],
+      "version": "1.0.0",
+      "source": "zhang-xzh/evejs-mod-evejs-crate-opening",
+      "downloads": 0,
+      "cdnHits": 0
+    },
+    {
+      "author": {
+        "id": "au-mva40uiw90kt",
+        "keyId": "01ed0fb1c32c",
+        "name": "HRSKNK"
+      },
+      "category": "玩法",
       "changelog": "列举 NPC 装备/货舱时会复制整份数据，人一多就卡。修复后只取该 NPC 自己的数据。",
       "conflicts": [],
       "delisted": false,
@@ -604,7 +644,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-combat-native-store-rows",
-      "downloads": 0,
+      "downloads": 1,
       "cdnHits": 0
     },
     {
@@ -764,7 +804,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-inventory-stack-limit",
-      "downloads": 0,
+      "downloads": 2,
       "cdnHits": 0
     },
     {
@@ -898,7 +938,7 @@
       "tags": [],
       "version": "1.3.0",
       "source": "zhang-xzh/evejs-mod-evejs-sleeper-salvage",
-      "downloads": 0,
+      "downloads": 1,
       "cdnHits": 0
     },
     {
@@ -939,7 +979,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-character-slots",
-      "downloads": 0,
+      "downloads": 1,
       "cdnHits": 0
     },
     {
@@ -1142,7 +1182,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "UVD2kzAnesf5WabFm9tQ6O4OUvHlU3hi3SCxNxZqDYgkRSVEyOpfHnlZYKsRNkSLASWp4Yciq+b0NSLmaEDyDA==",
-    "signedAt": "2026-10-16T03:26:13.739Z"
+    "sig": "3miwTkSzvDyKRAh0DYbW8Hn+G03f7zn18pvNkHryd1paPa1Rn/NrWeNBLNqLEQa+tBmsnxVEToD61cWqfdyVAw==",
+    "signedAt": "2026-10-16T03:30:19.984Z"
   }
 }
