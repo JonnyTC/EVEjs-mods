@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-muxt6kcyxsf4",
+    "keyId": "54c1f8afabfe",
+    "name": "Materal"
+  },
+  "displayName": "牵引装置增强",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/MateralCMX/evejs-mod-mobile-tractor-enhancement/releases/download/v0.1.0/mobile-tractor-enhancement-0.1.0.zip"
+    }
+  ],
+  "id": "mobile-tractor-enhancement",
+  "publishedAt": "2026-10-16",
+  "schemaVersion": 1,
+  "sha256": "bed65c1dc8484d234ac7639dafbb3b20a5330b02fe8a2de5f617a9804593411b",
+  "sizeBytes": 23618,
+  "source": "MateralCMX/evejs-mod-mobile-tractor-enhancement",
+  "submittedAt": "2026-10-16T14:38:43.019Z",
+  "version": "0.1.0"
+}
