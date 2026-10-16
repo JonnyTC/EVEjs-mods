@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-16T14:39:49.317Z",
+  "publishedAt": "2026-10-16T14:44:07.396Z",
   "mods": [
     {
       "author": {
@@ -47,6 +47,53 @@
     },
     {
       "author": {
+        "id": "au-muxt6kcyxsf4",
+        "keyId": "54c1f8afabfe",
+        "name": "Materal"
+      },
+      "category": "玩法",
+      "changelog": "",
+      "conflicts": [],
+      "delisted": false,
+      "description": "修复装配中文重命名存储异常及反应式装甲增强器四抗变化未同步客户端。应用装配补查当前停靠站个人集装箱内物品。修复无人机控制状态漏发，并提供面板刷新按钮。 禁止跃迁途中开启加力和微曲。 提供两端空间坐标轮转诊断日志。 补齐运动目标消失后的停止同步。 修复超过32个敌人后赏金重复累计。 修复NPC首次发布运动参数顺序。 修复一键卸载后弹药与脚本图标残留。 补齐太空重登角色脑、铁骑接战、克隆植入体刷新、库存服务发现、跃迁落地参数；取消额外炮台命中加成。 修复太空重登时客户端角色脑初始化竞态。 修复全局中文搜索及中文名称索引。 补齐炮扰、制导干扰及远程索敌的武器属性同步。",
+      "displayName": "Bug修复",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/MateralCMX/evejs-mod-bug-fixes/releases/download/v0.16.0/bug-fixes-0.16.0.zip"
+        }
+      ],
+      "evejsVersions": [
+        "0.12.9"
+      ],
+      "featured": false,
+      "highlights": [
+        "修复装配名称/描述的 Unicode 包装对象被保存为 [object Object]（b7ace60）。",
+        "补齐反应式装甲增强器四抗变化通知（533c762）。",
+        "应用装配补查当前停靠站个人集装箱及嵌套箱，保留权限、锁定与容量检查（533c762）。",
+        "无人机获取时补发完整七字段控制状态，修复延迟可见性导致总览有实体、面板缺项的问题（8069139）。",
+        "无人机面板顶部增加“刷新无人机”按钮，直接重发本船当前已可见受控无人机状态；不模拟受击，不改血量、目标、命令或库存。两秒冷却，失败可重试。",
+        "修复面板刷新队列遗漏，并监听无人机状态事件（参考 441e649）。"
+      ],
+      "history": [],
+      "id": "bug-fixes",
+      "publishedAt": "2026-10-16",
+      "readme": [
+        "版本 0.16.0，适配当前 EveJS 0.12.9。"
+      ],
+      "repo": "https://github.com/MateralCMX/evejs-mod-bug-fixes",
+      "requiresRestart": true,
+      "sha256": "82b7caef04190ea3facba6cee04701ede73a1808f2729148de82a7839ee740bb",
+      "sizeBytes": 886629,
+      "tags": [],
+      "version": "0.16.0",
+      "source": "MateralCMX/evejs-mod-bug-fixes",
+      "downloads": 0,
+      "cdnHits": 0
+    },
+    {
+      "author": {
         "id": "au-muvf3plbuo9n",
         "keyId": "bc816da2a7bc",
         "name": "波坤太叔"
@@ -86,7 +133,7 @@
       "tags": [],
       "version": "1.1.1",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 571,
+      "downloads": 575,
       "cdnHits": 51
     },
     {
@@ -327,7 +374,7 @@
       "tags": [],
       "version": "0.3.2",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 795,
+      "downloads": 796,
       "cdnHits": 0
     },
     {
@@ -1264,7 +1311,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "Z6V/KEB+g8J3VNpjlDadiOyN7DqwRjQWawOW2/Pj5YNLdnPoYRujnB/qF4YWlJVvIwrcVmbcqTkZ45bwLrOZDA==",
-    "signedAt": "2026-10-16T14:39:49.321Z"
+    "sig": "VDnO7hfPi7eI5RiRqh5WnYr2/QvGfoWtwgrExdIQM+LMujN2yF9+tXV3ZTCmF27d7sT4QGY89kWPBIIR6rrHAQ==",
+    "signedAt": "2026-10-16T14:44:07.400Z"
   }
 }
