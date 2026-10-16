@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-16T03:00:18.880Z",
+  "publishedAt": "2026-10-16T03:02:11.838Z",
   "mods": [
     {
       "author": {
@@ -663,6 +663,46 @@
     },
     {
       "author": {
+        "id": "au-mva40uiw90kt",
+        "keyId": "01ed0fb1c32c",
+        "name": "HRSKNK"
+      },
+      "category": "玩法",
+      "changelog": "修复大量 NPC 残骸显示为通用 “Wreck” 的问题：冬眠者/Hypnosian 解析为 Sleeper Small/Medium/Large Advanced Wreck；EDENCOM/Triglavian/CONCORD/Upwell/Rogue/帝国海军(FW) 等按命名势力前缀解析；组名无舰级词时按 radius 推断；无通用残骸的舰级加唯一回退名。",
+      "conflicts": [],
+      "delisted": false,
+      "description": "修正残骸打捞的派系识别与产物：冬眠者残骸只产出远古打捞件（Ancient Salvage，含后补的 45660-45663 四件），不混入普通 Salvaged Materials；Drifter/CONCORD/EDENCOM/Triglavian/Upwell 等高级残骸走高级打捞池；按舰级正确分桶（战巡=中、驱逐=小）；通用 Wreck 才按来源覆盖打捞难度。",
+      "displayName": "残骸打捞产物修复（冬眠者远古打捞件/高级势力打捞池）",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-sleeper-salvage/releases/download/v1.3.0/evejs-sleeper-salvage-1.3.0.zip"
+        }
+      ],
+      "evejsVersions": [
+        "0.12.9"
+      ],
+      "featured": false,
+      "highlights": [],
+      "history": [],
+      "id": "evejs-sleeper-salvage",
+      "publishedAt": "2026-10-16",
+      "readme": [
+        "修正残骸打捞的派系识别与产物：冬眠者残骸只产出远古打捞件（Ancient Salvage，含后补的 45660-45663 四件），不混入普通 Salvaged Materials；Drifter/CONCORD/EDENCOM/Triglavian/Upwell 等高级残骸走高级打捞池；按舰级正确分桶（战巡=中、驱逐=小）；通用 Wreck 才按来源覆盖打捞难度。"
+      ],
+      "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-sleeper-salvage",
+      "requiresRestart": true,
+      "sha256": "271fdb175e605b70f4a080afab346ffe1a4043fea110bd70c853dcd2288fb777",
+      "sizeBytes": 9733,
+      "tags": [],
+      "version": "1.3.0",
+      "source": "zhang-xzh/evejs-mod-evejs-sleeper-salvage",
+      "downloads": 0,
+      "cdnHits": 0
+    },
+    {
+      "author": {
         "id": "au-muwt2r89fjz0",
         "keyId": "62c4ee92863e",
         "name": "正在北极拔草"
@@ -781,7 +821,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "x36EPB8OiHRTJaQgxexfaK7oL2L7MG/x2w/qaK/a8l8titYz1WfBdVrMuq/qggohhgfNLszwWwaW7pHlZ4VtCQ==",
-    "signedAt": "2026-10-16T03:00:18.883Z"
+    "sig": "mE+dMUTLDEUN0e162PJa0oYqBBTQFAh5f5ZmKYSfpCOUPgS27BER+2H3yU2agn8hUYr5G+lPWFuib72aZNgOCw==",
+    "signedAt": "2026-10-16T03:02:11.842Z"
   }
 }
