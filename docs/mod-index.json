@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-16T15:13:20.336Z",
+  "publishedAt": "2026-10-16T15:14:50.406Z",
   "mods": [
     {
       "author": {
@@ -133,7 +133,7 @@
       "tags": [],
       "version": "1.1.1",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 580,
+      "downloads": 581,
       "cdnHits": 51
     },
     {
@@ -1359,7 +1359,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-mobile-tractor-enhancement",
-      "downloads": 1,
+      "downloads": 2,
       "cdnHits": 0
     },
     {
@@ -1494,6 +1494,46 @@
     },
     {
       "author": {
+        "id": "au-muxt6kcyxsf4",
+        "keyId": "54c1f8afabfe",
+        "name": "Materal"
+      },
+      "category": "玩法",
+      "changelog": "",
+      "conflicts": [],
+      "delisted": false,
+      "description": "行星重建、批量启动、路线规划、十五分钟生产与容量增强。",
+      "displayName": "行星工业增强",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/MateralCMX/evejs-mod-planetary-industry-enhancement/releases/download/v0.1.0/planetary-industry-enhancement-0.1.0.zip"
+        }
+      ],
+      "evejsVersions": [
+        "0.12.9"
+      ],
+      "featured": false,
+      "highlights": [],
+      "history": [],
+      "id": "planetary-industry-enhancement",
+      "publishedAt": "2026-10-16",
+      "readme": [
+        "模组 ID：`planetary-industry-enhancement`，版本 `0.1.0`。迁移来源为 `F:\\EVE_0.1.29` 的最终行星工业实现；支持已核验的 EveJS 0.12.9 与启动器注入总线 API 1。"
+      ],
+      "repo": "https://github.com/MateralCMX/evejs-mod-planetary-industry-enhancement",
+      "requiresRestart": true,
+      "sha256": "a442e4158d9a7d67936ee749fe5b9663fab27ebc19921ad63a99f583fb1dcc47",
+      "sizeBytes": 123100,
+      "tags": [],
+      "version": "0.1.0",
+      "source": "MateralCMX/evejs-mod-planetary-industry-enhancement",
+      "downloads": 0,
+      "cdnHits": 0
+    },
+    {
+      "author": {
         "id": "au-mva40uiw90kt",
         "keyId": "01ed0fb1c32c",
         "name": "HRSKNK"
@@ -1536,7 +1576,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "YpZmA09UqK1Xwx46w3815cU8lNxwnDbzpVre5CFW0fmJFtTZBjZ+JP5MRB9oh6GTx6TD5AaFEAc3RdeamodOCw==",
-    "signedAt": "2026-10-16T15:13:20.340Z"
+    "sig": "kp6nQQiT/JCWkAWt7K+fQFdXpyoX/P2fbLPmDh2nT8klHW5NHL9SZn6S4pdIknqKjQJlrzEVlWAR5jwWKSJpCw==",
+    "signedAt": "2026-10-16T15:14:50.409Z"
   }
 }
