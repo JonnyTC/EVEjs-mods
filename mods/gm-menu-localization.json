@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-muxt6kcyxsf4",
+    "keyId": "54c1f8afabfe",
+    "name": "Materal"
+  },
+  "displayName": "GM菜单汉化",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/MateralCMX/evejs-mod-gm-menu-localization/releases/download/v0.1.0/gm-menu-localization-0.1.0.zip"
+    }
+  ],
+  "id": "gm-menu-localization",
+  "publishedAt": "2026-10-16",
+  "schemaVersion": 1,
+  "sha256": "98867ef337f8a55c13f185115ae396bbac58c30d212c445c6ca457fb10d27236",
+  "sizeBytes": 22571,
+  "source": "MateralCMX/evejs-mod-gm-menu-localization",
+  "submittedAt": "2026-10-16T14:48:35.397Z",
+  "version": "0.1.0"
+}
