@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-16T12:01:10.465Z",
+  "publishedAt": "2026-10-16T12:02:05.506Z",
   "mods": [
     {
       "author": {
@@ -11,7 +11,7 @@
       "category": "玩法",
       "changelog": "实现基本功能。",
       "conflicts": [],
-      "delisted": true,
+      "delisted": false,
       "description": "把客户端的时间显示对齐北京时间(UTC+8)：左下角时钟、时钟悬浮提示、聊天窗口的消息时间戳、日历/月球采矿排程/钱包流水等读本地化时间差的界面。做法是把客户端 tq/code.ccp 里 4 个 .pyj 条目的 'optic' 常量换成 'ccp'（不重新编译、不改字节码、不动 start.ini、不动服务端文件）。启动服务端时自动打一次，打之前会先备份 code.ccp 并逐条自校验；客户端正在运行时会跳过。",
       "displayName": "Beijing-time",
       "downloadUrls": [
@@ -43,13 +43,7 @@
       "version": "1.1.0",
       "source": "rzwm/evejs-mod-evejs-beijing-time",
       "downloads": 87,
-      "cdnHits": 0,
-      "delistReason": {
-        "zh": "MOD包内没有任何内容",
-        "en": "MOD包内没有任何内容"
-      },
-      "moderatedAt": "2026-10-14T10:22:32.596Z",
-      "moderatedBy": "diguo520"
+      "cdnHits": 0
     },
     {
       "author": {
@@ -1143,7 +1137,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "rzwm/evejs-mod-evejs-autopilot-jump-stargate-0km",
-      "downloads": 109,
+      "downloads": 110,
       "cdnHits": 0
     },
     {
@@ -1227,24 +1221,10 @@
       "cdnHits": 0
     }
   ],
-  "moderation": {
-    "evejs-beijing-time": {
-      "id": "evejs-beijing-time",
-      "source": "rzwm/evejs-mod-evejs-beijing-time",
-      "authorId": "au-mv2j36e77ld7",
-      "action": "delist",
-      "reason": {
-        "zh": "MOD包内没有任何内容",
-        "en": "MOD包内没有任何内容"
-      },
-      "at": "2026-10-14T10:22:32.596Z",
-      "by": "diguo520"
-    }
-  },
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "FWXvBG3As8z1nkwtIKSE9DM7OixIGZ5pf4v2fTQRatZXOUdAow3Ua9gDYDIHQ5j/ZGU+WyxEPRoeU8tXtnrvAg==",
-    "signedAt": "2026-10-16T12:01:10.467Z"
+    "sig": "wLSQRNoL3fD2Ot8Ngc49d9+Rjgqb7fo1nGxqdQYrGMqjvLuUv45gUbmN9Uh/vMbYC6rw0cVqE3ZubsGnnaw2BQ==",
+    "signedAt": "2026-10-16T12:02:05.510Z"
   }
 }
