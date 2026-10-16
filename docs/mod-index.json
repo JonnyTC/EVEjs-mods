@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-16T02:56:46.199Z",
+  "publishedAt": "2026-10-16T03:00:18.880Z",
   "mods": [
     {
       "author": {
@@ -234,6 +234,46 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-lp-balance-overflow",
+      "downloads": 0,
+      "cdnHits": 0
+    },
+    {
+      "author": {
+        "id": "au-mva40uiw90kt",
+        "keyId": "01ed0fb1c32c",
+        "name": "HRSKNK"
+      },
+      "category": "玩法",
+      "changelog": "SDE 里没有 CEO 的 NPC 军团（例如流浪无人机、三神裔势力军团）打开信息窗口时整块空白。补丁在服务端为这类军团回退一个客户端已知的 owner（优先势力，否则军团自身），信息窗口即可正常显示。",
+      "conflicts": [],
+      "delisted": false,
+      "description": "SDE 里没有 CEO 的 NPC 军团（例如流浪无人机、三神裔势力军团）打开信息窗口时整块空白。补丁在服务端为这类军团回退一个客户端已知的 owner（优先势力，否则军团自身），信息窗口即可正常显示。",
+      "displayName": "NPC 军团信息窗口空白修复",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-npc-corp-info/releases/download/v1.0.0/evejs-npc-corp-info-1.0.0.zip"
+        }
+      ],
+      "evejsVersions": [
+        "0.12.9"
+      ],
+      "featured": false,
+      "highlights": [],
+      "history": [],
+      "id": "evejs-npc-corp-info",
+      "publishedAt": "2026-10-16",
+      "readme": [
+        "SDE 里没有 CEO 的 NPC 军团（例如流浪无人机、三神裔势力军团）打开信息窗口时整块空白。补丁在服务端为这类军团回退一个客户端已知的 owner（优先势力，否则军团自身），信息窗口即可正常显示。"
+      ],
+      "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-npc-corp-info",
+      "requiresRestart": true,
+      "sha256": "dfd5773ffaf5be169bbdf2d6f99931c82829658d686fb9cea3307cd4206e360a",
+      "sizeBytes": 5663,
+      "tags": [],
+      "version": "1.0.0",
+      "source": "zhang-xzh/evejs-mod-evejs-npc-corp-info",
       "downloads": 0,
       "cdnHits": 0
     },
@@ -741,7 +781,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "XQ77FW+XcgJQsVXOjZY+e9H23F3/wBD6gWk+MergJEtacthwsNz8FWp2SNUfZ8fqd9BYPS1UigzpVo6pBfagBQ==",
-    "signedAt": "2026-10-16T02:56:46.202Z"
+    "sig": "x36EPB8OiHRTJaQgxexfaK7oL2L7MG/x2w/qaK/a8l8titYz1WfBdVrMuq/qggohhgfNLszwWwaW7pHlZ4VtCQ==",
+    "signedAt": "2026-10-16T03:00:18.883Z"
   }
 }
