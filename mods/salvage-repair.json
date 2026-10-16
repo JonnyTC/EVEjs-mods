@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-muxt6kcyxsf4",
+    "keyId": "54c1f8afabfe",
+    "name": "Materal"
+  },
+  "displayName": "打捞修复",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/MateralCMX/evejs-mod-salvage-repair/releases/download/v0.1.0/salvage-repair-0.1.0.zip"
+    }
+  ],
+  "id": "salvage-repair",
+  "publishedAt": "2026-10-16",
+  "schemaVersion": 1,
+  "sha256": "65c58986100cce75c35b83b1954763195a0160c86fb418cb373d76918b8747c8",
+  "sizeBytes": 14184,
+  "source": "MateralCMX/evejs-mod-salvage-repair",
+  "submittedAt": "2026-10-16T15:09:42.335Z",
+  "version": "0.1.0"
+}

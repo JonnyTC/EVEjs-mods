@@ -33,6 +33,7 @@
     "MateralCMX/evejs-mod-bug-fixes",
     "MateralCMX/evejs-mod-npc-loot-rules",
     "MateralCMX/evejs-mod-gm-menu-localization",
-    "MateralCMX/evejs-mod-ship-blueprints"
+    "MateralCMX/evejs-mod-ship-blueprints",
+    "MateralCMX/evejs-mod-salvage-repair"
   ]
 }
