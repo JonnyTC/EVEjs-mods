@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1792052676534,
+  "generatedAt": 1792137361004,
   "sponsors": [
     {
       "id": "sponsor-01",
@@ -205,11 +205,17 @@
       "name": "B站的 冲锋大将",
       "amount": 50,
       "currency": "CNY"
+    },
+    {
+      "id": "sponsor-35",
+      "name": "✎﹏ℳ๓₯㎕❦₯㎕♚",
+      "amount": 50,
+      "currency": "CNY"
     }
   ],
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "JCNmpR9l5/eoR2w7hmn8TuLkSoyXI8NCiqPBYEFbfLBqUR/tVTj6LssnHcqGCJqwGW+JPaMSqV7JQ6Vzbm8HDA=="
+    "sig": "o1k7mksADwIDlPsOIJlgpavKcU+SfzUoQWRcijdJdYDpPG3PSb4GKo7LTFa/73Q6KSpc8GPmUnBes1Vl9IQHCw=="
   }
 }
