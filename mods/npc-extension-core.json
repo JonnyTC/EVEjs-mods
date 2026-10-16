@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-muxt6kcyxsf4",
+    "keyId": "54c1f8afabfe",
+    "name": "Materal"
+  },
+  "displayName": "NPC扩展基础",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/MateralCMX/evejs-mod-npc-extension-core/releases/download/v0.2.1/npc-extension-core-0.2.1.zip"
+    }
+  ],
+  "id": "npc-extension-core",
+  "publishedAt": "2026-10-16",
+  "schemaVersion": 1,
+  "sha256": "c669ea5716074ef4ea172a190b722de1cbd8caa69a8230d200330f010bc20d80",
+  "sizeBytes": 43460,
+  "source": "MateralCMX/evejs-mod-npc-extension-core",
+  "submittedAt": "2026-10-16T15:52:48.239Z",
+  "version": "0.2.1"
+}

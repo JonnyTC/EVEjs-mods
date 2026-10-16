@@ -38,6 +38,7 @@
     "MateralCMX/evejs-mod-structure-timers",
     "MateralCMX/evejs-mod-planetary-industry-enhancement",
     "MateralCMX/evejs-mod-clone-convenience",
-    "MateralCMX/evejs-mod-mission-repair"
+    "MateralCMX/evejs-mod-mission-repair",
+    "MateralCMX/evejs-mod-npc-extension-core"
   ]
 }
