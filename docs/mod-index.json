@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-16T03:30:19.981Z",
+  "publishedAt": "2026-10-16T03:32:05.427Z",
   "mods": [
     {
       "author": {
@@ -92,7 +92,7 @@
       "tags": [],
       "version": "1.1.0",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 539,
+      "downloads": 540,
       "cdnHits": 51
     },
     {
@@ -564,7 +564,7 @@
       "tags": [],
       "version": "1.0.5",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 477,
+      "downloads": 478,
       "cdnHits": 55
     },
     {
@@ -908,6 +908,46 @@
         "name": "HRSKNK"
       },
       "category": "玩法",
+      "changelog": "很多残骸只显示成「Wreck」，看不出是什么。修复后按势力/舰型显示正确名称。",
+      "conflicts": [],
+      "delisted": false,
+      "description": "很多残骸只显示成「Wreck」，看不出是什么。修复后按势力/舰型显示正确名称。",
+      "displayName": "残骸名字显示修复",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-wreck-naming/releases/download/v1.0.0/evejs-wreck-naming-1.0.0.zip"
+        }
+      ],
+      "evejsVersions": [
+        "0.12.9"
+      ],
+      "featured": false,
+      "highlights": [],
+      "history": [],
+      "id": "evejs-wreck-naming",
+      "publishedAt": "2026-10-16",
+      "readme": [
+        "修复大量 NPC 残骸显示为通用 “Wreck” 的问题：冬眠者/Hypnosian 解析为 Sleeper Small/Medium/Large Advanced Wreck；EDENCOM/Triglavian/CONCORD/Upwell/Rogue/帝国海军(FW) 等按命名势力前缀解析；组名无舰级词时按 radius 推断；无通用残骸的舰级加唯一回退名。"
+      ],
+      "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-wreck-naming",
+      "requiresRestart": true,
+      "sha256": "faa9466a9c944b58d7ee1c306c3660f34f53c4f877408e0edd77e7eca532fca7",
+      "sizeBytes": 7953,
+      "tags": [],
+      "version": "1.0.0",
+      "source": "zhang-xzh/evejs-mod-evejs-wreck-naming",
+      "downloads": 0,
+      "cdnHits": 0
+    },
+    {
+      "author": {
+        "id": "au-mva40uiw90kt",
+        "keyId": "01ed0fb1c32c",
+        "name": "HRSKNK"
+      },
+      "category": "玩法",
       "changelog": "修复大量 NPC 残骸显示为通用 “Wreck” 的问题：冬眠者/Hypnosian 解析为 Sleeper Small/Medium/Large Advanced Wreck；EDENCOM/Triglavian/CONCORD/Upwell/Rogue/帝国海军(FW) 等按命名势力前缀解析；组名无舰级词时按 radius 推断；无通用残骸的舰级加唯一回退名。",
       "conflicts": [],
       "delisted": false,
@@ -979,7 +1019,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-character-slots",
-      "downloads": 1,
+      "downloads": 2,
       "cdnHits": 0
     },
     {
@@ -1182,7 +1222,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "3miwTkSzvDyKRAh0DYbW8Hn+G03f7zn18pvNkHryd1paPa1Rn/NrWeNBLNqLEQa+tBmsnxVEToD61cWqfdyVAw==",
-    "signedAt": "2026-10-16T03:30:19.984Z"
+    "sig": "mkgEPVs/sioTzRqVOk7vrYIQIhnkcyOLc1EWr8/X/dfNZWE7F0qqYn18mzgYfonVRGd85zWv2UkOYtaKBWU4Bg==",
+    "signedAt": "2026-10-16T03:32:05.430Z"
   }
 }
