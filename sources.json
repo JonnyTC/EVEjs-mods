@@ -36,6 +36,7 @@
     "MateralCMX/evejs-mod-ship-blueprints",
     "MateralCMX/evejs-mod-salvage-repair",
     "MateralCMX/evejs-mod-structure-timers",
-    "MateralCMX/evejs-mod-planetary-industry-enhancement"
+    "MateralCMX/evejs-mod-planetary-industry-enhancement",
+    "MateralCMX/evejs-mod-clone-convenience"
   ]
 }
