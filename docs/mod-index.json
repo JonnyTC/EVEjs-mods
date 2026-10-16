@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-16T15:44:11.512Z",
+  "publishedAt": "2026-10-16T15:50:27.713Z",
   "mods": [
     {
       "author": {
@@ -325,7 +325,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 6,
+      "downloads": 10,
       "cdnHits": 0
     },
     {
@@ -738,6 +738,48 @@
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
       "downloads": 486,
       "cdnHits": 55
+    },
+    {
+      "author": {
+        "id": "au-muxt6kcyxsf4",
+        "keyId": "54c1f8afabfe",
+        "name": "Materal"
+      },
+      "category": "玩法",
+      "changelog": "",
+      "conflicts": [
+        "evejs-mission-data-pack"
+      ],
+      "delisted": false,
+      "description": "任务池与系列、敌对势力、DED门、外部任务编成差量；七波兜底待NPC依赖核验后另行启用。",
+      "displayName": "任务修复",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/MateralCMX/evejs-mod-mission-repair/releases/download/v0.1.0/mission-repair-0.1.0.zip"
+        }
+      ],
+      "evejsVersions": [
+        "0.12.9"
+      ],
+      "featured": false,
+      "highlights": [],
+      "history": [],
+      "id": "mission-repair",
+      "publishedAt": "2026-10-16",
+      "readme": [
+        "适用 EveJS 0.12.9 / native / 启动器注入总线 API 1。代码仅追加到内存，不覆盖服务端源码或静态表。七个目标的原始源码前缀须全部匹配 `baselines.json`；升级后重新审核，不绕过校验。"
+      ],
+      "repo": "https://github.com/MateralCMX/evejs-mod-mission-repair",
+      "requiresRestart": true,
+      "sha256": "a04fd3916f7139eeb4495a69a22daa92893bcf9a326a7f8c8080f11224b6e536",
+      "sizeBytes": 541255,
+      "tags": [],
+      "version": "0.1.0",
+      "source": "MateralCMX/evejs-mod-mission-repair",
+      "downloads": 0,
+      "cdnHits": 0
     },
     {
       "author": {
@@ -1448,7 +1490,7 @@
       "tags": [],
       "version": "1.6.0",
       "source": "Jasper377/evejs-mod-evejs-acspecialbattleship",
-      "downloads": 296,
+      "downloads": 297,
       "cdnHits": 0
     },
     {
@@ -1625,7 +1667,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "W27d4PBRuLkVZQx5mbrdlX8uatEPAhPwV2lulj105GMJ0SSeu7R/o7ctecBU10j8qZXeQCvcB9PJ8MW4pvTWAw==",
-    "signedAt": "2026-10-16T15:44:11.516Z"
+    "sig": "toxVuX08Q7sKPDM/PkIMsJUZv83wpmXujNega3JEN6NPQVIFlx7p4EZ4Jmeb904TCXliej2joJQBHw4G+YAhCA==",
+    "signedAt": "2026-10-16T15:50:27.717Z"
   }
 }
