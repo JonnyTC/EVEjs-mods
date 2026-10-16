@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-muxt6kcyxsf4",
+    "keyId": "54c1f8afabfe",
+    "name": "Materal"
+  },
+  "displayName": "任务修复",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/MateralCMX/evejs-mod-mission-repair/releases/download/v0.1.0/mission-repair-0.1.0.zip"
+    }
+  ],
+  "id": "mission-repair",
+  "publishedAt": "2026-10-16",
+  "schemaVersion": 1,
+  "sha256": "a04fd3916f7139eeb4495a69a22daa92893bcf9a326a7f8c8080f11224b6e536",
+  "sizeBytes": 541255,
+  "source": "MateralCMX/evejs-mod-mission-repair",
+  "submittedAt": "2026-10-16T15:49:11.431Z",
+  "version": "0.1.0"
+}
