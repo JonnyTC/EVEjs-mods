@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-16T03:15:45.076Z",
+  "publishedAt": "2026-10-16T03:17:40.189Z",
   "mods": [
     {
       "author": {
@@ -614,6 +614,46 @@
         "name": "HRSKNK"
       },
       "category": "玩法",
+      "changelog": "战斗时频繁整份复制角色数据，人一多就卡。修复后不再多余复制。",
+      "conflicts": [],
+      "delisted": false,
+      "description": "战斗时频繁整份复制角色数据，人一多就卡。修复后不再多余复制。",
+      "displayName": "大规模战斗卡顿修复（角色数据重复复制）",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-combat-char-record-ref/releases/download/v1.0.0/evejs-combat-char-record-ref-1.0.0.zip"
+        }
+      ],
+      "evejsVersions": [
+        "0.12.9"
+      ],
+      "featured": false,
+      "highlights": [],
+      "history": [],
+      "id": "evejs-combat-char-record-ref",
+      "publishedAt": "2026-10-16",
+      "readme": [
+        "战斗热路径每次读取角色记录都整份克隆，大规模战斗时造成卡顿。补丁改为按引用只读（不克隆），避免重复拷贝，行为不变。"
+      ],
+      "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-combat-char-record-ref",
+      "requiresRestart": true,
+      "sha256": "7f94c6eed5e55beb147aa23a60fcdaee3399f8f0af016c593c276f5f8a65dbaf",
+      "sizeBytes": 6200,
+      "tags": [],
+      "version": "1.0.0",
+      "source": "zhang-xzh/evejs-mod-evejs-combat-char-record-ref",
+      "downloads": 0,
+      "cdnHits": 0
+    },
+    {
+      "author": {
+        "id": "au-mva40uiw90kt",
+        "keyId": "01ed0fb1c32c",
+        "name": "HRSKNK"
+      },
+      "category": "玩法",
       "changelog": "物品堆叠数量被限制在 32 位整数内，超过会截断或异常。补丁把物品堆叠读写的上限放宽到 64 位安全整数，海量堆叠正常。",
       "conflicts": [],
       "delisted": false,
@@ -942,7 +982,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "li1sWPMqme59Ev3TENtbYZ/GzL1hM5Qn98hegWz/XZ0jbHd6XtoNxKl7xT8nSAFUovIgjc2ftSRgX1v/r0wDCw==",
-    "signedAt": "2026-10-16T03:15:45.078Z"
+    "sig": "kWrL7Ra839CU4sLiyNDoqvvgVsjzwD8tBP8dW+6f8pI0AjLV/F5UotxZ8lU+r0KRTrm4SDwG1oxLB/05p4bzBg==",
+    "signedAt": "2026-10-16T03:17:40.192Z"
   }
 }
