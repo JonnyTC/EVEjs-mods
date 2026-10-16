@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1791928842882,
+  "generatedAt": 1792169059303,
   "modId": "evejs-npc",
   "reviews": [
+    {
+      "id": "rv-1792169053861-11644",
+      "keyId": "cb6d693a08cc",
+      "author": "",
+      "corp": "",
+      "country": "CN",
+      "stars": 5,
+      "version": "1.0.2",
+      "date": "2026-10-16",
+      "body": "又放出来坑人？",
+      "edited": false
+    },
     {
       "id": "rv-1791863633577-45052",
       "keyId": "e3a1bfa26b9d",
@@ -25,6 +37,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "vEg2A1uDSihZQsVBEnk6mjDT9jWdQLBnS78FDGmnkqy9qeUyI+WLcDyGYQOWipxmltYyDZfYxU/9q94MOo6/AQ=="
+    "sig": "zglACF+Zk5180kbCs9fKpU3h4EJ87ybkzic5sT1Xr5G+LeVvQbuLlUHvD0Bn7IEBAdZaw0Zmi/i7lHvtwvxnCw=="
   }
 }

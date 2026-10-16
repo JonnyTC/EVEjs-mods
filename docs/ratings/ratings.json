@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1791956459891,
+  "generatedAt": 1792169059303,
   "mods": {
     "evejs-autolockfire": {
       "stars": 2,
@@ -46,10 +46,10 @@
     },
     "evejs-npc": {
       "stars": 1,
-      "comments": 1,
+      "comments": 2,
       "average": 5,
       "count": 1,
-      "withText": 1,
+      "withText": 2,
       "histogram": [
         0,
         0,
@@ -90,6 +90,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "WLggRuAURXcUrjApi8Dm9Un2Ol8RFpyi8BFsh3s2RFfQTGi0TaaFnP5+RnOXLtxUDMPpOcrkHxaF4pBqktdeCg=="
+    "sig": "ws3u4IPsvMd+aGMYM558/Z9opwo2yvloFovVyqZC24RJhNj5ozN0QU/saJigoSjx51hFehcaZTTxF80zkgijDg=="
   }
 }
