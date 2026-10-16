@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-16T15:10:57.483Z",
+  "publishedAt": "2026-10-16T15:13:20.336Z",
   "mods": [
     {
       "author": {
@@ -325,7 +325,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 2,
+      "downloads": 3,
       "cdnHits": 0
     },
     {
@@ -464,7 +464,7 @@
       "tags": [],
       "version": "0.3.2",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 797,
+      "downloads": 798,
       "cdnHits": 0
     },
     {
@@ -1021,6 +1021,54 @@
     },
     {
       "author": {
+        "id": "au-muxt6kcyxsf4",
+        "keyId": "54c1f8afabfe",
+        "name": "Materal"
+      },
+      "category": "玩法",
+      "changelog": "",
+      "conflicts": [],
+      "delisted": false,
+      "description": "锚定180秒、初始与上线易损各60秒，取消FLEX部署和服务上线自动快进。",
+      "displayName": "建筑计时",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/MateralCMX/evejs-mod-structure-timers/releases/download/v0.1.0/structure-timers-0.1.0.zip"
+        }
+      ],
+      "evejsVersions": [
+        "0.12.9"
+      ],
+      "featured": false,
+      "highlights": [
+        "锚定 180 秒，初始与上线易损各 60 秒。",
+        "FLEX 部署及服务上线不自动快进，保留手动快进能力。",
+        "其他计时、量子芯、燃料与服务规则沿用官方实现。",
+        "实际计时仍受服务端倍率、单建筑倍率和 tick 调度影响。",
+        "不重写存档；启用或停用均不会恢复已保存的截止时间。"
+      ],
+      "history": [],
+      "id": "structure-timers",
+      "publishedAt": "2026-10-16",
+      "readme": [
+        "版本 0.1.0，适配当前 EveJS 0.12.9 和启动器注入总线 API 1。",
+        "目录放在 EveJS/mods/structure-timers。通过启动器启用，下次启动服务端生效；停用将 loader.js 改名为 loader.js.disabled 后重启。不要在运行中手工 require。\n本地版未签名、未发布。源码基线变化会明确拒绝注入，需重新适配。\n不自行挂接编译器、不直接加载服务端大模块、不改官方文件。",
+        "离线测试：在仓库根目录执行 node --test EveJS/mods/structure-timers/tests/*.test.cjs。\n离线测试不代表游戏内验收；需重启后验证实际部署及界面计时。"
+      ],
+      "repo": "https://github.com/MateralCMX/evejs-mod-structure-timers",
+      "requiresRestart": true,
+      "sha256": "55f1a94455522960a5beda96ac3311503df2e4453107dc77d3d7e48b523bb451",
+      "sizeBytes": 8683,
+      "tags": [],
+      "version": "0.1.0",
+      "source": "MateralCMX/evejs-mod-structure-timers",
+      "downloads": 0,
+      "cdnHits": 0
+    },
+    {
+      "author": {
         "id": "au-mujkaep5shgv",
         "keyId": "2792fbac9b88",
         "name": "xuenai"
@@ -1488,7 +1536,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "JjsgEKRZVWSvgWUAyXgBFCp/VtPl3KF9kfcqEfjmdxqxxW7sHDjj8uwBnOODZbTrdYZCvMJwc3tT65XhvFuJAQ==",
-    "signedAt": "2026-10-16T15:10:57.487Z"
+    "sig": "YpZmA09UqK1Xwx46w3815cU8lNxwnDbzpVre5CFW0fmJFtTZBjZ+JP5MRB9oh6GTx6TD5AaFEAc3RdeamodOCw==",
+    "signedAt": "2026-10-16T15:13:20.340Z"
   }
 }
