@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-16T15:14:50.406Z",
+  "publishedAt": "2026-10-16T15:17:49.431Z",
   "mods": [
     {
       "author": {
@@ -738,6 +738,55 @@
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
       "downloads": 485,
       "cdnHits": 55
+    },
+    {
+      "author": {
+        "id": "au-muxt6kcyxsf4",
+        "keyId": "54c1f8afabfe",
+        "name": "Materal"
+      },
+      "category": "玩法",
+      "changelog": "",
+      "conflicts": [],
+      "delisted": false,
+      "description": "远距离克隆无冷却、普通空间站多个克隆；保留费用、技能总上限和建筑限制。",
+      "displayName": "克隆便利功能",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/MateralCMX/evejs-mod-clone-convenience/releases/download/v0.1.0/clone-convenience-0.1.0.zip"
+        }
+      ],
+      "evejsVersions": [
+        "0.12.9"
+      ],
+      "featured": false,
+      "highlights": [
+        "克隆跳跃无冷却，角色属性与克隆列表倒计时同步清零，真实跳跃历史保留。",
+        "普通空间站可存放多个克隆，同站切换及跨站跳跃不会销毁其他停放克隆。",
+        "仍受技能总上限、安装/激活费用约束；玩家建筑限制及舰船/建筑确认保持原版。"
+      ],
+      "history": [],
+      "id": "clone-convenience",
+      "publishedAt": "2026-10-16",
+      "readme": [
+        "版本 0.1.0，EveJS 0.12.9，启动器注入总线 API 1。",
+        "在启动器模组页启用后，重启服务端并重新登录客户端。文件已放入模组目录不代表正在运行的服务已加载。源码版本不匹配会明确拒绝加载。",
+        "停用后重启恢复原版；已有同站多个克隆不自动删除。原版随后跳跃可能覆盖原站克隆，停用前请整理并保护植入体。中文名称与植入体刷新基础修复不包含在本模组中。",
+        "离线验证（仓库根目录）：",
+        "```powershell\nnode --test EveJS/mods/clone-convenience/tests/*.test.cjs\nnode EveJS/mods/clone-convenience/tools/check_bus.cjs EveJS/_launcher/mods/mod-host.js\n```",
+        "测试使用隔离依赖，不读取或写入实际角色存档。游戏内验收另行执行。"
+      ],
+      "repo": "https://github.com/MateralCMX/evejs-mod-clone-convenience",
+      "requiresRestart": true,
+      "sha256": "704d9cb08d931803aa1c285d518a8bf2d5ce8a415bf8bdf1bbd47d90758b1578",
+      "sizeBytes": 13911,
+      "tags": [],
+      "version": "0.1.0",
+      "source": "MateralCMX/evejs-mod-clone-convenience",
+      "downloads": 0,
+      "cdnHits": 0
     },
     {
       "author": {
@@ -1576,7 +1625,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "kp6nQQiT/JCWkAWt7K+fQFdXpyoX/P2fbLPmDh2nT8klHW5NHL9SZn6S4pdIknqKjQJlrzEVlWAR5jwWKSJpCw==",
-    "signedAt": "2026-10-16T15:14:50.409Z"
+    "sig": "km5Cs5+bY7KtQZ8k7g1OE4jLyhdzSapHqpEni7NQbveeDys/HcO3wmHhx8IkSKCNGzqy6eM2fMAmLxjNqKpqAA==",
+    "signedAt": "2026-10-16T15:17:49.436Z"
   }
 }
