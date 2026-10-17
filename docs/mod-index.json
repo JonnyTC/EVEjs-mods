@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-16T20:13:38.207Z",
+  "publishedAt": "2026-10-17T02:00:50.963Z",
   "mods": [
     {
       "author": {
@@ -42,7 +42,7 @@
       "tags": [],
       "version": "1.1.0",
       "source": "rzwm/evejs-mod-evejs-beijing-time",
-      "downloads": 104,
+      "downloads": 106,
       "cdnHits": 0
     },
     {
@@ -94,7 +94,7 @@
       "tags": [],
       "version": "0.16.0",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 17,
+      "downloads": 24,
       "cdnHits": 0
     },
     {
@@ -138,7 +138,7 @@
       "tags": [],
       "version": "1.1.1",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 606,
+      "downloads": 612,
       "cdnHits": 51
     },
     {
@@ -196,8 +196,8 @@
       "tags": [],
       "version": "1.0.14",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 541,
-      "cdnHits": 132
+      "downloads": 542,
+      "cdnHits": 184
     },
     {
       "author": {
@@ -286,7 +286,7 @@
       "tags": [],
       "version": "0.2.1",
       "source": "MateralCMX/evejs-mod-ship-blueprints",
-      "downloads": 9,
+      "downloads": 15,
       "cdnHits": 0
     },
     {
@@ -332,7 +332,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 29,
+      "downloads": 34,
       "cdnHits": 0
     },
     {
@@ -372,7 +372,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-lp-balance-overflow",
-      "downloads": 26,
+      "downloads": 28,
       "cdnHits": 0
     },
     {
@@ -412,7 +412,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-npc-corp-info",
-      "downloads": 25,
+      "downloads": 28,
       "cdnHits": 0
     },
     {
@@ -471,7 +471,7 @@
       "tags": [],
       "version": "0.3.2",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 809,
+      "downloads": 811,
       "cdnHits": 0
     },
     {
@@ -511,7 +511,7 @@
       "tags": [],
       "version": "0.6.0",
       "source": "Jasper377/evejs-mod-evejs-npc-console",
-      "downloads": 129,
+      "downloads": 131,
       "cdnHits": 0
     },
     {
@@ -563,7 +563,7 @@
       "tags": [],
       "version": "0.2.0",
       "source": "xuenaimiao/evejs-mod-evejs-npc-fleet",
-      "downloads": 250,
+      "downloads": 251,
       "cdnHits": 0
     },
     {
@@ -609,7 +609,7 @@
       "tags": [],
       "version": "0.2.1",
       "source": "MateralCMX/evejs-mod-npc-extension-core",
-      "downloads": 6,
+      "downloads": 13,
       "cdnHits": 0
     },
     {
@@ -657,7 +657,7 @@
       "tags": [],
       "version": "0.1.1",
       "source": "MateralCMX/evejs-mod-npc-loot-rules",
-      "downloads": 14,
+      "downloads": 19,
       "cdnHits": 0
     },
     {
@@ -703,7 +703,7 @@
       "tags": [],
       "version": "1.0.2",
       "source": "exiell/evejs-mod-evejs-npc",
-      "downloads": 72,
+      "downloads": 74,
       "cdnHits": 0
     },
     {
@@ -743,7 +743,7 @@
       "tags": [],
       "version": "1.5.2",
       "source": "JUZIMandarin/evejs-mod-evejs-sleeper-drifters",
-      "downloads": 437,
+      "downloads": 438,
       "cdnHits": 3
     },
     {
@@ -790,7 +790,7 @@
       "tags": [],
       "version": "1.0.5",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 493,
+      "downloads": 494,
       "cdnHits": 55
     },
     {
@@ -841,7 +841,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-mission-repair",
-      "downloads": 14,
+      "downloads": 20,
       "cdnHits": 0
     },
     {
@@ -887,7 +887,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-clone-convenience",
-      "downloads": 8,
+      "downloads": 15,
       "cdnHits": 0
     },
     {
@@ -927,7 +927,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-crate-opening",
-      "downloads": 22,
+      "downloads": 25,
       "cdnHits": 0
     },
     {
@@ -967,7 +967,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-npc-kill-lp",
-      "downloads": 19,
+      "downloads": 23,
       "cdnHits": 0
     },
     {
@@ -1007,7 +1007,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-combat-native-store-rows",
-      "downloads": 39,
+      "downloads": 42,
       "cdnHits": 0
     },
     {
@@ -1047,7 +1047,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-combat-item-name-scan",
-      "downloads": 35,
+      "downloads": 39,
       "cdnHits": 0
     },
     {
@@ -1087,7 +1087,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-combat-char-record-ref",
-      "downloads": 40,
+      "downloads": 43,
       "cdnHits": 0
     },
     {
@@ -1127,7 +1127,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-charge-sublocation-row",
-      "downloads": 20,
+      "downloads": 23,
       "cdnHits": 0
     },
     {
@@ -1167,7 +1167,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-inventory-stack-limit",
-      "downloads": 26,
+      "downloads": 29,
       "cdnHits": 0
     },
     {
@@ -1213,7 +1213,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-structure-timers",
-      "downloads": 14,
+      "downloads": 19,
       "cdnHits": 0
     },
     {
@@ -1254,7 +1254,7 @@
       "tags": [],
       "version": "0.2.2",
       "source": "xuenaimiao/evejs-mod-evejs-perf-fix",
-      "downloads": 349,
+      "downloads": 350,
       "cdnHits": 0
     },
     {
@@ -1300,7 +1300,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-salvage-repair",
-      "downloads": 10,
+      "downloads": 16,
       "cdnHits": 0
     },
     {
@@ -1353,7 +1353,7 @@
       "tags": [],
       "version": "3.2.0",
       "source": "Jasper377/evejs-mod-evejs-racks16",
-      "downloads": 242,
+      "downloads": 243,
       "cdnHits": 0
     },
     {
@@ -1393,7 +1393,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-wreck-naming",
-      "downloads": 26,
+      "downloads": 29,
       "cdnHits": 0
     },
     {
@@ -1433,7 +1433,7 @@
       "tags": [],
       "version": "1.3.0",
       "source": "zhang-xzh/evejs-mod-evejs-sleeper-salvage",
-      "downloads": 27,
+      "downloads": 31,
       "cdnHits": 0
     },
     {
@@ -1474,7 +1474,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-character-slots",
-      "downloads": 13,
+      "downloads": 15,
       "cdnHits": 0
     },
     {
@@ -1522,7 +1522,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-mobile-tractor-enhancement",
-      "downloads": 11,
+      "downloads": 17,
       "cdnHits": 0
     },
     {
@@ -1562,7 +1562,7 @@
       "tags": [],
       "version": "1.6.0",
       "source": "Jasper377/evejs-mod-evejs-acspecialbattleship",
-      "downloads": 305,
+      "downloads": 307,
       "cdnHits": 0
     },
     {
@@ -1612,7 +1612,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "rzwm/evejs-mod-evejs-autopilot-jump-stargate-0km",
-      "downloads": 123,
+      "downloads": 124,
       "cdnHits": 0
     },
     {
@@ -1652,7 +1652,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-blueprint-list-memo",
-      "downloads": 22,
+      "downloads": 25,
       "cdnHits": 0
     },
     {
@@ -1701,7 +1701,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-planetary-industry-enhancement",
-      "downloads": 10,
+      "downloads": 15,
       "cdnHits": 0
     },
     {
@@ -1741,14 +1741,14 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-jumpbridge-fuel",
-      "downloads": 24,
+      "downloads": 26,
       "cdnHits": 0
     }
   ],
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "DWXofeTGOScVlDPYhZFrhhlpuDf6p9bxl/IhpHaEWyOhlDU7axdzuXFTdmPPoFEM1kbXJSpjfl3PeJUp6ow1Bw==",
-    "signedAt": "2026-10-16T20:13:38.211Z"
+    "sig": "MqH0q9EC4VpHu23/9C0BdVtPAeRf/Q6FhNf/5JLWa+Xs+BDJ+Su37mDSvmfANWWFIfT10CC8NaejMJLu1LuUBQ==",
+    "signedAt": "2026-10-17T02:00:50.967Z"
   }
 }
