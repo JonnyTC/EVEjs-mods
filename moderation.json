@@ -1,5 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-16T12:01:17.775Z",
-  "entries": []
+  "updatedAt": "2026-10-17T14:59:58.883Z",
+  "entries": [
+    {
+      "target": "exiell/evejs-mod-evejs-npc",
+      "kind": "source",
+      "action": "delist",
+      "reason": {
+        "zh": "用户反应MOD是坏的，重新整理后上传.",
+        "en": "用户反应MOD是坏的，重新整理后上传."
+      },
+      "at": "2026-10-17T14:59:58.883Z",
+      "by": "diguo520"
+    }
+  ]
 }
