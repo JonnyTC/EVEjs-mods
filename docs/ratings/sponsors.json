@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1792167257278,
+  "generatedAt": 1792248661118,
   "sponsors": [
     {
       "id": "sponsor-01",
@@ -217,11 +217,17 @@
       "name": "桎梏",
       "amount": 50,
       "currency": "CNY"
+    },
+    {
+      "id": "sponsor-37",
+      "name": "去捉三两鱼",
+      "amount": 20,
+      "currency": "CNY"
     }
   ],
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "U6uuD3xkqtNV7rBy34Vi35TJT6UKSDQ63Wl6l9qmvBCsGvmYv3Zyq/TGEPDLRYYaKf3WYMQKpzVSvcHkLrE1Cw=="
+    "sig": "2slwq1i/rKzKnbLIl+SHe9kKjpRZjmKPgOmzwe9Wb+tLKJiNUFvIBKfkkeXVdrBqdFz9l5RFUTm8/9b5vVftDg=="
   }
 }
