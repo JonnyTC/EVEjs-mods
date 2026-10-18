@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1792248661118,
+  "generatedAt": 1792313072872,
   "sponsors": [
     {
       "id": "sponsor-01",
@@ -223,11 +223,17 @@
       "name": "去捉三两鱼",
       "amount": 20,
       "currency": "CNY"
+    },
+    {
+      "id": "sponsor-38",
+      "name": "无数只章鱼",
+      "amount": 8.88,
+      "currency": "CNY"
     }
   ],
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "2slwq1i/rKzKnbLIl+SHe9kKjpRZjmKPgOmzwe9Wb+tLKJiNUFvIBKfkkeXVdrBqdFz9l5RFUTm8/9b5vVftDg=="
+    "sig": "E0r9pwxLYw7/oucdjP7eBPOu6HTPor5qCF4gTIb3xrNsejcnV9y75qPcg/U02hIqn4drJLqMrR85tot+mXQOCw=="
   }
 }
