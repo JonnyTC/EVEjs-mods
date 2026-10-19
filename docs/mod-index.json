@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-19T10:39:55.135Z",
+  "publishedAt": "2026-10-19T10:50:08.012Z",
   "mods": [
     {
       "author": {
@@ -184,7 +184,7 @@
       "tags": [],
       "version": "1.1.2",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 716,
+      "downloads": 717,
       "cdnHits": 51
     },
     {
@@ -244,7 +244,7 @@
       "tags": [],
       "version": "1.0.15",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 649,
+      "downloads": 650,
       "cdnHits": 293
     },
     {
@@ -996,6 +996,47 @@
       "changelog": "支持EveJS-261018.1",
       "conflicts": [],
       "delisted": false,
+      "description": "打捞冬眠者及 Drifter/CONCORD/EDENCOM/三神裔等残骸时产物不对。修复后冬眠者只掉远古打捞件，高级势力走高级打捞池。",
+      "displayName": "冬眠者残骸打捞产物修复",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-sleeper-salvage/releases/download/v1.3.1/evejs-sleeper-salvage-1.3.1.zip"
+        }
+      ],
+      "evejsVersions": [
+        "0.12.9",
+        "261018.x"
+      ],
+      "featured": false,
+      "highlights": [],
+      "history": [],
+      "id": "evejs-sleeper-salvage",
+      "publishedAt": "2026-10-19",
+      "readme": [
+        "修正残骸打捞的派系识别与产物：冬眠者残骸只产出远古打捞件（Ancient Salvage，含后补的 45660-45663 四件），不混入普通 Salvaged Materials；Drifter/CONCORD/EDENCOM/Triglavian/Upwell 等高级残骸走高级打捞池；按舰级正确分桶（战巡=中、驱逐=小）；通用 Wreck 才按来源覆盖打捞难度。"
+      ],
+      "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-sleeper-salvage",
+      "requiresRestart": true,
+      "sha256": "3e82853d0dce58fa3480c1b3fcb6a11eed9935be88c454c3165a6ea99bdbc745",
+      "sizeBytes": 9479,
+      "tags": [],
+      "version": "1.3.1",
+      "source": "zhang-xzh/evejs-mod-evejs-sleeper-salvage",
+      "downloads": 67,
+      "cdnHits": 0
+    },
+    {
+      "author": {
+        "id": "au-mvf2lwpltupu",
+        "keyId": "020ed1eebd16",
+        "name": "HRSKNK"
+      },
+      "category": "玩法",
+      "changelog": "支持EveJS-261018.1",
+      "conflicts": [],
+      "delisted": false,
       "description": "击杀 NPC 后，最后一击的玩家获得 LP（落在随机一家有 LP 商店的 NPC 军团名下），LP 数量按该次击杀已结算赏金的 1:1 计算。不新增文件、不改磁盘。",
       "displayName": "击杀 NPC 给 LP",
       "downloadUrls": [
@@ -1425,46 +1466,6 @@
         "name": "HRSKNK"
       },
       "category": "玩法",
-      "changelog": "修复大量 NPC 残骸显示为通用 “Wreck” 的问题：冬眠者/Hypnosian 解析为 Sleeper Small/Medium/Large Advanced Wreck；EDENCOM/Triglavian/CONCORD/Upwell/Rogue/帝国海军(FW) 等按命名势力前缀解析；组名无舰级词时按 radius 推断；无通用残骸的舰级加唯一回退名。",
-      "conflicts": [],
-      "delisted": false,
-      "description": "修正残骸打捞的派系识别与产物：冬眠者残骸只产出远古打捞件（Ancient Salvage，含后补的 45660-45663 四件），不混入普通 Salvaged Materials；Drifter/CONCORD/EDENCOM/Triglavian/Upwell 等高级残骸走高级打捞池；按舰级正确分桶（战巡=中、驱逐=小）；通用 Wreck 才按来源覆盖打捞难度。",
-      "displayName": "残骸打捞产物修复（冬眠者远古打捞件/高级势力打捞池）",
-      "downloadUrls": [
-        {
-          "mirror": "github",
-          "priority": 1,
-          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-sleeper-salvage/releases/download/v1.3.0/evejs-sleeper-salvage-1.3.0.zip"
-        }
-      ],
-      "evejsVersions": [
-        "0.12.9"
-      ],
-      "featured": false,
-      "highlights": [],
-      "history": [],
-      "id": "evejs-sleeper-salvage",
-      "publishedAt": "2026-10-16",
-      "readme": [
-        "修正残骸打捞的派系识别与产物：冬眠者残骸只产出远古打捞件（Ancient Salvage，含后补的 45660-45663 四件），不混入普通 Salvaged Materials；Drifter/CONCORD/EDENCOM/Triglavian/Upwell 等高级残骸走高级打捞池；按舰级正确分桶（战巡=中、驱逐=小）；通用 Wreck 才按来源覆盖打捞难度。"
-      ],
-      "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-sleeper-salvage",
-      "requiresRestart": true,
-      "sha256": "271fdb175e605b70f4a080afab346ffe1a4043fea110bd70c853dcd2288fb777",
-      "sizeBytes": 9733,
-      "tags": [],
-      "version": "1.3.0",
-      "source": "zhang-xzh/evejs-mod-evejs-sleeper-salvage",
-      "downloads": 67,
-      "cdnHits": 0
-    },
-    {
-      "author": {
-        "id": "au-mva40uiw90kt",
-        "keyId": "01ed0fb1c32c",
-        "name": "HRSKNK"
-      },
-      "category": "玩法",
       "changelog": "角色选择默认只有 3 个槽。修复后每个账号能用更多角色（默认 10 个），不用改客户端。",
       "conflicts": [],
       "delisted": false,
@@ -1826,7 +1827,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "vYVSeqo9Yfd4zVagHr23Fw0Pl8s/BKAvFlVJKH0gRMJLVs2cvdtN3IiFnxsnsckFzPmDUBQm1aZKT9a1d4i4BQ==",
-    "signedAt": "2026-10-19T10:39:55.140Z"
+    "sig": "EC6G7day3DjA6Z+1p43dA8oftk+aQ2VQqe5MeZzAbTdCOpE8PF8E60CYEOy1hVWPZXnQ1W2rqm7fF8FZz1i2AA==",
+    "signedAt": "2026-10-19T10:50:08.016Z"
   }
 }
