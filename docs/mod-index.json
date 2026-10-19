@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-19T01:54:03.399Z",
+  "publishedAt": "2026-10-19T02:16:57.567Z",
   "mods": [
     {
       "author": {
@@ -184,7 +184,7 @@
       "tags": [],
       "version": "1.1.2",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 691,
+      "downloads": 692,
       "cdnHits": 51
     },
     {
@@ -244,7 +244,7 @@
       "tags": [],
       "version": "1.0.15",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 608,
+      "downloads": 609,
       "cdnHits": 293
     },
     {
@@ -1816,7 +1816,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "FLB5BeRRushZ83L1ykIgjPCtxxdvL9hpUFpifIV52KNAB8HE0008sny88fYNFnfv05o8ms3Q8cq/dP0p2+Z1AA==",
-    "signedAt": "2026-10-19T01:54:03.402Z"
+    "sig": "+XfGW2w1leHEnW8KwP3C2VLDzbOmLuXFYdCuj3MJAomCRTv18uhjn0ekOz24swQB1uh28zL0cDWyLBgREF2rDA==",
+    "signedAt": "2026-10-19T02:16:57.571Z"
   }
 }
