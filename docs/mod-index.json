@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-19T10:26:19.238Z",
+  "publishedAt": "2026-10-19T10:29:57.890Z",
   "mods": [
     {
       "author": {
@@ -1065,7 +1065,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-combat-native-store-rows",
-      "downloads": 87,
+      "downloads": 88,
       "cdnHits": 0
     },
     {
@@ -1125,7 +1125,7 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-combat-char-record-ref/releases/download/v1.0.0/evejs-combat-char-record-ref-1.0.0.zip"
+          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-combat-char-record-ref/releases/download/v1.0.1/evejs-combat-char-record-ref-1.0.1.zip"
         }
       ],
       "evejsVersions": [
@@ -1135,16 +1135,16 @@
       "highlights": [],
       "history": [],
       "id": "evejs-combat-char-record-ref",
-      "publishedAt": "2026-10-16",
+      "publishedAt": "2026-10-19",
       "readme": [
         "战斗热路径每次读取角色记录都整份克隆，大规模战斗时造成卡顿。补丁改为按引用只读（不克隆），避免重复拷贝，行为不变。"
       ],
       "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-combat-char-record-ref",
       "requiresRestart": true,
-      "sha256": "7f94c6eed5e55beb147aa23a60fcdaee3399f8f0af016c593c276f5f8a65dbaf",
-      "sizeBytes": 6200,
+      "sha256": "e5948602206f182639c755ba570c00b7977a7e9025f77bfbae83a45c0af24a8a",
+      "sizeBytes": 6095,
       "tags": [],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-combat-char-record-ref",
       "downloads": 92,
       "cdnHits": 0
@@ -1823,7 +1823,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "QDQWnA0uwImrAUtYdMQJ0xST3MGcLu+8Uc3UUDJRMxd+VF7B45jKchFMVqv6dD6weUe6uQI3xQH8kGqJrYSjDw==",
-    "signedAt": "2026-10-19T10:26:19.242Z"
+    "sig": "x4huuugHJc1cBFr46bZOP0aPebyqwUk9aXnHMii0MdXDA323pq3v+O8S5/dIDchrI1KiWZfIPTYTghNlOm3bAg==",
+    "signedAt": "2026-10-19T10:29:57.894Z"
   }
 }
