@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-19T10:21:28.572Z",
+  "publishedAt": "2026-10-19T10:24:16.364Z",
   "mods": [
     {
       "author": {
@@ -184,7 +184,7 @@
       "tags": [],
       "version": "1.1.2",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 714,
+      "downloads": 715,
       "cdnHits": 51
     },
     {
@@ -244,7 +244,7 @@
       "tags": [],
       "version": "1.0.15",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 646,
+      "downloads": 648,
       "cdnHits": 293
     },
     {
@@ -1690,7 +1690,7 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-blueprint-list-memo/releases/download/v1.0.0/evejs-blueprint-list-memo-1.0.0.zip"
+          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-blueprint-list-memo/releases/download/v1.0.1/evejs-blueprint-list-memo-1.0.1.zip"
         }
       ],
       "evejsVersions": [
@@ -1700,16 +1700,16 @@
       "highlights": [],
       "history": [],
       "id": "evejs-blueprint-list-memo",
-      "publishedAt": "2026-10-16",
+      "publishedAt": "2026-10-19",
       "readme": [
         "一次 GetBlueprintDataByOwner 会为每个蓝图实例解析状态/作业/位置两次（访问检查 + 载荷构建），蓝图很多时重复读取与层级遍历明显。本模组在一次列表调用内做记忆化，语义不变。"
       ],
       "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-blueprint-list-memo",
       "requiresRestart": true,
-      "sha256": "d6466f1be8b4b6a52053d5d3e93480f2bddbf4d9f3d3b4c15896a3792fd19d93",
-      "sizeBytes": 5682,
+      "sha256": "817617fb45e5e1e24ba55c38a3dd6eec7ef0fe4ac312bb32d241c947c887480a",
+      "sizeBytes": 5764,
       "tags": [],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-blueprint-list-memo",
       "downloads": 57,
       "cdnHits": 0
@@ -1821,7 +1821,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "uvQG1JgyHEK5IbMrsiIk8SWT1ttU3VnZtlX5SbYvYhPvZcENiz3x+3Kq8AuaQlkRB8HCuQNODHc18CpxsQGsCQ==",
-    "signedAt": "2026-10-19T10:21:28.576Z"
+    "sig": "nXm1/WkgtfrzoW4mWX7pBkt7RFl3TDUhd+Gs/qASS3KVBfFxQuK6FlJzK6YgnPgLFfSlrp3rLP2ibR4ymrl5BQ==",
+    "signedAt": "2026-10-19T10:24:16.370Z"
   }
 }
