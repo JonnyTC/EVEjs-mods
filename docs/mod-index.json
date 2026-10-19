@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-19T10:15:54.621Z",
+  "publishedAt": "2026-10-19T10:19:45.240Z",
   "mods": [
     {
       "author": {
@@ -139,7 +139,7 @@
       "tags": [],
       "version": "0.16.0",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 119,
+      "downloads": 120,
       "cdnHits": 0
     },
     {
@@ -1149,12 +1149,12 @@
     },
     {
       "author": {
-        "id": "au-mva40uiw90kt",
-        "keyId": "01ed0fb1c32c",
+        "id": "au-mvf2lwpltupu",
+        "keyId": "020ed1eebd16",
         "name": "HRSKNK"
       },
       "category": "玩法",
-      "changelog": "船上装了弹药/矿晶/脚本后，换船或重新上线时工业槽位偶尔显示成 0/1，行星面板还会误提示需要 Omega。修复后恢复正常。",
+      "changelog": "支持EveJS-261018.1",
       "conflicts": [],
       "delisted": false,
       "description": "船上装了弹药/矿晶/脚本后，换船或重新上线时工业槽位偶尔显示成 0/1，行星面板还会误提示需要 Omega。修复后恢复正常。",
@@ -1163,26 +1163,27 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-charge-sublocation-row/releases/download/v1.0.0/evejs-charge-sublocation-row-1.0.0.zip"
+          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-charge-sublocation-row/releases/download/v1.0.1/evejs-charge-sublocation-row-1.0.1.zip"
         }
       ],
       "evejsVersions": [
-        "0.12.9"
+        "0.12.9",
+        "261018.x"
       ],
       "featured": false,
       "highlights": [],
       "history": [],
       "id": "evejs-charge-sublocation-row",
-      "publishedAt": "2026-10-16",
+      "publishedAt": "2026-10-19",
       "readme": [
         "装填到子位（sub-location）的弹药行不是 blue.DBRow，导致舰船激活时的大脑属性没有被套用。补丁让子位弹药行按 DBRow 返回，激活后属性正确生效。"
       ],
       "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-charge-sublocation-row",
       "requiresRestart": true,
-      "sha256": "2c32d6b22a366353445e2f177d7dcb049daf75a0308f90e5bfe4022643bb6073",
-      "sizeBytes": 6204,
+      "sha256": "21481c03785bce3b617cc17cf7756293d8416f2c02d53a04b2826342442d77fd",
+      "sizeBytes": 6191,
       "tags": [],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-charge-sublocation-row",
       "downloads": 54,
       "cdnHits": 0
@@ -1819,7 +1820,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "xdyrOkRmOypumqTu51Jd5UcuIa6/jyIS1J11AOtny11k6I9rTLSxzimQFayzVYRAWGKgGBKcCrta/TOTXY8uDQ==",
-    "signedAt": "2026-10-19T10:15:54.625Z"
+    "sig": "jydR7betKUwIauNUpwC/Exw3w33XzisfIGsgPoyJPT8wWsENWF0/OskagfOCPdUTYylQ2KPOCJ3Wl6+0CoSSDg==",
+    "signedAt": "2026-10-19T10:19:45.244Z"
   }
 }
