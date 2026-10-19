@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-19T10:36:24.037Z",
+  "publishedAt": "2026-10-19T10:38:03.199Z",
   "mods": [
     {
       "author": {
@@ -244,7 +244,7 @@
       "tags": [],
       "version": "1.0.15",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 648,
+      "downloads": 649,
       "cdnHits": 293
     },
     {
@@ -1065,7 +1065,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-combat-native-store-rows",
-      "downloads": 88,
+      "downloads": 89,
       "cdnHits": 0
     },
     {
@@ -1189,46 +1189,6 @@
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-charge-sublocation-row",
       "downloads": 54,
-      "cdnHits": 0
-    },
-    {
-      "author": {
-        "id": "au-mva40uiw90kt",
-        "keyId": "01ed0fb1c32c",
-        "name": "HRSKNK"
-      },
-      "category": "玩法",
-      "changelog": "物品堆叠数量被限制在 32 位整数内，超过会截断或异常。补丁把物品堆叠读写的上限放宽到 64 位安全整数，海量堆叠正常。",
-      "conflicts": [],
-      "delisted": false,
-      "description": "物品堆叠数量被限制在 32 位整数内，超过会截断或异常。补丁把物品堆叠读写的上限放宽到 64 位安全整数，海量堆叠正常。",
-      "displayName": "库存堆叠上限突破 32 位",
-      "downloadUrls": [
-        {
-          "mirror": "github",
-          "priority": 1,
-          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-inventory-stack-limit/releases/download/v1.0.0/evejs-inventory-stack-limit-1.0.0.zip"
-        }
-      ],
-      "evejsVersions": [
-        "0.12.9"
-      ],
-      "featured": false,
-      "highlights": [],
-      "history": [],
-      "id": "evejs-inventory-stack-limit",
-      "publishedAt": "2026-10-16",
-      "readme": [
-        "物品堆叠数量被限制在 32 位整数内，超过会截断或异常。补丁把物品堆叠读写的上限放宽到 64 位安全整数，海量堆叠正常。"
-      ],
-      "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-inventory-stack-limit",
-      "requiresRestart": true,
-      "sha256": "f760c2abec40585ee7f225903165f46e6d75ad173eb32f73ab7137c1a39549dd",
-      "sizeBytes": 8412,
-      "tags": [],
-      "version": "1.0.0",
-      "source": "zhang-xzh/evejs-mod-evejs-inventory-stack-limit",
-      "downloads": 62,
       "cdnHits": 0
     },
     {
@@ -1540,6 +1500,47 @@
     },
     {
       "author": {
+        "id": "au-mvf2lwpltupu",
+        "keyId": "020ed1eebd16",
+        "name": "HRSKNK"
+      },
+      "category": "玩法",
+      "changelog": "支持EveJS-261018.1",
+      "conflicts": [],
+      "delisted": false,
+      "description": "物品堆叠超过约 21 亿会被截断或出错。修复后上限提高，超大堆叠正常。",
+      "displayName": "物品堆叠数量上限提高",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-inventory-stack-limit/releases/download/v1.0.1/evejs-inventory-stack-limit-1.0.1.zip"
+        }
+      ],
+      "evejsVersions": [
+        "0.12.9",
+        "261018.x"
+      ],
+      "featured": false,
+      "highlights": [],
+      "history": [],
+      "id": "evejs-inventory-stack-limit",
+      "publishedAt": "2026-10-19",
+      "readme": [
+        "物品堆叠数量被限制在 32 位整数内，超过会截断或异常。补丁把物品堆叠读写的上限放宽到 64 位安全整数，海量堆叠正常。"
+      ],
+      "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-inventory-stack-limit",
+      "requiresRestart": true,
+      "sha256": "56eb399e8ea5e5ca38379405198b31e9e55492e235e5b1647a5c421d6187e00a",
+      "sizeBytes": 8117,
+      "tags": [],
+      "version": "1.0.1",
+      "source": "zhang-xzh/evejs-mod-evejs-inventory-stack-limit",
+      "downloads": 62,
+      "cdnHits": 0
+    },
+    {
+      "author": {
         "id": "au-muxt6kcyxsf4",
         "keyId": "54c1f8afabfe",
         "name": "Materal"
@@ -1714,7 +1715,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-blueprint-list-memo",
-      "downloads": 57,
+      "downloads": 58,
       "cdnHits": 0
     },
     {
@@ -1824,7 +1825,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "VGXufW/av+34yqv3O/X4KyrySSVZrR2b9uA6mQOXJM+vWfibMdN51VbD3uD9bcjD93F3YUV2cwWKr6Jtq98yBA==",
-    "signedAt": "2026-10-19T10:36:24.042Z"
+    "sig": "MSNP4WHFOyuIpZKkRzPnG6Vd63MiZWto5iz0TLUhjndHxpSoW95+3YxwGEeyUVqRqgxeRgfKavyQx6u+02RbBA==",
+    "signedAt": "2026-10-19T10:38:03.203Z"
   }
 }
