@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-19T10:24:16.364Z",
+  "publishedAt": "2026-10-19T10:26:19.238Z",
   "mods": [
     {
       "author": {
@@ -1070,12 +1070,12 @@
     },
     {
       "author": {
-        "id": "au-mva40uiw90kt",
-        "keyId": "01ed0fb1c32c",
+        "id": "au-mvf2lwpltupu",
+        "keyId": "020ed1eebd16",
         "name": "HRSKNK"
       },
       "category": "玩法",
-      "changelog": "战斗激烈时按名字查物品会扫描整个物品库，卡顿。修复后更快，结果不变。",
+      "changelog": "支持EveJS-261018.1",
       "conflicts": [],
       "delisted": false,
       "description": "战斗激烈时按名字查物品会扫描整个物品库，卡顿。修复后更快，结果不变。",
@@ -1084,26 +1084,27 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-combat-item-name-scan/releases/download/v1.0.0/evejs-combat-item-name-scan-1.0.0.zip"
+          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-combat-item-name-scan/releases/download/v1.0.1/evejs-combat-item-name-scan-1.0.1.zip"
         }
       ],
       "evejsVersions": [
-        "0.12.9"
+        "0.12.9",
+        "261018.x"
       ],
       "featured": false,
       "highlights": [],
       "history": [],
       "id": "evejs-combat-item-name-scan",
-      "publishedAt": "2026-10-16",
+      "publishedAt": "2026-10-19",
       "readme": [
         "战斗热路径里按名字查物品会退化成对整个物品目录做模糊扫描，大规模战斗时明显卡顿。补丁改为优先精确命中，跳过模糊扫描，行为不变但快很多。"
       ],
       "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-combat-item-name-scan",
       "requiresRestart": true,
-      "sha256": "ec3e30006043eb8b0985bd13f8d7744791262abafb72873601f62862bcabb016",
-      "sizeBytes": 7301,
+      "sha256": "4b6038f60883959cc4382e2dad95e4525345d381d8789fa1542ac13de38576d0",
+      "sizeBytes": 7406,
       "tags": [],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-combat-item-name-scan",
       "downloads": 83,
       "cdnHits": 0
@@ -1676,12 +1677,12 @@
     },
     {
       "author": {
-        "id": "au-mva40uiw90kt",
-        "keyId": "01ed0fb1c32c",
+        "id": "au-mvf2lwpltupu",
+        "keyId": "020ed1eebd16",
         "name": "HRSKNK"
       },
       "category": "玩法",
-      "changelog": "打开蓝图（工业）列表时同一蓝图被重复查两遍，蓝图多时慢。修复后只查一遍，打开更快。",
+      "changelog": "支持EveJS-261018.1",
       "conflicts": [],
       "delisted": false,
       "description": "打开蓝图（工业）列表时同一蓝图被重复查两遍，蓝图多时慢。修复后只查一遍，打开更快。",
@@ -1694,7 +1695,8 @@
         }
       ],
       "evejsVersions": [
-        "0.12.9"
+        "0.12.9",
+        "261018.x"
       ],
       "featured": false,
       "highlights": [],
@@ -1821,7 +1823,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "nXm1/WkgtfrzoW4mWX7pBkt7RFl3TDUhd+Gs/qASS3KVBfFxQuK6FlJzK6YgnPgLFfSlrp3rLP2ibR4ymrl5BQ==",
-    "signedAt": "2026-10-19T10:24:16.370Z"
+    "sig": "QDQWnA0uwImrAUtYdMQJ0xST3MGcLu+8Uc3UUDJRMxd+VF7B45jKchFMVqv6dD6weUe6uQI3xQH8kGqJrYSjDw==",
+    "signedAt": "2026-10-19T10:26:19.242Z"
   }
 }
