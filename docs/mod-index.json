@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-19T10:38:03.199Z",
+  "publishedAt": "2026-10-19T10:39:55.135Z",
   "mods": [
     {
       "author": {
@@ -1379,12 +1379,12 @@
     },
     {
       "author": {
-        "id": "au-mva40uiw90kt",
-        "keyId": "01ed0fb1c32c",
+        "id": "au-mvf2lwpltupu",
+        "keyId": "020ed1eebd16",
         "name": "HRSKNK"
       },
       "category": "玩法",
-      "changelog": "很多残骸只显示成「Wreck」，看不出是什么。修复后按势力/舰型显示正确名称。",
+      "changelog": "支持EveJS-261018.1",
       "conflicts": [],
       "delisted": false,
       "description": "很多残骸只显示成「Wreck」，看不出是什么。修复后按势力/舰型显示正确名称。",
@@ -1393,26 +1393,27 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-wreck-naming/releases/download/v1.0.0/evejs-wreck-naming-1.0.0.zip"
+          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-wreck-naming/releases/download/v1.0.1/evejs-wreck-naming-1.0.1.zip"
         }
       ],
       "evejsVersions": [
-        "0.12.9"
+        "0.12.9",
+        "261018.x"
       ],
       "featured": false,
       "highlights": [],
       "history": [],
       "id": "evejs-wreck-naming",
-      "publishedAt": "2026-10-16",
+      "publishedAt": "2026-10-19",
       "readme": [
         "修复大量 NPC 残骸显示为通用 “Wreck” 的问题：冬眠者/Hypnosian 解析为 Sleeper Small/Medium/Large Advanced Wreck；EDENCOM/Triglavian/CONCORD/Upwell/Rogue/帝国海军(FW) 等按命名势力前缀解析；组名无舰级词时按 radius 推断；无通用残骸的舰级加唯一回退名。"
       ],
       "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-wreck-naming",
       "requiresRestart": true,
-      "sha256": "faa9466a9c944b58d7ee1c306c3660f34f53c4f877408e0edd77e7eca532fca7",
-      "sizeBytes": 7953,
+      "sha256": "603da96eb32c80273c30d872ff0138e597d5bd9bc960d09e1201569388318620",
+      "sizeBytes": 8035,
       "tags": [],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-wreck-naming",
       "downloads": 74,
       "cdnHits": 0
@@ -1825,7 +1826,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "MSNP4WHFOyuIpZKkRzPnG6Vd63MiZWto5iz0TLUhjndHxpSoW95+3YxwGEeyUVqRqgxeRgfKavyQx6u+02RbBA==",
-    "signedAt": "2026-10-19T10:38:03.203Z"
+    "sig": "vYVSeqo9Yfd4zVagHr23Fw0Pl8s/BKAvFlVJKH0gRMJLVs2cvdtN3IiFnxsnsckFzPmDUBQm1aZKT9a1d4i4BQ==",
+    "signedAt": "2026-10-19T10:39:55.140Z"
   }
 }
