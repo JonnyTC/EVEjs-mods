@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-19T10:11:42.986Z",
+  "publishedAt": "2026-10-19T10:13:49.936Z",
   "mods": [
     {
       "author": {
@@ -948,12 +948,12 @@
     },
     {
       "author": {
-        "id": "au-mva40uiw90kt",
-        "keyId": "01ed0fb1c32c",
+        "id": "au-mvf2lwpltupu",
+        "keyId": "020ed1eebd16",
         "name": "HRSKNK"
       },
       "category": "玩法",
-      "changelog": "军团所属箱子和 Trinary 数据宝箱点了打不开。修复后能正常开启取物。",
+      "changelog": "支持EveJS-261018.1",
       "conflicts": [],
       "delisted": false,
       "description": "军团所属箱子和 Trinary 数据宝箱点了打不开。修复后能正常开启取物。",
@@ -962,26 +962,26 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-crate-opening/releases/download/v1.0.0/evejs-crate-opening-1.0.0.zip"
+          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-crate-opening/releases/download/v1.0.1/evejs-crate-opening-1.0.1.zip"
         }
       ],
       "evejsVersions": [
-        "0.12.9"
+        "261018.x"
       ],
       "featured": false,
       "highlights": [],
       "history": [],
       "id": "evejs-crate-opening",
-      "publishedAt": "2026-10-16",
+      "publishedAt": "2026-10-19",
       "readme": [
         "军团所属的箱子与 Trinary Data Vault 无法开启。补丁放开这两类箱子的开启校验，使其可以正常打开并取出内容。"
       ],
       "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-crate-opening",
       "requiresRestart": true,
-      "sha256": "20a5853fda3fcadcb5795f740998be18e5ce36809cd873da7d5348385a750fe7",
-      "sizeBytes": 8080,
+      "sha256": "64f29bdf552c0958f49f2291c0cc343debc1c6986f6ca579da9706116f15a6a1",
+      "sizeBytes": 7988,
       "tags": [],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-crate-opening",
       "downloads": 55,
       "cdnHits": 0
@@ -1818,7 +1818,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "qHrkO/S8aGXfY9r8c2jNIbqCHA65GGTeHkq2fSLtXSxLazvkIyNQHM+2fuWYgBw4+ko1unvBkbnWm8TwA/bZDw==",
-    "signedAt": "2026-10-19T10:11:42.990Z"
+    "sig": "vOEUOVasyUviJshVXVcvp/PtUwT+ah9uZq79PDWyXa+euccY4vmgSfLuJOPOOKNyNAyyo0JPrB9XSggf7jetAQ==",
+    "signedAt": "2026-10-19T10:13:49.940Z"
   }
 }
