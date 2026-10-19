@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-19T10:19:45.240Z",
+  "publishedAt": "2026-10-19T10:21:28.572Z",
   "mods": [
     {
       "author": {
@@ -988,12 +988,12 @@
     },
     {
       "author": {
-        "id": "au-mva40uiw90kt",
-        "keyId": "01ed0fb1c32c",
+        "id": "au-mvf2lwpltupu",
+        "keyId": "020ed1eebd16",
         "name": "HRSKNK"
       },
       "category": "玩法",
-      "changelog": "击杀 NPC 后，最后一击的玩家获得 LP（落在随机一家有 LP 商店的 NPC 军团名下），LP 数量按该次击杀已结算赏金的 1:1 计算。不新增文件、不改磁盘。",
+      "changelog": "支持EveJS-261018.1",
       "conflicts": [],
       "delisted": false,
       "description": "击杀 NPC 后，最后一击的玩家获得 LP（落在随机一家有 LP 商店的 NPC 军团名下），LP 数量按该次击杀已结算赏金的 1:1 计算。不新增文件、不改磁盘。",
@@ -1002,26 +1002,27 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-npc-kill-lp/releases/download/v1.0.0/evejs-npc-kill-lp-1.0.0.zip"
+          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-npc-kill-lp/releases/download/v1.0.1/evejs-npc-kill-lp-1.0.1.zip"
         }
       ],
       "evejsVersions": [
-        "0.12.9"
+        "0.12.9",
+        "261018.x"
       ],
       "featured": false,
       "highlights": [],
       "history": [],
       "id": "evejs-npc-kill-lp",
-      "publishedAt": "2026-10-16",
+      "publishedAt": "2026-10-19",
       "readme": [
         "击杀 NPC 后，最后一击的玩家获得 LP（落在随机一家有 LP 商店的 NPC 军团名下），LP 数量按该次击杀已结算赏金的 1:1 计算。不新增文件、不改磁盘。"
       ],
       "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-npc-kill-lp",
       "requiresRestart": true,
-      "sha256": "ec0ea91a512d0749e3e8b105dcbfbaf06e2bb5109e02c114d9f3f930e77a0dd4",
-      "sizeBytes": 5197,
+      "sha256": "b76294541018708a14f2351687700eed6a9a9282b4f60d1f7f8d04918d36898f",
+      "sizeBytes": 5286,
       "tags": [],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-npc-kill-lp",
       "downloads": 53,
       "cdnHits": 0
@@ -1820,7 +1821,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "jydR7betKUwIauNUpwC/Exw3w33XzisfIGsgPoyJPT8wWsENWF0/OskagfOCPdUTYylQ2KPOCJ3Wl6+0CoSSDg==",
-    "signedAt": "2026-10-19T10:19:45.244Z"
+    "sig": "uvQG1JgyHEK5IbMrsiIk8SWT1ttU3VnZtlX5SbYvYhPvZcENiz3x+3Kq8AuaQlkRB8HCuQNODHc18CpxsQGsCQ==",
+    "signedAt": "2026-10-19T10:21:28.576Z"
   }
 }
