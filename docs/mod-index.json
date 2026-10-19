@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-19T10:29:57.890Z",
+  "publishedAt": "2026-10-19T10:36:24.037Z",
   "mods": [
     {
       "author": {
@@ -184,7 +184,7 @@
       "tags": [],
       "version": "1.1.2",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 715,
+      "downloads": 716,
       "cdnHits": 51
     },
     {
@@ -380,7 +380,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 99,
+      "downloads": 100,
       "cdnHits": 0
     },
     {
@@ -462,7 +462,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-npc-corp-info",
-      "downloads": 64,
+      "downloads": 65,
       "cdnHits": 0
     },
     {
@@ -521,7 +521,7 @@
       "tags": [],
       "version": "0.3.2",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 910,
+      "downloads": 912,
       "cdnHits": 0
     },
     {
@@ -561,7 +561,7 @@
       "tags": [],
       "version": "0.6.0",
       "source": "Jasper377/evejs-mod-evejs-npc-console",
-      "downloads": 159,
+      "downloads": 160,
       "cdnHits": 0
     },
     {
@@ -613,7 +613,7 @@
       "tags": [],
       "version": "0.2.0",
       "source": "xuenaimiao/evejs-mod-evejs-npc-fleet",
-      "downloads": 276,
+      "downloads": 277,
       "cdnHits": 0
     },
     {
@@ -659,7 +659,7 @@
       "tags": [],
       "version": "0.2.1",
       "source": "MateralCMX/evejs-mod-npc-extension-core",
-      "downloads": 55,
+      "downloads": 56,
       "cdnHits": 0
     },
     {
@@ -707,7 +707,7 @@
       "tags": [],
       "version": "0.1.1",
       "source": "MateralCMX/evejs-mod-npc-loot-rules",
-      "downloads": 83,
+      "downloads": 84,
       "cdnHits": 0
     },
     {
@@ -1111,12 +1111,12 @@
     },
     {
       "author": {
-        "id": "au-mva40uiw90kt",
-        "keyId": "01ed0fb1c32c",
+        "id": "au-mvf2lwpltupu",
+        "keyId": "020ed1eebd16",
         "name": "HRSKNK"
       },
       "category": "玩法",
-      "changelog": "战斗时频繁整份复制角色数据，人一多就卡。修复后不再多余复制。",
+      "changelog": "支持EveJS-261018.1",
       "conflicts": [],
       "delisted": false,
       "description": "战斗时频繁整份复制角色数据，人一多就卡。修复后不再多余复制。",
@@ -1129,7 +1129,8 @@
         }
       ],
       "evejsVersions": [
-        "0.12.9"
+        "0.12.9",
+        "261018.x"
       ],
       "featured": false,
       "highlights": [],
@@ -1767,12 +1768,12 @@
     },
     {
       "author": {
-        "id": "au-mva40uiw90kt",
-        "keyId": "01ed0fb1c32c",
+        "id": "au-mvf2lwpltupu",
+        "keyId": "020ed1eebd16",
         "name": "HRSKNK"
       },
       "category": "玩法",
-      "changelog": "走跳跃桥过桥时燃料扣除不对。修复后按正确数量扣除。",
+      "changelog": "支持EveJS-261018.1",
       "conflicts": [],
       "delisted": false,
       "description": "走跳跃桥过桥时燃料扣除不对。修复后按正确数量扣除。",
@@ -1781,26 +1782,26 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-jumpbridge-fuel/releases/download/v1.0.0/evejs-jumpbridge-fuel-1.0.0.zip"
+          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-jumpbridge-fuel/releases/download/v1.0.1/evejs-jumpbridge-fuel-1.0.1.zip"
         }
       ],
       "evejsVersions": [
-        "0.12.9"
+        "261018.x"
       ],
       "featured": false,
       "highlights": [],
       "history": [],
       "id": "evejs-jumpbridge-fuel",
-      "publishedAt": "2026-10-16",
+      "publishedAt": "2026-10-19",
       "readme": [
         "经过跳跃桥过桥时燃料结算不正确（扣错数量或来源归属不对）。补丁修正过桥时的燃料结算逻辑与来源归属，燃料按正确数量扣除。"
       ],
       "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-jumpbridge-fuel",
       "requiresRestart": true,
-      "sha256": "1f31c1a67591dcc3067049f2ca09e6cba4d9d72b0b9869471ad709131936e2eb",
-      "sizeBytes": 8200,
+      "sha256": "66971538342c9709aa79c63658f6e02f77e02c98ec18ab97226feac471bb9108",
+      "sizeBytes": 7814,
       "tags": [],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-jumpbridge-fuel",
       "downloads": 59,
       "cdnHits": 0
@@ -1823,7 +1824,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "x4huuugHJc1cBFr46bZOP0aPebyqwUk9aXnHMii0MdXDA323pq3v+O8S5/dIDchrI1KiWZfIPTYTghNlOm3bAg==",
-    "signedAt": "2026-10-19T10:29:57.894Z"
+    "sig": "VGXufW/av+34yqv3O/X4KyrySSVZrR2b9uA6mQOXJM+vWfibMdN51VbD3uD9bcjD93F3YUV2cwWKr6Jtq98yBA==",
+    "signedAt": "2026-10-19T10:36:24.042Z"
   }
 }
