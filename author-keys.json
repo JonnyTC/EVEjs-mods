@@ -76,5 +76,11 @@
     "publicKey": "",
     "repo": "MateralCMX/evejs-mod-mobile-tractor-enhancement",
     "firstSeen": "2026-10-16"
+  },
+  "au-mvf2lwpltupu": {
+    "keyId": "020ed1eebd16",
+    "publicKey": "",
+    "repo": "zhang-xzh/evejs-mod-evejs-lp-balance-overflow",
+    "firstSeen": "2026-10-19"
   }
 }
