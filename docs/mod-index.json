@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-19T01:30:40.862Z",
+  "publishedAt": "2026-10-19T01:54:03.399Z",
   "mods": [
     {
       "author": {
@@ -139,7 +139,7 @@
       "tags": [],
       "version": "0.16.0",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 111,
+      "downloads": 112,
       "cdnHits": 0
     },
     {
@@ -184,7 +184,7 @@
       "tags": [],
       "version": "1.1.2",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 689,
+      "downloads": 691,
       "cdnHits": 51
     },
     {
@@ -194,7 +194,7 @@
         "name": "波坤太叔"
       },
       "category": "玩法",
-      "changelog": "兼容群星MOD，将本MOD放在所有MOD之后加载。",
+      "changelog": "兼容新版本261018.x",
       "conflicts": [],
       "delisted": false,
       "description": "这是一个在游戏内自动采矿,自动压缩的工具",
@@ -203,11 +203,13 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/diguo520/evejs-mod-evejs-automining/releases/download/v1.0.14/evejs-automining-1.0.14.zip"
+          "url": "https://github.com/diguo520/evejs-mod-evejs-automining/releases/download/v1.0.15/evejs-automining-1.0.15.zip"
         }
       ],
       "evejsVersions": [
-        "0.12.9"
+        "0.12.8",
+        "0.12.9",
+        "261018.x"
       ],
       "featured": false,
       "highlights": [
@@ -219,14 +221,14 @@
       ],
       "history": [],
       "id": "evejs-automining",
-      "publishedAt": "2026-10-10",
+      "publishedAt": "2026-10-19",
       "readme": [
         "这是一个在游戏内自动采矿,自动压缩的工具。\n-将本MOD放在所有MOD之后进行加载。\n- 进入游戏后，左侧工具栏（Neocom）会固定一个 ⛏ 采矿按钮，单击即可打开设置窗口。\n- 该按钮属于工具栏的「固定按钮区」，显示在左侧工具栏**底部**（时钟上方），不\n  在顶部的主图标列表里；鼠标悬停会显示「自动采矿」。\n- 也可以使用聊天命令：/AutoMining（不分大小写）打开工具。\n- 界面、状态与矿名会跟随客户端语言自动翻译；矿名使用客户端官方中文名称。",
         "> 若看不到左侧 ⛏ 按钮：请先彻底关闭游戏客户端与服务器进程，再通过启动器重新启动（服务器与客户端都要重启，客户端更新内容在登录握手中下发）。"
       ],
       "repo": "https://github.com/diguo520/evejs-mod-evejs-automining",
       "requiresRestart": true,
-      "sha256": "42135eacd49ee6b5f9e7f9e0df5f8dbc647bd7f9f2d3df78ece1225cd648e301",
+      "sha256": "c53abd21397701d0fd2bef2052f2d621b7e99a5f123f9553aea533e7d5fca676",
       "shots": [
         "shots/20261014040854757.png",
         "shots/20261014040923577.png",
@@ -238,11 +240,11 @@
         "shots/20261014041009889.png",
         "shots/20261014041016641.png"
       ],
-      "sizeBytes": 10155202,
+      "sizeBytes": 12094489,
       "tags": [],
-      "version": "1.0.14",
+      "version": "1.0.15",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 607,
+      "downloads": 608,
       "cdnHits": 293
     },
     {
@@ -1445,7 +1447,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "zhang-xzh/evejs-mod-evejs-wreck-naming",
-      "downloads": 67,
+      "downloads": 68,
       "cdnHits": 0
     },
     {
@@ -1814,7 +1816,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "+TVJhafSHEfuGHRd2u57yfkiPsnPnxcZkFVnvX+M7TWfj1hdU2KPrsQzydaykFH9GhCbtvO7EJJTpPrDIetiDw==",
-    "signedAt": "2026-10-19T01:30:40.865Z"
+    "sig": "FLB5BeRRushZ83L1ykIgjPCtxxdvL9hpUFpifIV52KNAB8HE0008sny88fYNFnfv05o8ms3Q8cq/dP0p2+Z1AA==",
+    "signedAt": "2026-10-19T01:54:03.402Z"
   }
 }
