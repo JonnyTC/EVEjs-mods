@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-19T10:13:49.936Z",
+  "publishedAt": "2026-10-19T10:15:54.621Z",
   "mods": [
     {
       "author": {
@@ -897,7 +897,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-mission-repair",
-      "downloads": 97,
+      "downloads": 98,
       "cdnHits": 0
     },
     {
@@ -1028,12 +1028,12 @@
     },
     {
       "author": {
-        "id": "au-mva40uiw90kt",
-        "keyId": "01ed0fb1c32c",
+        "id": "au-mvf2lwpltupu",
+        "keyId": "020ed1eebd16",
         "name": "HRSKNK"
       },
       "category": "玩法",
-      "changelog": "列举 NPC 装备/货舱时会复制整份数据，人一多就卡。修复后只取该 NPC 自己的数据。",
+      "changelog": "支持EveJS-261018.1",
       "conflicts": [],
       "delisted": false,
       "description": "列举 NPC 装备/货舱时会复制整份数据，人一多就卡。修复后只取该 NPC 自己的数据。",
@@ -1042,26 +1042,27 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-combat-native-store-rows/releases/download/v1.0.0/evejs-combat-native-store-rows-1.0.0.zip"
+          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-combat-native-store-rows/releases/download/v1.0.1/evejs-combat-native-store-rows-1.0.1.zip"
         }
       ],
       "evejsVersions": [
-        "0.12.9"
+        "0.12.9",
+        "261018.x"
       ],
       "featured": false,
       "highlights": [],
       "history": [],
       "id": "evejs-combat-native-store-rows",
-      "publishedAt": "2026-10-16",
+      "publishedAt": "2026-10-19",
       "readme": [
         "列举 native NPC 的模块/货舱时会把整个集合克隆一遍，大规模战斗时卡顿。补丁只拷贝目标实体的行，行为不变。"
       ],
       "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-combat-native-store-rows",
       "requiresRestart": true,
-      "sha256": "76c050c234303b18a83434e751114e6ee1dde9457aff6ceb30d946982a18370a",
-      "sizeBytes": 5320,
+      "sha256": "751688afb89999786ac71ca4e6a153746747baae7241c69c29200d5f86b8909a",
+      "sizeBytes": 5426,
       "tags": [],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-combat-native-store-rows",
       "downloads": 87,
       "cdnHits": 0
@@ -1818,7 +1819,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "vOEUOVasyUviJshVXVcvp/PtUwT+ah9uZq79PDWyXa+euccY4vmgSfLuJOPOOKNyNAyyo0JPrB9XSggf7jetAQ==",
-    "signedAt": "2026-10-19T10:13:49.940Z"
+    "sig": "xdyrOkRmOypumqTu51Jd5UcuIa6/jyIS1J11AOtny11k6I9rTLSxzimQFayzVYRAWGKgGBKcCrta/TOTXY8uDQ==",
+    "signedAt": "2026-10-19T10:15:54.625Z"
   }
 }
