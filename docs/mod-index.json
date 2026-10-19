@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-19T10:09:46.705Z",
+  "publishedAt": "2026-10-19T10:11:42.986Z",
   "mods": [
     {
       "author": {
@@ -184,7 +184,7 @@
       "tags": [],
       "version": "1.1.2",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 713,
+      "downloads": 714,
       "cdnHits": 51
     },
     {
@@ -426,40 +426,41 @@
     },
     {
       "author": {
-        "id": "au-mva40uiw90kt",
-        "keyId": "01ed0fb1c32c",
+        "id": "au-mvf2lwpltupu",
+        "keyId": "020ed1eebd16",
         "name": "HRSKNK"
       },
       "category": "玩法",
-      "changelog": "SDE 里没有 CEO 的 NPC 军团（例如流浪无人机、三神裔势力军团）打开信息窗口时整块空白。补丁在服务端为这类军团回退一个客户端已知的 owner（优先势力，否则军团自身），信息窗口即可正常显示。",
+      "changelog": "支持EveJS-261018.1",
       "conflicts": [],
       "delisted": false,
-      "description": "SDE 里没有 CEO 的 NPC 军团（例如流浪无人机、三神裔势力军团）打开信息窗口时整块空白。补丁在服务端为这类军团回退一个客户端已知的 owner（优先势力，否则军团自身），信息窗口即可正常显示。",
+      "description": "打开某些 NPC 军团（如流浪无人机、三神裔）的信息窗口时一片空白。修复后正常显示。",
       "displayName": "NPC 军团信息窗口空白修复",
       "downloadUrls": [
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-npc-corp-info/releases/download/v1.0.0/evejs-npc-corp-info-1.0.0.zip"
+          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-npc-corp-info/releases/download/v1.0.1/evejs-npc-corp-info-1.0.1.zip"
         }
       ],
       "evejsVersions": [
-        "0.12.9"
+        "0.12.9",
+        "261018.x"
       ],
       "featured": false,
       "highlights": [],
       "history": [],
       "id": "evejs-npc-corp-info",
-      "publishedAt": "2026-10-16",
+      "publishedAt": "2026-10-19",
       "readme": [
         "SDE 里没有 CEO 的 NPC 军团（例如流浪无人机、三神裔势力军团）打开信息窗口时整块空白。补丁在服务端为这类军团回退一个客户端已知的 owner（优先势力，否则军团自身），信息窗口即可正常显示。"
       ],
       "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-npc-corp-info",
       "requiresRestart": true,
-      "sha256": "dfd5773ffaf5be169bbdf2d6f99931c82829658d686fb9cea3307cd4206e360a",
-      "sizeBytes": 5663,
+      "sha256": "25cbe58c7507dc73a23bb56a86a5b8d1dea9a2730564660a630ee5ff160297f5",
+      "sizeBytes": 5554,
       "tags": [],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-npc-corp-info",
       "downloads": 64,
       "cdnHits": 0
@@ -1817,7 +1818,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "arYRYRDo20uoelv0r0Rdq/ifxas1AJGQ64zAupaqfM2lYD6dlbTYLaJl41/BeFfQpCGz1P47LYNNg0u8TgIaAQ==",
-    "signedAt": "2026-10-19T10:09:46.708Z"
+    "sig": "qHrkO/S8aGXfY9r8c2jNIbqCHA65GGTeHkq2fSLtXSxLazvkIyNQHM+2fuWYgBw4+ko1unvBkbnWm8TwA/bZDw==",
+    "signedAt": "2026-10-19T10:11:42.990Z"
   }
 }
