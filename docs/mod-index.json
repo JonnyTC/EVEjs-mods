@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-19T10:50:08.012Z",
+  "publishedAt": "2026-10-19T10:52:49.004Z",
   "mods": [
     {
       "author": {
@@ -1461,12 +1461,12 @@
     },
     {
       "author": {
-        "id": "au-mva40uiw90kt",
-        "keyId": "01ed0fb1c32c",
+        "id": "au-mvf2lwpltupu",
+        "keyId": "020ed1eebd16",
         "name": "HRSKNK"
       },
       "category": "玩法",
-      "changelog": "角色选择默认只有 3 个槽。修复后每个账号能用更多角色（默认 10 个），不用改客户端。",
+      "changelog": "支持EveJS-261018.1",
       "conflicts": [],
       "delisted": false,
       "description": "角色选择默认只有 3 个槽。修复后每个账号能用更多角色（默认 10 个），不用改客户端。",
@@ -1475,27 +1475,28 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-character-slots/releases/download/v1.0.0/evejs-character-slots-1.0.0.zip"
+          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-character-slots/releases/download/v1.0.1/evejs-character-slots-1.0.1.zip"
         }
       ],
       "evejsVersions": [
-        "0.12.9"
+        "0.12.9",
+        "261018.x"
       ],
       "featured": false,
       "highlights": [],
       "history": [],
       "id": "evejs-character-slots",
-      "publishedAt": "2026-10-16",
+      "publishedAt": "2026-10-19",
       "readme": [
         "角色选择界面默认只显示 3 个角色槽。原因是服务端登录响应把\n`characterSlots` 与 `maxCharacterSlots` 写死为 `3`；客户端按\n`min(characterSlots + 1, maxCharacterSlots)` 动态生成槽位，所以只要改这两个字段，\n界面就会出现更多槽位，**不需要改客户端**。",
         "本 MOD 在内存中把这两个字段改为可配置值（默认 **10**）。"
       ],
       "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-character-slots",
       "requiresRestart": true,
-      "sha256": "91b5094d3ddf985a21a16fd82199b44c59312b444982066aae5c396421a7dfdf",
-      "sizeBytes": 5863,
+      "sha256": "7f023eba331043b76ebbc62a3fc2f49d04b590b718a6a23394baaca851324c95",
+      "sizeBytes": 5970,
       "tags": [],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-character-slots",
       "downloads": 34,
       "cdnHits": 0
@@ -1827,7 +1828,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "EC6G7day3DjA6Z+1p43dA8oftk+aQ2VQqe5MeZzAbTdCOpE8PF8E60CYEOy1hVWPZXnQ1W2rqm7fF8FZz1i2AA==",
-    "signedAt": "2026-10-19T10:50:08.016Z"
+    "sig": "Iw9aDfEFsJptXUjTgNfgcBnXyC36As4LWOVL9ocqguYwW5QWFNWHgXURs7bx5mGMwtAItQ6pUF16U9lbARRIAg==",
+    "signedAt": "2026-10-19T10:52:49.008Z"
   }
 }
