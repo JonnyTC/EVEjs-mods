@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-20T02:31:34.454Z",
+  "publishedAt": "2026-10-20T05:21:21.804Z",
   "mods": [
     {
       "author": {
@@ -44,7 +44,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "rzwm/evejs-mod-evejs-autolockfire-cn",
-      "downloads": 97,
+      "downloads": 101,
       "cdnHits": 0
     },
     {
@@ -87,7 +87,7 @@
       "tags": [],
       "version": "1.1.0",
       "source": "rzwm/evejs-mod-evejs-beijing-time",
-      "downloads": 152,
+      "downloads": 155,
       "cdnHits": 0
     },
     {
@@ -139,7 +139,7 @@
       "tags": [],
       "version": "0.16.0",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 130,
+      "downloads": 131,
       "cdnHits": 0
     },
     {
@@ -184,7 +184,7 @@
       "tags": [],
       "version": "1.1.2",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 751,
+      "downloads": 755,
       "cdnHits": 51
     },
     {
@@ -288,7 +288,7 @@
       "tags": [],
       "version": "1.0.3",
       "source": "guihaitianyi-cmd/evejs-mod-evejs-evejs-hacking-suite-1-0-3",
-      "downloads": 197,
+      "downloads": 198,
       "cdnHits": 0
     },
     {
@@ -380,7 +380,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 104,
+      "downloads": 106,
       "cdnHits": 0
     },
     {
@@ -462,7 +462,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-npc-corp-info",
-      "downloads": 90,
+      "downloads": 92,
       "cdnHits": 0
     },
     {
@@ -521,7 +521,7 @@
       "tags": [],
       "version": "0.3.2",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 923,
+      "downloads": 925,
       "cdnHits": 0
     },
     {
@@ -707,7 +707,7 @@
       "tags": [],
       "version": "0.1.1",
       "source": "MateralCMX/evejs-mod-npc-loot-rules",
-      "downloads": 89,
+      "downloads": 90,
       "cdnHits": 0
     },
     {
@@ -804,6 +804,49 @@
     },
     {
       "author": {
+        "id": "au-mvdvct651733",
+        "keyId": "fcfad4bbc276",
+        "name": "鼠鼠猫"
+      },
+      "category": "玩法",
+      "changelog": "目前该mod不兼容其它大部分mod，可能导致静态数据失效，热重启失效，同时不兼容老版世界方舟模块变形功能，仅作体验测试使用。\n由于原作者无回应，请多多包涵",
+      "conflicts": [],
+      "delisted": false,
+      "description": "三神裔「世界方舟」（91900）试行版",
+      "displayName": "三神裔世界方舟试行版",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/injusticemaster/evejs-mod-world-ark-91900/releases/download/v0.1.2/world-ark-91900-0.1.2.zip"
+        }
+      ],
+      "evejsVersions": [
+        "0.12.8",
+        "0.12.9"
+      ],
+      "featured": false,
+      "highlights": [
+        "目前三神裔世界方舟mod为原「世界方舟舰船化 v1.0 预览版」数据分包，支持正常使用游玩，支持涂装功能，但不兼容目前大多数其它mod，系技术问题，需要后续FSD 合并及服务端/客户端提供分层数据接口，建议使用时开新档单独体验"
+      ],
+      "history": [],
+      "id": "world-ark-91900",
+      "publishedAt": "2026-10-20",
+      "readme": [
+        "目前三神裔世界方舟mod为原「世界方舟舰船化 v1.0 预览版」数据分包，支持正常使用游玩，支持涂装功能，但不兼容目前大多数其它mod，系技术问题，需要后续FSD 合并及服务端/客户端提供分层数据接口，建议使用时开新档单独体验"
+      ],
+      "repo": "https://github.com/injusticemaster/evejs-mod-world-ark-91900",
+      "requiresRestart": true,
+      "sha256": "654e1c94a6f7a63bb67a3d3dc5e773b80db0cf0349a21172218e8f5ade0a9b79",
+      "sizeBytes": 94961668,
+      "tags": [],
+      "version": "0.1.2",
+      "source": "injusticemaster/evejs-mod-world-ark-91900",
+      "downloads": 0,
+      "cdnHits": 0
+    },
+    {
+      "author": {
         "id": "au-muk52dvb6mve",
         "keyId": "1382094598d9",
         "name": "波坤太叔"
@@ -846,7 +889,7 @@
       "tags": [],
       "version": "1.0.5",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 547,
+      "downloads": 548,
       "cdnHits": 55
     },
     {
@@ -983,7 +1026,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-crate-opening",
-      "downloads": 67,
+      "downloads": 68,
       "cdnHits": 0
     },
     {
@@ -1024,7 +1067,7 @@
       "tags": [],
       "version": "1.3.1",
       "source": "zhang-xzh/evejs-mod-evejs-sleeper-salvage",
-      "downloads": 91,
+      "downloads": 93,
       "cdnHits": 0
     },
     {
@@ -1065,7 +1108,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-npc-kill-lp",
-      "downloads": 66,
+      "downloads": 67,
       "cdnHits": 0
     },
     {
@@ -1147,7 +1190,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-combat-item-name-scan",
-      "downloads": 109,
+      "downloads": 110,
       "cdnHits": 0
     },
     {
@@ -1188,7 +1231,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-combat-char-record-ref",
-      "downloads": 118,
+      "downloads": 119,
       "cdnHits": 0
     },
     {
@@ -1316,7 +1359,7 @@
       "tags": [],
       "version": "0.2.2",
       "source": "xuenaimiao/evejs-mod-evejs-perf-fix",
-      "downloads": 386,
+      "downloads": 387,
       "cdnHits": 0
     },
     {
@@ -1415,7 +1458,7 @@
       "tags": [],
       "version": "3.2.0",
       "source": "Jasper377/evejs-mod-evejs-racks16",
-      "downloads": 278,
+      "downloads": 279,
       "cdnHits": 0
     },
     {
@@ -1456,7 +1499,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-wreck-naming",
-      "downloads": 92,
+      "downloads": 94,
       "cdnHits": 0
     },
     {
@@ -1587,7 +1630,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-mobile-tractor-enhancement",
-      "downloads": 86,
+      "downloads": 87,
       "cdnHits": 0
     },
     {
@@ -1627,7 +1670,7 @@
       "tags": [],
       "version": "1.6.0",
       "source": "Jasper377/evejs-mod-evejs-acspecialbattleship",
-      "downloads": 348,
+      "downloads": 350,
       "cdnHits": 0
     },
     {
@@ -1677,7 +1720,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "rzwm/evejs-mod-evejs-autopilot-jump-stargate-0km",
-      "downloads": 170,
+      "downloads": 171,
       "cdnHits": 0
     },
     {
@@ -1807,7 +1850,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-jumpbridge-fuel",
-      "downloads": 73,
+      "downloads": 74,
       "cdnHits": 0
     }
   ],
@@ -1828,7 +1871,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "tdc+4mJttXQXVnCMrLPiQ+PGCWkc5hIbZqiztA5OfcrpQGdB/IVCQAgZ+wOYWRlgduXzzM4Jh+JO1JPMRAnMCg==",
-    "signedAt": "2026-10-20T02:31:34.458Z"
+    "sig": "9MTFT3neeNx3jmagoyITnHRgQtQ8ikgfuqX8dNa2CSPyWGiKmDjEdxb+HNbKo2It7LCLXMR5Is5qokBZrb82Ag==",
+    "signedAt": "2026-10-20T05:21:21.807Z"
   }
 }
