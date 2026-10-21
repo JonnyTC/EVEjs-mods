@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-21T05:56:59.460Z",
+  "publishedAt": "2026-10-21T07:03:59.045Z",
   "mods": [
     {
       "author": {
@@ -44,7 +44,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "rzwm/evejs-mod-evejs-autolockfire-cn",
-      "downloads": 119,
+      "downloads": 121,
       "cdnHits": 0
     },
     {
@@ -87,7 +87,7 @@
       "tags": [],
       "version": "1.1.0",
       "source": "rzwm/evejs-mod-evejs-beijing-time",
-      "downloads": 166,
+      "downloads": 167,
       "cdnHits": 0
     },
     {
@@ -140,7 +140,7 @@
       "tags": [],
       "version": "0.17.3",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 157,
+      "downloads": 160,
       "cdnHits": 0
     },
     {
@@ -185,7 +185,7 @@
       "tags": [],
       "version": "1.1.2",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 785,
+      "downloads": 786,
       "cdnHits": 51
     },
     {
@@ -330,7 +330,7 @@
       "tags": [],
       "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-ship-blueprints",
-      "downloads": 68,
+      "downloads": 70,
       "cdnHits": 0
     },
     {
@@ -375,7 +375,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 130,
+      "downloads": 134,
       "cdnHits": 0
     },
     {
@@ -515,8 +515,16 @@
       "sizeBytes": 13271891,
       "tags": [],
       "version": "0.4.0",
+      "shots": [
+        "shots/panel-overview.png",
+        "shots/panel-economy.png",
+        "shots/panel-fleets.png",
+        "shots/panel-starmap.png",
+        "shots/panel-territory.png"
+      ],
+      "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 954,
+      "downloads": 961,
       "cdnHits": 0
     },
     {
@@ -556,7 +564,7 @@
       "tags": [],
       "version": "0.6.0",
       "source": "Jasper377/evejs-mod-evejs-npc-console",
-      "downloads": 170,
+      "downloads": 171,
       "cdnHits": 0
     },
     {
@@ -700,7 +708,7 @@
       "tags": [],
       "version": "0.1.3",
       "source": "MateralCMX/evejs-mod-npc-loot-rules",
-      "downloads": 100,
+      "downloads": 102,
       "cdnHits": 0
     },
     {
@@ -932,7 +940,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-mission-repair",
-      "downloads": 129,
+      "downloads": 131,
       "cdnHits": 0
     },
     {
@@ -1100,7 +1108,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-npc-kill-lp",
-      "downloads": 77,
+      "downloads": 78,
       "cdnHits": 0
     },
     {
@@ -1141,7 +1149,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-combat-native-store-rows",
-      "downloads": 126,
+      "downloads": 127,
       "cdnHits": 0
     },
     {
@@ -1182,7 +1190,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-combat-item-name-scan",
-      "downloads": 121,
+      "downloads": 122,
       "cdnHits": 0
     },
     {
@@ -1223,7 +1231,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-combat-char-record-ref",
-      "downloads": 130,
+      "downloads": 132,
       "cdnHits": 0
     },
     {
@@ -1310,7 +1318,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-structure-timers",
-      "downloads": 65,
+      "downloads": 66,
       "cdnHits": 0
     },
     {
@@ -1397,7 +1405,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-salvage-repair",
-      "downloads": 68,
+      "downloads": 69,
       "cdnHits": 0
     },
     {
@@ -1574,7 +1582,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-inventory-stack-limit",
-      "downloads": 88,
+      "downloads": 89,
       "cdnHits": 0
     },
     {
@@ -1662,7 +1670,7 @@
       "tags": [],
       "version": "1.6.0",
       "source": "Jasper377/evejs-mod-evejs-acspecialbattleship",
-      "downloads": 360,
+      "downloads": 361,
       "cdnHits": 0
     },
     {
@@ -1863,7 +1871,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "zyvOiH5NMA4VvDYxnrMwG+FY2HUqrcPpTnzkMKKeuwwBBq+LB2Fjs+znCB3mvBfk7nrfaOwTGz03CcOzXnE9Ag==",
-    "signedAt": "2026-10-21T05:56:59.463Z"
+    "sig": "V79FfD83ftqGb0rAMWaC6P00UZGtHH4aYJ3AU5Gm8f+k4m651vCVJoHZ9IFeu38E3IGXbmRaLmNKEyPF1cZDBg==",
+    "signedAt": "2026-10-21T07:03:59.049Z"
   }
 }
