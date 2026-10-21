@@ -9,15 +9,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/MateralCMX/evejs-mod-ship-blueprints/releases/download/v0.2.1/ship-blueprints-0.2.1.zip"
+      "url": "https://github.com/MateralCMX/evejs-mod-ship-blueprints/releases/download/v0.2.3/ship-blueprints-0.2.3.zip"
     }
   ],
   "id": "ship-blueprints",
-  "publishedAt": "2026-10-16",
+  "publishedAt": "2026-10-21",
   "schemaVersion": 1,
-  "sha256": "1f99673fc9f28560115ed1a7c20a617c1cfa8be2e6e7173df036617e11957060",
-  "sizeBytes": 17095,
+  "sha256": "c8c8055d2440a99b25572a87f0b17a967adc7c7eaa408a62ecd76a8d5ee02aac",
+  "sizeBytes": 15558,
   "source": "MateralCMX/evejs-mod-ship-blueprints",
-  "submittedAt": "2026-10-16T14:50:58.074Z",
-  "version": "0.2.1"
+  "submittedAt": "2026-10-21T03:24:07.660Z",
+  "version": "0.2.3"
 }
