@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-21T04:37:45.776Z",
+  "publishedAt": "2026-10-21T04:41:33.395Z",
   "mods": [
     {
       "author": {
@@ -140,7 +140,7 @@
       "tags": [],
       "version": "0.17.3",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 150,
+      "downloads": 151,
       "cdnHits": 0
     },
     {
@@ -672,11 +672,11 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/MateralCMX/evejs-mod-npc-loot-rules/releases/download/v0.1.1/npc-loot-rules-0.1.1.zip"
+          "url": "https://github.com/MateralCMX/evejs-mod-npc-loot-rules/releases/download/v0.1.3/npc-loot-rules-0.1.3.zip"
         }
       ],
       "evejsVersions": [
-        "0.12.9"
+        "261018.1"
       ],
       "featured": false,
       "highlights": [
@@ -687,19 +687,18 @@
       ],
       "history": [],
       "id": "npc-loot-rules",
-      "publishedAt": "2026-10-16",
+      "publishedAt": "2026-10-21",
       "readme": [
-        "调整普通敌人、指挥官、监察官、官员与旗舰的掉落，按势力和舰船尺寸分配装备，并加入 NET 共振器。",
         "启用后重启游戏服务端，通过击毁新生成的 NPC 获取对应掉落。稀有掉落按概率出现，不保证每次击毁都获得。",
-        "本模组不新增 NPC 或异常地点，也不会向已有残骸补发物品；停用后已获得的物品保留。",
+        "掉落规则作用于新生成的残骸；停用后已获得的物品保留。",
         "源代码沿用 AGPL-3.0-only 授权，数据来源见 provenance.json。"
       ],
       "repo": "https://github.com/MateralCMX/evejs-mod-npc-loot-rules",
       "requiresRestart": true,
-      "sha256": "0e298cd24e48a690e70d6e32e86297286267036e0c152760a22bd7a9f734bd2c",
-      "sizeBytes": 73460,
+      "sha256": "ee01bef593b0f5e05ef39adddf1a3ca8958b8c0464362bdb4afd208a90875281",
+      "sizeBytes": 72392,
       "tags": [],
-      "version": "0.1.1",
+      "version": "0.1.3",
       "source": "MateralCMX/evejs-mod-npc-loot-rules",
       "downloads": 98,
       "cdnHits": 0
@@ -1865,7 +1864,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "kLcEHiRKkeMi0S6uEsCQJRV99Lpx1r9hvkjC2hZ9ndLeHH3E79ChkMs+nHdDG1d8nS9fsASGqQS2n6IOfQrFBA==",
-    "signedAt": "2026-10-21T04:37:45.780Z"
+    "sig": "ioShm05rEFGRIYZCPAZdJgk745nNBTyvRXgAwYi4ppHrsVYYpXYER8jK3PR+nlvgELQaksd/Fd2jMibw99gaAw==",
+    "signedAt": "2026-10-21T04:41:33.399Z"
   }
 }
