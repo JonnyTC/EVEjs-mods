@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-21T07:03:59.045Z",
+  "publishedAt": "2026-10-21T07:15:21.922Z",
   "mods": [
     {
       "author": {
@@ -185,7 +185,7 @@
       "tags": [],
       "version": "1.1.2",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 786,
+      "downloads": 787,
       "cdnHits": 51
     },
     {
@@ -516,15 +516,15 @@
       "tags": [],
       "version": "0.4.0",
       "shots": [
-        "shots/panel-overview.png",
         "shots/panel-economy.png",
         "shots/panel-fleets.png",
+        "shots/panel-overview.png",
         "shots/panel-starmap.png",
         "shots/panel-territory.png"
       ],
       "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 961,
+      "downloads": 965,
       "cdnHits": 0
     },
     {
@@ -843,7 +843,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "injusticemaster/evejs-mod-world-ark-91900",
-      "downloads": 21,
+      "downloads": 23,
       "cdnHits": 0
     },
     {
@@ -1871,7 +1871,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "V79FfD83ftqGb0rAMWaC6P00UZGtHH4aYJ3AU5Gm8f+k4m651vCVJoHZ9IFeu38E3IGXbmRaLmNKEyPF1cZDBg==",
-    "signedAt": "2026-10-21T07:03:59.049Z"
+    "sig": "s2+b4FxNalyREeiMA1UTqp/rdyNRhBdxHHy1ze9BrbiGYZmLGZVZ1r2AAFNd6qKVEVKU5jA4ttc7NLDt90nzAQ==",
+    "signedAt": "2026-10-21T07:15:21.925Z"
   }
 }
