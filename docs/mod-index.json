@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-21T02:25:15.462Z",
+  "publishedAt": "2026-10-21T03:22:15.882Z",
   "mods": [
     {
       "author": {
@@ -106,38 +106,39 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/MateralCMX/evejs-mod-bug-fixes/releases/download/v0.16.0/bug-fixes-0.16.0.zip"
+          "url": "https://github.com/MateralCMX/evejs-mod-bug-fixes/releases/download/v0.17.3/bug-fixes-0.17.3.zip"
         }
       ],
       "evejsVersions": [
-        "0.12.9"
+        "261018.1"
       ],
       "featured": false,
       "highlights": [
-        "修复装配中文名称保存异常、重复导入及卸载后弹药或脚本图标残留。",
+        "修复中文装配名称、描述等文本导致装配窗口无法打开的问题，无需另装中文编码修复模组。",
+        "避免重复导入相同装配，拒绝非法对象名称，并修复卸载后弹药或脚本图标残留。",
         "应用装配时支持查找当前空间站个人集装箱内的装备。",
         "修复无人机面板缺项，并提供“刷新无人机”按钮。",
-        "修复中文搜索，支持物品、地点与 NPC 的中文名称。",
+        "支持按中文名称搜索物品、地点与 NPC，例如“民用”“吉他”；支持中文短词、多词查询和精确匹配，避免同一对象重复出现，并保留英文搜索规则。",
         "改善反应式装甲增强器、炮扰、制导干扰和远程索敌的属性显示同步。",
-        "修复太空重新登录后的装备效果初始化、锁定状态残留及部分运动状态同步问题。",
-        "修复大量敌人击毁后赏金重复累计的问题。",
-        "补齐铁骑接战、克隆植入体刷新和库存访问相关修复。",
-        "禁止实际跃迁途中开启加力燃烧器和微型跃迁推进器，并取消额外炮台命中加成。"
+        "修复锁定状态残留及部分运动状态同步问题。",
+        "修复大量敌人击毁后赏金重复累计的问题，保留服务端军团税结算规则。",
+        "允许铁骑收到远距离攻击命令后先追击，实际伤害仍受射程限制。",
+        "跳跃克隆完成后刷新活动植入体显示，并补齐库存服务发现。",
+        "禁止实际跃迁途中开启加力燃烧器和微型跃迁推进器。"
       ],
       "history": [],
       "id": "bug-fixes",
-      "publishedAt": "2026-10-16",
+      "publishedAt": "2026-10-21",
       "readme": [
-        "修复装配、无人机、中文搜索、战斗属性显示和太空状态同步等常见问题，改善日常操作体验。",
         "启用后重启游戏服务端，并完全退出、重新启动客户端。已损坏的历史装配名称需手动重新命名；历史重复装配与赏金不会自动清理或回退。",
         "模组还提供空间状态诊断记录，可在 diagnostics.json 中将 spatialTrace 设为 false 后重启两端关闭。"
       ],
       "repo": "https://github.com/MateralCMX/evejs-mod-bug-fixes",
       "requiresRestart": true,
-      "sha256": "82b7caef04190ea3facba6cee04701ede73a1808f2729148de82a7839ee740bb",
-      "sizeBytes": 886629,
+      "sha256": "4062f49b295d93f5288e8b5398515d48cbddc4e85b280ed162cb7224bbfba4e3",
+      "sizeBytes": 879519,
       "tags": [],
-      "version": "0.16.0",
+      "version": "0.17.3",
       "source": "MateralCMX/evejs-mod-bug-fixes",
       "downloads": 147,
       "cdnHits": 0
@@ -184,7 +185,7 @@
       "tags": [],
       "version": "1.1.2",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 782,
+      "downloads": 784,
       "cdnHits": 51
     },
     {
@@ -244,7 +245,7 @@
       "tags": [],
       "version": "1.0.15",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 705,
+      "downloads": 706,
       "cdnHits": 482
     },
     {
@@ -1067,7 +1068,7 @@
       "tags": [],
       "version": "1.3.1",
       "source": "zhang-xzh/evejs-mod-evejs-sleeper-salvage",
-      "downloads": 100,
+      "downloads": 102,
       "cdnHits": 0
     },
     {
@@ -1108,7 +1109,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-npc-kill-lp",
-      "downloads": 75,
+      "downloads": 76,
       "cdnHits": 0
     },
     {
@@ -1190,7 +1191,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-combat-item-name-scan",
-      "downloads": 119,
+      "downloads": 120,
       "cdnHits": 0
     },
     {
@@ -1871,7 +1872,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "sknED8JODxS4lyR3YwddK7ciWYNIGl97DnnPOYMj9OtJWKz2/XWGwtRiDYns05VVMltg7HJDTvotWjIc0GBSBQ==",
-    "signedAt": "2026-10-21T02:25:15.467Z"
+    "sig": "KfYqB/OCcRPlJGW9Qnt8cBnaFHk+WF3zLW5WbWIyZBF6sH+dJN7v+Qy9EZna67ZH06RZAorMyVV2wAMp14znBQ==",
+    "signedAt": "2026-10-21T03:22:15.886Z"
   }
 }
