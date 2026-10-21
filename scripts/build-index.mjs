@@ -73,6 +73,73 @@ async function fetchHeadSha(repo) {
   }
 }
 
+/**
+ * 目录里能当图片用的后缀。**按后缀发现，不认文件名** —— 作者可能写 banner.jpg、
+ * cover.png、封面.webp，硬编码某个名字必然漏。
+ */
+const IMAGE_EXT_RE = /\.(webp|png|jpe?g|gif)$/i;
+
+/**
+ * 列出作者仓库某个目录下的文件（只返回图片），返回仓库内相对路径。
+ *
+ * 为什么要这一层：`shots` 与 `shots/Banner` 里的图**文件名由作者随便起**，
+ * 而 `evejs-mod.json` 未必声明了它们（作者先放图、后补清单，或者干脆没走发布链路）。
+ * 索引侧既然能读到仓库，就按**后缀**把图找出来，而不是假设某一张叫 banner.jpg。
+ *
+ * 走 GitHub contents API（带 token 时 5000 次/小时）；失败返回空数组，
+ * 调用方保持原样，不因为读不到目录就把已有的 shots/banner 抹掉。
+ */
+async function listImageFiles(repo, dir) {
+  const token = process.env.GH_API_TOKEN || process.env.GITHUB_TOKEN || "";
+  const headers = { "User-Agent": "EveJS-mods-index", Accept: "application/vnd.github+json" };
+  if (token) headers.Authorization = "Bearer " + token;
+  try {
+    const res = await fetch(
+      "https://api.github.com/repos/" + repo + "/contents/" + dir.split("/").map(encodeURIComponent).join("/"),
+      { headers, signal: AbortSignal.timeout(FETCH_TIMEOUT_MS) }
+    );
+    if (!res.ok) return [];
+    const list = await res.json();
+    if (!Array.isArray(list)) return [];
+    return list
+      .filter((item) => item && item.type === "file" && typeof item.name === "string")
+      .filter((item) => IMAGE_EXT_RE.test(item.name))
+      .map((item) => dir.replace(/\/+$/, "") + "/" + item.name)
+      .sort();
+  } catch {
+    return [];
+  }
+}
+
+/**
+ * 找出作者仓库里的精选横幅。
+ *
+ * 顺序：
+ *   1. `shots/Banner/` 下的**任意后缀图片**（多张时挑文件名里像素最宽的那张，
+ *      例如 banner-1920x600.png 优于 banner-1280x400.png；认不出尺寸就按字典序取第一张）；
+ *   2. 退一步：`shots/` 根目录里文件名含 banner/cover/封面 字样的图（老作者的习惯写法）。
+ *
+ * 都没有就返回空字符串 —— 前端会退回本地兜底横幅，不留空白。
+ */
+async function discoverBanner(repo) {
+  const bannerDir = await listImageFiles(repo, "shots/Banner");
+  if (bannerDir.length) return pickWidest(bannerDir);
+
+  const root = await listImageFiles(repo, "shots");
+  const named = root.filter((p) => /(^|\/)(banner|cover|封面)/i.test(p));
+  return named.length ? pickWidest(named) : "";
+}
+
+/** 从文件名里读 `<宽>x<高>`，按宽度降序；读不到尺寸的按字典序垫后 */
+function pickWidest(paths) {
+  const widthOf = (p) => {
+    const name = p.split("/").pop() || "";
+    const m = name.toLowerCase().match(/(\d{2,5})\s*x\s*(\d{2,5})/);
+    return m ? Number(m[1]) : 0;
+  };
+  return [...paths].sort((a, b) => widthOf(b) - widthOf(a) || a.localeCompare(b))[0];
+}
+
 /** 兜底：直接问 GitHub API 要清单内容（完全无 CDN 缓存） */
 async function fetchListingViaApi(repo) {
   const token = process.env.GH_API_TOKEN || process.env.GITHUB_TOKEN || "";
@@ -372,6 +439,7 @@ for (const repo of sources) {
     // 作者把图放进 shots/（甚至 shots/Banner/）之后没有重新发布，清单里就没有这两个字段，
     // 而索引 CI 只抓清单，于是图明明在仓库里、市场里却一张都不显示。
     // 允许在分片里补一份：只认"分片里有、且形状合法"的情况；分片没写就完全不动 entry，行为与以前一致。
+    // 1) 分片显式声明优先（维护者可以精确控制顺序）
     if (Array.isArray(record.shots) && record.shots.length) {
       const shots = record.shots
         .filter((item) => typeof item === "string" && item.trim())
@@ -384,6 +452,25 @@ for (const repo of sources) {
         .filter((item) => typeof item === "string" && item.trim())
         .map((item) => item.trim());
       if (banners.length) entry.banners = banners;
+    }
+    // 2) 分片没声明，但作者仓库里明明有图 → 按**后缀**把 shots/ 里的图找出来。
+    //    这正是"图在仓库里、市场里却一张都不显示"的成因：清单没写，索引就没得抓。
+    //    只补缺，不覆盖：清单里已经声明的 shots 一律不动。
+    if (!Array.isArray(entry.shots) || entry.shots.length === 0) {
+      const discovered = await listImageFiles(repo, "shots");
+      if (discovered.length) {
+        entry.shots = discovered;
+        console.log("  " + id + "：清单没声明截图，按后缀从 shots/ 发现 " + discovered.length + " 张");
+      }
+    }
+    // 3) 横幅同理：分片/清单都没有时，去 shots/Banner/ 按后缀找，找不到再退回
+    //    shots/ 根目录里名字像横幅的那张。
+    if (typeof entry.banner !== "string" || !entry.banner.trim()) {
+      const banner = await discoverBanner(repo);
+      if (banner) {
+        entry.banner = banner;
+        console.log("  " + id + "：清单没声明横幅，按后缀发现 " + banner);
+      }
     }
     console.log("  " + id + "：采用已合并的版本记录 " + record.__file + "（v" + entry.version + "）");
   }

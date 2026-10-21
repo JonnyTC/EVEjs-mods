@@ -19,13 +19,5 @@
   "sizeBytes": 13271891,
   "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
   "submittedAt": "2026-10-21T05:55:30.240Z",
-  "version": "0.4.0",
-  "shots": [
-    "shots/panel-overview.png",
-    "shots/panel-economy.png",
-    "shots/panel-fleets.png",
-    "shots/panel-starmap.png",
-    "shots/panel-territory.png"
-  ],
-  "banner": "shots/Banner/banner.jpg"
+  "version": "0.4.0"
 }
