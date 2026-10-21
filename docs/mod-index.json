@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-21T04:41:33.395Z",
+  "publishedAt": "2026-10-21T04:43:54.366Z",
   "mods": [
     {
       "author": {
@@ -903,11 +903,11 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/MateralCMX/evejs-mod-mission-repair/releases/download/v0.1.0/mission-repair-0.1.0.zip"
+          "url": "https://github.com/MateralCMX/evejs-mod-mission-repair/releases/download/v0.1.2/mission-repair-0.1.2.zip"
         }
       ],
       "evejsVersions": [
-        "0.12.9"
+        "261018.1"
       ],
       "featured": false,
       "highlights": [
@@ -915,23 +915,22 @@
         "支持系列任务按顺序衔接。",
         "补充任务战斗内容及代理人任务绑定。",
         "修复部分 DED 加速门连接，过滤无效目的地与空循环。",
-        "暂时移出部分内容不完整的任务，避免继续分发。"
+        "按任务内容与代理人资格筛选可接取任务。"
       ],
       "history": [],
       "id": "mission-repair",
-      "publishedAt": "2026-10-16",
+      "publishedAt": "2026-10-21",
       "readme": [
-        "扩充并修复代理人战斗任务、系列任务衔接与部分 DED 加速门，改善任务接取和推进体验。",
         "启用后重启游戏服务端。不能与 evejs-mission-data-pack 同时启用。",
-        "当前不提供七波通用战斗补全功能。已接取的任务保留原有进度；停用前请先完成或妥善处理进行中的任务并备份存档，停用不会撤回物品和奖励。",
+        "已接取的任务保留原有进度；停用前请先完成或妥善处理进行中的任务并备份存档，停用不会撤回物品和奖励。",
         "任务数据来源说明保留在 data/provenance.json。"
       ],
       "repo": "https://github.com/MateralCMX/evejs-mod-mission-repair",
       "requiresRestart": true,
-      "sha256": "a04fd3916f7139eeb4495a69a22daa92893bcf9a326a7f8c8080f11224b6e536",
-      "sizeBytes": 541255,
+      "sha256": "6b282662ed59edfd1d781a36449fa60ef0f449078d530ab39601171b6ee7c0cd",
+      "sizeBytes": 537788,
       "tags": [],
-      "version": "0.1.0",
+      "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-mission-repair",
       "downloads": 122,
       "cdnHits": 0
@@ -1864,7 +1863,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "ioShm05rEFGRIYZCPAZdJgk745nNBTyvRXgAwYi4ppHrsVYYpXYER8jK3PR+nlvgELQaksd/Fd2jMibw99gaAw==",
-    "signedAt": "2026-10-21T04:41:33.399Z"
+    "sig": "b3C/ZziRseXOQT3T4wIOkTt00xYLnHJAjbyTN4wXUF5HWiZmwPV6jS3MzVoWEeTyJJSKy0nVeOP/kt5xI/ykBg==",
+    "signedAt": "2026-10-21T04:43:54.369Z"
   }
 }
