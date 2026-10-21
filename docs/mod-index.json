@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-21T16:17:00.361Z",
+  "publishedAt": "2026-10-21T16:51:03.864Z",
   "mods": [
     {
       "author": {
@@ -140,7 +140,7 @@
       "tags": [],
       "version": "0.17.3",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 189,
+      "downloads": 193,
       "cdnHits": 0
     },
     {
@@ -185,7 +185,7 @@
       "tags": [],
       "version": "1.1.2",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 806,
+      "downloads": 808,
       "cdnHits": 51
     },
     {
@@ -245,7 +245,7 @@
       "tags": [],
       "version": "1.0.15",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 734,
+      "downloads": 736,
       "cdnHits": 482
     },
     {
@@ -330,7 +330,7 @@
       "tags": [],
       "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-ship-blueprints",
-      "downloads": 81,
+      "downloads": 84,
       "cdnHits": 0
     },
     {
@@ -375,7 +375,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 155,
+      "downloads": 158,
       "cdnHits": 0
     },
     {
@@ -416,7 +416,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-lp-balance-overflow",
-      "downloads": 98,
+      "downloads": 99,
       "cdnHits": 0
     },
     {
@@ -457,7 +457,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-npc-corp-info",
-      "downloads": 112,
+      "downloads": 113,
       "cdnHits": 0
     },
     {
@@ -467,7 +467,7 @@
         "name": "匿名"
       },
       "category": "玩法",
-      "changelog": "【势力模拟 0.4.0 测试版】\n从 0.3.2 到这一版（活的宇宙重构的前半，并适配上游 EvEJS 261018.1，服务端要换成这一版）：\n· NPC 的人和船有了固定的\"户口\"：驾驶员终身绑定一条船，本地里的名字天天一样，被打掉的人不会原样补回。\n· 有玩家的星系里，船是整个星系的真船，不再只出现在你的格子上。进出星系走星门、出站、进站，超预算只降精度、不让船消失。\n· 采矿、运输、巡逻、护航、蹲门、侦察、突袭、攻坚、部署、打捞、撤退，都按\"步骤\"做事；你在不在场，用的是同一份步骤。商队被劫、部署损失、侦察被抓这些，不再掷骰子，按路上有没有敌对编队算。\n· 势力有了计划板（九种目标，现在扩张和招募有人执行），个人有了需求、性情和记忆，出发前会过\"服从门\"：约 3% 的出发令会被拖延、拒绝或逃走。\n· 声望进了原生声望窗口，委托自动发原生合同（含运货），击杀奖励和保险从势力金库出，NPC 互打也有原生击毁报告（限流），击毁报告里 NPC 的装备和货物也列出来了。\n· 普通账号不能再用 /faction 查各势力的巡逻和打击计划（只给 GM）。\n玩家介绍\n一、每个人、每条船只有一条记录\n以前一艘 NPC 船在模组里有十几种互不相通的记法，驾驶员在船之间借来借去。现在：\n\n驾驶员终身绑定一条船。池子不再把人借给别的船；一个驾驶员今天开这条，明天还是这条。\n被看见的居民是持久的。你在本地见过的名字，重启之后还在；被打掉的人不会在几小时后原样补回，而是同一个人回家复活，或者别处有人搬来顶替。池子吃紧时，只回收\"没人记得、七天没被看过\"的居民。\n每条记录带来处。GM 用 /faction world why <类型> <编号>（或选中一艘船用 /faction world why here）能看到这艘船现在在哪、从哪来、为什么、要去哪。玩家版的 /why 没做。\n星系表合一：人口以人口槽为准，领域档位只是加成，不再各存一份。\n二、一个投影器：世界先在，你再看到\n有玩家的星系里，太空里的每条 NPC 船都是真球（总览、定向扫描、跃迁过去都看得到），不再只在你的格子上。站里的人只出现在本地频道。\n船只经移动过程进出星系：星门、出站、进站。无头测试里\"没有原因就出现\"和\"眼前直接消失\"的计数是 0。\n没人看的星门穿越用航段函数 legTime 算时长，和真船检查用的是同一个函数。\n超出帧预算时只降精度（近、远、睡三档），不让船消失。\n旧的生成路径（格子规则、预填和晚到、3 万公里外放好再跃迁）在投影器开着时停用。\n三、做事有步骤，结果按同一条规则\n采矿、运输、巡逻、赶路、护航、蹲门、侦察、突袭、攻坚、部署、打捞、撤退，都是同一套\"任务步骤\"：星系里没人时按时间推进，有人时由真船按命令执行，进度不丢。控制权有仲裁，一艘真船同一时刻只听一个控制者。战术层现在接管 gank、护卫和哨卡。无头推演里老兵舰队对新手舰队胜率更高。\n\n遭遇规则取代骰子（新）：商队被劫、建筑部署损失、侦察被抓、蹲门拦截、占领进度，原来各掷各的骰子，现在按一条规则算。同一地点的敌对编队用编队号、地点和时间窗做确定性察觉（出厂权重：星门 1.0，小行星带 0.6，安全点 0.1）。路上没有敌对编队，货就到；有并且被察觉，货才丢，丢的货落在残骸里。侦察船更快且对方没有拦截模块就脱身。占领进度要攻方编队在现场、攻坚打掉建筑或驻军才动。同样的输入结果相同。\n\n四、势力有计划，人有脾气（新）\n势力计划板：每个势力一块板，九种目标（扩张、开采、贸易、防守、战争、报复、结盟、恢复、招募），同时最多开 3 个，每个拆成最多 6 个任务。评分只看势力自己的信念和状态。君主和 GM 下的目标压过顾问。领任务预留预算、结束结算，账能对平。现在只有扩张（立项占星系、派部署队）和招募（招驾驶员）接上了执行者，其余目标在板上，各部门还不看（W4-3）。\n个人心智：每个 NPC 有需求、性情（勇气、贪婪、合群）、忠诚和士气、记忆。军事行动出发前过服从门：照办、拖延、拒绝、逃跑、叛逃。开放宇宙 72 小时无头两次，约 3% 的出发令没有照办，叛逃每天 0，士气停在 0.6。记忆有被打过、被雇过、护航过、做过买卖、被帮过、朋友被杀、欠人情、交情；NPC 还不会在本地对你说带记忆的话（W6-4）。\n玩家看到的是：势力开始自己扩张；舰队偶尔晚出发或不出发。\n在游戏里看不到计划板和个人状态：没有对应的 GM 命令（见\"没做什么\"），只能从结果判断。/faction world beliefs <势力|舰队|人> 能看信念。\n五、进原生界面\n声望镜像到原生声望窗口（探针读回 3.5，开关已开）。\n委托自动发原生合同，运货合同带抵押（标题 fsim-haul-）。\n击杀奖励和保险从势力金库出，不再凭空发；打谁谁穷。GM /faction funds 可查。\nNPC 互打有原生击毁报告，限流（每分钟最多 30 条）。生涯「击毁」页不变。\n击毁报告里 NPC 的装备和货物也列出来了，船型用客户端画的那个外观型号（18722e80）。\n六、其他\n弹药消耗默认开：打击队按基地库存扣弹。旗舰跳跃的燃料要求仍关。\n迷雾：二十多个调试子命令（status、fleets、stock、patrols、strikes、territory 等）改成只给 GM，普通账号会被提示要 GM。/faction list 对普通账号只显示名字和关系。\n人口账目修正：普查、聚落收缩、补船位置等一批对账修复。\n0.3.2 到重构之间的三处小改：会战结束后记下每条船的出战和损失，面板击杀榜列出并给攻击者排名（推演记录，不是服务端击毁报告，7ae85659）；运货合同标题和功勋商店先读中文名，外交页列出还在建的前哨和还在的主张（7deef9ac）；事件日志的 7 天保留期清理改成分页删除，不再一条语句删光卡住推演线程（0e25ab00）。\n修了站内访客的名字：推演线程的居民池发的是从 900000001 起的占位编号，不是服务端认识的角色，站内访客列表把它们当真角色发给客户端，客户端显示「Item 900000035」并报「ownerID … is not of an owner type」（server.log 里有）。现在这些人改从真正的驾驶员池借角色，名字正常。 修了本地和站内访客里的「Item 900000130」：推演线程的居民池发的是从 900000001 起的占位编号（不是服务端认识的角色，每次启动从头数），它们被写进 actor 表的 character_id，本地频道和站内访客就把它们当真角色发给客户端，客户端显示「Item 900000130」，server.log 里是「ownerID 900000130 is not of an owner type」。你的存档里有 298 个演员带着这种编号（吉他的站内居民，名字也是「居民900000130」）。现在：本地和访客列表把占位编号当成没绑角色，改从真正的驾驶员池借一个并写回演员行；推演线程每次启动先清掉旧的占位编号（并把「居民9000…」这种名字改成「居民<演员号>」）。要重启服务端才生效，旧数据启动时自动清，不用手动动存档。 修了投影器其实没开：data/world.json 里 projector.enabled 是 true，但配置读取器只保留了 batchMsPerFrame 和 emptyGraceMs 两个键，把 enabled 丢了。结果真服务端里「投影层」开着、投影器对象却是关的：旧的 loadSystem（玩家进星系时把数据舰队放出来）被退役，新的 promote 又不跑，玩家进一个星系看不到本来在那里的 NPC 舰队（只有命令生成的船和任务带出来的船会出现）。这是 W2 整个阶段在真服务端里从没真的跑过。现在读取器保留 enabled，投影器对象也跟着层开关走（EVEJS_FACTIONSIM_WORLD=0 或 _WORLD_PROJECTOR=0 会把它和投影层一起关掉）。投影器第一次真的开着跑端到端，结果和之前相当（见下），但实机的眼睛项仍然一项没看过，重点看：进星系时舰队是不是整队出现、进出星门和出站是否自然、卡不卡。\n修了真船行程的几处接线（本地频道的巡逻队离开测试暴露的）：order goto 的行程里没有星门坐标，真船层现在自己在场景里找通往下一个星系的星门；对准按它自己的对准时间结束（原来要等一个服务端不会设的标志，一律超时）；跃迁按真实距离算允许时间；过门的距离按星门表面算（原来按中心，永远到不了）；飞向星门时把船自己的 AI 按住（否则 AI 把它送回跃迁落点）；步骤开着时把舰队标成忙（巡逻舰队的待命换位不再抢着下跃迁令），仍遇到「已在跃迁」时等它停下再重下令，而不是直接判失败；真船过门做完后，推演侧的数据舰队也跟着到下一个星系（原来真船步骤做完只前进到下一步，数据舰队留在原星系）；失败原因（超时、已在跃迁）现在写进 opFailed 事件。\n本地频道会列指令生成的船的驾驶员：投影器开着时本地只列「演员」，GM 生成的舰队、打击队这类没有演员的船，它们的驾驶员原来不出现。现在没有演员驾驶的船，按驾驶员池里的驾驶员列出。\n修了指名生成舰队的命令被丢掉：GM /faction spawn、打击队、战略货舰、采矿命令、会战到场的船，在投影器开着时被悄悄丢掉（旧命令被转成没人处理的 world.enter 请求）。现在带 cause: \"legacyCommand\" 走旧路径生成，守卫单独计数。\n修了任务步骤的几处接线（这些在重构前没有，是 e2e 对比出来的）：停在站里的舰队，出站和过门时在有人的星系里把真船放出来，不再让数据舰队空等 2 分钟；没有目的地的跃迁不再飞到星系原点（约 17 亿公里外）；打击队、强爆队按路线去目标星系，再跃迁到目标舰队旁（真船层用目标船体的位置）；真船跃迁到位后不再被「回家」逻辑拉回出生的星门（任务层原来没接服务端的 NPC 控制器，现在接上了）；出站补写 undocked 事件；推演线程的 world.enter 事件主线程现在有订阅者。\n修了一个缺陷：任务步骤机读不到船数据，没带船数据的任务（真存档副本上是全部 885 个）按\"跃迁速度 0\"算，星系内跃迁和对准一律 0 秒。现在用工作线程共用的舰船表。\n七、服务端换成 261018.1（上游合并）",
+      "changelog": "",
       "conflicts": [],
       "delisted": false,
       "description": "【仅限本机／内网使用，禁止用于公开或收费服务器】【整合版：一个 mod 装齐】NPC 势力模拟，把以前要分开装的几个合成了一个：势力模拟本体（像玩家一样的 NPC 势力：独立推演线程按事件推进势力数据 faction.sqlite，为每个势力建机器人账号、角色、公司和联盟，本机面板 127.0.0.1:26410，聊天命令 /faction） + 舰队模板（原 evejs-npc-fleet：整队生成 / 阵型 / 整队跃迁，/npcfleet） + 性能修复（原 evejs-perf-fix：空间帧循环 / 锁定扫描 / NPC 存储） + 舰长室 PoC（原 evejs-captains-quarters，/cq）。只装这一个就够了，不用再单独装那三个；如果你以前单独装过它们并且还启用着，整合版里自带的那份自动不加载，用你单独装的，不会冲突。只在内存中打补丁，不改任何文件；分项开关 EVEJS_MOD_FACTIONSIM=0、EVEJS_MOD_NPCFLEET=0、EVEJS_MOD_PERFFIX=0、EVEJS_MOD_CQ=0。首次启动数据库为空时自动按「开放宇宙」剧本开局，面板有「入门」页。",
@@ -476,7 +476,7 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/xuenaimiao/evejs-mod-evejs-faction-sim/releases/download/v0.4.0/evejs-faction-sim-0.4.0.zip"
+          "url": "https://github.com/xuenaimiao/evejs-mod-evejs-faction-sim/releases/download/v0.4.1/evejs-faction-sim-0.4.1.zip"
         }
       ],
       "evejsVersions": [
@@ -511,10 +511,10 @@
       ],
       "repo": "https://github.com/xuenaimiao/evejs-mod-evejs-faction-sim",
       "requiresRestart": true,
-      "sha256": "58c4d0ac9bac5225487ee2bac85c74dfb1e3ee8726662ff6efd9e5f56df26cf2",
-      "sizeBytes": 13271891,
+      "sha256": "8b300221f25d045229cfccd5da8e7d403baf4782d4c358cf3a0e8285f8e3a224",
+      "sizeBytes": 13091119,
       "tags": [],
-      "version": "0.4.0",
+      "version": "0.4.1",
       "shots": [
         "shots/panel-economy.png",
         "shots/panel-fleets.png",
@@ -524,7 +524,7 @@
       ],
       "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 1006,
+      "downloads": 1016,
       "cdnHits": 0
     },
     {
@@ -661,7 +661,7 @@
       "tags": [],
       "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-npc-extension-core",
-      "downloads": 78,
+      "downloads": 80,
       "cdnHits": 0
     },
     {
@@ -708,7 +708,7 @@
       "tags": [],
       "version": "0.1.3",
       "source": "MateralCMX/evejs-mod-npc-loot-rules",
-      "downloads": 120,
+      "downloads": 123,
       "cdnHits": 0
     },
     {
@@ -890,7 +890,7 @@
       "tags": [],
       "version": "1.0.5",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 567,
+      "downloads": 568,
       "cdnHits": 55
     },
     {
@@ -940,7 +940,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-mission-repair",
-      "downloads": 156,
+      "downloads": 158,
       "cdnHits": 0
     },
     {
@@ -986,7 +986,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-clone-convenience",
-      "downloads": 69,
+      "downloads": 70,
       "cdnHits": 0
     },
     {
@@ -1026,7 +1026,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-crate-opening",
-      "downloads": 75,
+      "downloads": 77,
       "cdnHits": 0
     },
     {
@@ -1582,7 +1582,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-inventory-stack-limit",
-      "downloads": 94,
+      "downloads": 95,
       "cdnHits": 0
     },
     {
@@ -1630,7 +1630,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-mobile-tractor-enhancement",
-      "downloads": 98,
+      "downloads": 99,
       "cdnHits": 0
     },
     {
@@ -1670,7 +1670,7 @@
       "tags": [],
       "version": "1.6.0",
       "source": "Jasper377/evejs-mod-evejs-acspecialbattleship",
-      "downloads": 368,
+      "downloads": 369,
       "cdnHits": 0
     },
     {
@@ -1761,7 +1761,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-blueprint-list-memo",
-      "downloads": 92,
+      "downloads": 93,
       "cdnHits": 0
     },
     {
@@ -1810,7 +1810,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-planetary-industry-enhancement",
-      "downloads": 57,
+      "downloads": 58,
       "cdnHits": 0
     },
     {
@@ -1850,7 +1850,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-jumpbridge-fuel",
-      "downloads": 82,
+      "downloads": 83,
       "cdnHits": 0
     }
   ],
@@ -1871,7 +1871,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "2KHTjtTDog2Zo8bOzQq9lqs+KJExmnqk4KNGu2V4gQJ3K2L+P5qTYGpPIJKTBVprMLDE1nvcUDtgwaGeGoN5Dg==",
-    "signedAt": "2026-10-21T16:17:00.364Z"
+    "sig": "GypWgiBrqFtgPeiP7Y8uT3knpMevNj585wMV4MYyH3K/sNr1XPLWQAFc5GBej8WGu4rkFWBDrpUYCTbifGAzCg==",
+    "signedAt": "2026-10-21T16:51:03.868Z"
   }
 }
