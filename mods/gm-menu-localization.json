@@ -9,15 +9,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/MateralCMX/evejs-mod-gm-menu-localization/releases/download/v0.1.0/gm-menu-localization-0.1.0.zip"
+      "url": "https://github.com/MateralCMX/evejs-mod-gm-menu-localization/releases/download/v0.1.2/gm-menu-localization-0.1.2.zip"
     }
   ],
   "id": "gm-menu-localization",
-  "publishedAt": "2026-10-16",
+  "publishedAt": "2026-10-21",
   "schemaVersion": 1,
-  "sha256": "98867ef337f8a55c13f185115ae396bbac58c30d212c445c6ca457fb10d27236",
-  "sizeBytes": 22571,
+  "sha256": "74410c4a8541880fff54a53f2505968b4643db727a34b0c4d6937948e40262c8",
+  "sizeBytes": 21577,
   "source": "MateralCMX/evejs-mod-gm-menu-localization",
-  "submittedAt": "2026-10-16T14:48:35.397Z",
-  "version": "0.1.0"
+  "submittedAt": "2026-10-21T04:32:07.546Z",
+  "version": "0.1.2"
 }
