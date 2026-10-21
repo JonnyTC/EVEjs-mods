@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-21T03:22:15.882Z",
+  "publishedAt": "2026-10-21T03:25:24.635Z",
   "mods": [
     {
       "author": {
@@ -44,7 +44,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "rzwm/evejs-mod-evejs-autolockfire-cn",
-      "downloads": 115,
+      "downloads": 116,
       "cdnHits": 0
     },
     {
@@ -308,32 +308,27 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/MateralCMX/evejs-mod-ship-blueprints/releases/download/v0.2.1/ship-blueprints-0.2.1.zip"
+          "url": "https://github.com/MateralCMX/evejs-mod-ship-blueprints/releases/download/v0.2.3/ship-blueprints-0.2.3.zip"
         }
       ],
       "evejsVersions": [
-        "0.12.9"
+        "261018.1"
       ],
       "featured": false,
-      "highlights": [
-        "/allshipbp：批量领取符合条件的舰船蓝图原本，每种 1 张，排除旧涂装舰蓝图",
-        "/givebp <蓝图ID>：领取指定蓝图原本 1 张，支持舰船及其他具有工业配方的蓝图"
-      ],
+      "highlights": [],
       "history": [],
       "id": "ship-blueprints",
-      "publishedAt": "2026-10-16",
+      "publishedAt": "2026-10-21",
       "readme": [
-        "新增获取 M10 T20 蓝图原本的 GM 命令，支持批量领取舰船蓝图或按蓝图 ID 领取指定蓝图。",
-        "领取材料效率 ME 10、时间效率 TE 20 的蓝图原本，可无限次使用。",
         "启用后重启游戏服务端。使用 GM 角色停靠，在聊天框输入命令，蓝图会放入当前停靠位置的个人物品机库。",
         "指定领取需填写蓝图类型 ID，不是制造产物 ID 或已有物品 ID。命令不附送制造材料，也不修改已有蓝图；再次执行会再次发放。"
       ],
       "repo": "https://github.com/MateralCMX/evejs-mod-ship-blueprints",
       "requiresRestart": true,
-      "sha256": "1f99673fc9f28560115ed1a7c20a617c1cfa8be2e6e7173df036617e11957060",
-      "sizeBytes": 17095,
+      "sha256": "c8c8055d2440a99b25572a87f0b17a967adc7c7eaa408a62ecd76a8d5ee02aac",
+      "sizeBytes": 15558,
       "tags": [],
-      "version": "0.2.1",
+      "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-ship-blueprints",
       "downloads": 67,
       "cdnHits": 0
@@ -1872,7 +1867,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "KfYqB/OCcRPlJGW9Qnt8cBnaFHk+WF3zLW5WbWIyZBF6sH+dJN7v+Qy9EZna67ZH06RZAorMyVV2wAMp14znBQ==",
-    "signedAt": "2026-10-21T03:22:15.886Z"
+    "sig": "c3Th/2EKFpg+LrdcArBTaBKQUN7ivSrg6zD7w9Tkqhas9dqBHRwWVQOib91rBl3pL2fC5my1i9C46OorUJsUBA==",
+    "signedAt": "2026-10-21T03:25:24.638Z"
   }
 }
