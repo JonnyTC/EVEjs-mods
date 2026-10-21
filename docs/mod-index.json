@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-21T03:25:24.635Z",
+  "publishedAt": "2026-10-21T04:33:06.559Z",
   "mods": [
     {
       "author": {
@@ -44,7 +44,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "rzwm/evejs-mod-evejs-autolockfire-cn",
-      "downloads": 116,
+      "downloads": 117,
       "cdnHits": 0
     },
     {
@@ -87,7 +87,7 @@
       "tags": [],
       "version": "1.1.0",
       "source": "rzwm/evejs-mod-evejs-beijing-time",
-      "downloads": 164,
+      "downloads": 165,
       "cdnHits": 0
     },
     {
@@ -140,7 +140,7 @@
       "tags": [],
       "version": "0.17.3",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 147,
+      "downloads": 150,
       "cdnHits": 0
     },
     {
@@ -185,7 +185,7 @@
       "tags": [],
       "version": "1.1.2",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 784,
+      "downloads": 785,
       "cdnHits": 51
     },
     {
@@ -349,11 +349,11 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/MateralCMX/evejs-mod-gm-menu-localization/releases/download/v0.1.0/gm-menu-localization-0.1.0.zip"
+          "url": "https://github.com/MateralCMX/evejs-mod-gm-menu-localization/releases/download/v0.1.2/gm-menu-localization-0.1.2.zip"
         }
       ],
       "evejsVersions": [
-        "0.12.9"
+        "261018.1"
       ],
       "featured": false,
       "highlights": [
@@ -363,20 +363,19 @@
       ],
       "history": [],
       "id": "gm-menu-localization",
-      "publishedAt": "2026-10-16",
+      "publishedAt": "2026-10-21",
       "readme": [
-        "汉化 GM／WM 扩展菜单、物品 GM 命令和 Insider 工具栏，并提供获取 M10 T20 蓝图的右键入口。",
         "启用后重启游戏服务端，并完全退出、重新启动客户端。汉化不会改变 GM 权限要求；Insider 打开的独立工具窗口内部不在汉化范围内。",
         "蓝图领取入口需同时启用“GM命令扩充”。使用 GM 角色停靠后，右键蓝图，选择 GM／WM 扩展中的“获取 M10 T20 蓝图”，即可领取同类型的满研究蓝图原本；原有蓝图不会被修改。"
       ],
       "repo": "https://github.com/MateralCMX/evejs-mod-gm-menu-localization",
       "requiresRestart": true,
-      "sha256": "98867ef337f8a55c13f185115ae396bbac58c30d212c445c6ca457fb10d27236",
-      "sizeBytes": 22571,
+      "sha256": "74410c4a8541880fff54a53f2505968b4643db727a34b0c4d6937948e40262c8",
+      "sizeBytes": 21577,
       "tags": [],
-      "version": "0.1.0",
+      "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 123,
+      "downloads": 124,
       "cdnHits": 0
     },
     {
@@ -517,7 +516,7 @@
       "tags": [],
       "version": "0.3.2",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 950,
+      "downloads": 953,
       "cdnHits": 0
     },
     {
@@ -1454,7 +1453,7 @@
       "tags": [],
       "version": "3.2.0",
       "source": "Jasper377/evejs-mod-evejs-racks16",
-      "downloads": 288,
+      "downloads": 289,
       "cdnHits": 0
     },
     {
@@ -1666,7 +1665,7 @@
       "tags": [],
       "version": "1.6.0",
       "source": "Jasper377/evejs-mod-evejs-acspecialbattleship",
-      "downloads": 359,
+      "downloads": 360,
       "cdnHits": 0
     },
     {
@@ -1867,7 +1866,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "c3Th/2EKFpg+LrdcArBTaBKQUN7ivSrg6zD7w9Tkqhas9dqBHRwWVQOib91rBl3pL2fC5my1i9C46OorUJsUBA==",
-    "signedAt": "2026-10-21T03:25:24.638Z"
+    "sig": "PAN5DgJRHgRrj97u8Rm60H/ipBavJScdqJAw9yoFoU0+HI0dmmhwGePWeUbanp3ifhbV1rze3cgY3xMMaRoSAA==",
+    "signedAt": "2026-10-21T04:33:06.563Z"
   }
 }
