@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-21T04:33:06.559Z",
+  "publishedAt": "2026-10-21T04:37:45.776Z",
   "mods": [
     {
       "author": {
@@ -627,11 +627,11 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/MateralCMX/evejs-mod-npc-extension-core/releases/download/v0.2.1/npc-extension-core-0.2.1.zip"
+          "url": "https://github.com/MateralCMX/evejs-mod-npc-extension-core/releases/download/v0.2.3/npc-extension-core-0.2.3.zip"
         }
       ],
       "evejsVersions": [
-        "0.12.9"
+        "261018.1"
       ],
       "featured": false,
       "highlights": [
@@ -641,18 +641,17 @@
       ],
       "history": [],
       "id": "npc-extension-core",
-      "publishedAt": "2026-10-16",
+      "publishedAt": "2026-10-21",
       "readme": [
-        "为自定义 NPC 模组提供基础支持，扩展舰体、武器与维修能力，并展示对应 NPC 的战斗属性和赏金。",
-        "本模组单独启用不会新增敌人、异常地点或奖励，需搭配“异常空间”等内容模组使用。启用后重启游戏服务端与客户端。",
+        "搭配“异常空间”等内容模组使用。启用后重启游戏服务端与客户端。",
         "停用前请先处理相关自定义 NPC 场景，并同时停用依赖本模组的内容模组。"
       ],
       "repo": "https://github.com/MateralCMX/evejs-mod-npc-extension-core",
       "requiresRestart": true,
-      "sha256": "c669ea5716074ef4ea172a190b722de1cbd8caa69a8230d200330f010bc20d80",
-      "sizeBytes": 43460,
+      "sha256": "0f38f2d33f0016a723001ab8ddd2f0d16fa2a5de13f6d578912bac24dec2aed8",
+      "sizeBytes": 42349,
       "tags": [],
-      "version": "0.2.1",
+      "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-npc-extension-core",
       "downloads": 63,
       "cdnHits": 0
@@ -1866,7 +1865,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "PAN5DgJRHgRrj97u8Rm60H/ipBavJScdqJAw9yoFoU0+HI0dmmhwGePWeUbanp3ifhbV1rze3cgY3xMMaRoSAA==",
-    "signedAt": "2026-10-21T04:33:06.563Z"
+    "sig": "kLcEHiRKkeMi0S6uEsCQJRV99Lpx1r9hvkjC2hZ9ndLeHH3E79ChkMs+nHdDG1d8nS9fsASGqQS2n6IOfQrFBA==",
+    "signedAt": "2026-10-21T04:37:45.780Z"
   }
 }
