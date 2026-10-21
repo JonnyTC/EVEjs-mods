@@ -9,15 +9,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/MateralCMX/evejs-mod-npc-loot-rules/releases/download/v0.1.1/npc-loot-rules-0.1.1.zip"
+      "url": "https://github.com/MateralCMX/evejs-mod-npc-loot-rules/releases/download/v0.1.3/npc-loot-rules-0.1.3.zip"
     }
   ],
   "id": "npc-loot-rules",
-  "publishedAt": "2026-10-16",
+  "publishedAt": "2026-10-21",
   "schemaVersion": 1,
-  "sha256": "0e298cd24e48a690e70d6e32e86297286267036e0c152760a22bd7a9f734bd2c",
-  "sizeBytes": 73460,
+  "sha256": "ee01bef593b0f5e05ef39adddf1a3ca8958b8c0464362bdb4afd208a90875281",
+  "sizeBytes": 72392,
   "source": "MateralCMX/evejs-mod-npc-loot-rules",
-  "submittedAt": "2026-10-16T14:45:02.224Z",
-  "version": "0.1.1"
+  "submittedAt": "2026-10-21T04:40:23.665Z",
+  "version": "0.1.3"
 }
