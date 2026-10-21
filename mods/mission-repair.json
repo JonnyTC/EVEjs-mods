@@ -9,15 +9,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/MateralCMX/evejs-mod-mission-repair/releases/download/v0.1.0/mission-repair-0.1.0.zip"
+      "url": "https://github.com/MateralCMX/evejs-mod-mission-repair/releases/download/v0.1.2/mission-repair-0.1.2.zip"
     }
   ],
   "id": "mission-repair",
-  "publishedAt": "2026-10-16",
+  "publishedAt": "2026-10-21",
   "schemaVersion": 1,
-  "sha256": "a04fd3916f7139eeb4495a69a22daa92893bcf9a326a7f8c8080f11224b6e536",
-  "sizeBytes": 541255,
+  "sha256": "6b282662ed59edfd1d781a36449fa60ef0f449078d530ab39601171b6ee7c0cd",
+  "sizeBytes": 537788,
   "source": "MateralCMX/evejs-mod-mission-repair",
-  "submittedAt": "2026-10-16T15:49:11.431Z",
-  "version": "0.1.0"
+  "submittedAt": "2026-10-21T04:42:44.895Z",
+  "version": "0.1.2"
 }
