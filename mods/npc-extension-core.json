@@ -9,15 +9,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/MateralCMX/evejs-mod-npc-extension-core/releases/download/v0.2.1/npc-extension-core-0.2.1.zip"
+      "url": "https://github.com/MateralCMX/evejs-mod-npc-extension-core/releases/download/v0.2.3/npc-extension-core-0.2.3.zip"
     }
   ],
   "id": "npc-extension-core",
-  "publishedAt": "2026-10-16",
+  "publishedAt": "2026-10-21",
   "schemaVersion": 1,
-  "sha256": "c669ea5716074ef4ea172a190b722de1cbd8caa69a8230d200330f010bc20d80",
-  "sizeBytes": 43460,
+  "sha256": "0f38f2d33f0016a723001ab8ddd2f0d16fa2a5de13f6d578912bac24dec2aed8",
+  "sizeBytes": 42349,
   "source": "MateralCMX/evejs-mod-npc-extension-core",
-  "submittedAt": "2026-10-16T15:52:48.239Z",
-  "version": "0.2.1"
+  "submittedAt": "2026-10-21T04:36:40.807Z",
+  "version": "0.2.3"
 }
