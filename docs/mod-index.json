@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-21T16:51:03.864Z",
+  "publishedAt": "2026-10-21T18:14:49.826Z",
   "mods": [
     {
       "author": {
@@ -185,7 +185,7 @@
       "tags": [],
       "version": "1.1.2",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 808,
+      "downloads": 809,
       "cdnHits": 51
     },
     {
@@ -375,7 +375,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 158,
+      "downloads": 161,
       "cdnHits": 0
     },
     {
@@ -524,7 +524,7 @@
       ],
       "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 1016,
+      "downloads": 1029,
       "cdnHits": 0
     },
     {
@@ -708,7 +708,7 @@
       "tags": [],
       "version": "0.1.3",
       "source": "MateralCMX/evejs-mod-npc-loot-rules",
-      "downloads": 123,
+      "downloads": 124,
       "cdnHits": 0
     },
     {
@@ -848,12 +848,12 @@
     },
     {
       "author": {
-        "id": "au-muk52dvb6mve",
-        "keyId": "1382094598d9",
+        "id": "au-muvf3plbuo9n",
+        "keyId": "bc816da2a7bc",
         "name": "波坤太叔"
       },
       "category": "玩法",
-      "changelog": "兼容0.12.9版本",
+      "changelog": "对新版本做了兼容处理",
       "conflicts": [],
       "delisted": false,
       "description": "修复游戏内取中文字符在客户端显示为乱码，以及角色/舰船/建筑/物品的中文名被换成 Ship/Item/Structure <id> 的问题。但改为在内存中生效：不修改 server/ 和客户端任何文件。",
@@ -862,12 +862,13 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/diguo520/evejs-mod-evejs-cntext-fix/releases/download/v1.0.5/evejs-cntext-fix-1.0.5.zip"
+          "url": "https://github.com/diguo520/evejs-mod-evejs-cntext-fix/releases/download/v1.0.6/evejs-cntext-fix-1.0.6.zip"
         }
       ],
       "evejsVersions": [
         "0.12.8",
-        "0.12.9"
+        "0.12.9",
+        "261018.x"
       ],
       "featured": false,
       "highlights": [
@@ -875,7 +876,7 @@
       ],
       "history": [],
       "id": "evejs-cntext-fix",
-      "publishedAt": "2026-09-30",
+      "publishedAt": "2026-10-21",
       "readme": [
         "角色，建筑，舰船起名可使用中文",
         "插件分两层，都是把该打的代码插进内存里（不落盘）：",
@@ -885,12 +886,12 @@
       ],
       "repo": "https://github.com/diguo520/evejs-mod-evejs-cntext-fix",
       "requiresRestart": true,
-      "sha256": "44e6c1d135f2b94b817c18d0787bad63ed71579bd36ab4295be4ed9069172f82",
-      "sizeBytes": 13385,
+      "sha256": "776113f74e144eb0f03a85be62c4bba8b708e6e8bacf7134d299a32ca3e0db99",
+      "sizeBytes": 13392,
       "tags": [],
-      "version": "1.0.5",
+      "version": "1.0.6",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 568,
+      "downloads": 569,
       "cdnHits": 55
     },
     {
@@ -940,7 +941,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-mission-repair",
-      "downloads": 158,
+      "downloads": 159,
       "cdnHits": 0
     },
     {
@@ -1067,7 +1068,7 @@
       "tags": [],
       "version": "1.3.1",
       "source": "zhang-xzh/evejs-mod-evejs-sleeper-salvage",
-      "downloads": 110,
+      "downloads": 111,
       "cdnHits": 0
     },
     {
@@ -1458,7 +1459,7 @@
       "tags": [],
       "version": "3.2.0",
       "source": "Jasper377/evejs-mod-evejs-racks16",
-      "downloads": 294,
+      "downloads": 295,
       "cdnHits": 0
     },
     {
@@ -1541,7 +1542,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-character-slots",
-      "downloads": 46,
+      "downloads": 47,
       "cdnHits": 0
     },
     {
@@ -1761,7 +1762,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-blueprint-list-memo",
-      "downloads": 93,
+      "downloads": 94,
       "cdnHits": 0
     },
     {
@@ -1871,7 +1872,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "GypWgiBrqFtgPeiP7Y8uT3knpMevNj585wMV4MYyH3K/sNr1XPLWQAFc5GBej8WGu4rkFWBDrpUYCTbifGAzCg==",
-    "signedAt": "2026-10-21T16:51:03.868Z"
+    "sig": "GOmNhkHLmIcv1BKDba+cWgqZ3pMYRRBwnyn4py5QLv+Q6LW/qtKNZrQE5Pr71Bf/EwK9KISH1xgrCAwqtKHKAQ==",
+    "signedAt": "2026-10-21T18:14:49.831Z"
   }
 }
