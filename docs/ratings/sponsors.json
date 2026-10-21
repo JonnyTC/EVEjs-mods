@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1792313072872,
+  "generatedAt": 1792595344761,
   "sponsors": [
     {
       "id": "sponsor-01",
@@ -229,11 +229,29 @@
       "name": "无数只章鱼",
       "amount": 8.88,
       "currency": "CNY"
+    },
+    {
+      "id": "sponsor-39",
+      "name": "木流牛马",
+      "amount": 11,
+      "currency": "CNY"
+    },
+    {
+      "id": "sponsor-40",
+      "name": "踏星行",
+      "amount": 50,
+      "currency": "CNY"
+    },
+    {
+      "id": "sponsor-41",
+      "name": "皇甫",
+      "amount": 50,
+      "currency": "CNY"
     }
   ],
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "E0r9pwxLYw7/oucdjP7eBPOu6HTPor5qCF4gTIb3xrNsejcnV9y75qPcg/U02hIqn4drJLqMrR85tot+mXQOCw=="
+    "sig": "xdoyYaPntdpoztUGMeandT/94soG+AE2/2SAPXQ2A5T3IdOKRXyGVxCc4hno4UbB81i4qaAK+aHZqt+57luMBA=="
   }
 }
