@@ -368,6 +368,23 @@ for (const repo of sources) {
     if (typeof record.sizeBytes === "number" && record.sizeBytes > 0) entry.sizeBytes = record.sizeBytes;
     if (Array.isArray(record.downloadUrls) && record.downloadUrls.length) entry.downloadUrls = record.downloadUrls;
     if (typeof record.publishedAt === "string" && record.publishedAt.trim()) entry.publishedAt = record.publishedAt.trim();
+    // 截图与精选横幅：**作者仓库的 `evejs-mod.json` 仍是主来源**，但有一类情况需要维护者兜底 ——
+    // 作者把图放进 shots/（甚至 shots/Banner/）之后没有重新发布，清单里就没有这两个字段，
+    // 而索引 CI 只抓清单，于是图明明在仓库里、市场里却一张都不显示。
+    // 允许在分片里补一份：只认"分片里有、且形状合法"的情况；分片没写就完全不动 entry，行为与以前一致。
+    if (Array.isArray(record.shots) && record.shots.length) {
+      const shots = record.shots
+        .filter((item) => typeof item === "string" && item.trim())
+        .map((item) => item.trim());
+      if (shots.length) entry.shots = shots;
+    }
+    if (typeof record.banner === "string" && record.banner.trim()) entry.banner = record.banner.trim();
+    if (Array.isArray(record.banners) && record.banners.length) {
+      const banners = record.banners
+        .filter((item) => typeof item === "string" && item.trim())
+        .map((item) => item.trim());
+      if (banners.length) entry.banners = banners;
+    }
     console.log("  " + id + "：采用已合并的版本记录 " + record.__file + "（v" + entry.version + "）");
   }
 
