@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-22T14:21:37.540Z",
+  "publishedAt": "2026-10-22T14:24:57.636Z",
   "mods": [
     {
       "author": {
@@ -1452,6 +1452,49 @@
     },
     {
       "author": {
+        "id": "au-mujkaep5shgv",
+        "keyId": "2792fbac9b88",
+        "name": "匿名"
+      },
+      "category": "玩法",
+      "changelog": "",
+      "conflicts": [],
+      "delisted": false,
+      "description": "RSI、十字军（Crusader）以及 Argo、联合前哨、Mirai、艾斯普亚、剥度、奥珀、巴努等厂商的船，如北极星、孟加拉、精神号、大力神、鼹鼠、剃刀、战镰。 本包只有数据，需要主控 MOD evejs-sc-ships；仅供个人本地试用。",
+      "displayName": "星际公民舰船包：RSI / 十字军 / 其他 (SC Ships Pack: RSI / Crusader / Others)",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-ships-pack-rsi-crusader/releases/download/v0.1.0/evejs-sc-ships-pack-rsi-crusader-0.1.0.zip"
+        }
+      ],
+      "evejsVersions": [
+        "261018.1"
+      ],
+      "featured": false,
+      "highlights": [],
+      "history": [],
+      "id": "evejs-sc-ships-pack-rsi-crusader",
+      "publishedAt": "2026-10-22",
+      "readme": [
+        "《星际公民》舰船包，是主控 MOD `evejs-sc-ships` 的数据包：只含 21 艘船的模型、贴图、图标和类型定义，没有代码。\n需要先装并启用主控 MOD；在启动器里关掉本包，下次启动服务端后这些船型就消失。改了船包要重启服务端。",
+        "RSI、十字军（Crusader）以及 Argo、联合前哨、Mirai、艾斯普亚、剥度、奥珀、巴努等厂商的船，如北极星、孟加拉、精神号、大力神、鼹鼠、剃刀、战镰。",
+        "| typeID | 名字 | English | 长度 |\n|---|---|---|---|\n| 930003 | RSI 北极星 | RSI Polaris | 6000 m |\n| 930004 | RSI 孟加拉 | RSI Bengal | 16000 m |\n| 930006 | RSI 英仙座 | RSI Perseus | 3600 m |\n| 930007 | 概念 野马 Alpha | C.O. Mustang Alpha | 700 m |\n| 930020 | 阿格 鼹鼠 | Argo MOLE | 1390 m |\n| 930027 | 十字军 精灵 | Crusader Spirit | 1540 m |\n| 930028 | RSI 宙斯 Mk II | RSI Zeus Mk II | 1510 m |\n| 930034 | RSI 天蝎座 | RSI Scorpius | 990 m |\n| 930035 | RSI 曙光 MR | RSI Aurora MR | 610 m |\n| 930037 | 十字军 A2 大力神 | Crusader A2 Hercules Starlifter | 3110 m |\n| 930038 | 十字军 C2 大力神 | Crusader C2 Hercules Starlifter | 3110 m |\n| 930039 | 十字军 M2 大力神 | Crusader M2 Hercules Starlifter | 3110 m |\n| 930050 | Mirai 剃刀 | Mirai Razor | 370 m |\n| 930052 | 十字军 墨丘利星驰舰 | Crusader Mercury Star Runner | 1790 m |\n| 930053 | 十字军 无畏者 | Crusader Intrepid | 760 m |\n| 930054 | 十字军 战神 离子 | Crusader Ares Star Fighter Ion | 820 m |\n| 930056 | Mirai 守护者 | Mirai Guardian | 820 m |\n| 930057 | 艾斯普亚 徘徊者 | Esperia Prowler | 1100 m |\n| 930062 | 剥度 战镰 | Vanduul Scythe | 1010 m |\n| 930063 | 奥珀 圣托克亚 | Aopoa San'tok.yai | 700 m |\n| 930064 | 巴努 守卫者 | Banu Defender | 820 m |",
+        "资产由玩家自己的《星际公民》安装转换而来，仅供个人本地试用（见主控 MOD 的 README）。重复的贴图按内容只存一份（`assets/blobs`），清单里记了 md5 和大小。"
+      ],
+      "repo": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-ships-pack-rsi-crusader",
+      "requiresRestart": true,
+      "sha256": "8fa2525ad32a86257fa7cb04dd8057d50bb255273c4960fd5c8a7578bea9e104",
+      "sizeBytes": 424532523,
+      "tags": [],
+      "version": "0.1.0",
+      "source": "xuenaimiao/evejs-mod-evejs-sc-ships-pack-rsi-crusader",
+      "downloads": 0,
+      "cdnHits": 0
+    },
+    {
+      "author": {
         "id": "au-muwt2r89fjz0",
         "keyId": "62c4ee92863e",
         "name": "正在北极拔草"
@@ -1913,7 +1956,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "SzfLvkRVeHnBCGWWWCbEQXxV/tOjS5O9R7OOUUoUR7N5l/abF2N/ETSfLKGCvyo07ajBMX7X5gc1lNBIyTrkCg==",
-    "signedAt": "2026-10-22T14:21:37.544Z"
+    "sig": "0ctLeJMoigxpU/T0FgmRb4RJIrffiV1rccKhJIcpByo4W0T4CPEjb8pmJJ0gTG7+thuXVQLCemI009/C94UDAg==",
+    "signedAt": "2026-10-22T14:24:57.640Z"
   }
 }
