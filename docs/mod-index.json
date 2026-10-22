@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-21T21:00:59.565Z",
+  "publishedAt": "2026-10-22T02:21:21.705Z",
   "mods": [
     {
       "author": {
@@ -44,7 +44,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "rzwm/evejs-mod-evejs-autolockfire-cn",
-      "downloads": 130,
+      "downloads": 131,
       "cdnHits": 0
     },
     {
@@ -140,7 +140,7 @@
       "tags": [],
       "version": "0.17.3",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 196,
+      "downloads": 199,
       "cdnHits": 0
     },
     {
@@ -185,7 +185,7 @@
       "tags": [],
       "version": "1.1.2",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 811,
+      "downloads": 813,
       "cdnHits": 51
     },
     {
@@ -245,8 +245,8 @@
       "tags": [],
       "version": "1.0.15",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 738,
-      "cdnHits": 482
+      "downloads": 739,
+      "cdnHits": 554
     },
     {
       "author": {
@@ -289,7 +289,7 @@
       "tags": [],
       "version": "1.0.3",
       "source": "guihaitianyi-cmd/evejs-mod-evejs-evejs-hacking-suite-1-0-3",
-      "downloads": 205,
+      "downloads": 206,
       "cdnHits": 0
     },
     {
@@ -330,7 +330,7 @@
       "tags": [],
       "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-ship-blueprints",
-      "downloads": 86,
+      "downloads": 87,
       "cdnHits": 0
     },
     {
@@ -375,7 +375,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 163,
+      "downloads": 164,
       "cdnHits": 0
     },
     {
@@ -416,7 +416,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-lp-balance-overflow",
-      "downloads": 100,
+      "downloads": 102,
       "cdnHits": 0
     },
     {
@@ -457,7 +457,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-npc-corp-info",
-      "downloads": 114,
+      "downloads": 115,
       "cdnHits": 0
     },
     {
@@ -524,7 +524,7 @@
       ],
       "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 1030,
+      "downloads": 1037,
       "cdnHits": 0
     },
     {
@@ -661,7 +661,7 @@
       "tags": [],
       "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-npc-extension-core",
-      "downloads": 81,
+      "downloads": 83,
       "cdnHits": 0
     },
     {
@@ -708,7 +708,7 @@
       "tags": [],
       "version": "0.1.3",
       "source": "MateralCMX/evejs-mod-npc-loot-rules",
-      "downloads": 125,
+      "downloads": 127,
       "cdnHits": 0
     },
     {
@@ -891,7 +891,7 @@
       "tags": [],
       "version": "1.0.6",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 574,
+      "downloads": 580,
       "cdnHits": 55
     },
     {
@@ -941,7 +941,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-mission-repair",
-      "downloads": 160,
+      "downloads": 163,
       "cdnHits": 0
     },
     {
@@ -1109,7 +1109,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-npc-kill-lp",
-      "downloads": 86,
+      "downloads": 87,
       "cdnHits": 0
     },
     {
@@ -1319,7 +1319,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-structure-timers",
-      "downloads": 69,
+      "downloads": 70,
       "cdnHits": 0
     },
     {
@@ -1459,7 +1459,7 @@
       "tags": [],
       "version": "3.2.0",
       "source": "Jasper377/evejs-mod-evejs-racks16",
-      "downloads": 295,
+      "downloads": 297,
       "cdnHits": 0
     },
     {
@@ -1671,7 +1671,7 @@
       "tags": [],
       "version": "1.6.0",
       "source": "Jasper377/evejs-mod-evejs-acspecialbattleship",
-      "downloads": 370,
+      "downloads": 371,
       "cdnHits": 0
     },
     {
@@ -1721,7 +1721,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "rzwm/evejs-mod-evejs-autopilot-jump-stargate-0km",
-      "downloads": 185,
+      "downloads": 186,
       "cdnHits": 0
     },
     {
@@ -1872,7 +1872,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "vnd+HOYTFYAocBsXFD2N6jw6lB9awN8R1jZZC1guBjPFtGJQ2Q3PopiU59NgqOtrCXkFAXGz2KKrTHT+4OQzCw==",
-    "signedAt": "2026-10-21T21:00:59.569Z"
+    "sig": "Suaivs3Gu+ma4sPxA7yIg81BZWzhvSi7FcqLdPGepvO+IjIRRUhS7BrxE/v4dSVug7KLSThMwilNH0s+whzOAA==",
+    "signedAt": "2026-10-22T02:21:21.707Z"
   }
 }
