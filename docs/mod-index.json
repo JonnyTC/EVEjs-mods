@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-22T10:49:25.350Z",
+  "publishedAt": "2026-10-22T14:21:37.540Z",
   "mods": [
     {
       "author": {
@@ -44,7 +44,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "rzwm/evejs-mod-evejs-autolockfire-cn",
-      "downloads": 137,
+      "downloads": 138,
       "cdnHits": 0
     },
     {
@@ -140,7 +140,7 @@
       "tags": [],
       "version": "0.17.3",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 204,
+      "downloads": 208,
       "cdnHits": 0
     },
     {
@@ -185,7 +185,7 @@
       "tags": [],
       "version": "1.1.2",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 821,
+      "downloads": 826,
       "cdnHits": 51
     },
     {
@@ -245,7 +245,7 @@
       "tags": [],
       "version": "1.0.15",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 744,
+      "downloads": 745,
       "cdnHits": 554
     },
     {
@@ -330,7 +330,7 @@
       "tags": [],
       "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-ship-blueprints",
-      "downloads": 90,
+      "downloads": 92,
       "cdnHits": 0
     },
     {
@@ -375,7 +375,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 170,
+      "downloads": 171,
       "cdnHits": 0
     },
     {
@@ -524,7 +524,7 @@
       ],
       "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 1054,
+      "downloads": 1060,
       "cdnHits": 0
     },
     {
@@ -661,7 +661,7 @@
       "tags": [],
       "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-npc-extension-core",
-      "downloads": 85,
+      "downloads": 86,
       "cdnHits": 0
     },
     {
@@ -708,7 +708,7 @@
       "tags": [],
       "version": "0.1.3",
       "source": "MateralCMX/evejs-mod-npc-loot-rules",
-      "downloads": 130,
+      "downloads": 133,
       "cdnHits": 0
     },
     {
@@ -843,7 +843,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "injusticemaster/evejs-mod-world-ark-91900",
-      "downloads": 38,
+      "downloads": 39,
       "cdnHits": 0
     },
     {
@@ -891,7 +891,7 @@
       "tags": [],
       "version": "1.0.6",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 597,
+      "downloads": 605,
       "cdnHits": 55
     },
     {
@@ -941,7 +941,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-mission-repair",
-      "downloads": 169,
+      "downloads": 173,
       "cdnHits": 0
     },
     {
@@ -987,7 +987,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-clone-convenience",
-      "downloads": 73,
+      "downloads": 74,
       "cdnHits": 0
     },
     {
@@ -1068,7 +1068,7 @@
       "tags": [],
       "version": "1.3.1",
       "source": "zhang-xzh/evejs-mod-evejs-sleeper-salvage",
-      "downloads": 116,
+      "downloads": 117,
       "cdnHits": 0
     },
     {
@@ -1150,7 +1150,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-combat-native-store-rows",
-      "downloads": 145,
+      "downloads": 146,
       "cdnHits": 0
     },
     {
@@ -1191,7 +1191,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-combat-item-name-scan",
-      "downloads": 139,
+      "downloads": 140,
       "cdnHits": 0
     },
     {
@@ -1232,7 +1232,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-combat-char-record-ref",
-      "downloads": 147,
+      "downloads": 148,
       "cdnHits": 0
     },
     {
@@ -1273,7 +1273,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-charge-sublocation-row",
-      "downloads": 90,
+      "downloads": 91,
       "cdnHits": 0
     },
     {
@@ -1360,7 +1360,7 @@
       "tags": [],
       "version": "0.2.2",
       "source": "xuenaimiao/evejs-mod-evejs-perf-fix",
-      "downloads": 399,
+      "downloads": 400,
       "cdnHits": 0
     },
     {
@@ -1407,6 +1407,47 @@
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-salvage-repair",
       "downloads": 76,
+      "cdnHits": 0
+    },
+    {
+      "author": {
+        "id": "au-mujkaep5shgv",
+        "keyId": "2792fbac9b88",
+        "name": "匿名"
+      },
+      "category": "玩法",
+      "changelog": "",
+      "conflicts": [],
+      "delisted": false,
+      "description": "实验性、仅供个人本地试用：把《星际公民》的舰船做成 EVE 里新增的舰船类型（typeID 930001 起，用 /ship 930001 拿船），第三人称显示 SC 的完整外壳模型（含默认配置的引擎、炮塔、舱门）。本 MOD 是主控：全部代码、SC 飞行模式 / 变形 / 音效，和 Constellation Andromeda（仙女座，930001）；其余 65 艘在三个数据包 MOD 里（evejs-sc-ships-pack-aegis-anvil / -rsi-crusader / -origin-drake-misc，每个 ZIP 不到 1 GB，需要先装本 MOD，要哪个装哪个）。飞行属性、装配基于各船对应的原版同级船，只有外观是 SC 的。做法：服务端给类型表加克隆行；随登录握手下发一段 Python，让客户端在运行时建出类型、图形和 SOF hull 记录；本 MOD 随服务端启动，把转换好的 gr2 与贴图以新的 res 路径写进客户端的 ResFiles 和 resfileindex.txt（原索引先备份，每一行改动都记在 evejs-sc-ships.state.json，可一键还原；幂等）。不修改服务端文件，也不修改 code.ccp。资产由玩家自己的《星际公民》安装转换而来（tools/ 下有完整流水线，见 README），不随仓库分发。改了 ships/ships.json 或开关了某个数据包要重启服务端；模型和贴图的更新不用。EVEJS_MOD_SC_SHIPS=0 停用，=revert 下次启动时还原；EVEJS_SCSHIPS_PACKS=0 忽略所有数据包；EVEJS_CLIENT_PATH 指客户端目录（默认 E:\\EVE\\tq）。",
+      "displayName": "星际公民舰船 (SC Ships)",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-ships/releases/download/v0.3.0/evejs-sc-ships-0.3.0.zip"
+        }
+      ],
+      "evejsVersions": [
+        "261018.1"
+      ],
+      "featured": false,
+      "highlights": [],
+      "history": [],
+      "id": "evejs-sc-ships",
+      "publishedAt": "2026-10-22",
+      "readme": [
+        "把《星际公民》的 66 艘船做成 EVE 里**真正新增的舰船类型**（typeID 930001–930066），第三人称显示 SC 的完整外壳模型（含默认配置的引擎、炮塔、舱门）。\n实验性，仅供个人本地试用；资产由玩家自己的《星际公民》安装转换而来，不随仓库分发。",
+        "飞行属性、装配、挂点数量都是「属性基于」那艘船的；只有外观是 SC 的。名字、说明有中英文。"
+      ],
+      "repo": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-ships",
+      "requiresRestart": true,
+      "sha256": "9265a29338dea79fe78a840c50c4edaf49c1f5acd24379a1b101ae30843a1e01",
+      "sizeBytes": 67063938,
+      "tags": [],
+      "version": "0.3.0",
+      "source": "xuenaimiao/evejs-mod-evejs-sc-ships",
+      "downloads": 0,
       "cdnHits": 0
     },
     {
@@ -1500,7 +1541,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-wreck-naming",
-      "downloads": 121,
+      "downloads": 123,
       "cdnHits": 0
     },
     {
@@ -1762,7 +1803,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-blueprint-list-memo",
-      "downloads": 98,
+      "downloads": 100,
       "cdnHits": 0
     },
     {
@@ -1872,7 +1913,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "EScA89qvGQt/1CAuOiYfOzR64BQmI1brlLvWAIuy/GTTTiw6CleYl6SnckKBHluC87Trv34uY//QZfF6qdlZCQ==",
-    "signedAt": "2026-10-22T10:49:25.355Z"
+    "sig": "SzfLvkRVeHnBCGWWWCbEQXxV/tOjS5O9R7OOUUoUR7N5l/abF2N/ETSfLKGCvyo07ajBMX7X5gc1lNBIyTrkCg==",
+    "signedAt": "2026-10-22T14:21:37.544Z"
   }
 }
