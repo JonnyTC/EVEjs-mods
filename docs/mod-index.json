@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-22T14:34:59.557Z",
+  "publishedAt": "2026-10-22T14:37:53.203Z",
   "mods": [
     {
       "author": {
@@ -524,7 +524,7 @@
       ],
       "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 1060,
+      "downloads": 1062,
       "cdnHits": 0
     },
     {
@@ -1538,6 +1538,49 @@
     },
     {
       "author": {
+        "id": "au-mujkaep5shgv",
+        "keyId": "2792fbac9b88",
+        "name": "匿名"
+      },
+      "category": "玩法",
+      "changelog": "",
+      "conflicts": [],
+      "delisted": false,
+      "description": "神盾（Aegis）和铁砧（Anvil）的战斗机、炮艇和军舰，如惩戒者、军刀、标枪、伊德里斯、大黄蜂、卡拉克、女武神、解放者。 本包只有数据，需要主控 MOD evejs-sc-ships；仅供个人本地试用。",
+      "displayName": "星际公民舰船包：神盾 / 铁砧 (SC Ships Pack: Aegis / Anvil)",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-ships-pack-aegis-anvil/releases/download/v0.1.0/evejs-sc-ships-pack-aegis-anvil-0.1.0.zip"
+        }
+      ],
+      "evejsVersions": [
+        "261018.1"
+      ],
+      "featured": false,
+      "highlights": [],
+      "history": [],
+      "id": "evejs-sc-ships-pack-aegis-anvil",
+      "publishedAt": "2026-10-22",
+      "readme": [
+        "《星际公民》舰船包，是主控 MOD `evejs-sc-ships` 的数据包：只含 23 艘船的模型、贴图、图标和类型定义，没有代码。\n需要先装并启用主控 MOD；在启动器里关掉本包，下次启动服务端后这些船型就消失。改了船包要重启服务端。",
+        "神盾（Aegis）和铁砧（Anvil）的战斗机、炮艇和军舰，如惩戒者、军刀、标枪、伊德里斯、大黄蜂、卡拉克、女武神、解放者。",
+        "| typeID | 名字 | English | 长度 |\n|---|---|---|---|\n| 930002 | 神盾 惩戒 | Aegis Retaliator | 2700 m |\n| 930005 | 神盾 锤头鲨 | Aegis Hammerhead | 4000 m |\n| 930008 | 神盾 复仇者 泰坦 | Aegis Avenger Titan | 740 m |\n| 930009 | 神盾 短剑 | Aegis Gladius | 650 m |\n| 930010 | 铁砧 箭 | Anvil Arrow | 590 m |\n| 930011 | 神盾 军刀 | Aegis Sabre | 790 m |\n| 930012 | 铁砧 超级大黄蜂 | Anvil Super Hornet | 840 m |\n| 930015 | 铁砧 卡拉克 | Anvil Carrack | 4140 m |\n| 930021 | 神盾 回收者 | Aegis Reclaimer | 5220 m |\n| 930022 | 神盾 救赎者 | Aegis Redeemer | 1670 m |\n| 930023 | 神盾 伊德里斯-P | Aegis Idris-P | 7700 m |\n| 930024 | 神盾 标枪 | Aegis Javelin | 14230 m |\n| 930030 | 神盾 先锋 守望者 | Aegis Vanguard Warden | 1260 m |\n| 930033 | 铁砧 陆龟 | Anvil Terrapin | 660 m |\n| 930036 | 神盾 惩戒 轰炸型 | Aegis Retaliator Bomber | 4000 m |\n| 930040 | 铁砧 女武神 | Anvil Valkyrie | 1500 m |\n| 930041 | 铁砧 圣骑士 | Anvil Paladin | 1750 m |\n| 930042 | 铁砧 阿斯加德 | Anvil Asgard | 1600 m |\n| 930043 | 铁砧 角斗士 | Anvil Gladiator | 740 m |\n| 930044 | 铁砧 F8C 闪电 | Anvil F8C Lightning | 800 m |\n| 930045 | 铁砧 飓风 | Anvil Hurricane | 690 m |\n| 930055 | 神盾 日蚀 | Aegis Eclipse | 680 m |\n| 930066 | 铁砧 解放者 | Anvil Liberator | 3910 m |",
+        "资产由玩家自己的《星际公民》安装转换而来，仅供个人本地试用（见主控 MOD 的 README）。重复的贴图按内容只存一份（`assets/blobs`），清单里记了 md5 和大小。"
+      ],
+      "repo": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-ships-pack-aegis-anvil",
+      "requiresRestart": true,
+      "sha256": "7ea584e40de7caa4cb97f0746a2fa1da7736f4956ae6b0989ae1a5d7b9c402f1",
+      "sizeBytes": 428230286,
+      "tags": [],
+      "version": "0.1.0",
+      "source": "xuenaimiao/evejs-mod-evejs-sc-ships-pack-aegis-anvil",
+      "downloads": 0,
+      "cdnHits": 0
+    },
+    {
+      "author": {
         "id": "au-muwt2r89fjz0",
         "keyId": "62c4ee92863e",
         "name": "正在北极拔草"
@@ -1798,6 +1841,7 @@
       "tags": [],
       "version": "1.6.0",
       "source": "Jasper377/evejs-mod-evejs-acspecialbattleship",
+      "downloads": 378,
       "cdnHits": 0
     },
     {
@@ -1998,7 +2042,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "gnWePipuvjlXOm3wF49pw/o9nh5MCG0284yamh5EPiYKCV/E3a4Q/pF30h/2DNn72FEu1SeEQi8F8wOhrc2KDA==",
-    "signedAt": "2026-10-22T14:34:59.561Z"
+    "sig": "ObsJpMoaHyufxDGlpUgz0vuFWo/ZKyWpHiW1X1cahq5rG7ULPOGetLPk7mzzZKNCe7sgK1/1BJ3VjQOdhWt9Bw==",
+    "signedAt": "2026-10-22T14:37:53.207Z"
   }
 }
