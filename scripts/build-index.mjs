@@ -30,6 +30,33 @@ const OUT_FILE = path.join(OUT_DIR, "mod-index.json");
 const LISTING_NAME = "evejs-mod.json";
 const FETCH_TIMEOUT_MS = 15000;
 
+/**
+ * 上一次发布的索引里的下载量 —— 给 `downloads` 加一道「**只增不减**」的护栏。
+ *
+ * 为什么需要（2026-10-23 实测）：GitHub 的 Release 资产 `download_count` **会间歇性报 0**。
+ * 同一次构建里 8 个模组拿到真值（609 / 175 / 150 …），**33 个全是 0**；
+ * 稍后用**同样的接口、同样的仓库**重查，那些「0」全都有真实值
+ * （`evejs-automining` 749、`evejs-autolockfire` 830、`evejs-faction-sim` 1082）。
+ * 不是权限、不是限流、不是仓库地址 —— 就是计数没刷出来。
+ *
+ * 下载数是**累计值**：作者每发一个新版本只会往上加。所以「变小」只可能是取数出错，
+ * 此时沿用上一次的值，别让模组的下载量凭空消失（上一版就是这么丢的）。
+ */
+const previousDownloads = new Map();
+try {
+  const previous = JSON.parse(fs.readFileSync(OUT_FILE, "utf8"));
+  for (const item of Array.isArray(previous.mods) ? previous.mods : []) {
+    if (typeof item.downloads === "number" && item.downloads > 0) {
+      previousDownloads.set(item.id, item.downloads);
+    }
+  }
+} catch {
+  // 第一次构建没有上一份，正常
+}
+let downloadsRefreshed = 0;
+let downloadsPreserved = 0;
+let downloadsZero = 0;
+
 function sortKeysDeep(value) {
   if (Array.isArray(value)) return value.map(sortKeysDeep);
   if (value && typeof value === "object") {
@@ -510,16 +537,42 @@ for (const repo of sources) {
   const dl = await fetchReleaseDownloads(repo);
   const cdn = await fetchJsdelivrHits(repo);
   const withDl = { ...entry, source: repo, downloadUrls: usable };
+  const previousDownloadCount = previousDownloads.get(id) || 0;
   if (dl.ok || cdn.ok) {
     // 只统计 GitHub Release 资产的下载次数：这是作者真正发布 ZIP 的通道，一次下载=一次安装；
     // jsDelivr 的 packages 命中数包含启动器拉 evejs-mod.json、检查更新等非下载请求，混在一起会虚高（实测 14 次安装被算成 23）。
     // 因此它只作为参考值存进 cdnHits，不计入下载量。
-    if (dl.ok) withDl.downloads = dl.total;   // 统计不到就留空（前端显示 —），不写 0 误导作者
+    if (dl.ok) {
+      // 「只增不减」护栏：`download_count` 是累计值，回落（尤其归 0）只可能是取数出错。
+      // 见文件头 `previousDownloads` 的注释（2026-10-23 那次 33 个模组被写成 0）。
+      if (dl.total > 0) {
+        withDl.downloads = dl.total;
+        downloadsRefreshed += 1;
+        if (dl.total < previousDownloadCount) {
+          // 不拦、照实写，但要让维护者能看见：真降了通常意味着换了 Release / 迁移了仓库
+          console.log("  " + id + "：本次 " + dl.total + " 比上次 " + previousDownloadCount +
+            " 小 —— 照实写，建议人工核一眼");
+        }
+      } else if (previousDownloadCount > 0) {
+        withDl.downloads = previousDownloadCount;
+        downloadsPreserved += 1;
+        console.log("  " + id + "：GitHub 这次报 0（累计值不可能回落）→ 沿用上次的 " + previousDownloadCount);
+      } else {
+        // 真·新模组、且确实还没人下：照实 0，前端会显示「—」
+        withDl.downloads = 0;
+        downloadsZero += 1;
+      }
+    }
     if (cdn.ok) withDl.cdnHits = cdn.total;
     console.log("  " + id + "：下载 " + withDl.downloads + " 次（Release " + (dl.ok ? dl.total : "未统计") +
       (cdn.ok ? "；jsDelivr 命中 " + cdn.total + " 次（含检查更新，不计入下载）" : "") + "）");
   } else {
-    console.log("  " + id + "：下载次数未统计（Release: " + dl.reason + " / jsDelivr: " + cdn.reason + "）");
+    console.log("  " + id + "：下载次数未统计（Release: " + dl.reason + " / jsDelivr: " + cdn.reason + "）" +
+      (previousDownloadCount > 0 ? " → 沿用上次的 " + previousDownloadCount : " → 留空（前端显示 —）"));
+    if (previousDownloadCount > 0) {
+      withDl.downloads = previousDownloadCount;
+      downloadsPreserved += 1;
+    }
   }
   // 条目级审核：id 规则优先，其次来源规则
   const rule = ruleFor("id", id) || ruleFor("source", repo);
@@ -591,6 +644,13 @@ if (authorKeysChanged) {
 
 console.log("索引已生成：" + OUT_FILE);
 console.log("  条目：" + mods.length + "  来源：" + sources.length + "  签名 keyId：" + keyId);
+console.log("  下载量：刷新 " + downloadsRefreshed + " / 沿用上次 " + downloadsPreserved + " / 仍为 0 " + downloadsZero);
+// 异常要有信号：一次构建里大半模组都没拿到真实计数，说明上游（GitHub 的资产计数）不对劲。
+// 不 fail（索引必须继续发布，且护栏已保证数值不回落），但要让这一次运行「不静默」。
+if (downloadsPreserved + downloadsZero > mods.length / 2) {
+  console.log("::warning::本次 " + (downloadsPreserved + downloadsZero) + "/" + mods.length +
+    " 个模组的下载数没拿到真值（沿用上次或为 0），请核一眼上游计数。");
+}
 if (rejected.length) {
   console.log("");
   console.log("=== 被跳过的来源（" + rejected.length + "）===");
