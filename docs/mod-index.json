@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-23T16:05:43.558Z",
+  "publishedAt": "2026-10-23T16:50:07.974Z",
   "mods": [
     {
       "author": {
@@ -87,7 +87,7 @@
       "tags": [],
       "version": "1.1.0",
       "source": "rzwm/evejs-mod-evejs-beijing-time",
-      "downloads": 182,
+      "downloads": 183,
       "cdnHits": 0
     },
     {
@@ -140,7 +140,7 @@
       "tags": [],
       "version": "0.17.3",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 244,
+      "downloads": 246,
       "cdnHits": 0
     },
     {
@@ -185,7 +185,7 @@
       "tags": [],
       "version": "1.1.4",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 894,
+      "downloads": 902,
       "cdnHits": 42
     },
     {
@@ -245,7 +245,7 @@
       "tags": [],
       "version": "1.0.17",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 805,
+      "downloads": 811,
       "cdnHits": 740
     },
     {
@@ -330,7 +330,7 @@
       "tags": [],
       "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-ship-blueprints",
-      "downloads": 107,
+      "downloads": 108,
       "cdnHits": 8
     },
     {
@@ -375,7 +375,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 201,
+      "downloads": 203,
       "cdnHits": 0
     },
     {
@@ -416,7 +416,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-lp-balance-overflow",
-      "downloads": 113,
+      "downloads": 114,
       "cdnHits": 0
     },
     {
@@ -457,7 +457,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-npc-corp-info",
-      "downloads": 134,
+      "downloads": 136,
       "cdnHits": 0
     },
     {
@@ -524,7 +524,7 @@
       ],
       "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 1202,
+      "downloads": 1207,
       "cdnHits": 183
     },
     {
@@ -661,7 +661,7 @@
       "tags": [],
       "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-npc-extension-core",
-      "downloads": 101,
+      "downloads": 103,
       "cdnHits": 0
     },
     {
@@ -708,7 +708,7 @@
       "tags": [],
       "version": "0.1.3",
       "source": "MateralCMX/evejs-mod-npc-loot-rules",
-      "downloads": 155,
+      "downloads": 156,
       "cdnHits": 0
     },
     {
@@ -770,16 +770,16 @@
         "name": "橘子"
       },
       "category": "玩法",
-      "changelog": "修复了可能存在杀死进程的问题",
+      "changelog": "*新增三个口径冬眠者导弹炮台武器，使用冬眠者导弹弹药（入梦昏睡鬼影）\nbug修复：\n1.修复了武器编组无伤害的问题\n2.修复了与其他舰船模组的兼容问题（bata）\n3.增加了全部八种舰船的介绍与加成描述\n4.修复了冬眠者战舰的装配面板问题",
       "conflicts": [],
       "delisted": false,
-      "description": "Adds playable Sleeper and Drifter hulls. 1.5.2 fixes the 0.2.x launcher process kill: the startup guard now arms only for the real server entry and no longer terminates the launcher npm/node chain.",
+      "description": "Sleeper & Drifter playable ships with collision-free 3410xxx typeIDs and automatic safe migration.",
       "displayName": "Sleeper & Drifter Playable Ships",
       "downloadUrls": [
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/JUZIMandarin/evejs-mod-evejs-sleeper-drifters/releases/download/v1.5.2/evejs-sleeper-drifters-1.5.2.zip"
+          "url": "https://github.com/JUZIMandarin/evejs-mod-evejs-sleeper-drifters/releases/download/v1.6.3/evejs-sleeper-drifters-1.6.3.zip"
         }
       ],
       "evejsVersions": [
@@ -789,16 +789,16 @@
       "highlights": [],
       "history": [],
       "id": "evejs-sleeper-drifters",
-      "publishedAt": "2026-10-01",
+      "publishedAt": "2026-10-23",
       "readme": [
-        "本模组包含服务端加载器、客户端 FSD 数据、服务端静态表和安装器。目标是让玩家使用根据原版流浪者冬眠者舰船添加的模组舰船。"
+        "- 三艘冬眠者舰船发放 8 门对应等级的冬眠者导弹炮台和 1000 发对应原版 NPC 导弹，全部放在船舱。\n- 冬眠者武器只发给 `sentinel` / `awakened` / `emergent`，不会发给流浪者舰船。\n- 弹药用完后，登上对应冬眠者舰船并停靠空间站，使用 `/psleeper ammo <sentinel|awakened|emergent> [数量]` 补充；默认 1000 发、最多 10000 发，直接放入该舰船舱。\n- 流浪者舰船继续使用勒克斯之矛；`strategos` / `tyrannos` 继续发放流浪者末日武器和燃料。"
       ],
       "repo": "https://github.com/JUZIMandarin/evejs-mod-evejs-sleeper-drifters",
       "requiresRestart": true,
-      "sha256": "fb427e77818da9d21634e61d66ba63000e32f2d11ea6bfcaa1c81857993cfe52",
-      "sizeBytes": 18693285,
+      "sha256": "791468d7d0cc40d9338fe6d1fcaa62e20cc5d0c40fb127b8ac238b7886775907",
+      "sizeBytes": 17071140,
       "tags": [],
-      "version": "1.5.2",
+      "version": "1.6.3",
       "source": "JUZIMandarin/evejs-mod-evejs-sleeper-drifters",
       "downloads": 471,
       "cdnHits": 3
@@ -843,7 +843,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "injusticemaster/evejs-mod-world-ark-91900",
-      "downloads": 66,
+      "downloads": 68,
       "cdnHits": 0
     },
     {
@@ -891,7 +891,7 @@
       "tags": [],
       "version": "1.0.8",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 664,
+      "downloads": 668,
       "cdnHits": 55
     },
     {
@@ -941,7 +941,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-mission-repair",
-      "downloads": 208,
+      "downloads": 210,
       "cdnHits": 0
     },
     {
@@ -1027,7 +1027,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-crate-opening",
-      "downloads": 85,
+      "downloads": 86,
       "cdnHits": 0
     },
     {
@@ -1068,7 +1068,7 @@
       "tags": [],
       "version": "1.3.1",
       "source": "zhang-xzh/evejs-mod-evejs-sleeper-salvage",
-      "downloads": 133,
+      "downloads": 135,
       "cdnHits": 0
     },
     {
@@ -1109,7 +1109,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-npc-kill-lp",
-      "downloads": 100,
+      "downloads": 102,
       "cdnHits": 0
     },
     {
@@ -1150,7 +1150,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-combat-native-store-rows",
-      "downloads": 161,
+      "downloads": 166,
       "cdnHits": 0
     },
     {
@@ -1191,7 +1191,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-combat-item-name-scan",
-      "downloads": 153,
+      "downloads": 158,
       "cdnHits": 0
     },
     {
@@ -1232,7 +1232,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-combat-char-record-ref",
-      "downloads": 164,
+      "downloads": 169,
       "cdnHits": 0
     },
     {
@@ -1273,7 +1273,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-charge-sublocation-row",
-      "downloads": 102,
+      "downloads": 105,
       "cdnHits": 0
     },
     {
@@ -1670,7 +1670,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-wreck-naming",
-      "downloads": 132,
+      "downloads": 135,
       "cdnHits": 0
     },
     {
@@ -1712,7 +1712,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-character-slots",
-      "downloads": 58,
+      "downloads": 59,
       "cdnHits": 0
     },
     {
@@ -1753,7 +1753,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-inventory-stack-limit",
-      "downloads": 110,
+      "downloads": 114,
       "cdnHits": 0
     },
     {
@@ -1932,7 +1932,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-blueprint-list-memo",
-      "downloads": 113,
+      "downloads": 117,
       "cdnHits": 0
     },
     {
@@ -2021,7 +2021,7 @@
       "tags": [],
       "version": "1.0.1",
       "source": "zhang-xzh/evejs-mod-evejs-jumpbridge-fuel",
-      "downloads": 94,
+      "downloads": 96,
       "cdnHits": 0
     }
   ],
@@ -2042,7 +2042,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "GjfWOYLLuBSW+2k6Sd+l+Riz2VyiYkvsVTNU8jKlreWPqH95DHhrvQ93ezEqGDvIY9mtrwvHiFmHFCsXT43mAg==",
-    "signedAt": "2026-10-23T16:05:43.562Z"
+    "sig": "1GOYKFV8dIWq/JREEP9cC2nxa5dgojoW6TplWLMQvCE4MpMmQPzWZoHuT2G78X4TkUXhdG7yku0gAEDV7Pi2Dw==",
+    "signedAt": "2026-10-23T16:50:07.978Z"
   }
 }
