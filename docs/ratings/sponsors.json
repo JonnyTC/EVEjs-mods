@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1792595344761,
+  "generatedAt": 1792746260209,
   "sponsors": [
     {
       "id": "sponsor-01",
@@ -247,11 +247,17 @@
       "name": "皇甫",
       "amount": 50,
       "currency": "CNY"
+    },
+    {
+      "id": "sponsor-42",
+      "name": "*珊",
+      "amount": 20,
+      "currency": "CNY"
     }
   ],
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "xdoyYaPntdpoztUGMeandT/94soG+AE2/2SAPXQ2A5T3IdOKRXyGVxCc4hno4UbB81i4qaAK+aHZqt+57luMBA=="
+    "sig": "3rudGfyjsATaaradQF9Xp5cTJ9kionOaSUegFnW4fkLzmi/dI8JC8whV9Jo6IRnBoBi2qXt7779IcOBVGae8Aw=="
   }
 }
