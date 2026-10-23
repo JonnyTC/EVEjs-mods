@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-23T07:48:58.554Z",
+  "publishedAt": "2026-10-23T07:52:21.348Z",
   "mods": [
     {
       "author": {
@@ -150,7 +150,7 @@
         "name": "波坤太叔"
       },
       "category": "玩法",
-      "changelog": "兼容新版本261018.x",
+      "changelog": "根据新机制修改",
       "conflicts": [],
       "delisted": false,
       "description": "仿国服自动锁定，自动集火",
@@ -159,7 +159,7 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/diguo520/evejs-mod-evejs-autolockfire/releases/download/v1.1.2/evejs-autolockfire-1.1.2.zip"
+          "url": "https://github.com/diguo520/evejs-mod-evejs-autolockfire/releases/download/v1.1.4/evejs-autolockfire-1.1.4.zip"
         }
       ],
       "evejsVersions": [
@@ -174,16 +174,16 @@
       ],
       "history": [],
       "id": "evejs-autolockfire",
-      "publishedAt": "2026-10-19",
+      "publishedAt": "2026-10-23",
       "readme": [
         "从国服客户端移植过来的舰船 HUD 按钮组：在飞行界面右侧加一排按钮，用来一键锁定、集火、停止锁定与停止开火。"
       ],
       "repo": "https://github.com/diguo520/evejs-mod-evejs-autolockfire",
       "requiresRestart": true,
-      "sha256": "8b22c49a48b512e0e28922dfa3cb826f8532dedbe9de8bee6b349b4d9eae1367",
-      "sizeBytes": 62376,
+      "sha256": "fdfc9196c3a69d9b6df217a29963f2cdcfd3d925366addec834f9e449510c97e",
+      "sizeBytes": 67622,
       "tags": [],
-      "version": "1.1.2",
+      "version": "1.1.4",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
       "downloads": 840,
       "cdnHits": 42
@@ -2042,7 +2042,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "F1xhCL93dqEbiyZm4+fP+MzQxPPCqIJzV/PUwyBROVQqRi8anifRvmCB6jjGQHtd92mgAijdVLIAcOFir1vmCg==",
-    "signedAt": "2026-10-23T07:48:58.558Z"
+    "sig": "nTJHZjG4c9r/4bbL2M9t7vyGLNYlfLIRb5hGSUdD3mGPIQBJpi+nxgRO56okSWfxzYfaZhyc9g2ixQtGjuu6BA==",
+    "signedAt": "2026-10-23T07:52:21.353Z"
   }
 }
