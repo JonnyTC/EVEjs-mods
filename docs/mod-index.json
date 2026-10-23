@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-23T07:52:21.348Z",
+  "publishedAt": "2026-10-23T07:55:33.138Z",
   "mods": [
     {
       "author": {
@@ -195,7 +195,7 @@
         "name": "波坤太叔"
       },
       "category": "玩法",
-      "changelog": "兼容新版本261018.x",
+      "changelog": "根据新机制做更新",
       "conflicts": [],
       "delisted": false,
       "description": "这是一个在游戏内自动采矿,自动压缩的工具",
@@ -204,7 +204,7 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/diguo520/evejs-mod-evejs-automining/releases/download/v1.0.15/evejs-automining-1.0.15.zip"
+          "url": "https://github.com/diguo520/evejs-mod-evejs-automining/releases/download/v1.0.17/evejs-automining-1.0.17.zip"
         }
       ],
       "evejsVersions": [
@@ -222,14 +222,14 @@
       ],
       "history": [],
       "id": "evejs-automining",
-      "publishedAt": "2026-10-19",
+      "publishedAt": "2026-10-23",
       "readme": [
         "这是一个在游戏内自动采矿,自动压缩的工具。\n-将本MOD放在所有MOD之后进行加载。\n- 进入游戏后，左侧工具栏（Neocom）会固定一个 ⛏ 采矿按钮，单击即可打开设置窗口。\n- 该按钮属于工具栏的「固定按钮区」，显示在左侧工具栏**底部**（时钟上方），不\n  在顶部的主图标列表里；鼠标悬停会显示「自动采矿」。\n- 也可以使用聊天命令：/AutoMining（不分大小写）打开工具。\n- 界面、状态与矿名会跟随客户端语言自动翻译；矿名使用客户端官方中文名称。",
         "> 若看不到左侧 ⛏ 按钮：请先彻底关闭游戏客户端与服务器进程，再通过启动器重新启动（服务器与客户端都要重启，客户端更新内容在登录握手中下发）。"
       ],
       "repo": "https://github.com/diguo520/evejs-mod-evejs-automining",
       "requiresRestart": true,
-      "sha256": "c53abd21397701d0fd2bef2052f2d621b7e99a5f123f9553aea533e7d5fca676",
+      "sha256": "f589b1c620673c4155d4c07f3f2458bafcfe746ecdb5a3e318fa2a71f431c92e",
       "shots": [
         "shots/20261014040854757.png",
         "shots/20261014040923577.png",
@@ -241,9 +241,9 @@
         "shots/20261014041009889.png",
         "shots/20261014041016641.png"
       ],
-      "sizeBytes": 12094489,
+      "sizeBytes": 12100017,
       "tags": [],
-      "version": "1.0.15",
+      "version": "1.0.17",
       "source": "diguo520/evejs-mod-evejs-automining",
       "downloads": 754,
       "cdnHits": 740
@@ -2042,7 +2042,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "nTJHZjG4c9r/4bbL2M9t7vyGLNYlfLIRb5hGSUdD3mGPIQBJpi+nxgRO56okSWfxzYfaZhyc9g2ixQtGjuu6BA==",
-    "signedAt": "2026-10-23T07:52:21.353Z"
+    "sig": "3s6qELlybH2h51lH0NovoeagC+f0KuDPZ9Ed0GX1FQoxaANA0NSFfy2B8H8pB0eN2rYHEhON8ZacOHfxHST4Bw==",
+    "signedAt": "2026-10-23T07:55:33.142Z"
   }
 }
