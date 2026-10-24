@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": 1792814199765,
+  "modId": "evejs-acspecialbattleship",
+  "reviews": [],
+  "stars": {
+    "count": 1,
+    "keys": [
+      "10ed784c6342"
+    ]
+  },
+  "signature": {
+    "alg": "ed25519",
+    "keyId": "evejs-ratings-2026-10-01",
+    "sig": "gNmwkWRg9IKlMUnVJMhWIGOhvTii8GwUg2Qz4qhq1z+dXaCqD6Dy+Wx+20gtkL08PGArrOlUcBKhCxSVmFkEDg=="
+  }
+}

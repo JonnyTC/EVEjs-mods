@@ -1,7 +1,21 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1792462828487,
+  "generatedAt": 1792819274369,
   "mods": {
+    "evejs-acspecialbattleship": {
+      "stars": 1,
+      "comments": 0,
+      "average": 5,
+      "count": 1,
+      "withText": 0,
+      "histogram": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
     "evejs-autolockfire": {
       "stars": 2,
       "comments": 1,
@@ -73,23 +87,23 @@
       ]
     },
     "evejs-sleeper-drifters": {
-      "stars": 3,
+      "stars": 4,
       "comments": 1,
       "average": 5,
-      "count": 3,
+      "count": 4,
       "withText": 1,
       "histogram": [
         0,
         0,
         0,
         0,
-        3
+        4
       ]
     }
   },
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "GGrOYTnrEYT8zwuTa5sD5nij5Cu91BIu8QSFP4eigKsfuDilCaPD7uiMQDotYVXVSRx+2lBelVue+ONCUxLyCQ=="
+    "sig": "r1SqSN8zqefFgmsoE8sUF4cT2VaAyGrtUPhqLUKB2GCo3a5GyKF6ygFdFtZRhDsu6+k7QXmDELTGKTHa3PqvDw=="
   }
 }
