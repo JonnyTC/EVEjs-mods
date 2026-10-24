@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1792819274369,
+  "generatedAt": 1792819752337,
   "mods": {
     "evejs-acspecialbattleship": {
       "stars": 1,
@@ -99,11 +99,25 @@
         0,
         4
       ]
+    },
+    "world-ark-91900": {
+      "stars": 1,
+      "comments": 0,
+      "average": 5,
+      "count": 1,
+      "withText": 0,
+      "histogram": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
     }
   },
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "r1SqSN8zqefFgmsoE8sUF4cT2VaAyGrtUPhqLUKB2GCo3a5GyKF6ygFdFtZRhDsu6+k7QXmDELTGKTHa3PqvDw=="
+    "sig": "ut00ftE5T1T5iz5V/cpRaNpVPEwo308diIqxJ1y+N/ZysEJPp5jkRPg/uWYJ93ycRrkjmex8Mm/iCezENc74Aw=="
   }
 }
