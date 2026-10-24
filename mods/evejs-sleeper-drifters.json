@@ -4,20 +4,20 @@
     "keyId": "bad8165273ee",
     "name": "橘子"
   },
-  "displayName": "Sleeper & Drifter Playable Ships",
+  "displayName": "冬眠者流浪者舰船操作模组",
   "downloadUrls": [
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/JUZIMandarin/evejs-mod-evejs-sleeper-drifters/releases/download/v1.6.3/evejs-sleeper-drifters-1.6.3.zip"
+      "url": "https://github.com/JUZIMandarin/evejs-mod-evejs-sleeper-drifters/releases/download/v1.6.4/evejs-sleeper-drifters-1.6.4.zip"
     }
   ],
   "id": "evejs-sleeper-drifters",
-  "publishedAt": "2026-10-23",
+  "publishedAt": "2026-10-24",
   "schemaVersion": 1,
-  "sha256": "791468d7d0cc40d9338fe6d1fcaa62e20cc5d0c40fb127b8ac238b7886775907",
-  "sizeBytes": 17071140,
+  "sha256": "ee3b24074a1cccae7a85933480c500cbd9451ec6440bc52085976577dc1e02d6",
+  "sizeBytes": 14332604,
   "source": "JUZIMandarin/evejs-mod-evejs-sleeper-drifters",
-  "submittedAt": "2026-10-23T16:48:19.731Z",
-  "version": "1.6.3"
+  "submittedAt": "2026-10-24T05:11:55.863Z",
+  "version": "1.6.4"
 }
