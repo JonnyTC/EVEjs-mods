@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": 1792946873142,
+  "modId": "evejs-hyperion-ship",
+  "reviews": [],
+  "stars": {
+    "count": 1,
+    "keys": [
+      "4292e18e8886"
+    ]
+  },
+  "signature": {
+    "alg": "ed25519",
+    "keyId": "evejs-ratings-2026-10-01",
+    "sig": "JTOhob6cnkQPnxpol2gK0bdBstreIOizpMs1hYUooTYX25VeLxi6KzgTZPtGC0ztBK6HsA2ipsThbqbGyvTMBA=="
+  }
+}
