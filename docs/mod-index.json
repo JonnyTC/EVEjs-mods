@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-24T19:58:11.589Z",
+  "publishedAt": "2026-10-25T02:11:54.279Z",
   "mods": [
     {
       "author": {
@@ -87,7 +87,7 @@
       "tags": [],
       "version": "1.1.0",
       "source": "rzwm/evejs-mod-evejs-beijing-time",
-      "downloads": 193,
+      "downloads": 194,
       "cdnHits": 3
     },
     {
@@ -140,7 +140,7 @@
       "tags": [],
       "version": "0.17.3",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 276,
+      "downloads": 280,
       "cdnHits": 0
     },
     {
@@ -185,8 +185,8 @@
       "tags": [],
       "version": "1.1.4",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 955,
-      "cdnHits": 25
+      "downloads": 957,
+      "cdnHits": 0
     },
     {
       "author": {
@@ -245,8 +245,8 @@
       "tags": [],
       "version": "1.0.17",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 859,
-      "cdnHits": 796
+      "downloads": 860,
+      "cdnHits": 987
     },
     {
       "author": {
@@ -289,7 +289,7 @@
       "tags": [],
       "version": "1.0.3",
       "source": "guihaitianyi-cmd/evejs-mod-evejs-evejs-hacking-suite-1-0-3",
-      "downloads": 220,
+      "downloads": 222,
       "cdnHits": 0
     },
     {
@@ -375,90 +375,8 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 232,
+      "downloads": 235,
       "cdnHits": 0
-    },
-    {
-      "author": {
-        "id": "au-mvf2lwpltupu",
-        "keyId": "020ed1eebd16",
-        "name": "HRSKNK"
-      },
-      "category": "玩法",
-      "changelog": "支持EveJS-261018.1",
-      "conflicts": [],
-      "delisted": false,
-      "description": "军团 LP 余额超过约 21 亿时会报错、显示异常。修复后大额 LP 正常。",
-      "displayName": "LP 余额太大导致崩溃修复",
-      "downloadUrls": [
-        {
-          "mirror": "github",
-          "priority": 1,
-          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-lp-balance-overflow/releases/download/v1.0.1/evejs-lp-balance-overflow-1.0.1.zip"
-        }
-      ],
-      "evejsVersions": [
-        "0.12.9",
-        "261018.x"
-      ],
-      "featured": false,
-      "highlights": [],
-      "history": [],
-      "id": "evejs-lp-balance-overflow",
-      "publishedAt": "2026-10-19",
-      "readme": [
-        "军团 LP 余额按 32 位整数存取，超过约 21 亿后读取会崩溃或显示异常。补丁把相关数据行宽从 32 位（I4）放宽到 64 位（I8），大额 LP 余额正常。"
-      ],
-      "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-lp-balance-overflow",
-      "requiresRestart": true,
-      "sha256": "48915bbf098e34097c27e9c02ba8eb2a3f8107ebb8410f507a68022cb49b0539",
-      "sizeBytes": 5555,
-      "tags": [],
-      "version": "1.0.1",
-      "source": "zhang-xzh/evejs-mod-evejs-lp-balance-overflow",
-      "downloads": 134,
-      "cdnHits": 2
-    },
-    {
-      "author": {
-        "id": "au-mvf2lwpltupu",
-        "keyId": "020ed1eebd16",
-        "name": "HRSKNK"
-      },
-      "category": "玩法",
-      "changelog": "支持EveJS-261018.1",
-      "conflicts": [],
-      "delisted": false,
-      "description": "打开某些 NPC 军团（如流浪无人机、三神裔）的信息窗口时一片空白。修复后正常显示。",
-      "displayName": "NPC 军团信息窗口空白修复",
-      "downloadUrls": [
-        {
-          "mirror": "github",
-          "priority": 1,
-          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-npc-corp-info/releases/download/v1.0.1/evejs-npc-corp-info-1.0.1.zip"
-        }
-      ],
-      "evejsVersions": [
-        "0.12.9",
-        "261018.x"
-      ],
-      "featured": false,
-      "highlights": [],
-      "history": [],
-      "id": "evejs-npc-corp-info",
-      "publishedAt": "2026-10-19",
-      "readme": [
-        "SDE 里没有 CEO 的 NPC 军团（例如流浪无人机、三神裔势力军团）打开信息窗口时整块空白。补丁在服务端为这类军团回退一个客户端已知的 owner（优先势力，否则军团自身），信息窗口即可正常显示。"
-      ],
-      "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-npc-corp-info",
-      "requiresRestart": true,
-      "sha256": "25cbe58c7507dc73a23bb56a86a5b8d1dea9a2730564660a630ee5ff160297f5",
-      "sizeBytes": 5554,
-      "tags": [],
-      "version": "1.0.1",
-      "source": "zhang-xzh/evejs-mod-evejs-npc-corp-info",
-      "downloads": 149,
-      "cdnHits": 2
     },
     {
       "author": {
@@ -524,8 +442,8 @@
       ],
       "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 1292,
-      "cdnHits": 318
+      "downloads": 1295,
+      "cdnHits": 560
     },
     {
       "author": {
@@ -616,7 +534,7 @@
       "tags": [],
       "version": "0.2.0",
       "source": "xuenaimiao/evejs-mod-evejs-npc-fleet",
-      "downloads": 309,
+      "downloads": 310,
       "cdnHits": 0
     },
     {
@@ -708,7 +626,7 @@
       "tags": [],
       "version": "0.1.3",
       "source": "MateralCMX/evejs-mod-npc-loot-rules",
-      "downloads": 172,
+      "downloads": 173,
       "cdnHits": 0
     },
     {
@@ -803,7 +721,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "injusticemaster/evejs-mod-world-ark-91900",
-      "downloads": 88,
+      "downloads": 89,
       "cdnHits": 0
     },
     {
@@ -851,8 +769,8 @@
       "tags": [],
       "version": "1.0.8",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 708,
-      "cdnHits": 31
+      "downloads": 713,
+      "cdnHits": 3
     },
     {
       "author": {
@@ -901,7 +819,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-mission-repair",
-      "downloads": 241,
+      "downloads": 243,
       "cdnHits": 0
     },
     {
@@ -947,89 +865,8 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-clone-convenience",
-      "downloads": 79,
+      "downloads": 81,
       "cdnHits": 0
-    },
-    {
-      "author": {
-        "id": "au-mvf2lwpltupu",
-        "keyId": "020ed1eebd16",
-        "name": "HRSKNK"
-      },
-      "category": "玩法",
-      "changelog": "支持EveJS-261018.1",
-      "conflicts": [],
-      "delisted": false,
-      "description": "军团所属箱子和 Trinary 数据宝箱点了打不开。修复后能正常开启取物。",
-      "displayName": "军团箱 / Trinary 数据宝箱打不开修复",
-      "downloadUrls": [
-        {
-          "mirror": "github",
-          "priority": 1,
-          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-crate-opening/releases/download/v1.0.1/evejs-crate-opening-1.0.1.zip"
-        }
-      ],
-      "evejsVersions": [
-        "261018.x"
-      ],
-      "featured": false,
-      "highlights": [],
-      "history": [],
-      "id": "evejs-crate-opening",
-      "publishedAt": "2026-10-19",
-      "readme": [
-        "军团所属的箱子与 Trinary Data Vault 无法开启。补丁放开这两类箱子的开启校验，使其可以正常打开并取出内容。"
-      ],
-      "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-crate-opening",
-      "requiresRestart": true,
-      "sha256": "64f29bdf552c0958f49f2291c0cc343debc1c6986f6ca579da9706116f15a6a1",
-      "sizeBytes": 7988,
-      "tags": [],
-      "version": "1.0.1",
-      "source": "zhang-xzh/evejs-mod-evejs-crate-opening",
-      "downloads": 99,
-      "cdnHits": 2
-    },
-    {
-      "author": {
-        "id": "au-mvf2lwpltupu",
-        "keyId": "020ed1eebd16",
-        "name": "HRSKNK"
-      },
-      "category": "玩法",
-      "changelog": "支持EveJS-261018.1",
-      "conflicts": [],
-      "delisted": false,
-      "description": "打捞冬眠者及 Drifter/CONCORD/EDENCOM/三神裔等残骸时产物不对。修复后冬眠者只掉远古打捞件，高级势力走高级打捞池。",
-      "displayName": "冬眠者残骸打捞产物修复",
-      "downloadUrls": [
-        {
-          "mirror": "github",
-          "priority": 1,
-          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-sleeper-salvage/releases/download/v1.3.1/evejs-sleeper-salvage-1.3.1.zip"
-        }
-      ],
-      "evejsVersions": [
-        "0.12.9",
-        "261018.x"
-      ],
-      "featured": false,
-      "highlights": [],
-      "history": [],
-      "id": "evejs-sleeper-salvage",
-      "publishedAt": "2026-10-19",
-      "readme": [
-        "修正残骸打捞的派系识别与产物：冬眠者残骸只产出远古打捞件（Ancient Salvage，含后补的 45660-45663 四件），不混入普通 Salvaged Materials；Drifter/CONCORD/EDENCOM/Triglavian/Upwell 等高级残骸走高级打捞池；按舰级正确分桶（战巡=中、驱逐=小）；通用 Wreck 才按来源覆盖打捞难度。"
-      ],
-      "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-sleeper-salvage",
-      "requiresRestart": true,
-      "sha256": "3e82853d0dce58fa3480c1b3fcb6a11eed9935be88c454c3165a6ea99bdbc745",
-      "sizeBytes": 9479,
-      "tags": [],
-      "version": "1.3.1",
-      "source": "zhang-xzh/evejs-mod-evejs-sleeper-salvage",
-      "downloads": 150,
-      "cdnHits": 2
     },
     {
       "author": {
@@ -1075,213 +912,8 @@
       ],
       "version": "1.6.4",
       "source": "JUZIMandarin/evejs-mod-evejs-sleeper-drifters",
-      "downloads": 503,
+      "downloads": 507,
       "cdnHits": 5
-    },
-    {
-      "author": {
-        "id": "au-mvf2lwpltupu",
-        "keyId": "020ed1eebd16",
-        "name": "HRSKNK"
-      },
-      "category": "玩法",
-      "changelog": "支持EveJS-261018.1",
-      "conflicts": [],
-      "delisted": false,
-      "description": "击杀 NPC 后，最后一击的玩家获得 LP（落在随机一家有 LP 商店的 NPC 军团名下），LP 数量按该次击杀已结算赏金的 1:1 计算。不新增文件、不改磁盘。",
-      "displayName": "击杀 NPC 给 LP",
-      "downloadUrls": [
-        {
-          "mirror": "github",
-          "priority": 1,
-          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-npc-kill-lp/releases/download/v1.0.1/evejs-npc-kill-lp-1.0.1.zip"
-        }
-      ],
-      "evejsVersions": [
-        "0.12.9",
-        "261018.x"
-      ],
-      "featured": false,
-      "highlights": [],
-      "history": [],
-      "id": "evejs-npc-kill-lp",
-      "publishedAt": "2026-10-19",
-      "readme": [
-        "击杀 NPC 后，最后一击的玩家获得 LP（落在随机一家有 LP 商店的 NPC 军团名下），LP 数量按该次击杀已结算赏金的 1:1 计算。不新增文件、不改磁盘。"
-      ],
-      "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-npc-kill-lp",
-      "requiresRestart": true,
-      "sha256": "b76294541018708a14f2351687700eed6a9a9282b4f60d1f7f8d04918d36898f",
-      "sizeBytes": 5286,
-      "tags": [],
-      "version": "1.0.1",
-      "source": "zhang-xzh/evejs-mod-evejs-npc-kill-lp",
-      "downloads": 115,
-      "cdnHits": 0
-    },
-    {
-      "author": {
-        "id": "au-mvf2lwpltupu",
-        "keyId": "020ed1eebd16",
-        "name": "HRSKNK"
-      },
-      "category": "玩法",
-      "changelog": "支持EveJS-261018.1",
-      "conflicts": [],
-      "delisted": false,
-      "description": "列举 NPC 装备/货舱时会复制整份数据，人一多就卡。修复后只取该 NPC 自己的数据。",
-      "displayName": "大规模战斗卡顿修复（NPC 数据重复复制）",
-      "downloadUrls": [
-        {
-          "mirror": "github",
-          "priority": 1,
-          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-combat-native-store-rows/releases/download/v1.0.1/evejs-combat-native-store-rows-1.0.1.zip"
-        }
-      ],
-      "evejsVersions": [
-        "0.12.9",
-        "261018.x"
-      ],
-      "featured": false,
-      "highlights": [],
-      "history": [],
-      "id": "evejs-combat-native-store-rows",
-      "publishedAt": "2026-10-19",
-      "readme": [
-        "列举 native NPC 的模块/货舱时会把整个集合克隆一遍，大规模战斗时卡顿。补丁只拷贝目标实体的行，行为不变。"
-      ],
-      "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-combat-native-store-rows",
-      "requiresRestart": true,
-      "sha256": "751688afb89999786ac71ca4e6a153746747baae7241c69c29200d5f86b8909a",
-      "sizeBytes": 5426,
-      "tags": [],
-      "version": "1.0.1",
-      "source": "zhang-xzh/evejs-mod-evejs-combat-native-store-rows",
-      "downloads": 189,
-      "cdnHits": 2
-    },
-    {
-      "author": {
-        "id": "au-mvf2lwpltupu",
-        "keyId": "020ed1eebd16",
-        "name": "HRSKNK"
-      },
-      "category": "玩法",
-      "changelog": "支持EveJS-261018.1",
-      "conflicts": [],
-      "delisted": false,
-      "description": "战斗激烈时按名字查物品会扫描整个物品库，卡顿。修复后更快，结果不变。",
-      "displayName": "大规模战斗卡顿修复（物品名查找）",
-      "downloadUrls": [
-        {
-          "mirror": "github",
-          "priority": 1,
-          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-combat-item-name-scan/releases/download/v1.0.1/evejs-combat-item-name-scan-1.0.1.zip"
-        }
-      ],
-      "evejsVersions": [
-        "0.12.9",
-        "261018.x"
-      ],
-      "featured": false,
-      "highlights": [],
-      "history": [],
-      "id": "evejs-combat-item-name-scan",
-      "publishedAt": "2026-10-19",
-      "readme": [
-        "战斗热路径里按名字查物品会退化成对整个物品目录做模糊扫描，大规模战斗时明显卡顿。补丁改为优先精确命中，跳过模糊扫描，行为不变但快很多。"
-      ],
-      "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-combat-item-name-scan",
-      "requiresRestart": true,
-      "sha256": "4b6038f60883959cc4382e2dad95e4525345d381d8789fa1542ac13de38576d0",
-      "sizeBytes": 7406,
-      "tags": [],
-      "version": "1.0.1",
-      "source": "zhang-xzh/evejs-mod-evejs-combat-item-name-scan",
-      "downloads": 177,
-      "cdnHits": 2
-    },
-    {
-      "author": {
-        "id": "au-mvf2lwpltupu",
-        "keyId": "020ed1eebd16",
-        "name": "HRSKNK"
-      },
-      "category": "玩法",
-      "changelog": "支持EveJS-261018.1",
-      "conflicts": [],
-      "delisted": false,
-      "description": "战斗时频繁整份复制角色数据，人一多就卡。修复后不再多余复制。",
-      "displayName": "大规模战斗卡顿修复（角色数据重复复制）",
-      "downloadUrls": [
-        {
-          "mirror": "github",
-          "priority": 1,
-          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-combat-char-record-ref/releases/download/v1.0.1/evejs-combat-char-record-ref-1.0.1.zip"
-        }
-      ],
-      "evejsVersions": [
-        "0.12.9",
-        "261018.x"
-      ],
-      "featured": false,
-      "highlights": [],
-      "history": [],
-      "id": "evejs-combat-char-record-ref",
-      "publishedAt": "2026-10-19",
-      "readme": [
-        "战斗热路径每次读取角色记录都整份克隆，大规模战斗时造成卡顿。补丁改为按引用只读（不克隆），避免重复拷贝，行为不变。"
-      ],
-      "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-combat-char-record-ref",
-      "requiresRestart": true,
-      "sha256": "e5948602206f182639c755ba570c00b7977a7e9025f77bfbae83a45c0af24a8a",
-      "sizeBytes": 6095,
-      "tags": [],
-      "version": "1.0.1",
-      "source": "zhang-xzh/evejs-mod-evejs-combat-char-record-ref",
-      "downloads": 184,
-      "cdnHits": 2
-    },
-    {
-      "author": {
-        "id": "au-mvf2lwpltupu",
-        "keyId": "020ed1eebd16",
-        "name": "HRSKNK"
-      },
-      "category": "玩法",
-      "changelog": "支持EveJS-261018.1",
-      "conflicts": [],
-      "delisted": false,
-      "description": "船上装了弹药/矿晶/脚本后，换船或重新上线时工业槽位偶尔显示成 0/1，行星面板还会误提示需要 Omega。修复后恢复正常。",
-      "displayName": "工业槽位偶发显示 0/1 修复",
-      "downloadUrls": [
-        {
-          "mirror": "github",
-          "priority": 1,
-          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-charge-sublocation-row/releases/download/v1.0.1/evejs-charge-sublocation-row-1.0.1.zip"
-        }
-      ],
-      "evejsVersions": [
-        "0.12.9",
-        "261018.x"
-      ],
-      "featured": false,
-      "highlights": [],
-      "history": [],
-      "id": "evejs-charge-sublocation-row",
-      "publishedAt": "2026-10-19",
-      "readme": [
-        "装填到子位（sub-location）的弹药行不是 blue.DBRow，导致舰船激活时的大脑属性没有被套用。补丁让子位弹药行按 DBRow 返回，激活后属性正确生效。"
-      ],
-      "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-charge-sublocation-row",
-      "requiresRestart": true,
-      "sha256": "21481c03785bce3b617cc17cf7756293d8416f2c02d53a04b2826342442d77fd",
-      "sizeBytes": 6191,
-      "tags": [],
-      "version": "1.0.1",
-      "source": "zhang-xzh/evejs-mod-evejs-charge-sublocation-row",
-      "downloads": 115,
-      "cdnHits": 2
     },
     {
       "author": {
@@ -1326,7 +958,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-structure-timers",
-      "downloads": 84,
+      "downloads": 86,
       "cdnHits": 0
     },
     {
@@ -1367,7 +999,7 @@
       "tags": [],
       "version": "0.2.2",
       "source": "xuenaimiao/evejs-mod-evejs-perf-fix",
-      "downloads": 413,
+      "downloads": 414,
       "cdnHits": 2
     },
     {
@@ -1413,7 +1045,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-salvage-repair",
-      "downloads": 80,
+      "downloads": 83,
       "cdnHits": 0
     },
     {
@@ -1454,7 +1086,7 @@
       "tags": [],
       "version": "0.3.1",
       "source": "xuenaimiao/evejs-mod-evejs-sc-ships",
-      "downloads": 63,
+      "downloads": 70,
       "cdnHits": 0
     },
     {
@@ -1540,7 +1172,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "xuenaimiao/evejs-mod-evejs-sc-ships-pack-origin-drake-misc",
-      "downloads": 105,
+      "downloads": 106,
       "cdnHits": 0
     },
     {
@@ -1689,130 +1321,6 @@
     },
     {
       "author": {
-        "id": "au-mvf2lwpltupu",
-        "keyId": "020ed1eebd16",
-        "name": "HRSKNK"
-      },
-      "category": "玩法",
-      "changelog": "支持EveJS-261018.1",
-      "conflicts": [],
-      "delisted": false,
-      "description": "很多残骸只显示成「Wreck」，看不出是什么。修复后按势力/舰型显示正确名称。",
-      "displayName": "残骸名字显示修复",
-      "downloadUrls": [
-        {
-          "mirror": "github",
-          "priority": 1,
-          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-wreck-naming/releases/download/v1.0.1/evejs-wreck-naming-1.0.1.zip"
-        }
-      ],
-      "evejsVersions": [
-        "0.12.9",
-        "261018.x"
-      ],
-      "featured": false,
-      "highlights": [],
-      "history": [],
-      "id": "evejs-wreck-naming",
-      "publishedAt": "2026-10-19",
-      "readme": [
-        "修复大量 NPC 残骸显示为通用 “Wreck” 的问题：冬眠者/Hypnosian 解析为 Sleeper Small/Medium/Large Advanced Wreck；EDENCOM/Triglavian/CONCORD/Upwell/Rogue/帝国海军(FW) 等按命名势力前缀解析；组名无舰级词时按 radius 推断；无通用残骸的舰级加唯一回退名。"
-      ],
-      "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-wreck-naming",
-      "requiresRestart": true,
-      "sha256": "603da96eb32c80273c30d872ff0138e597d5bd9bc960d09e1201569388318620",
-      "sizeBytes": 8035,
-      "tags": [],
-      "version": "1.0.1",
-      "source": "zhang-xzh/evejs-mod-evejs-wreck-naming",
-      "downloads": 151,
-      "cdnHits": 0
-    },
-    {
-      "author": {
-        "id": "au-mvf2lwpltupu",
-        "keyId": "020ed1eebd16",
-        "name": "HRSKNK"
-      },
-      "category": "玩法",
-      "changelog": "支持EveJS-261018.1",
-      "conflicts": [],
-      "delisted": false,
-      "description": "角色选择默认只有 3 个槽。修复后每个账号能用更多角色（默认 10 个），不用改客户端。",
-      "displayName": "每账号角色槽增加（默认 10 个）",
-      "downloadUrls": [
-        {
-          "mirror": "github",
-          "priority": 1,
-          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-character-slots/releases/download/v1.0.1/evejs-character-slots-1.0.1.zip"
-        }
-      ],
-      "evejsVersions": [
-        "0.12.9",
-        "261018.x"
-      ],
-      "featured": false,
-      "highlights": [],
-      "history": [],
-      "id": "evejs-character-slots",
-      "publishedAt": "2026-10-19",
-      "readme": [
-        "角色选择界面默认只显示 3 个角色槽。原因是服务端登录响应把\n`characterSlots` 与 `maxCharacterSlots` 写死为 `3`；客户端按\n`min(characterSlots + 1, maxCharacterSlots)` 动态生成槽位，所以只要改这两个字段，\n界面就会出现更多槽位，**不需要改客户端**。",
-        "本 MOD 在内存中把这两个字段改为可配置值（默认 **10**）。"
-      ],
-      "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-character-slots",
-      "requiresRestart": true,
-      "sha256": "7f023eba331043b76ebbc62a3fc2f49d04b590b718a6a23394baaca851324c95",
-      "sizeBytes": 5970,
-      "tags": [],
-      "version": "1.0.1",
-      "source": "zhang-xzh/evejs-mod-evejs-character-slots",
-      "downloads": 66,
-      "cdnHits": 2
-    },
-    {
-      "author": {
-        "id": "au-mvf2lwpltupu",
-        "keyId": "020ed1eebd16",
-        "name": "HRSKNK"
-      },
-      "category": "玩法",
-      "changelog": "支持EveJS-261018.1",
-      "conflicts": [],
-      "delisted": false,
-      "description": "物品堆叠超过约 21 亿会被截断或出错。修复后上限提高，超大堆叠正常。",
-      "displayName": "物品堆叠数量上限提高",
-      "downloadUrls": [
-        {
-          "mirror": "github",
-          "priority": 1,
-          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-inventory-stack-limit/releases/download/v1.0.1/evejs-inventory-stack-limit-1.0.1.zip"
-        }
-      ],
-      "evejsVersions": [
-        "0.12.9",
-        "261018.x"
-      ],
-      "featured": false,
-      "highlights": [],
-      "history": [],
-      "id": "evejs-inventory-stack-limit",
-      "publishedAt": "2026-10-19",
-      "readme": [
-        "物品堆叠数量被限制在 32 位整数内，超过会截断或异常。补丁把物品堆叠读写的上限放宽到 64 位安全整数，海量堆叠正常。"
-      ],
-      "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-inventory-stack-limit",
-      "requiresRestart": true,
-      "sha256": "56eb399e8ea5e5ca38379405198b31e9e55492e235e5b1647a5c421d6187e00a",
-      "sizeBytes": 8117,
-      "tags": [],
-      "version": "1.0.1",
-      "source": "zhang-xzh/evejs-mod-evejs-inventory-stack-limit",
-      "downloads": 131,
-      "cdnHits": 2
-    },
-    {
-      "author": {
         "id": "au-muxt6kcyxsf4",
         "keyId": "54c1f8afabfe",
         "name": "Materal"
@@ -1856,7 +1364,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-mobile-tractor-enhancement",
-      "downloads": 122,
+      "downloads": 124,
       "cdnHits": 0
     },
     {
@@ -1946,49 +1454,8 @@
       "tags": [],
       "version": "1.0.0",
       "source": "rzwm/evejs-mod-evejs-autopilot-jump-stargate-0km",
-      "downloads": 205,
+      "downloads": 207,
       "cdnHits": 3
-    },
-    {
-      "author": {
-        "id": "au-mvf2lwpltupu",
-        "keyId": "020ed1eebd16",
-        "name": "HRSKNK"
-      },
-      "category": "玩法",
-      "changelog": "支持EveJS-261018.1",
-      "conflicts": [],
-      "delisted": false,
-      "description": "打开蓝图（工业）列表时同一蓝图被重复查两遍，蓝图多时慢。修复后只查一遍，打开更快。",
-      "displayName": "蓝图/工业列表打开更快",
-      "downloadUrls": [
-        {
-          "mirror": "github",
-          "priority": 1,
-          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-blueprint-list-memo/releases/download/v1.0.1/evejs-blueprint-list-memo-1.0.1.zip"
-        }
-      ],
-      "evejsVersions": [
-        "0.12.9",
-        "261018.x"
-      ],
-      "featured": false,
-      "highlights": [],
-      "history": [],
-      "id": "evejs-blueprint-list-memo",
-      "publishedAt": "2026-10-19",
-      "readme": [
-        "一次 GetBlueprintDataByOwner 会为每个蓝图实例解析状态/作业/位置两次（访问检查 + 载荷构建），蓝图很多时重复读取与层级遍历明显。本模组在一次列表调用内做记忆化，语义不变。"
-      ],
-      "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-blueprint-list-memo",
-      "requiresRestart": true,
-      "sha256": "817617fb45e5e1e24ba55c38a3dd6eec7ef0fe4ac312bb32d241c947c887480a",
-      "sizeBytes": 5764,
-      "tags": [],
-      "version": "1.0.1",
-      "source": "zhang-xzh/evejs-mod-evejs-blueprint-list-memo",
-      "downloads": 130,
-      "cdnHits": 2
     },
     {
       "author": {
@@ -2038,46 +1505,6 @@
       "source": "MateralCMX/evejs-mod-planetary-industry-enhancement",
       "downloads": 70,
       "cdnHits": 0
-    },
-    {
-      "author": {
-        "id": "au-mvf2lwpltupu",
-        "keyId": "020ed1eebd16",
-        "name": "HRSKNK"
-      },
-      "category": "玩法",
-      "changelog": "支持EveJS-261018.1",
-      "conflicts": [],
-      "delisted": false,
-      "description": "走跳跃桥过桥时燃料扣除不对。修复后按正确数量扣除。",
-      "displayName": "跳跃桥过桥燃料扣错修复",
-      "downloadUrls": [
-        {
-          "mirror": "github",
-          "priority": 1,
-          "url": "https://github.com/zhang-xzh/evejs-mod-evejs-jumpbridge-fuel/releases/download/v1.0.1/evejs-jumpbridge-fuel-1.0.1.zip"
-        }
-      ],
-      "evejsVersions": [
-        "261018.x"
-      ],
-      "featured": false,
-      "highlights": [],
-      "history": [],
-      "id": "evejs-jumpbridge-fuel",
-      "publishedAt": "2026-10-19",
-      "readme": [
-        "经过跳跃桥过桥时燃料结算不正确（扣错数量或来源归属不对）。补丁修正过桥时的燃料结算逻辑与来源归属，燃料按正确数量扣除。"
-      ],
-      "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-jumpbridge-fuel",
-      "requiresRestart": true,
-      "sha256": "66971538342c9709aa79c63658f6e02f77e02c98ec18ab97226feac471bb9108",
-      "sizeBytes": 7814,
-      "tags": [],
-      "version": "1.0.1",
-      "source": "zhang-xzh/evejs-mod-evejs-jumpbridge-fuel",
-      "downloads": 105,
-      "cdnHits": 2
     }
   ],
   "moderation": {
@@ -2097,7 +1524,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "++u/vgjKK3WT5qY9rDlGFpEduEZ6+KIDNl0gx3z59TZvNaZTocSsGsxOgGNFRKX5c1SGfIoTxNyhWlcpKV6FCQ==",
-    "signedAt": "2026-10-24T19:58:11.593Z"
+    "sig": "j6FCTqGvq5Z6Xm3rChN5NoJDL2xz+iC3Z9gm6cWzPdeEuHNLp+KOulb+Uvsw+bTNqR3XdaJor7+s2W8w4EoNBw==",
+    "signedAt": "2026-10-25T02:11:54.281Z"
   }
 }
