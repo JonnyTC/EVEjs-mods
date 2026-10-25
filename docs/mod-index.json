@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-25T02:11:54.279Z",
+  "publishedAt": "2026-10-25T04:04:34.401Z",
   "mods": [
     {
       "author": {
@@ -185,7 +185,7 @@
       "tags": [],
       "version": "1.1.4",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 957,
+      "downloads": 958,
       "cdnHits": 0
     },
     {
@@ -245,7 +245,7 @@
       "tags": [],
       "version": "1.0.17",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 860,
+      "downloads": 861,
       "cdnHits": 987
     },
     {
@@ -330,7 +330,7 @@
       "tags": [],
       "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-ship-blueprints",
-      "downloads": 122,
+      "downloads": 123,
       "cdnHits": 8
     },
     {
@@ -375,7 +375,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 235,
+      "downloads": 237,
       "cdnHits": 0
     },
     {
@@ -442,7 +442,7 @@
       ],
       "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 1295,
+      "downloads": 1299,
       "cdnHits": 560
     },
     {
@@ -626,7 +626,7 @@
       "tags": [],
       "version": "0.1.3",
       "source": "MateralCMX/evejs-mod-npc-loot-rules",
-      "downloads": 173,
+      "downloads": 174,
       "cdnHits": 0
     },
     {
@@ -769,7 +769,7 @@
       "tags": [],
       "version": "1.0.8",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 713,
+      "downloads": 715,
       "cdnHits": 3
     },
     {
@@ -819,7 +819,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-mission-repair",
-      "downloads": 243,
+      "downloads": 244,
       "cdnHits": 0
     },
     {
@@ -912,7 +912,7 @@
       ],
       "version": "1.6.4",
       "source": "JUZIMandarin/evejs-mod-evejs-sleeper-drifters",
-      "downloads": 507,
+      "downloads": 508,
       "cdnHits": 5
     },
     {
@@ -1054,8 +1054,8 @@
         "keyId": "2792fbac9b88",
         "name": "匿名"
       },
-      "category": "玩法",
-      "changelog": "",
+      "category": "舰船",
+      "changelog": "兼容第一人称驾驶",
       "conflicts": [],
       "delisted": false,
       "description": "实验性、仅供个人本地试用：把《星际公民》的舰船做成 EVE 里新增的舰船类型（typeID 930001 起，用 /ship 930001 拿船），第三人称显示 SC 的完整外壳模型（含默认配置的引擎、炮塔、舱门）。本 MOD 是主控：全部代码、SC 飞行模式 / 变形 / 音效，和 Constellation Andromeda（仙女座，930001）；其余 65 艘在三个数据包 MOD 里（evejs-sc-ships-pack-aegis-anvil / -rsi-crusader / -origin-drake-misc，每个 ZIP 不到 1 GB，需要先装本 MOD，要哪个装哪个）。飞行属性、装配基于各船对应的原版同级船，只有外观是 SC 的。做法：服务端给类型表加克隆行；随登录握手下发一段 Python，让客户端在运行时建出类型、图形和 SOF hull 记录；本 MOD 随服务端启动，把转换好的 gr2 与贴图以新的 res 路径写进客户端的 ResFiles 和 resfileindex.txt（原索引先备份，每一行改动都记在 evejs-sc-ships.state.json，可一键还原；幂等）。不修改服务端文件，也不修改 code.ccp。资产由玩家自己的《星际公民》安装转换而来（tools/ 下有完整流水线，见 README），不随仓库分发。改了 ships/ships.json 或开关了某个数据包要重启服务端；模型和贴图的更新不用。EVEJS_MOD_SC_SHIPS=0 停用，=revert 下次启动时还原；EVEJS_SCSHIPS_PACKS=0 忽略所有数据包；EVEJS_CLIENT_PATH 指客户端目录（默认 E:\\EVE\\tq）。",
@@ -1064,7 +1064,7 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-ships/releases/download/v0.3.1/evejs-sc-ships-0.3.1.zip"
+          "url": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-ships/releases/download/v0.3.2/evejs-sc-ships-0.3.2.zip"
         }
       ],
       "evejsVersions": [
@@ -1074,17 +1074,23 @@
       "highlights": [],
       "history": [],
       "id": "evejs-sc-ships",
-      "publishedAt": "2026-10-23",
+      "publishedAt": "2026-10-25",
       "readme": [
         "把《星际公民》的 66 艘船做成 EVE 里**真正新增的舰船类型**（typeID 930001–930066），第三人称显示 SC 的完整外壳模型（含默认配置的引擎、炮塔、舱门）。\n实验性，仅供个人本地试用；资产由玩家自己的《星际公民》安装转换而来，不随仓库分发。",
         "飞行属性、装配、挂点数量都是「属性基于」那艘船的；只有外观是 SC 的。名字、说明有中英文。"
       ],
       "repo": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-ships",
       "requiresRestart": true,
-      "sha256": "6d9cfd7ecd7546302418bd53fa4540d39d9e46d7c1af076bc84a1b57ddcf561f",
-      "sizeBytes": 67065415,
-      "tags": [],
-      "version": "0.3.1",
+      "sha256": "f813db653bf212026285217e0481454a05ab95458ff35cf09ce0d9decb377eb0",
+      "sizeBytes": 67080075,
+      "tags": [
+        "星际公民",
+        "Star",
+        "Citizen",
+        "仙女座",
+        "北极星"
+      ],
+      "version": "0.3.2",
       "source": "xuenaimiao/evejs-mod-evejs-sc-ships",
       "downloads": 70,
       "cdnHits": 0
@@ -1172,7 +1178,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "xuenaimiao/evejs-mod-evejs-sc-ships-pack-origin-drake-misc",
-      "downloads": 106,
+      "downloads": 107,
       "cdnHits": 0
     },
     {
@@ -1524,7 +1530,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "j6FCTqGvq5Z6Xm3rChN5NoJDL2xz+iC3Z9gm6cWzPdeEuHNLp+KOulb+Uvsw+bTNqR3XdaJor7+s2W8w4EoNBw==",
-    "signedAt": "2026-10-25T02:11:54.281Z"
+    "sig": "tfrEePZn2zGl2QTUD/9fG0Och6Q98Ov+is8b7JaCY6Vd+HtzPGsQaJCy29y4E2MYQFw99F3aQFVnp0oei0LdAA==",
+    "signedAt": "2026-10-25T04:04:34.406Z"
   }
 }
