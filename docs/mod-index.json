@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-25T04:04:34.401Z",
+  "publishedAt": "2026-10-25T04:06:23.533Z",
   "mods": [
     {
       "author": {
@@ -1240,7 +1240,7 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-quarters/releases/download/v0.1.0/evejs-sc-quarters-0.1.0.zip"
+          "url": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-quarters/releases/download/v0.1.1/evejs-sc-quarters-0.1.1.zip"
         }
       ],
       "evejsVersions": [
@@ -1250,17 +1250,17 @@
       "highlights": [],
       "history": [],
       "id": "evejs-sc-quarters",
-      "publishedAt": "2026-10-24",
+      "publishedAt": "2026-10-25",
       "readme": [
         "> **实验性，仅供个人本地试用。** 内饰来自玩家自己的《星际公民》安装（`tools/` 下的流水线），不随仓库分发；本 MOD 不修改服务端和客户端文件。",
         "主控 MOD `evejs-sc-ships` 的附加 MOD：在太空里驾驶仙女座（Constellation Andromeda，typeID 930001）时进入舰内，以第一人称在 SC 原版内饰里走动。"
       ],
       "repo": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-quarters",
       "requiresRestart": true,
-      "sha256": "f41f686f084a13b82abb19851c3e0b0870c3f6c2a7f49d87bd52b02cd2998771",
-      "sizeBytes": 73498370,
+      "sha256": "ad42e0a3bb6ef8a12f93887c9c4eb95de0e7689cf0a04d04dccf5b95934ef5bf",
+      "sizeBytes": 73497229,
       "tags": [],
-      "version": "0.1.0",
+      "version": "0.1.1",
       "source": "xuenaimiao/evejs-mod-evejs-sc-quarters",
       "downloads": 35,
       "cdnHits": 0
@@ -1530,7 +1530,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "tfrEePZn2zGl2QTUD/9fG0Och6Q98Ov+is8b7JaCY6Vd+HtzPGsQaJCy29y4E2MYQFw99F3aQFVnp0oei0LdAA==",
-    "signedAt": "2026-10-25T04:04:34.406Z"
+    "sig": "IHlyHo0B2A4tLSvIIMlnazybUNFFjEu5eJocJ1/iWvAnFoknPujbOI6qXvdiQfEBS3KJkI7rm3jpr+DTxa1BDg==",
+    "signedAt": "2026-10-25T04:06:23.537Z"
   }
 }
