@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-25T04:06:23.533Z",
+  "publishedAt": "2026-10-25T10:21:24.169Z",
   "mods": [
     {
       "author": {
@@ -44,7 +44,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "rzwm/evejs-mod-evejs-autolockfire-cn",
-      "downloads": 171,
+      "downloads": 174,
       "cdnHits": 0
     },
     {
@@ -87,7 +87,7 @@
       "tags": [],
       "version": "1.1.0",
       "source": "rzwm/evejs-mod-evejs-beijing-time",
-      "downloads": 194,
+      "downloads": 198,
       "cdnHits": 3
     },
     {
@@ -140,7 +140,7 @@
       "tags": [],
       "version": "0.17.3",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 280,
+      "downloads": 290,
       "cdnHits": 0
     },
     {
@@ -185,7 +185,7 @@
       "tags": [],
       "version": "1.1.4",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 958,
+      "downloads": 966,
       "cdnHits": 0
     },
     {
@@ -245,7 +245,7 @@
       "tags": [],
       "version": "1.0.17",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 861,
+      "downloads": 867,
       "cdnHits": 987
     },
     {
@@ -289,7 +289,7 @@
       "tags": [],
       "version": "1.0.3",
       "source": "guihaitianyi-cmd/evejs-mod-evejs-evejs-hacking-suite-1-0-3",
-      "downloads": 222,
+      "downloads": 224,
       "cdnHits": 0
     },
     {
@@ -330,7 +330,7 @@
       "tags": [],
       "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-ship-blueprints",
-      "downloads": 123,
+      "downloads": 132,
       "cdnHits": 8
     },
     {
@@ -375,7 +375,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 237,
+      "downloads": 248,
       "cdnHits": 0
     },
     {
@@ -442,7 +442,7 @@
       ],
       "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 1299,
+      "downloads": 1331,
       "cdnHits": 560
     },
     {
@@ -482,7 +482,7 @@
       "tags": [],
       "version": "0.6.0",
       "source": "Jasper377/evejs-mod-evejs-npc-console",
-      "downloads": 192,
+      "downloads": 193,
       "cdnHits": 2
     },
     {
@@ -534,7 +534,7 @@
       "tags": [],
       "version": "0.2.0",
       "source": "xuenaimiao/evejs-mod-evejs-npc-fleet",
-      "downloads": 310,
+      "downloads": 313,
       "cdnHits": 0
     },
     {
@@ -579,7 +579,7 @@
       "tags": [],
       "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-npc-extension-core",
-      "downloads": 120,
+      "downloads": 125,
       "cdnHits": 0
     },
     {
@@ -626,7 +626,7 @@
       "tags": [],
       "version": "0.1.3",
       "source": "MateralCMX/evejs-mod-npc-loot-rules",
-      "downloads": 174,
+      "downloads": 180,
       "cdnHits": 0
     },
     {
@@ -721,7 +721,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "injusticemaster/evejs-mod-world-ark-91900",
-      "downloads": 89,
+      "downloads": 92,
       "cdnHits": 0
     },
     {
@@ -769,7 +769,7 @@
       "tags": [],
       "version": "1.0.8",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 715,
+      "downloads": 724,
       "cdnHits": 3
     },
     {
@@ -819,7 +819,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-mission-repair",
-      "downloads": 244,
+      "downloads": 252,
       "cdnHits": 0
     },
     {
@@ -865,7 +865,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-clone-convenience",
-      "downloads": 81,
+      "downloads": 83,
       "cdnHits": 0
     },
     {
@@ -912,7 +912,7 @@
       ],
       "version": "1.6.4",
       "source": "JUZIMandarin/evejs-mod-evejs-sleeper-drifters",
-      "downloads": 508,
+      "downloads": 518,
       "cdnHits": 5
     },
     {
@@ -958,7 +958,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-structure-timers",
-      "downloads": 86,
+      "downloads": 93,
       "cdnHits": 0
     },
     {
@@ -999,7 +999,7 @@
       "tags": [],
       "version": "0.2.2",
       "source": "xuenaimiao/evejs-mod-evejs-perf-fix",
-      "downloads": 414,
+      "downloads": 416,
       "cdnHits": 2
     },
     {
@@ -1045,7 +1045,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-salvage-repair",
-      "downloads": 83,
+      "downloads": 87,
       "cdnHits": 0
     },
     {
@@ -1092,7 +1092,7 @@
       ],
       "version": "0.3.2",
       "source": "xuenaimiao/evejs-mod-evejs-sc-ships",
-      "downloads": 70,
+      "downloads": 107,
       "cdnHits": 0
     },
     {
@@ -1135,7 +1135,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "xuenaimiao/evejs-mod-evejs-sc-ships-pack-rsi-crusader",
-      "downloads": 72,
+      "downloads": 79,
       "cdnHits": 0
     },
     {
@@ -1178,7 +1178,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "xuenaimiao/evejs-mod-evejs-sc-ships-pack-origin-drake-misc",
-      "downloads": 107,
+      "downloads": 110,
       "cdnHits": 0
     },
     {
@@ -1221,7 +1221,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "xuenaimiao/evejs-mod-evejs-sc-ships-pack-aegis-anvil",
-      "downloads": 63,
+      "downloads": 65,
       "cdnHits": 0
     },
     {
@@ -1230,11 +1230,11 @@
         "keyId": "2792fbac9b88",
         "name": "匿名"
       },
-      "category": "玩法",
-      "changelog": "",
+      "category": "舰船",
+      "changelog": "修复兼容",
       "conflicts": [],
       "delisted": false,
-      "description": "实验性、仅供个人本地试用：星际公民舰长室。在太空里驾驶仙女座（930001）时进入舰内，以第一人称在《星际公民》原版内饰里走动（WASD + 鼠标，Shift 跑，空格跳，V 切换穿墙飞行，Ctrl+Alt+I 或 SC 面板的按钮进出）。内饰从玩家自己的 SC 安装解出来（tools/ 下的流水线），作为一个额外的 SOF 船体按外壳同样的比例装进船里；碰撞用离线烘焙的 0.1 米体素格。需要主控 MOD evejs-sc-ships（0.3.1 之后带附加 MOD 支持的版本）。不修改服务端和客户端文件。",
+      "description": "实验性、仅供个人本地试用：星际公民舰长室。在太空里驾驶仙女座（930001）时进入舰内，以第一人称在《星际公民》原版内饰里走动（WASD + 鼠标，Shift 跑，空格跳，V 切换穿墙飞行，Ctrl+Alt+I 或 SC 面板的按钮进出）。内饰从玩家自己的 SC 安装解出来（tools/ 下的流水线），作为一个额外的 SOF 船体按外壳同样的比例装进船里；碰撞用离线烘焙的 0.1 米体素格。需要主控 MOD evejs-sc-ships 0.3.2 或更新；没装、没启用或太旧时，进游戏会弹窗提示（并写进服务端日志）。不修改服务端和客户端文件。",
       "displayName": "星际公民舰长室 (SC Quarters)",
       "downloadUrls": [
         {
@@ -1253,16 +1253,25 @@
       "publishedAt": "2026-10-25",
       "readme": [
         "> **实验性，仅供个人本地试用。** 内饰来自玩家自己的《星际公民》安装（`tools/` 下的流水线），不随仓库分发；本 MOD 不修改服务端和客户端文件。",
-        "主控 MOD `evejs-sc-ships` 的附加 MOD：在太空里驾驶仙女座（Constellation Andromeda，typeID 930001）时进入舰内，以第一人称在 SC 原版内饰里走动。"
+        "主控 MOD `evejs-sc-ships` 的附加 MOD：在太空里驾驶仙女座（Constellation Andromeda，typeID 930001）时进入舰内，以第一人称在 SC 原版内饰里走动。",
+        "**依赖：** 需要主控 MOD「星际公民舰船」（`evejs-sc-ships`）**0.3.2 或更新**，先装好并启用它。没装、没启用或版本太旧时，本 MOD 不会生效（游戏里不会出现舰长室的图标和快捷键）；这时**进入游戏会弹出提示窗**，写明缺什么、怎么装，服务端日志里也有一行 `[SCQuarters] NOT ACTIVE …`。按提示装好后重启服务端即可。`EVEJS_SCQUARTERS_CHECK=0` 可以关掉这个检测和弹窗。",
+        "> 清单里故意没有写 `requires`：写了的话，启动器在主控 MOD 缺失时会干脆不加载本 MOD，也就没法弹窗告诉你原因。",
+        "**0.1.1**：新增依赖检测与进游戏弹窗；客户端日志、音量设置、截图不再写开发机的固定路径（同一台电脑时在 `server/logs/sc-ships/`，否则在游戏客户端自己的缓存目录）；配置缺失时按钮和快捷键会给出提示。"
       ],
       "repo": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-quarters",
       "requiresRestart": true,
       "sha256": "ad42e0a3bb6ef8a12f93887c9c4eb95de0e7689cf0a04d04dccf5b95934ef5bf",
       "sizeBytes": 73497229,
-      "tags": [],
+      "tags": [
+        "星际公民",
+        "Star",
+        "Citizen",
+        "舰长室",
+        "第一人称"
+      ],
       "version": "0.1.1",
       "source": "xuenaimiao/evejs-mod-evejs-sc-quarters",
-      "downloads": 35,
+      "downloads": 41,
       "cdnHits": 0
     },
     {
@@ -1322,7 +1331,7 @@
       ],
       "version": "3.2.0",
       "source": "Jasper377/evejs-mod-evejs-racks16",
-      "downloads": 317,
+      "downloads": 320,
       "cdnHits": 3
     },
     {
@@ -1370,7 +1379,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-mobile-tractor-enhancement",
-      "downloads": 124,
+      "downloads": 129,
       "cdnHits": 0
     },
     {
@@ -1410,7 +1419,7 @@
       "tags": [],
       "version": "1.6.0",
       "source": "Jasper377/evejs-mod-evejs-acspecialbattleship",
-      "downloads": 394,
+      "downloads": 397,
       "cdnHits": 3
     },
     {
@@ -1460,7 +1469,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "rzwm/evejs-mod-evejs-autopilot-jump-stargate-0km",
-      "downloads": 207,
+      "downloads": 210,
       "cdnHits": 3
     },
     {
@@ -1509,7 +1518,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-planetary-industry-enhancement",
-      "downloads": 70,
+      "downloads": 73,
       "cdnHits": 0
     }
   ],
@@ -1530,7 +1539,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "IHlyHo0B2A4tLSvIIMlnazybUNFFjEu5eJocJ1/iWvAnFoknPujbOI6qXvdiQfEBS3KJkI7rm3jpr+DTxa1BDg==",
-    "signedAt": "2026-10-25T04:06:23.537Z"
+    "sig": "a4bzXcLy+jJeuPzg4Yr1IuXubSAHGm4Ya2sIKTv1Su4IRUGakIS+vEoEVxMKGaQlyDg+xEyHCJrvKO1TUpgRCQ==",
+    "signedAt": "2026-10-25T10:21:24.172Z"
   }
 }
