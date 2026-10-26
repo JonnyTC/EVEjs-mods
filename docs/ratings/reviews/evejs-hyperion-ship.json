@@ -1,8 +1,21 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1792946873142,
+  "generatedAt": 1793010272261,
   "modId": "evejs-hyperion-ship",
-  "reviews": [],
+  "reviews": [
+    {
+      "id": "rv-1793009312212-11704",
+      "keyId": "5602d218b1ae",
+      "author": "",
+      "corp": "",
+      "country": "CN",
+      "stars": 5,
+      "version": "1.0.0",
+      "date": "2026-10-26",
+      "body": "生成后仓库卡住不显示了，让AI强行安装补丁内容后可以看到仓库了，但是拖末日武器装不进去",
+      "edited": true
+    }
+  ],
   "stars": {
     "count": 1,
     "keys": [
@@ -12,6 +25,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "JTOhob6cnkQPnxpol2gK0bdBstreIOizpMs1hYUooTYX25VeLxi6KzgTZPtGC0ztBK6HsA2ipsThbqbGyvTMBA=="
+    "sig": "845jw0D+oUHMG7jf1SophVNwSyvb/mka2DveAy9EdbRt/g/g8SlGNDcJ5lal/AB1zeGUIY1nGS26EHMAIC2ZDA=="
   }
 }
