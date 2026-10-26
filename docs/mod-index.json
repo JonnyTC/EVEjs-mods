@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-26T17:51:37.412Z",
+  "publishedAt": "2026-10-26T22:04:08.703Z",
   "mods": [
     {
       "author": {
@@ -142,7 +142,7 @@
       "tags": [],
       "version": "0.17.5",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 341,
+      "downloads": 342,
       "cdnHits": 0
     },
     {
@@ -187,7 +187,7 @@
       "tags": [],
       "version": "1.1.4",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 1004,
+      "downloads": 1005,
       "cdnHits": 0
     },
     {
@@ -444,7 +444,7 @@
       ],
       "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 1394,
+      "downloads": 1397,
       "cdnHits": 743
     },
     {
@@ -821,7 +821,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-mission-repair",
-      "downloads": 279,
+      "downloads": 280,
       "cdnHits": 0
     },
     {
@@ -1432,7 +1432,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-mobile-tractor-enhancement",
-      "downloads": 141,
+      "downloads": 142,
       "cdnHits": 0
     },
     {
@@ -1592,7 +1592,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "dMasei2AB81IGr4pIhgOW8bdE3CJP2GvGOfNGKeuhOuKMZU9KLjOQ3iIfNa5LMjwhRhA2SEKRYMZAhuI6ND+DQ==",
-    "signedAt": "2026-10-26T17:51:37.416Z"
+    "sig": "MolqwGnGqtkMCEVCUmWD2C7vlz5PNEM2LdbLxMioC2n1rFG2H6S5ZHRXJh5jZdHJG0T9Tcr2nlr4vZcFobKUBw==",
+    "signedAt": "2026-10-26T22:04:08.707Z"
   }
 }
