@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-25T20:08:12.054Z",
+  "publishedAt": "2026-10-26T01:18:38.034Z",
   "mods": [
     {
       "author": {
@@ -44,7 +44,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "rzwm/evejs-mod-evejs-autolockfire-cn",
-      "downloads": 178,
+      "downloads": 180,
       "cdnHits": 0
     },
     {
@@ -106,7 +106,7 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/MateralCMX/evejs-mod-bug-fixes/releases/download/v0.17.3/bug-fixes-0.17.3.zip"
+          "url": "https://github.com/MateralCMX/evejs-mod-bug-fixes/releases/download/v0.17.5/bug-fixes-0.17.5.zip"
         }
       ],
       "evejsVersions": [
@@ -114,6 +114,8 @@
       ],
       "featured": false,
       "highlights": [
+        "改善首次进入太空时装备槽加载失败的问题：类型列表资源加载返回空值时自动恢复一次，并避免中文诊断日志打断 HUD 自修复。",
+        "修复与月矿增强同时启用时，月矿钻探与排程按钮因配置版本误判而无法打开窗口的问题。",
         "修复中文装配名称、描述等文本导致装配窗口无法打开的问题，无需另装中文编码修复模组。",
         "避免重复导入相同装配，拒绝非法对象名称，并修复卸载后弹药或脚本图标残留。",
         "应用装配时支持查找当前空间站个人集装箱内的装备。",
@@ -123,24 +125,24 @@
         "修复锁定状态残留及部分运动状态同步问题。",
         "修复大量敌人击毁后赏金重复累计的问题，保留服务端军团税结算规则。",
         "允许铁骑收到远距离攻击命令后先追击，实际伤害仍受射程限制。",
-        "跳跃克隆完成后刷新活动植入体显示，并补齐库存服务发现。",
-        "禁止实际跃迁途中开启加力燃烧器和微型跃迁推进器。"
+        "跳跃克隆完成后刷新活动植入体显示，并补齐库存服务发现。"
       ],
       "history": [],
       "id": "bug-fixes",
-      "publishedAt": "2026-10-21",
+      "publishedAt": "2026-10-26",
       "readme": [
         "启用后重启游戏服务端，并完全退出、重新启动客户端。已损坏的历史装配名称需手动重新命名；历史重复装配与赏金不会自动清理或回退。",
+        "首次加载修复针对类型列表资源暂时不可用；资源持续不可用时仍保留错误，不会伪造空列表。诊断写入 `%TEMP%/bug-fixes-client.log`。本次已通过客户端字节码离线回放，重启两端后的首次登录仍待游戏内验收。",
         "模组还提供空间状态诊断记录，可在 diagnostics.json 中将 spatialTrace 设为 false 后重启两端关闭。"
       ],
       "repo": "https://github.com/MateralCMX/evejs-mod-bug-fixes",
       "requiresRestart": true,
-      "sha256": "4062f49b295d93f5288e8b5398515d48cbddc4e85b280ed162cb7224bbfba4e3",
-      "sizeBytes": 879519,
+      "sha256": "bfc67dd9ffb4d12a4cc95a770feaaa2f35cca88ff7a5e01dd2f73e58957285bb",
+      "sizeBytes": 897435,
       "tags": [],
-      "version": "0.17.3",
+      "version": "0.17.5",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 298,
+      "downloads": 301,
       "cdnHits": 0
     },
     {
@@ -185,7 +187,7 @@
       "tags": [],
       "version": "1.1.4",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 982,
+      "downloads": 985,
       "cdnHits": 0
     },
     {
@@ -245,8 +247,8 @@
       "tags": [],
       "version": "1.0.17",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 886,
-      "cdnHits": 987
+      "downloads": 889,
+      "cdnHits": 1088
     },
     {
       "author": {
@@ -375,7 +377,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 253,
+      "downloads": 254,
       "cdnHits": 0
     },
     {
@@ -442,8 +444,8 @@
       ],
       "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 1364,
-      "cdnHits": 560
+      "downloads": 1366,
+      "cdnHits": 743
     },
     {
       "author": {
@@ -534,7 +536,7 @@
       "tags": [],
       "version": "0.2.0",
       "source": "xuenaimiao/evejs-mod-evejs-npc-fleet",
-      "downloads": 316,
+      "downloads": 317,
       "cdnHits": 0
     },
     {
@@ -579,7 +581,7 @@
       "tags": [],
       "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-npc-extension-core",
-      "downloads": 127,
+      "downloads": 129,
       "cdnHits": 0
     },
     {
@@ -626,7 +628,7 @@
       "tags": [],
       "version": "0.1.3",
       "source": "MateralCMX/evejs-mod-npc-loot-rules",
-      "downloads": 184,
+      "downloads": 186,
       "cdnHits": 0
     },
     {
@@ -769,7 +771,7 @@
       "tags": [],
       "version": "1.0.8",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 730,
+      "downloads": 732,
       "cdnHits": 3
     },
     {
@@ -819,7 +821,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-mission-repair",
-      "downloads": 258,
+      "downloads": 260,
       "cdnHits": 0
     },
     {
@@ -870,7 +872,7 @@
       ],
       "version": "1.0.0",
       "source": "starcraft110/evejs-mod-evejs-hyperion-ship",
-      "downloads": 8,
+      "downloads": 12,
       "cdnHits": 0
     },
     {
@@ -963,7 +965,7 @@
       ],
       "version": "1.6.4",
       "source": "JUZIMandarin/evejs-mod-evejs-sleeper-drifters",
-      "downloads": 529,
+      "downloads": 533,
       "cdnHits": 5
     },
     {
@@ -1050,7 +1052,7 @@
       "tags": [],
       "version": "0.2.2",
       "source": "xuenaimiao/evejs-mod-evejs-perf-fix",
-      "downloads": 419,
+      "downloads": 420,
       "cdnHits": 2
     },
     {
@@ -1096,7 +1098,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-salvage-repair",
-      "downloads": 90,
+      "downloads": 92,
       "cdnHits": 0
     },
     {
@@ -1186,7 +1188,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "xuenaimiao/evejs-mod-evejs-sc-ships-pack-rsi-crusader",
-      "downloads": 85,
+      "downloads": 86,
       "cdnHits": 0
     },
     {
@@ -1229,7 +1231,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "xuenaimiao/evejs-mod-evejs-sc-ships-pack-origin-drake-misc",
-      "downloads": 115,
+      "downloads": 117,
       "cdnHits": 0
     },
     {
@@ -1272,7 +1274,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "xuenaimiao/evejs-mod-evejs-sc-ships-pack-aegis-anvil",
-      "downloads": 71,
+      "downloads": 72,
       "cdnHits": 0
     },
     {
@@ -1382,7 +1384,7 @@
       ],
       "version": "3.2.0",
       "source": "Jasper377/evejs-mod-evejs-racks16",
-      "downloads": 325,
+      "downloads": 326,
       "cdnHits": 3
     },
     {
@@ -1430,7 +1432,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-mobile-tractor-enhancement",
-      "downloads": 132,
+      "downloads": 134,
       "cdnHits": 0
     },
     {
@@ -1470,7 +1472,7 @@
       "tags": [],
       "version": "1.6.0",
       "source": "Jasper377/evejs-mod-evejs-acspecialbattleship",
-      "downloads": 400,
+      "downloads": 401,
       "cdnHits": 3
     },
     {
@@ -1590,7 +1592,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "QYPch/bpJ2fy3apcssvLtk+J5o8GUPRt9k4zHWj6LHPbp37ZV+J0V5jF9i08frw3aebuh5lOeuiMCWn67v8KCQ==",
-    "signedAt": "2026-10-25T20:08:12.058Z"
+    "sig": "N0sSuITfOntnkGT1avwmhQNDojl6+lU71ZLDe0n6+FrIzp1YDSHIfFB8SJI8u4BJ5N7F1sVjLqQoLwn3NMxyDg==",
+    "signedAt": "2026-10-26T01:18:38.038Z"
   }
 }
