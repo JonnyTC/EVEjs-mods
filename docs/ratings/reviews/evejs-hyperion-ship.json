@@ -1,8 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1793065703367,
+  "generatedAt": 1793123146692,
   "modId": "evejs-hyperion-ship",
   "reviews": [
+    {
+      "id": "rv-1793116405409-12500",
+      "keyId": "90d34319723f",
+      "author": "",
+      "corp": "",
+      "country": "HK",
+      "stars": 5,
+      "version": "1.0.4",
+      "date": "2026-10-27",
+      "body": "你这个补丁不会自己打到游戏目录里，所以根本无法正常运行。同时这个船会跟G服导入的船数据冲突，缩略图无法正常显示",
+      "edited": true,
+      "reply": {
+        "date": "2026-10-27",
+        "body": "我本机做过新服务器和客户端测过是没问题的，至于与G服冲突因为我这边没有装所以不太清楚",
+        "edited": false
+      }
+    },
     {
       "id": "rv-1793009312212-11704",
       "keyId": "5602d218b1ae",
@@ -30,6 +47,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "fVDiUEs4PTpZfkqkC/lfZQMFs5cU1hwg+ybVCC4P3qrc8Csob8Jxfrj7raP5TIRoUx3WLfSPmZVQ7IwMEeGHAA=="
+    "sig": "x69rr/2QdFb4o+f5uzWyCU2ePk99UmJpAF7cKy4b27I+bbW18R3SG8MZGTz9exqRaMPtzINx59U5d/RwEoQ1CA=="
   }
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1793009316117,
+  "generatedAt": 1793116407216,
   "mods": {
     "evejs-acspecialbattleship": {
       "stars": 1,
@@ -60,10 +60,10 @@
     },
     "evejs-hyperion-ship": {
       "stars": 1,
-      "comments": 1,
+      "comments": 2,
       "average": 5,
       "count": 1,
-      "withText": 1,
+      "withText": 2,
       "histogram": [
         0,
         0,
@@ -132,6 +132,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "BQVXHks0Of8Bh3Sl4sCxFcQm8JzhEc+u1eI6r+2uI1zg52epqkFd9tvShTfTI7LmINCLz48VFwTWNqmBg0vmCg=="
+    "sig": "YJSwf90Z6QEM3hs1WbZKr9OT11Cs491AWOWpsEeksPHRecLRFaXEDfbplTw3KEikwrxCgQ+l88g5Fz3M9SoDDw=="
   }
 }
