@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1793010272261,
+  "generatedAt": 1793065703367,
   "modId": "evejs-hyperion-ship",
   "reviews": [
     {
@@ -13,7 +13,12 @@
       "version": "1.0.0",
       "date": "2026-10-26",
       "body": "生成后仓库卡住不显示了，让AI强行安装补丁内容后可以看到仓库了，但是拖末日武器装不进去",
-      "edited": true
+      "edited": true,
+      "reply": {
+        "date": "2026-10-27",
+        "body": "感谢反馈，仓库卡住无法显示BUG我本地无法复现，已修复末日武器无法安装的BUG，请更新至1.0.1版本修复该问题，如遇其他bug请继续留言",
+        "edited": false
+      }
     }
   ],
   "stars": {
@@ -25,6 +30,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "845jw0D+oUHMG7jf1SophVNwSyvb/mka2DveAy9EdbRt/g/g8SlGNDcJ5lal/AB1zeGUIY1nGS26EHMAIC2ZDA=="
+    "sig": "fVDiUEs4PTpZfkqkC/lfZQMFs5cU1hwg+ybVCC4P3qrc8Csob8Jxfrj7raP5TIRoUx3WLfSPmZVQ7IwMEeGHAA=="
   }
 }
