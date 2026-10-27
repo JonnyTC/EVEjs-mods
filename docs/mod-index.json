@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-27T11:15:01.836Z",
+  "publishedAt": "2026-10-27T12:16:59.346Z",
   "mods": [
     {
       "author": {
@@ -142,7 +142,7 @@
       "tags": [],
       "version": "0.17.5",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 359,
+      "downloads": 363,
       "cdnHits": 0
     },
     {
@@ -187,7 +187,7 @@
       "tags": [],
       "version": "1.1.4",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 1016,
+      "downloads": 1017,
       "cdnHits": 0
     },
     {
@@ -247,7 +247,7 @@
       "tags": [],
       "version": "1.0.17",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 906,
+      "downloads": 907,
       "cdnHits": 1231
     },
     {
@@ -332,7 +332,7 @@
       "tags": [],
       "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-ship-blueprints",
-      "downloads": 148,
+      "downloads": 149,
       "cdnHits": 8
     },
     {
@@ -377,7 +377,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 280,
+      "downloads": 281,
       "cdnHits": 0
     },
     {
@@ -444,7 +444,7 @@
       ],
       "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 1418,
+      "downloads": 1419,
       "cdnHits": 898
     },
     {
@@ -771,7 +771,7 @@
       "tags": [],
       "version": "1.0.8",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 758,
+      "downloads": 759,
       "cdnHits": 3
     },
     {
@@ -821,7 +821,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-mission-repair",
-      "downloads": 285,
+      "downloads": 286,
       "cdnHits": 0
     },
     {
@@ -872,7 +872,7 @@
       ],
       "version": "1.0.4",
       "source": "starcraft110/evejs-mod-evejs-hyperion-ship",
-      "downloads": 56,
+      "downloads": 61,
       "cdnHits": 0
     },
     {
@@ -1592,7 +1592,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "RRKh9woKfYLmKYJkU4clSTONJKkZYSaAiyeWFdG//eQdOPtg6VW2+8spzjK87spciSuH6tTZ2ab3/VOfyK5DAg==",
-    "signedAt": "2026-10-27T11:15:01.839Z"
+    "sig": "me1R+KUn0L/Hyas6+9i77KI77DM2TQuFnbOX4IfN37Za20a7rHxM+BvbG38Wjnq8z6bXQTrS+E37OLCY0BRaDQ==",
+    "signedAt": "2026-10-27T12:16:59.350Z"
   }
 }
