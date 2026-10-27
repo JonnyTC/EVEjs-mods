@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-27T03:23:29.677Z",
+  "publishedAt": "2026-10-27T06:52:10.517Z",
   "mods": [
     {
       "author": {
@@ -44,7 +44,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "rzwm/evejs-mod-evejs-autolockfire-cn",
-      "downloads": 185,
+      "downloads": 186,
       "cdnHits": 0
     },
     {
@@ -142,7 +142,7 @@
       "tags": [],
       "version": "0.17.5",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 347,
+      "downloads": 350,
       "cdnHits": 0
     },
     {
@@ -187,7 +187,7 @@
       "tags": [],
       "version": "1.1.4",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 1007,
+      "downloads": 1010,
       "cdnHits": 0
     },
     {
@@ -247,7 +247,7 @@
       "tags": [],
       "version": "1.0.17",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 902,
+      "downloads": 904,
       "cdnHits": 1231
     },
     {
@@ -291,7 +291,7 @@
       "tags": [],
       "version": "1.0.3",
       "source": "guihaitianyi-cmd/evejs-mod-evejs-evejs-hacking-suite-1-0-3",
-      "downloads": 233,
+      "downloads": 235,
       "cdnHits": 0
     },
     {
@@ -332,7 +332,7 @@
       "tags": [],
       "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-ship-blueprints",
-      "downloads": 144,
+      "downloads": 145,
       "cdnHits": 8
     },
     {
@@ -377,7 +377,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 272,
+      "downloads": 273,
       "cdnHits": 0
     },
     {
@@ -444,7 +444,7 @@
       ],
       "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 1397,
+      "downloads": 1400,
       "cdnHits": 898
     },
     {
@@ -536,7 +536,7 @@
       "tags": [],
       "version": "0.2.0",
       "source": "xuenaimiao/evejs-mod-evejs-npc-fleet",
-      "downloads": 320,
+      "downloads": 321,
       "cdnHits": 0
     },
     {
@@ -581,7 +581,7 @@
       "tags": [],
       "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-npc-extension-core",
-      "downloads": 136,
+      "downloads": 137,
       "cdnHits": 0
     },
     {
@@ -628,7 +628,7 @@
       "tags": [],
       "version": "0.1.3",
       "source": "MateralCMX/evejs-mod-npc-loot-rules",
-      "downloads": 197,
+      "downloads": 199,
       "cdnHits": 0
     },
     {
@@ -771,7 +771,7 @@
       "tags": [],
       "version": "1.0.8",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 751,
+      "downloads": 753,
       "cdnHits": 3
     },
     {
@@ -821,7 +821,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-mission-repair",
-      "downloads": 281,
+      "downloads": 282,
       "cdnHits": 0
     },
     {
@@ -831,7 +831,7 @@
         "name": "ishのbattle"
       },
       "category": "舰船",
-      "changelog": "修复版本不对的问题",
+      "changelog": "修复末日武器不耗电的问题",
       "conflicts": [],
       "delisted": false,
       "description": "休伯利安号（巨兽级）战巡舰（typeID 340014，蓝图 340015）：全船数据自带、不依赖任何其它舰船，高/中/低槽各 8 格、改装件 3 槽。同捆末日武器「大和聚焦阵列」（typeID 340016）：仅可装配于巨兽级。服务端重启即完成注入，客户端补丁在登录或服务端启动时自动安装。GM 获取：/create 340014 1（舰体）、/create 340016 1（末日武器）。",
@@ -840,7 +840,7 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/starcraft110/evejs-mod-evejs-hyperion-ship/releases/download/v1.0.3/evejs-hyperion-ship-1.0.3.zip"
+          "url": "https://github.com/starcraft110/evejs-mod-evejs-hyperion-ship/releases/download/v1.0.4/evejs-hyperion-ship-1.0.4.zip"
         }
       ],
       "evejsVersions": [
@@ -861,8 +861,8 @@
       ],
       "repo": "https://github.com/starcraft110/evejs-mod-evejs-hyperion-ship",
       "requiresRestart": true,
-      "sha256": "07f6ac4399bf594647ac7b2ae718882bf96b31ea15c75de2cb57453aa8922c5e",
-      "sizeBytes": 104036444,
+      "sha256": "6f8172086d3de4fce633aea88a918bbcb388bc2af75cfabcb9b8dad405c86094",
+      "sizeBytes": 104037558,
       "tags": [
         "舰船",
         "战列巡洋舰",
@@ -870,9 +870,9 @@
         "休伯利安号",
         "星际争霸"
       ],
-      "version": "1.0.3",
+      "version": "1.0.4",
       "source": "starcraft110/evejs-mod-evejs-hyperion-ship",
-      "downloads": 49,
+      "downloads": 52,
       "cdnHits": 0
     },
     {
@@ -965,7 +965,7 @@
       ],
       "version": "1.6.4",
       "source": "JUZIMandarin/evejs-mod-evejs-sleeper-drifters",
-      "downloads": 547,
+      "downloads": 549,
       "cdnHits": 5
     },
     {
@@ -1145,7 +1145,7 @@
       ],
       "version": "0.3.2",
       "source": "xuenaimiao/evejs-mod-evejs-sc-ships",
-      "downloads": 120,
+      "downloads": 122,
       "cdnHits": 0
     },
     {
@@ -1592,7 +1592,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "zUD1c2fi+x0xhBOKBkyFDvq0QYKe/pqOm68HOT4feCdQHHQ+bi9wGN13GlgNy7nweVDRIfYCZJp6pnNUu4TLBQ==",
-    "signedAt": "2026-10-27T03:23:29.680Z"
+    "sig": "58YOOIUYBfyxtcNAa+JczlNi36Zvf61JVchfgqOFg+CWQ7Uhi+YAvgxRI+VqXYqlc6c3i6kmTHpaHfGcCMSCBw==",
+    "signedAt": "2026-10-27T06:52:10.521Z"
   }
 }
