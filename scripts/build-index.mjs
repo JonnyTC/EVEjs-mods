@@ -158,6 +158,31 @@ async function discoverBanner(repo) {
 }
 
 /** 从文件名里读 `<宽>x<高>`，按宽度降序；读不到尺寸的按字典序垫后 */
+/**
+ * 分片清单归一化：只留 https 直链，sha256 必须是 64 位 hex，sizeBytes 必须是正数。
+ *
+ * 形状（与启动器 `ui` 侧、Rust 侧 `registry::parts_of` 一致）：
+ *   { total, parts: [{ url, sizeBytes, sha256, mirror }] }
+ * 审核/作者手写时也接受裸数组，省一层壳。
+ *
+ * 为什么要过滤：分片地址会原样进 `mod-index.json` 并被启动器直接下载，
+ * 这里放过一个 http:// 或不合法的 sha256，等于把校验推给每个客户端。
+ */
+function normaliseParts(value) {
+  const list = Array.isArray(value) ? value : Array.isArray(value?.parts) ? value.parts : [];
+  return list
+    .filter((item) => item && typeof item.url === "string" && /^https:\/\//i.test(item.url))
+    .map((item) => {
+      const part = { url: item.url };
+      if (typeof item.sha256 === "string" && /^[0-9a-f]{64}$/i.test(item.sha256)) {
+        part.sha256 = item.sha256.toLowerCase();
+      }
+      if (Number.isFinite(item.sizeBytes) && item.sizeBytes > 0) part.sizeBytes = item.sizeBytes;
+      if (typeof item.mirror === "string" && item.mirror.trim()) part.mirror = item.mirror.trim();
+      return part;
+    });
+}
+
 function pickWidest(paths) {
   const widthOf = (p) => {
     const name = p.split("/").pop() || "";
@@ -461,6 +486,10 @@ for (const repo of sources) {
     }
     if (typeof record.sizeBytes === "number" && record.sizeBytes > 0) entry.sizeBytes = record.sizeBytes;
     if (Array.isArray(record.downloadUrls) && record.downloadUrls.length) entry.downloadUrls = record.downloadUrls;
+    // 分片包（>2 GiB，GitHub 单资产上限的出路）：记录里的分片清单同样是**权威来源**。
+    // 形状与启动器一致：{ total, parts: [{ url, sizeBytes, sha256, mirror }] }（也接受裸数组）。
+    const recordParts = normaliseParts(record.downloadParts ?? record.parts);
+    if (recordParts.length) entry.downloadParts = { total: recordParts.length, parts: recordParts };
     if (typeof record.publishedAt === "string" && record.publishedAt.trim()) entry.publishedAt = record.publishedAt.trim();
     // 截图与精选横幅：**作者仓库的 `evejs-mod.json` 仍是主来源**，但有一类情况需要维护者兜底 ——
     // 作者把图放进 shots/（甚至 shots/Banner/）之后没有重新发布，清单里就没有这两个字段，
@@ -531,12 +560,20 @@ for (const repo of sources) {
 
   const downloads = Array.isArray(entry.downloadUrls) ? entry.downloadUrls : [];
   const usable = downloads.filter((u) => u && typeof u.url === "string" && /^https:\/\//i.test(u.url));
-  if (!usable.length) { rejected.push({ repo, reason: "没有可用的 https 下载地址" }); continue; }
+  // 切片包**没有整包地址**是正常的：只要分片清单里有可用的 https 直链就该放行，
+  // 否则「>2 GiB 的模组」会在这一步被整条拒收（2026-10-27 随分片传输一起补上）。
+  const parts = normaliseParts(entry.downloadParts);
+  if (!usable.length && !parts.length) { rejected.push({ repo, reason: "没有可用的 https 下载地址" }); continue; }
 
   byId.set(id, repo);
   const dl = await fetchReleaseDownloads(repo);
   const cdn = await fetchJsdelivrHits(repo);
-  const withDl = { ...entry, source: repo, downloadUrls: usable };
+  const withDl = {
+    ...entry,
+    source: repo,
+    downloadUrls: usable,
+    ...(parts.length ? { downloadParts: { total: parts.length, parts } } : {}),
+  };
   const previousDownloadCount = previousDownloads.get(id) || 0;
   if (dl.ok || cdn.ok) {
     // 只统计 GitHub Release 资产的下载次数：这是作者真正发布 ZIP 的通道，一次下载=一次安装；

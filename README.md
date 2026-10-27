@@ -144,6 +144,7 @@ moderation decision stays reversible from the console.
 - [ ] the repository root contains `evejs-mod.json` with:
       `id` / `displayName` / `version` / `author{id,name,keyId,publicKey}` /
       `sizeBytes` / `sha256` (64 hex chars) / `downloadUrls[]` (at least one `https://` direct link)
+      — for a package over 2 GiB use `downloadParts.parts[]` instead (see below)
 - [ ] the ZIP lives in the author's own GitHub Releases (this index repository stores **no binaries**)
 - [ ] the category uses one of the fixed values: `玩法` / `经济` / `AI` / `画面` / `工具`
 
@@ -167,6 +168,24 @@ CI automatically enforces three **ownership rules** (entries that fail are skipp
   { "mirror": "github",     "url": "https://github.com/<owner>/<repo>/raw/main/<id>-<version>.zip", "priority": 3 }
 ]
 ```
+
+**Packages larger than 2 GiB (split uploads).** GitHub rejects any single release asset of 2 GiB or
+more, so a bigger mod is split by the launcher into ~1.9 GB parts, each uploaded as its own asset.
+`evejs-mod.json` (and the version record) then carries a part list **instead of** `downloadUrls`:
+
+```jsonc
+"downloadParts": {
+  "total": 3,
+  "parts": [
+    { "url": "https://github.com/<owner>/<repo>/releases/download/v<version>/<id>-<version>.zip.001", "sizeBytes": 1900000000, "sha256": "<64 hex>", "mirror": "github" },
+    { "url": ".../<id>-<version>.zip.002", "sizeBytes": 1900000000, "sha256": "<64 hex>", "mirror": "github" },
+    { "url": ".../<id>-<version>.zip.003", "sizeBytes": 1200000000, "sha256": "<64 hex>", "mirror": "github" }
+  ]
+}
+```
+
+The launcher downloads the parts in order, verifies each one, joins them into the whole ZIP and
+verifies `sha256` again. The checklist above still applies - the only difference is where the bytes live.
 
 Warning: jsDelivr caches **branch references** for up to ~12 hours, so a version you just pushed may still serve the
 old file for a while. Putting the version in the file name (`<id>-<version>.zip`) avoids this — a new version is a new
@@ -402,6 +421,7 @@ EVEjs-mods/
 - [ ] 该仓库根目录有 `evejs-mod.json`，且包含：
       `id` / `displayName` / `version` / `author{id,name,keyId,publicKey}` /
       `sizeBytes` / `sha256`(64 位 hex) / `downloadUrls[]`（至少一个 `https://` 直链）
+      —— 超过 2 GiB 的包改用 `downloadParts.parts[]`（见下）
 - [ ] ZIP 放在作者自己的 GitHub Releases（本索引仓库**不存二进制**）
 - [ ] 分类使用统一取值：`玩法` / `经济` / `AI` / `画面` / `工具`
 
@@ -425,6 +445,24 @@ CI 会自动执行三条**归属硬规则**（不合格的条目会被跳过并�
   { "mirror": "github",     "url": "https://github.com/<owner>/<repo>/raw/main/<id>-<version>.zip", "priority": 3 }
 ]
 ```
+
+**超过 2 GiB 的包（切片上传）。** GitHub 不接受 2 GiB 及以上的单个发布资产，所以更大的模组由启动器
+切成约 1.9 GB 一片、各传一个资产；这时 `evejs-mod.json`（以及版本记录）里带的是**分片清单**，
+没有整包的 `downloadUrls`：
+
+```jsonc
+"downloadParts": {
+  "total": 3,
+  "parts": [
+    { "url": "https://github.com/<owner>/<repo>/releases/download/v<version>/<id>-<version>.zip.001", "sizeBytes": 1900000000, "sha256": "<64 位 hex>", "mirror": "github" },
+    { "url": "…/<id>-<version>.zip.002", "sizeBytes": 1900000000, "sha256": "<64 位 hex>", "mirror": "github" },
+    { "url": "…/<id>-<version>.zip.003", "sizeBytes": 1200000000, "sha256": "<64 位 hex>", "mirror": "github" }
+  ]
+}
+```
+
+启动器按顺序逐片下载、逐片校验，再拼成整包并复核 `sha256`。上面的收录规范依然适用，
+区别只是字节放在分片里 —— `sizeBytes` 与 `sha256` 仍然指**整包**。
 
 ⚠️ 注意 **jsDelivr 对「分支引用」的内容缓存最长约 12 小时**：刚提交的新版本可能短期内还拿到旧文件。
 版本号写在文件名里（`<id>-<version>.zip`）可以规避这个问题 —— 新版本是新文件名，不会命中旧缓存。
