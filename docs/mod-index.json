@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-28T02:56:39.067Z",
+  "publishedAt": "2026-10-28T03:39:47.631Z",
   "mods": [
     {
       "author": {
@@ -142,7 +142,7 @@
       "tags": [],
       "version": "0.17.5",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 377,
+      "downloads": 378,
       "cdnHits": 0
     },
     {
@@ -247,7 +247,7 @@
       "tags": [],
       "version": "1.0.17",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 915,
+      "downloads": 916,
       "cdnHits": 1290
     },
     {
@@ -332,7 +332,7 @@
       "tags": [],
       "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-ship-blueprints",
-      "downloads": 155,
+      "downloads": 156,
       "cdnHits": 8
     },
     {
@@ -965,8 +965,64 @@
       ],
       "version": "1.6.4",
       "source": "JUZIMandarin/evejs-mod-evejs-sleeper-drifters",
-      "downloads": 560,
+      "downloads": 561,
       "cdnHits": 5
+    },
+    {
+      "author": {
+        "id": "au-muwl3cbjkr4n",
+        "keyId": "90d34319723f",
+        "name": "JonnyTC"
+      },
+      "category": "修复",
+      "changelog": "修复中文补丁导致的转码问题，实测通过\n实测支持0.12.9-当前。\n上传市场的是适配最新版JS的mod版本，老版本暂时不上传市场，如果需要支持老版本请自己修改",
+      "conflicts": [],
+      "delisted": false,
+      "description": "修「中文客户端总览遇到纯 ASCII 建筑名就抛 TypeError: must be unicode, not str」：marshal 默认把 JS 字符串编成 PyLongString（客户端解出是 bytes），而总览渲染名字的 PrimeDisplayName → PrepareLocalizationTooltip → Label.ExtractLocalizedTags(text) 要求 unicode。中文名已被「中文文本修复」改成 unicode，纯 ASCII 名（Sovereignty Hub / Ansiblex Jump Bridge / Pharolux Cyno Beacon 等）反而漏网。本模组在 SlimItem 字典唯一出口 buildSlimItemDict() 把 name 包成 {type:'wstring'} 描述符，客户端即得 unicode。只在内存里改 Node 编译的源码，server/ 与客户端文件一字节不动。",
+      "displayName": "建筑名 unicode 下发 (SlimItem Name Unicode)",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/JonnyTC/evejs-mod-evejs-slimitem-name-unicode/releases/download/v1.0.0/evejs-slimitem-name-unicode-1.0.0.zip"
+        }
+      ],
+      "evejsVersions": [
+        "0.12.8",
+        "0.12.9",
+        "261018.x"
+      ],
+      "featured": false,
+      "highlights": [
+        "**模组 id**：`evejs-slimitem-name-unicode`",
+        "**类型**：`loader`（服务端加载，客户端受益）",
+        "**开关**：环境变量 `EVEJS_MOD_SLIMITEM_NAME_UNICODE=0` 关掉本模组",
+        "**要重启**：服务端（改完必须重启服务端，然后让客户端**重新登录**）",
+        "**来源**：与 EVEMOD `第7次22项完美优化版mods\\中文文本修复`（`evejs-cntext-fix-cn` v2.3.1）"
+      ],
+      "history": [],
+      "id": "evejs-slimitem-name-unicode",
+      "publishedAt": "2026-10-28",
+      "readme": [
+        "修「中文客户端总览遇到**纯 ASCII 英文建筑名**就抛 `TypeError: must be unicode, not str`」\n导致总览彻底不工作的问题。运行期内存补丁，`server/` 与客户端文件**一字节不改**。",
+        "的「对象名层」补丁逐字一致；2026-09-25 那次「客户端那一半拆分」把这一层漏装了，\n  本模组就是把这漏掉的一层单独补上。",
+        "---"
+      ],
+      "repo": "https://github.com/JonnyTC/evejs-mod-evejs-slimitem-name-unicode",
+      "requiresRestart": true,
+      "sha256": "049f635f41a0625ed531be25e900c8655b8b44ff48426643d0e1a8ff87a1d1b4",
+      "sizeBytes": 15997,
+      "tags": [
+        "总览",
+        "建筑",
+        "unicode",
+        "中文",
+        "修复"
+      ],
+      "version": "1.0.0",
+      "source": "JonnyTC/evejs-mod-evejs-slimitem-name-unicode",
+      "downloads": 0,
+      "cdnHits": 0
     },
     {
       "author": {
@@ -1011,7 +1067,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-structure-timers",
-      "downloads": 105,
+      "downloads": 106,
       "cdnHits": 0
     },
     {
@@ -1592,7 +1648,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "TK8hUW5RhPwge4g1e07aAGxEJD1ioAji8oEmN6oALCHujtaqPTsxDU4kL4lwQWFjlaQ8G4yNKV8c/NOcsBfTDw==",
-    "signedAt": "2026-10-28T02:56:39.071Z"
+    "sig": "1Du5dD9d0eaCckj8n6SOvoqFQt02htrqACtKlSsBn4ZQ/g+MI/CvXxqzsOululSUXtQPrjY6te9rmRYsDvX4Bg==",
+    "signedAt": "2026-10-28T03:39:47.633Z"
   }
 }

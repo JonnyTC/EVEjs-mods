@@ -94,5 +94,11 @@
     "publicKey": "",
     "repo": "starcraft110/evejs-mod-evejs-hyperion-ship",
     "firstSeen": "2026-10-25"
+  },
+  "au-muwl3cbjkr4n": {
+    "keyId": "90d34319723f",
+    "publicKey": "",
+    "repo": "JonnyTC/evejs-mod-evejs-slimitem-name-unicode",
+    "firstSeen": "2026-10-28"
   }
 }
