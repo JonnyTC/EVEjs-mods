@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-28T03:43:58.379Z",
+  "publishedAt": "2026-10-28T03:51:18.264Z",
   "mods": [
     {
       "author": {
@@ -446,6 +446,56 @@
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
       "downloads": 1429,
       "cdnHits": 995
+    },
+    {
+      "author": {
+        "id": "au-muwl3cbjkr4n",
+        "keyId": "90d34319723f",
+        "name": "JonnyTC"
+      },
+      "category": "修复",
+      "changelog": "异常（远征)某一波死活刷不出来的BUG，如果没有此现象慎打",
+      "conflicts": [],
+      "delisted": false,
+      "description": "修「部分 NPC 因为没有任何血量而被拒绝刷出，那一波永远清不掉，站点永久卡死」。NPC 血量只能来自船型 dogma（npcProfiles 里没有血量覆盖字段），而 SDE 里有 31 个被 npcProfiles 引用的 entity type 既没有 typeDogma 行、也没有 shipDogmaAttributes 行（另有 3 个有行但行里没有血量），于是 shieldCapacity/armorHP/structureHP 全缺 ⇒ 实体血量 0 ⇒ hasDamageableHealth() 为 false ⇒ npcHullDamageability.npcProfileHasDamageableHull() 直接拒绝刷怪。实测扩张自由无人机母巢（client-dungeon:2413）第一层就掉了 5 条：[NpcSpawn] profile parity_battleship_elite is not spawnable: entity type 53326 declares no shield, armor or structure hit points（另加 52833–52836 Swarm Overmind）。这 31 个 typeID 全部能被 npcSpawnPools 选中，不是死数据。本模组在 referenceData.js 的 typeDogma 唯一归一化出口 normalizeTypeDogmaPayload() 里给这 31 个 typeID 补上三个属性 —— 服务端读血量的全部路径（getTypeDogmaAttributes / readShipBaseAttributes / resourceState.shieldCapacity·armorHP·structureHP / npcHullDamageability）最终都落到这张表，所以补一次就把「能不能刷」与「能不能被打死」一起修好。血量取值由 tools/derive-hp-table.js 按可复现规则推导（优先同 groupID 质量最接近的有血量兄弟，其次同名同质量，再次同 categoryID；排除 test_* 产物），自检会现场重推导逐项比对。只在内存里改 Node 编译的源码，server/ 与内容包一字节不动。",
+      "displayName": "NPC 拒刷修复 (NPC Hull Hit Point Fix)",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/JonnyTC/evejs-mod-evejs-npc-hull-hp-fix/releases/download/v1.0.0/evejs-npc-hull-hp-fix-1.0.0.zip"
+        }
+      ],
+      "evejsVersions": [
+        "0.12.8",
+        "0.12.9",
+        "261018.x"
+      ],
+      "featured": false,
+      "highlights": [],
+      "history": [],
+      "id": "evejs-npc-hull-hp-fix",
+      "publishedAt": "2026-10-28",
+      "readme": [
+        "> 症状一句话：**有些 NPC 因为「没有任何血量」而被刷怪器直接拒收**，\n> 那一波永远清不掉，站点就永久卡死。"
+      ],
+      "repo": "https://github.com/JonnyTC/evejs-mod-evejs-npc-hull-hp-fix",
+      "requiresRestart": true,
+      "sha256": "f47053618a79dae889eea0c8255384f687d69df986aca0b69d363b3215c65f0e",
+      "sizeBytes": 29757,
+      "tags": [
+        "NPC",
+        "刷怪",
+        "血量",
+        "dogma",
+        "拒刷",
+        "修复",
+        "SDE"
+      ],
+      "version": "1.0.0",
+      "source": "JonnyTC/evejs-mod-evejs-npc-hull-hp-fix",
+      "downloads": 0,
+      "cdnHits": 0
     },
     {
       "author": {
@@ -1696,7 +1746,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "ru6MInIJdjxZI0lpO358ztvlWfHlMZD+QdQSgjWsLHE20m4zHkwsLALeGGCvCq34eFaAI6PSn00u5PhNWnbwAg==",
-    "signedAt": "2026-10-28T03:43:58.382Z"
+    "sig": "RjsVvBUtdV5nYIFVQbk+4+NS5Jys8jXYdUhlT28PfbTkQ1iqoxDaYXhCujaODKAKSoSKO4XrGW0kmx/lgWlVBw==",
+    "signedAt": "2026-10-28T03:51:18.268Z"
   }
 }
