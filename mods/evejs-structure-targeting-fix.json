@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-muwl3cbjkr4n",
+    "keyId": "90d34319723f",
+    "name": "JonnyTC"
+  },
+  "displayName": "受控建筑锁定修复 (Controlled Structure Targeting Fix)",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/JonnyTC/evejs-mod-evejs-structure-targeting-fix/releases/download/v1.0.0/evejs-structure-targeting-fix-1.0.0.zip"
+    }
+  ],
+  "id": "evejs-structure-targeting-fix",
+  "publishedAt": "2026-10-28",
+  "schemaVersion": 1,
+  "sha256": "d32fa8040aa6d7c9cd63560739296125562c58af410e354f16561fdb979bbdc1",
+  "sizeBytes": 24887,
+  "source": "JonnyTC/evejs-mod-evejs-structure-targeting-fix",
+  "submittedAt": "2026-10-28T03:42:23.865Z",
+  "version": "1.0.0"
+}
