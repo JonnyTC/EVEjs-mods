@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-muwl3cbjkr4n",
+    "keyId": "90d34319723f",
+    "name": "JonnyTC"
+  },
+  "displayName": "巨像级修复：PG 设定 + 旗舰炮加成 (Colossus Capital Fit)",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/JonnyTC/evejs-mod-evejs-colossus-capital-fit/releases/download/v5.0.0/evejs-colossus-capital-fit-5.0.0.zip"
+    }
+  ],
+  "id": "evejs-colossus-capital-fit",
+  "publishedAt": "2026-10-28",
+  "schemaVersion": 1,
+  "sha256": "20628960f047f9df8a87de90efa97b63eb58e5c9e241fbcecbf7a6398a1de254",
+  "sizeBytes": 24432,
+  "source": "JonnyTC/evejs-mod-evejs-colossus-capital-fit",
+  "submittedAt": "2026-10-28T06:47:52.621Z",
+  "version": "5.0.0"
+}
