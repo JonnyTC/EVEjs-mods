@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-muwl3cbjkr4n",
+    "keyId": "90d34319723f",
+    "name": "JonnyTC"
+  },
+  "displayName": "NPC 拒刷修复 (NPC Hull Hit Point Fix)",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/JonnyTC/evejs-mod-evejs-npc-hull-hp-fix/releases/download/v1.0.0/evejs-npc-hull-hp-fix-1.0.0.zip"
+    }
+  ],
+  "id": "evejs-npc-hull-hp-fix",
+  "publishedAt": "2026-10-28",
+  "schemaVersion": 1,
+  "sha256": "f47053618a79dae889eea0c8255384f687d69df986aca0b69d363b3215c65f0e",
+  "sizeBytes": 29757,
+  "source": "JonnyTC/evejs-mod-evejs-npc-hull-hp-fix",
+  "submittedAt": "2026-10-28T03:49:23.109Z",
+  "version": "1.0.0"
+}
