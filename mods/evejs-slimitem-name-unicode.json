@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-muwl3cbjkr4n",
+    "keyId": "90d34319723f",
+    "name": "JonnyTC"
+  },
+  "displayName": "建筑名 unicode 下发 (SlimItem Name Unicode)",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/JonnyTC/evejs-mod-evejs-slimitem-name-unicode/releases/download/v1.0.0/evejs-slimitem-name-unicode-1.0.0.zip"
+    }
+  ],
+  "id": "evejs-slimitem-name-unicode",
+  "publishedAt": "2026-10-28",
+  "schemaVersion": 1,
+  "sha256": "049f635f41a0625ed531be25e900c8655b8b44ff48426643d0e1a8ff87a1d1b4",
+  "sizeBytes": 15997,
+  "source": "JonnyTC/evejs-mod-evejs-slimitem-name-unicode",
+  "submittedAt": "2026-10-28T03:38:01.947Z",
+  "version": "1.0.0"
+}
