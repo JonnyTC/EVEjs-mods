@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-28T16:55:13.675Z",
+  "publishedAt": "2026-10-28T17:36:18.730Z",
   "mods": [
     {
       "author": {
@@ -1063,7 +1063,7 @@
       ],
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-structure-targeting-fix",
-      "downloads": 17,
+      "downloads": 18,
       "cdnHits": 0
     },
     {
@@ -1113,7 +1113,7 @@
       ],
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-dungeon-pocket-anchor-fix",
-      "downloads": 17,
+      "downloads": 18,
       "cdnHits": 0
     },
     {
@@ -1851,7 +1851,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "8IGoXj5/IqeiVSlpMqrzI5A5Ls8MOqM+QL9S9jgAW68tLw2zrG6ndwZXz/SCx+MfVIJRht62JU1xbbczCN9LAw==",
-    "signedAt": "2026-10-28T16:55:13.680Z"
+    "sig": "/8j9i8WyJjlTHQ0uCvT94UW6p5xfJ7jZZgRu72vy+Mf+xSNzMvvzSas7HjUdy61A6e6QRVTa3r97fazFQBgDAQ==",
+    "signedAt": "2026-10-28T17:36:18.734Z"
   }
 }
