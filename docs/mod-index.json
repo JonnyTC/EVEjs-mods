@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-28T06:49:37.210Z",
+  "publishedAt": "2026-10-28T06:53:02.021Z",
   "mods": [
     {
       "author": {
@@ -444,7 +444,7 @@
       ],
       "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 1431,
+      "downloads": 1432,
       "cdnHits": 995
     },
     {
@@ -773,7 +773,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "injusticemaster/evejs-mod-world-ark-91900",
-      "downloads": 110,
+      "downloads": 111,
       "cdnHits": 0
     },
     {
@@ -922,7 +922,7 @@
       ],
       "version": "1.0.4",
       "source": "starcraft110/evejs-mod-evejs-hyperion-ship",
-      "downloads": 106,
+      "downloads": 108,
       "cdnHits": 0
     },
     {
@@ -1064,6 +1064,56 @@
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-structure-targeting-fix",
       "downloads": 2,
+      "cdnHits": 0
+    },
+    {
+      "author": {
+        "id": "au-muwl3cbjkr4n",
+        "keyId": "90d34319723f",
+        "name": "JonnyTC"
+      },
+      "category": "修复",
+      "changelog": "",
+      "conflicts": [],
+      "delisted": false,
+      "description": "修「进 DED 站看不到怪 / 加速门通向虚空」。部分官方内容包（evejs.ded-rated-sites 34783 条、evejs.booster-production 3601 条、evejs.ore-anomalies 780 条、evejs.mining-missions 15 条）把 populationHints 的 positionOffset 记成了「相对站点入口」的绝对位移，而 dungeonUniverseSiteService 的约定是「相对所在房间的口袋锚点」——于是 房间锚点 + positionOffset 把房间位移算了两遍（DED 站的网格一格就是 31,457,280 m），怪/门/岩石/环境物件被扔到几万到几十万公里外的虚空。实测扩张自由无人机母巢：门激活后确实刷了 36 只（DB spawned count=36、ball 也真建了），但离玩家 62,918 km。本模组包裹模板的唯一出口 dungeonAuthority.getTemplateByID()（本来就返回深拷贝），把「与房间位移近乎平行且长度不小于其一半」的 positionOffset 减去该位移，还原成相对口袋的偏移。判据在全部 10 个内容包上验证：命中 38,400+ 条、跳过 0 条，其余 6 个包命中 0（完全不动）。只在内存里改 Node 编译的源码，server/ 与内容包一字节不动，关掉即完全回原版。",
+      "displayName": "地牢口袋锚点修复 (Dungeon Pocket Anchor Fix)",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/JonnyTC/evejs-mod-evejs-dungeon-pocket-anchor-fix/releases/download/v1.0.0/evejs-dungeon-pocket-anchor-fix-1.0.0.zip"
+        }
+      ],
+      "evejsVersions": [
+        "0.12.8",
+        "0.12.9",
+        "261018.x"
+      ],
+      "featured": false,
+      "highlights": [],
+      "history": [],
+      "id": "evejs-dungeon-pocket-anchor-fix",
+      "publishedAt": "2026-10-28",
+      "readme": [
+        "修 **「进 DED 站看不到怪、加速门通向虚空」** —— 内容包里的 `positionOffset` 与引擎约定不一致，\n导致房间位移被叠加了两次。"
+      ],
+      "repo": "https://github.com/JonnyTC/evejs-mod-evejs-dungeon-pocket-anchor-fix",
+      "requiresRestart": true,
+      "sha256": "e66c07ee843ef0f3ef090a9b93dc58dc2243d3149c39f4dd2c617bfc55d89f08",
+      "sizeBytes": 19444,
+      "tags": [
+        "DED",
+        "死亡空间",
+        "刷怪",
+        "锚点",
+        "坐标",
+        "修复",
+        "内容包"
+      ],
+      "version": "1.0.0",
+      "source": "JonnyTC/evejs-mod-evejs-dungeon-pocket-anchor-fix",
+      "downloads": 0,
       "cdnHits": 0
     },
     {
@@ -1801,7 +1851,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "mi83boCHiLfmQWXydMIr79BfEnTXB6oOx37J8WG4Z6Rdi3kcAlqmjNdkSktC60OHpknrEVCMlp1VdXm0QCsmBQ==",
-    "signedAt": "2026-10-28T06:49:37.213Z"
+    "sig": "dU8IoXTDpuz0rlZLFjMlA6lf2nRRfO/AMn/rSJ8YS4TUFzWwdWTG6kfG20UUZxZY+08o2LUdEUae/FN8GctNCw==",
+    "signedAt": "2026-10-28T06:53:02.025Z"
   }
 }
