@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-28T03:39:47.631Z",
+  "publishedAt": "2026-10-28T03:43:58.379Z",
   "mods": [
     {
       "author": {
@@ -975,6 +975,54 @@
         "name": "JonnyTC"
       },
       "category": "修复",
+      "changelog": "已知建筑卡锁定最后0.1s的bug修复MOD，如果没有这个BUG可以不用装",
+      "conflicts": [],
+      "delisted": false,
+      "description": "修「控制建筑（星城/堡垒/精炼厂）之后永远锁不上目标」。服务端每 tick 只有一个锁定推进扫 scene/targeting.js 的 validateAllTargetLocks()，它只遍历 scene.dynamicEntities（飞船/NPC/导弹/无人机）；建筑只存在于 staticEntities/staticEntitiesByID 里。但 getShipEntityForSession() 在 observerKind === 'structure' 时会特意把 staticEntitiesByID 里的建筑当成会话的「船」返回（所以 addTarget 是成功的、会进 pendingTargetLocks），而那条靠属性变化驱动的兜底路径又被 refreshShipEntityDerivedState() 的 `if (!entity || entity.kind !== \"ship\")` 早退挡住。于是建筑的 pending 锁定永远没人推进：客户端锁定圈一直转、永远收不到 OnTarget add，只有松开建筑控制（ReleaseControl）时才收到 FailLockTarget。实测星城 1145021299296（Palatine Keepstar，30001554）：07:52:26 TakeControl → 07:52:31 AddTarget → 07:53:00 ReleaseControl 才 FailLockTarget，窗口内 OnTarget 计数 0；08:05:51→08:07:36 窗口 5 次 AddTarget、6 次 OnInvulnCancelled、OnTarget 依旧 0、最后 FailLockTarget() 一次折叠成 4 个目标。本模组在 validateAllTargetLocks() 末尾把受控建筑并进同一个扫（与 scene/tick.js 的 activeTickDogmaHosts 同一口径，复用 structureSessionHost.getControlledStaticStructureDogmaHosts()），建筑与舰船锁定的推进逻辑从此走同一条路。只在内存里改 Node 编译的源码，server/ 与内容包一字节不动。",
+      "displayName": "受控建筑锁定修复 (Controlled Structure Targeting Fix)",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/JonnyTC/evejs-mod-evejs-structure-targeting-fix/releases/download/v1.0.0/evejs-structure-targeting-fix-1.0.0.zip"
+        }
+      ],
+      "evejsVersions": [
+        "0.12.9",
+        "261018.x"
+      ],
+      "featured": false,
+      "highlights": [],
+      "history": [],
+      "id": "evejs-structure-targeting-fix",
+      "publishedAt": "2026-10-28",
+      "readme": [
+        "> 症状一句话：**把自己的建筑（星城 / 堡垒 / 精炼厂）控制起来之后，锁不上任何目标** ——\n> 锁定圈一直转，只有松手那一刻才收到一串 `FailLockTarget`。"
+      ],
+      "repo": "https://github.com/JonnyTC/evejs-mod-evejs-structure-targeting-fix",
+      "requiresRestart": true,
+      "sha256": "d32fa8040aa6d7c9cd63560739296125562c58af410e354f16561fdb979bbdc1",
+      "sizeBytes": 24887,
+      "tags": [
+        "建筑",
+        "星城",
+        "锁定",
+        "Upwell",
+        "targeting",
+        "修复"
+      ],
+      "version": "1.0.0",
+      "source": "JonnyTC/evejs-mod-evejs-structure-targeting-fix",
+      "downloads": 0,
+      "cdnHits": 0
+    },
+    {
+      "author": {
+        "id": "au-muwl3cbjkr4n",
+        "keyId": "90d34319723f",
+        "name": "JonnyTC"
+      },
+      "category": "修复",
       "changelog": "修复中文补丁导致的转码问题，实测通过\n实测支持0.12.9-当前。\n上传市场的是适配最新版JS的mod版本，老版本暂时不上传市场，如果需要支持老版本请自己修改",
       "conflicts": [],
       "delisted": false,
@@ -1648,7 +1696,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "1Du5dD9d0eaCckj8n6SOvoqFQt02htrqACtKlSsBn4ZQ/g+MI/CvXxqzsOululSUXtQPrjY6te9rmRYsDvX4Bg==",
-    "signedAt": "2026-10-28T03:39:47.633Z"
+    "sig": "ru6MInIJdjxZI0lpO358ztvlWfHlMZD+QdQSgjWsLHE20m4zHkwsLALeGGCvCq34eFaAI6PSn00u5PhNWnbwAg==",
+    "signedAt": "2026-10-28T03:43:58.382Z"
   }
 }
