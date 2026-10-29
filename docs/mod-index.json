@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-29T03:22:33.225Z",
+  "publishedAt": "2026-10-29T04:03:49.949Z",
   "mods": [
     {
       "author": {
@@ -142,7 +142,7 @@
       "tags": [],
       "version": "0.17.5",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 406,
+      "downloads": 407,
       "cdnHits": 0
     },
     {
@@ -247,7 +247,7 @@
       "tags": [],
       "version": "1.0.17",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 952,
+      "downloads": 955,
       "cdnHits": 1372
     },
     {
@@ -332,7 +332,7 @@
       "tags": [],
       "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-ship-blueprints",
-      "downloads": 167,
+      "downloads": 169,
       "cdnHits": 8
     },
     {
@@ -387,7 +387,7 @@
         "name": "匿名"
       },
       "category": "玩法",
-      "changelog": "回滚启动器令牌",
+      "changelog": "【势力模拟 0.5.1 测试版】从 0.4.3 升级\n\n服务端要换成 EvEJS 261028.1。更新后先重启服务端，再重新登录。这一版是测试版，新内容没有在真实客户端里逐项看过。\n\n你进星系时，已经在打的仗还在打。热门邻星系的船按各自档案先放好。势力计划板的九种目标都有人执行。军务、建设、经济、工业、贸易、外交走计划板。编队会求援、改道、等护航。外交全开。\n\n外面的市场按日限量，价格会涨跌。弹药和燃料会消耗。损失留下真残骸和货。NPC 卖单等于手里的库存。战役按格子、按波次打，用真伤害。\n\n需求会推到合同、赏金和窗口。侦察和运货可以走到代理人任务。可以加入势力民兵军团。指挥官会在民兵频道公告，并组建原生舰队带人出发。NPC 记得你：问候、记仇、写信。情报可以买卖。模组地点能在扫描、定向扫描和 Agency 里看到。势力战争面板读开放前线。模组势力有自己的 LP 商店。\n\n零安里，模组势力的联盟会写入服务器主权，不写玩家联盟。可宣称的零安星系会多出一个主权枢纽，图标用该联盟的徽标。服务器里已经有真枢纽的星系不会被换掉。点这个图标如果报错，把 data/nativeView.json 里的 nativeSovSystem 改回 false 再重启。\n\n性格会变成欲望和目标。危机从发源地沿路线扩散。新势力可以分裂、崛起，或结成商会。\n\n换到 261028.1 之后：人多的星系会更吃服务器。NPC 跃迁途中，别人常常要等落地才看得到。星门到达、离开和进站停靠，改成新的广播，两个玩家在场时动画只发一次。交通船仍不走投影器。",
       "conflicts": [],
       "delisted": false,
       "description": "【仅限本机／内网使用，禁止用于公开或收费服务器】【整合版：一个 mod 装齐】NPC 势力模拟，把以前要分开装的几个合成了一个：势力模拟本体（像玩家一样的 NPC 势力：独立推演线程按事件推进势力数据 faction.sqlite，为每个势力建机器人账号、角色、公司和联盟，本机面板 127.0.0.1:26410，聊天命令 /faction） + 舰队模板（原 evejs-npc-fleet：整队生成 / 阵型 / 整队跃迁，/npcfleet） + 性能修复（原 evejs-perf-fix：空间帧循环 / 锁定扫描 / NPC 存储） + 舰长室 PoC（原 evejs-captains-quarters，/cq）。只装这一个就够了，不用再单独装那三个；如果你以前单独装过它们并且还启用着，整合版里自带的那份自动不加载，用你单独装的，不会冲突。只在内存中打补丁，不改任何文件；分项开关 EVEJS_MOD_FACTIONSIM=0、EVEJS_MOD_NPCFLEET=0、EVEJS_MOD_PERFFIX=0、EVEJS_MOD_CQ=0。首次启动数据库为空时自动按「开放宇宙」剧本开局，面板有「入门」页。",
@@ -396,11 +396,12 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/xuenaimiao/evejs-mod-evejs-faction-sim/releases/download/v0.4.3/evejs-faction-sim-0.4.3.zip"
+          "url": "https://github.com/xuenaimiao/evejs-mod-evejs-faction-sim/releases/download/v0.5.1/evejs-faction-sim-0.5.1.zip"
         }
       ],
       "evejsVersions": [
-        "261018.1"
+        "261018.1",
+        "261028.1"
       ],
       "featured": false,
       "highlights": [
@@ -419,7 +420,7 @@
       ],
       "history": [],
       "id": "evejs-faction-sim",
-      "publishedAt": "2026-10-23",
+      "publishedAt": "2026-10-29",
       "readme": [
         "> **使用声明：仅限本机／内网使用，禁止用于公开或收费服务器。** 本模组不接受公网地址的连接；作者不同意、也不支持把它用于对外开放或收费的服务器。全文见 [NOTICE.md](NOTICE.md)。",
         "> **只装 `evejs-faction-sim` 这一个 mod。** 舰队模板（原 `evejs-npc-fleet`，势力的舰船靠它整队生成、摆阵型、整队跃迁）、性能修复（原 `evejs-perf-fix`）和舰长室 PoC（原 `evejs-captains-quarters`）都在它的 `parts/` 里，加载时按这个顺序一起装上（`lib/bundle.js`）。\n> 以前单独装过那三个、现在还启用着的：自带的那份不加载，用单独装的，不会冲突；想改用自带的，把单独装的卸载或停用，重启。分项开关：`EVEJS_MOD_FACTIONSIM=0`、`EVEJS_MOD_NPCFLEET=0`、`EVEJS_MOD_PERFFIX=0`、`EVEJS_MOD_CQ=0`。",
@@ -431,10 +432,16 @@
       ],
       "repo": "https://github.com/xuenaimiao/evejs-mod-evejs-faction-sim",
       "requiresRestart": true,
-      "sha256": "d3af93debb7a62d9e54cab04f5579d069952f9435163a2e8021ca20c67e237d5",
-      "sizeBytes": 13096999,
-      "tags": [],
-      "version": "0.4.3",
+      "sha256": "edd9b9ef39ecfe1d5ed0de987b62d91fb1d30785090695e47714ec3333aa9ffe",
+      "sizeBytes": 13712787,
+      "tags": [
+        "NPC",
+        "势力",
+        "模拟",
+        "舰队",
+        "性能"
+      ],
+      "version": "0.5.1",
       "shots": [
         "shots/panel-economy.png",
         "shots/panel-fleets.png",
@@ -444,7 +451,7 @@
       ],
       "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 1452,
+      "downloads": 1453,
       "cdnHits": 1100
     },
     {
@@ -678,7 +685,7 @@
       "tags": [],
       "version": "0.1.3",
       "source": "MateralCMX/evejs-mod-npc-loot-rules",
-      "downloads": 221,
+      "downloads": 222,
       "cdnHits": 0
     },
     {
@@ -1851,7 +1858,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "rXskZdWsAw0NOTyWUBsIytEQ2bMRGLNS79ZyCbFaAYADwbEhlRzLXPnAhzwAwENFTSinaeYHv6KszsqG2a37Dw==",
-    "signedAt": "2026-10-29T03:22:33.230Z"
+    "sig": "J2TcbUyVEdB+feaoGij8jRPoptn6m2zy7HtF+fQDQAlbo03ISFdGYy8tJf2pjshjiveTXuuIDrc0btM4d/usDw==",
+    "signedAt": "2026-10-29T04:03:49.953Z"
   }
 }
