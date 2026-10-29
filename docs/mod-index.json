@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-29T04:06:10.233Z",
+  "publishedAt": "2026-10-29T06:45:20.024Z",
   "mods": [
     {
       "author": {
@@ -142,7 +142,7 @@
       "tags": [],
       "version": "0.17.5",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 407,
+      "downloads": 409,
       "cdnHits": 0
     },
     {
@@ -151,8 +151,8 @@
         "keyId": "bc816da2a7bc",
         "name": "波坤太叔"
       },
-      "category": "玩法",
-      "changelog": "根据新机制修改",
+      "category": "工具",
+      "changelog": "只支持261028服务端版本",
       "conflicts": [],
       "delisted": false,
       "description": "仿国服自动锁定，自动集火",
@@ -161,13 +161,11 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/diguo520/evejs-mod-evejs-autolockfire/releases/download/v1.1.4/evejs-autolockfire-1.1.4.zip"
+          "url": "https://github.com/diguo520/evejs-mod-evejs-autolockfire/releases/download/v1.1.5/evejs-autolockfire-1.1.5.zip"
         }
       ],
       "evejsVersions": [
-        "0.12.8",
-        "0.12.9",
-        "261018.x"
+        "261028.x"
       ],
       "featured": false,
       "highlights": [
@@ -176,18 +174,22 @@
       ],
       "history": [],
       "id": "evejs-autolockfire",
-      "publishedAt": "2026-10-23",
+      "publishedAt": "2026-10-29",
       "readme": [
         "从国服客户端移植过来的舰船 HUD 按钮组：在飞行界面右侧加一排按钮，用来一键锁定、集火、停止锁定与停止开火。"
       ],
       "repo": "https://github.com/diguo520/evejs-mod-evejs-autolockfire",
       "requiresRestart": true,
-      "sha256": "fdfc9196c3a69d9b6df217a29963f2cdcfd3d925366addec834f9e449510c97e",
-      "sizeBytes": 67622,
-      "tags": [],
-      "version": "1.1.4",
+      "sha256": "c1d64e6b5cefc21db1928b0067f0be3fee34435902084de4fa383c1a9bb05a58",
+      "sizeBytes": 68277,
+      "tags": [
+        "锁定",
+        "集火",
+        "自动"
+      ],
+      "version": "1.1.5",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 1061,
+      "downloads": 1067,
       "cdnHits": 0
     },
     {
@@ -247,7 +249,7 @@
       "tags": [],
       "version": "1.0.17",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 955,
+      "downloads": 958,
       "cdnHits": 1372
     },
     {
@@ -332,7 +334,7 @@
       "tags": [],
       "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-ship-blueprints",
-      "downloads": 169,
+      "downloads": 173,
       "cdnHits": 8
     },
     {
@@ -377,7 +379,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 311,
+      "downloads": 316,
       "cdnHits": 0
     },
     {
@@ -451,7 +453,7 @@
       ],
       "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 1453,
+      "downloads": 1489,
       "cdnHits": 1100
     },
     {
@@ -501,7 +503,7 @@
       ],
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-npc-hull-hp-fix",
-      "downloads": 23,
+      "downloads": 28,
       "cdnHits": 0
     },
     {
@@ -541,7 +543,7 @@
       "tags": [],
       "version": "0.6.0",
       "source": "Jasper377/evejs-mod-evejs-npc-console",
-      "downloads": 210,
+      "downloads": 211,
       "cdnHits": 2
     },
     {
@@ -638,7 +640,7 @@
       "tags": [],
       "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-npc-extension-core",
-      "downloads": 151,
+      "downloads": 152,
       "cdnHits": 0
     },
     {
@@ -685,7 +687,7 @@
       "tags": [],
       "version": "0.1.3",
       "source": "MateralCMX/evejs-mod-npc-loot-rules",
-      "downloads": 222,
+      "downloads": 224,
       "cdnHits": 0
     },
     {
@@ -789,8 +791,8 @@
         "keyId": "bc816da2a7bc",
         "name": "波坤太叔"
       },
-      "category": "玩法",
-      "changelog": "兼容 261018.x",
+      "category": "界面",
+      "changelog": "只支持261028服务端版本",
       "conflicts": [],
       "delisted": false,
       "description": "修复游戏内取中文字符在客户端显示为乱码，以及角色/舰船/建筑/物品的中文名被换成 Ship/Item/Structure <id> 的问题。但改为在内存中生效：不修改 server/ 和客户端任何文件。",
@@ -799,13 +801,11 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/diguo520/evejs-mod-evejs-cntext-fix/releases/download/v1.0.8/evejs-cntext-fix-1.0.8.zip"
+          "url": "https://github.com/diguo520/evejs-mod-evejs-cntext-fix/releases/download/v1.0.9/evejs-cntext-fix-1.0.9.zip"
         }
       ],
       "evejsVersions": [
-        "0.12.8",
-        "0.12.9",
-        "261018.x"
+        "261028.x"
       ],
       "featured": false,
       "highlights": [
@@ -813,7 +813,7 @@
       ],
       "history": [],
       "id": "evejs-cntext-fix",
-      "publishedAt": "2026-10-23",
+      "publishedAt": "2026-10-29",
       "readme": [
         "角色，建筑，舰船起名可使用中文",
         "插件分两层，都是把该打的代码插进内存里（不落盘）：",
@@ -823,12 +823,14 @@
       ],
       "repo": "https://github.com/diguo520/evejs-mod-evejs-cntext-fix",
       "requiresRestart": true,
-      "sha256": "9655399e2b8a020ae6d9240482e6ee55ed3424e08b19a0ffb2be38e792060bcf",
-      "sizeBytes": 19551,
-      "tags": [],
-      "version": "1.0.8",
+      "sha256": "75a07942d82d0a709f36886c586f54f422131ad90e87106760572a07be907e2c",
+      "sizeBytes": 20217,
+      "tags": [
+        "语言"
+      ],
+      "version": "1.0.9",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 783,
+      "downloads": 787,
       "cdnHits": 3
     },
     {
@@ -878,7 +880,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-mission-repair",
-      "downloads": 306,
+      "downloads": 307,
       "cdnHits": 0
     },
     {
@@ -929,7 +931,7 @@
       ],
       "version": "1.0.4",
       "source": "starcraft110/evejs-mod-evejs-hyperion-ship",
-      "downloads": 123,
+      "downloads": 126,
       "cdnHits": 0
     },
     {
@@ -1070,7 +1072,7 @@
       ],
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-structure-targeting-fix",
-      "downloads": 22,
+      "downloads": 26,
       "cdnHits": 0
     },
     {
@@ -1120,7 +1122,7 @@
       ],
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-dungeon-pocket-anchor-fix",
-      "downloads": 23,
+      "downloads": 27,
       "cdnHits": 0
     },
     {
@@ -1175,7 +1177,7 @@
       ],
       "version": "5.0.0",
       "source": "JonnyTC/evejs-mod-evejs-colossus-capital-fit",
-      "downloads": 13,
+      "downloads": 17,
       "cdnHits": 0
     },
     {
@@ -1231,7 +1233,7 @@
       ],
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-slimitem-name-unicode",
-      "downloads": 18,
+      "downloads": 21,
       "cdnHits": 0
     },
     {
@@ -1364,7 +1366,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-salvage-repair",
-      "downloads": 105,
+      "downloads": 106,
       "cdnHits": 0
     },
     {
@@ -1412,7 +1414,7 @@
       ],
       "version": "0.3.3",
       "source": "xuenaimiao/evejs-mod-evejs-sc-ships",
-      "downloads": 142,
+      "downloads": 148,
       "cdnHits": 0
     },
     {
@@ -1455,7 +1457,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "xuenaimiao/evejs-mod-evejs-sc-ships-pack-rsi-crusader",
-      "downloads": 108,
+      "downloads": 109,
       "cdnHits": 0
     },
     {
@@ -1739,7 +1741,7 @@
       "tags": [],
       "version": "1.6.0",
       "source": "Jasper377/evejs-mod-evejs-acspecialbattleship",
-      "downloads": 413,
+      "downloads": 414,
       "cdnHits": 3
     },
     {
@@ -1789,7 +1791,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "rzwm/evejs-mod-evejs-autopilot-jump-stargate-0km",
-      "downloads": 225,
+      "downloads": 226,
       "cdnHits": 3
     },
     {
@@ -1838,7 +1840,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-planetary-industry-enhancement",
-      "downloads": 90,
+      "downloads": 91,
       "cdnHits": 0
     }
   ],
@@ -1859,7 +1861,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "/9lyq0RvaBAqpfCiUMcOLUqa/CbXp7RgBce+fDKyO5F8FpD++GSEBva0ULe1itCyw2Gla8klzfGvncaJzrLsDQ==",
-    "signedAt": "2026-10-29T04:06:10.237Z"
+    "sig": "/fCv1Q+HTWVsSzbvxDUQPoT88SSxr/tSE+Rci+8afJ3wNXi/XmcXEbuF1l4CKOvF/vwx6VM0Kkn+L134Fn/2DA==",
+    "signedAt": "2026-10-29T06:45:20.028Z"
   }
 }
