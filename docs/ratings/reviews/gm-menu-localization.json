@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": 1793255559582,
+  "modId": "gm-menu-localization",
+  "reviews": [],
+  "stars": {
+    "count": 1,
+    "keys": [
+      "d77992a5c523"
+    ]
+  },
+  "signature": {
+    "alg": "ed25519",
+    "keyId": "evejs-ratings-2026-10-01",
+    "sig": "5HtvDsxZ15FkCL5VaVRbV2JbMlKpPhaBLicxYcKaqdQmgGks8YaOxlHyU7i6yZAV3zjaapxTKg5SIkJKXzS4DA=="
+  }
+}

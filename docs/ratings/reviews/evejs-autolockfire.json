@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1791939208044,
+  "generatedAt": 1793256673069,
   "modId": "evejs-autolockfire",
   "reviews": [
     {
@@ -13,7 +13,12 @@
       "version": "1.1.0",
       "date": "2026-10-06",
       "body": "好用",
-      "edited": false
+      "edited": false,
+      "reply": {
+        "date": "2026-10-29",
+        "body": "好用就行！：）",
+        "edited": false
+      }
     }
   ],
   "stars": {
@@ -26,6 +31,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "6MHzq6haIwi01PWfV6eYAg9at+DOVs3MpmsoWoFypUkW58ZM2Q+EtXfF/TqEF5Wz7eai4woK5z+xgYnCaZ9LCQ=="
+    "sig": "MYva7pefh2zOzTusWDQq4wfzLBmtabzwgB60PM+H6+jEDXqxp9mnVEoLQ+A8iAGUrHPpiKdSEWn3nd/it/Y+Aw=="
   }
 }
