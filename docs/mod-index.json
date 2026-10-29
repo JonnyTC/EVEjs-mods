@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-29T11:10:56.764Z",
+  "publishedAt": "2026-10-29T11:56:40.479Z",
   "mods": [
     {
       "author": {
@@ -142,7 +142,7 @@
       "tags": [],
       "version": "0.17.5",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 410,
+      "downloads": 414,
       "cdnHits": 0
     },
     {
@@ -189,7 +189,7 @@
       ],
       "version": "1.1.5",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 1086,
+      "downloads": 1091,
       "cdnHits": 0
     },
     {
@@ -249,7 +249,7 @@
       "tags": [],
       "version": "1.0.17",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 958,
+      "downloads": 961,
       "cdnHits": 1372
     },
     {
@@ -334,7 +334,7 @@
       "tags": [],
       "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-ship-blueprints",
-      "downloads": 173,
+      "downloads": 174,
       "cdnHits": 8
     },
     {
@@ -379,7 +379,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 318,
+      "downloads": 319,
       "cdnHits": 0
     },
     {
@@ -453,7 +453,7 @@
       ],
       "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 1506,
+      "downloads": 1512,
       "cdnHits": 1100
     },
     {
@@ -503,7 +503,7 @@
       ],
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-npc-hull-hp-fix",
-      "downloads": 30,
+      "downloads": 31,
       "cdnHits": 0
     },
     {
@@ -640,7 +640,7 @@
       "tags": [],
       "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-npc-extension-core",
-      "downloads": 153,
+      "downloads": 154,
       "cdnHits": 0
     },
     {
@@ -687,7 +687,7 @@
       "tags": [],
       "version": "0.1.3",
       "source": "MateralCMX/evejs-mod-npc-loot-rules",
-      "downloads": 225,
+      "downloads": 226,
       "cdnHits": 0
     },
     {
@@ -830,7 +830,7 @@
       ],
       "version": "1.0.9",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 804,
+      "downloads": 808,
       "cdnHits": 3
     },
     {
@@ -880,7 +880,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-mission-repair",
-      "downloads": 309,
+      "downloads": 311,
       "cdnHits": 0
     },
     {
@@ -1072,7 +1072,7 @@
       ],
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-structure-targeting-fix",
-      "downloads": 29,
+      "downloads": 30,
       "cdnHits": 0
     },
     {
@@ -1122,7 +1122,7 @@
       ],
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-dungeon-pocket-anchor-fix",
-      "downloads": 30,
+      "downloads": 31,
       "cdnHits": 0
     },
     {
@@ -1173,7 +1173,7 @@
       ],
       "version": "5.2.1",
       "source": "JonnyTC/evejs-mod-evejs-colossus-capital-fit",
-      "downloads": 19,
+      "downloads": 20,
       "cdnHits": 0
     },
     {
@@ -1229,7 +1229,7 @@
       ],
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-slimitem-name-unicode",
-      "downloads": 21,
+      "downloads": 22,
       "cdnHits": 0
     },
     {
@@ -1406,7 +1406,7 @@
       ],
       "version": "1.1.0",
       "source": "jealous123456789/evejs-mod-evejs-air-career-fix",
-      "downloads": 0,
+      "downloads": 1,
       "cdnHits": 0
     },
     {
@@ -1454,7 +1454,7 @@
       ],
       "version": "0.3.3",
       "source": "xuenaimiao/evejs-mod-evejs-sc-ships",
-      "downloads": 151,
+      "downloads": 153,
       "cdnHits": 0
     },
     {
@@ -1901,7 +1901,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "VA7XsrqlaUJq6ugcqPb/0hMWSLc2XH8mPv8Bsi7XbTIS4gAjKrwZn60hIcA7uEjGqiwgbjV/XyZLhBZAoIX2BQ==",
-    "signedAt": "2026-10-29T11:10:56.769Z"
+    "sig": "8RKNvwMSb4ON0r1wVHAL0GSMyy5lrJuNf5oXhUr0U1coO0n53raL1IkzmDgKDv3xfMmWD6oNTJohcunopomRDA==",
+    "signedAt": "2026-10-29T11:56:40.483Z"
   }
 }
