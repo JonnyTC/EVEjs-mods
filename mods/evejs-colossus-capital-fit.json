@@ -9,15 +9,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/JonnyTC/evejs-mod-evejs-colossus-capital-fit/releases/download/v5.0.0/evejs-colossus-capital-fit-5.0.0.zip"
+      "url": "https://github.com/JonnyTC/evejs-mod-evejs-colossus-capital-fit/releases/download/v5.2.1/evejs-colossus-capital-fit-5.2.1.zip"
     }
   ],
   "id": "evejs-colossus-capital-fit",
-  "publishedAt": "2026-10-28",
+  "publishedAt": "2026-10-29",
   "schemaVersion": 1,
-  "sha256": "20628960f047f9df8a87de90efa97b63eb58e5c9e241fbcecbf7a6398a1de254",
-  "sizeBytes": 24432,
+  "sha256": "1c719ff90fb4ccfff06113c478aa8383751fb1a081cf385e9754dc02f0443d90",
+  "sizeBytes": 19892,
   "source": "JonnyTC/evejs-mod-evejs-colossus-capital-fit",
-  "submittedAt": "2026-10-28T06:47:52.621Z",
-  "version": "5.0.0"
+  "submittedAt": "2026-10-29T11:09:28.915Z",
+  "version": "5.2.1"
 }
