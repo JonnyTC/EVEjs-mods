@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-muwl3cbjkr4n",
+    "keyId": "90d34319723f",
+    "name": "JonnyTC"
+  },
+  "displayName": "舰船静态物碰撞修复 (Ship Collision Fix)",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/JonnyTC/evejs-mod-evejs-ship-collision-fix/releases/download/v1.41.0/evejs-ship-collision-fix-1.41.0.zip"
+    }
+  ],
+  "id": "evejs-ship-collision-fix",
+  "publishedAt": "2026-11-03",
+  "schemaVersion": 1,
+  "sha256": "7471ffa74311af0fe4865ec036922df2a91a4b66cd40f02cab0f9a20ce8e4eba",
+  "sizeBytes": 33516,
+  "source": "JonnyTC/evejs-mod-evejs-ship-collision-fix",
+  "submittedAt": "2026-11-03T03:26:52.819Z",
+  "version": "1.41.0"
+}
