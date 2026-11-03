@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-muwl3cbjkr4n",
+    "keyId": "90d34319723f",
+    "name": "JonnyTC"
+  },
+  "displayName": "代理人头像补全 (Agent Portraits)",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/JonnyTC/evejs-mod-evejs-agent-portraits/releases/download/v1.0.0/evejs-agent-portraits-1.0.0.zip"
+    }
+  ],
+  "id": "evejs-agent-portraits",
+  "publishedAt": "2026-11-03",
+  "schemaVersion": 1,
+  "sha256": "3193cbc8c9619581b4840a42494ccae3eb67ad6463a5ff5afb976ba9aa1ed9da",
+  "sizeBytes": 20459,
+  "source": "JonnyTC/evejs-mod-evejs-agent-portraits",
+  "submittedAt": "2026-11-03T03:34:34.124Z",
+  "version": "1.0.0"
+}
